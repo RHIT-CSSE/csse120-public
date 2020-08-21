@@ -1,0 +1,89 @@
+nav {
+  background-color: #006600;
+  display: grid;
+  grid-template-columns: 186px auto auto 200px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+nav > img.left {
+  grid-column: 1;
+  justify-self: start;
+}
+
+nav > img.right {
+  grid-column: 4;
+  justify-self: right;
+}
+
+nav > div.course {
+  grid-column: 2;
+  justify-self: left;
+  display: grid;
+  height: 186px; /* Must equal the height of the images */
+  align-content: center;
+  justify-content: center;
+  background-color: #2196F3;
+  padding: 0;
+  margin: 0;
+}
+
+nav > div.course > p  {
+  text-align: center;
+  padding: .35em .5em;
+  margin: 0;
+}
+
+nav > div.course > p.course-number {
+  font-size: 1.5em;
+  font-weight: bolder;
+  grid-row: 1;
+}
+
+nav > div.course > p.course-name {
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-style: italic;
+  grid-row: 2;
+}
+
+nav > div.course > p.course-term {
+  font-size: 1.2em;
+  grid-row: 3;
+}
+
+nav > div.links {
+  grid-column: 3;
+  justify-self: left;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 186px; /* Must equal the height of the images */
+  align-content: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav > div.links > a {
+  padding: .5em;
+  margin: .5em;
+  color: white;
+  border: 2pt solid black;
+}
+
+nav > div.links > a:link {
+  color: #ffffff; /* white */
+}
+
+nav > div.links > a:visited {
+  color: lightskyblue; /* black */
+}
+
+nav > div.links > a:hover {
+  background-color: grey;
+}
+
+nav > div.links > a:active {
+  color: yellow;
+}

@@ -1,0 +1,1089 @@
+
+<section class="course_schedule">
+  <table>
+    <caption>What to do, When</caption>
+    <thead>
+    <tr>
+      <th class=schedule_caption> DAY1 </th>
+      <th class=schedule_caption> DAY2 </th>
+      <th class=schedule_caption> DAY3 </th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+      <td rowspan="3" style="width:20%">
+        <div class="topic_spot">
+          <p>
+            <span class="very_important_emphasis">For remote instruction:</span>
+          </p>
+          <ul>
+            <li>
+              <p>
+                Start by watching this
+                <a href="http://youtu.be/hCYCSusHL1s">video on How Remote Instruction Works in CSSE 120</a>
+                [15 minutes].
+              </p>
+              <ul>
+                <li> Here is its
+                  <a href="https://docs.google.com/document/d/15hRYfaNHpK6DTavRz8htjTZwMfRhedPn-rh34g02-kU/edit?usp=sharing">transcript</a>
+                  if you have trouble with the video.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>
+                Then watch this very short
+                <a href="https://youtu.be/LNUfgPjw-58">video on how to use the Live Now!</a>
+                channel in the CSSE 120 group of Microsoft Teams.
+              </p>
+            </li>
+            <li>
+              [Optional] More resources for
+              <a href="Resources/MicrosoftTeams/index.html">using Microsoft Teams in CSSE 120.</a>
+            </li>
+            <li>
+              Note Sunday 11 p.m. deadlines below.
+            </li>
+            <li>
+              Live Now! is generally staffed Sundays 7 to 11 p.m.; Mondays through Thursdays noon to 11 p.m.
+              (except not from 6 to 7 p.m.); and Fridays from noon to 4 p.m.
+            </li>
+            <li>
+              <span
+                  class="very_important_emphasis">If you need something special just for you at ANY point, JUST ASK.</span>
+            </li>
+          </ul>
+        </div>
+      </td>
+
+      <td style="width:25%">
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 1 </span>
+            <span class="session_date"> (March 9) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session01/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+              <span class="session_title"> Introduction to: Python, PyCharm, Git, Objects, and Simple Loops </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td style="width:30%">
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 2 </span>
+            <span class="session_date"> (March 11) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session02/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Defining Functions <br>
+              Calling Functions &amp; Methods <br>
+              Using Objects <br>
+              Correcting Syntax Errors <br>
+              Tracing Function Calls by Hand
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td style="width:25%">
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 3 </span>
+            <span class="session_date"> (March 12) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session03/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Definite Loops, Accumulators, and Summing <br>
+              Arguments and Parameters <br>
+              Names: Scope and Lifetime  <br>
+              Memory: The Stack, Heap and Garbage Collector <br>
+              Unit Testing; Test-Driven Development <br>
+              Tracing Loops by Hand <br>
+              Pair Programming
+            </span>
+            </p>
+          </div>
+          <!--
+          <div class="topic_spot">
+            <a href="https://docs.google.com/spreadsheets/d/1P6jFhBcmiAQFVMuFYn1o-ZBHAlaB6YZpKNlQzMxTFU0/edit?folder=1MgcQhEqPuL6Lg37SucGnN_g1RgIt8QPE#gid=0">For pair programming in Session 3</a>
+          </div>
+           -->
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <div class="no_class_title">Spring break &mdash; Switch to remote instruction</div>
+        <div class="session_date">March 16</div>
+      </td>
+
+      <td>
+        <div class="no_class_title">Spring break &mdash; Switch to remote instruction</div>
+        <div class="session_date">March 18</div>
+      </td>
+
+      <td>
+        <div class="no_class_title">Spring break &mdash; Switch to remote instruction</div>
+        <div class="session_date">March 19</div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 4 </span>
+            <span class="session_date"> (March 23) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session04/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              The Accumulator Pattern: Summing, Counting, and in Graphics <br>
+              Conditionals <br>
+              Debugging with Print<br>
+              Tracing Code by Hand
+            </span>
+            </p>
+          </div>
+          <!--
+          <div class="topic_spot">
+            <a href="https://docs.google.com/spreadsheets/d/1arBmoIFIrOvVdY5a4MI7B_2AKV1Cxgt3sWXblpm-KG8/edit?usp=sharing">For pair programming in Session 4</a>
+          </div>
+          -->
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 5 </span>
+            <span class="session_date"> (March 25) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session05/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Boolean Logic <br>
+              Debugging Run-Time Errors <br>
+              Stack Traces <br>
+              Code Reviews <br>
+              Practice for Exam 1
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 6 </span>
+            <span class="session_date"> (March 26) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session06/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+              <span class="session_title"> More Practice for Exam 1 </span>
+            </p>
+          </div>
+          <div class="topic_spot">
+            <p>
+              <!--
+              <strong>Handed out in class (do NOT print):</strong>
+              <br>
+              -->
+              <a href="Resources/ExamPreparation/Exam1_PracticeForPaperAndPencilProblems.pdf">
+                Practice paper-and-pencil problems</a> for Exam 1.
+            </p>
+            <p>
+              Check your answers against this
+              <a href="Resources/ExamPreparation/Exam1_SOLUTION_PracticeForPaperAndPencilProblems.pdf">
+                Answer Key</a>.
+            </p>
+          </div>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <div class="topic_spot">
+          <p>
+            <strong> Sessions 4 through 6 </strong> are due by
+            <strong> 11 p.m. EST Sunday, March 29 </strong>
+          </p>
+          <p>
+            Sessions 8 and 9 are open (i.e., ready for you to do)
+          </p>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Catch-up time </span>
+            <span class="session_date"> (March 30) </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+              Just some extra time to help you get caught up,
+              since we know that switching to remote instruction in all your courses
+              is a challenge.
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 7 </span>
+            <span class="session_date"> (March 31 - April 1) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session07/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+              <span class="session_preparation"> <a href="Sessions/ExamInformation/exam_1.html">
+                Exam 1 - Tuesday, March 31, or Wednesday, April 1 (your choice)</a> </span>
+            </p>
+            <p>
+              Take the exam during any contiguous three hours from noon to 9 p.m. EST,
+              on either of the above days.
+              Follow the above link for details.
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 8 </span>
+            <span class="session_date"> (April 2) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session08/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Names are <em>References</em> to Objects <br>
+              Box-and-Pointer Diagrams <br>
+              Mutating Objects <br>
+              The Debugger
+            </span>
+            </p>
+            <p>
+              <span class="session_title"> Implementing Classes, I </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <p>
+          <strong> Session 8 </strong> is due by
+          <strong> 11 p.m. EST Sunday, April 5 </strong>
+        </p>
+        <p>
+          Sessions 9 through 11 are open (i.e., ready for you to do)
+        </p>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 9 </span>
+            <span class="session_date"> (April 6) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session09/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+              <span class="session_title"> Implementing Classes, II </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 10 </span>
+            <span class="session_date"> (April 8) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session10/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Sequences, I <br>
+              What is a Sequence? <br>
+              Patterns for Sequences: Iterating Through All or Part of a Sequence
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 11 </span>
+            <span class="session_date"> (April 9) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session11/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Sequences, II <br>
+              Patterns for Sequences: Find, Building a Sequence, and Max-Min
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <p>
+          <strong> Sessions 9 through 11 </strong> are due by
+          <strong> 11 p.m. EST Sunday, April 12 </strong>
+        </p>
+        <p>
+          Sessions 12 through 14 are open (i.e., ready for you to do)
+        </p>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 12 </span>
+            <span class="session_date"> (April 13) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session12/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Sequences, III <br>
+              More Patterns: Mutating Lists; Two-indices-each-iteration; Iterating-in-Parallel
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 13 </span>
+            <span class="session_date"> (April 15) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session13/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Debugging Revisited <br>
+              Looping Revisited <br>
+              Practice for Exam 2
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 14 </span>
+            <span class="session_date"> (April 16) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session14/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p><span class="session_title"> More Practice for Exam 2 </span></p>
+          </div>
+          <div class="topic_spot">
+            <p>
+              <!--
+              <strong>Handed out in class (do NOT print):</strong>
+              <br>
+              -->
+              <a href="Resources/ExamPreparation/Exam2_PracticeForPaperAndPencilProblems.pdf">
+                Practice paper-and-pencil problems</a> for Exam 2.
+            </p>
+            <p>
+              Check your answers against this
+              <a href="Resources/ExamPreparation/Exam2_SOLUTION_PracticeForPaperAndPencilProblems.pdf">
+                Answer Key</a>.
+            </p>
+          </div>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <p>
+          <strong> Sessions 12 through 14 </strong> are due by
+          <strong> 11 p.m. EST Sunday, April 19 </strong>
+          (although the important deadline is to complete these well before the exam Thursday)
+        </p>
+        <p>
+          Sessions 15 is open (i.e., ready for you to do)
+        </p>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Catch-up time </span>
+            <span class="session_date"> (April 20) </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+              Just some extra time to help you get caught up,
+              since we know that remote instruction in all your courses
+              is a challenge.
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 15 </span>
+            <span class="session_date"> (April 22) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session15/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Waiting for Events <br>
+              Indefinite Loops <br>
+              Input from a Console <br>
+              File Reading and Writing
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 16 </span>
+            <span class="session_date"> (April 23) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session16/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+              <span class="session_preparation"> <a href="Sessions/ExamInformation/exam_2.html">
+              Exam 2 - Thursday, April 23</a> </span>
+            </p>
+            <p>
+              Take the exam during any contiguous three hours from noon to 9 p.m. EDT.
+              Follow the above link for details.
+            </p>
+          </div>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <p>
+          <strong> Sessions 15 and 16 </strong> are due by
+          <strong> 11 p.m. EST Sunday, April 26 </strong>
+        </p>
+        <p>
+          Sessions 17 through 19 are open (i.e., ready for you to do)
+        </p>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 17 </span>
+            <span class="session_date"> (April 27) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session17/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Loops within Loops <br>
+              Sub-Sequences within Sequences
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 18 </span>
+            <span class="session_date"> (April 29) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session18/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              More Loops within Loops <br>
+              More Sub-Sequences within Sequences
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Catch-up time </span>
+            <span class="session_date"> (April 30) </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+              Just some extra time to help you get caught up,
+              since we know that remote instruction in all your courses
+              is a challenge.
+            </p>
+          </div>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <p>
+          <strong> Sessions 17 through 19 </strong> are due by
+          <strong> 11 p.m. EST Sunday, May 3 </strong>
+        </p>
+        <p>
+          Session 20 is open (i.e., ready for you to do).
+          Capstone Team Project begins this week.
+          Exam 3 is the following week.
+        </p>
+      </td>
+
+      <!--      <td>-->
+      <!--        <div class="grid-container">-->
+      <!--          <div class="session_spot">-->
+      <!--            <span class="session_preparation"> Session </span>-->
+      <!--            <span class="session_number"> 19 </span>-->
+      <!--            <span class="session_date"> (April 30) </span>-->
+      <!--          </div>-->
+      <!--          <div class="preparation_spot">-->
+      <!--            <span class="session_preparation"> <a href="Sessions/Session19/index.html">Preparation</a> </span>-->
+      <!--          </div>-->
+      <!--          <div class="topic_spot">-->
+      <!--            <p>-->
+      <!--              <span class="session_title"> Practice for Exam 3 </span>-->
+      <!--            </p>-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--      </td>-->
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 19 </span>
+            <span class="session_date"> (May 4) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session19/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <span class="session_title"> More Practice for Exam 3 </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+              See the Preparation for important Practice Problems for the Paper-and-Pencil part of Exam 3.
+            </p>
+            <!--            <p>-->
+            <!--              &lt;!&ndash;-->
+            <!--              <strong>Handed out in class (do NOT print):</strong>-->
+            <!--              <br>-->
+            <!--              &ndash;&gt;-->
+            <!--              <a href="Resources/ExamPreparation/Test3_PracticeForPaperAndPencilProblems.pdf">-->
+            <!--                Practice paper-and-pencil problems</a> for Exam 3.-->
+            <!--            </p>-->
+            <!--            <p>-->
+            <!--              Check your answers against this-->
+            <!--              <a href="Resources/ExamPreparation/Test3_SOLUTION_PracticeForPaperAndPencilProblems.pdf">-->
+            <!--                Answer Key</a>.-->
+            <!--            </p>-->
+          </div>
+          <!--          <div class="topic_spot">-->
+          <!--            <p>-->
+          <!--            <span class="session_title">-->
+          <!--              <a href="https://docs.google.com/spreadsheets/d/1IIftUteFkgIfTdKbwtUpt9ySQpAD4odzZ_b1o2sznI4/edit?usp=sharing">Sign up for your project team</a>-->
+          <!--            </span>-->
+          <!--            </p>-->
+          <!--          </div>-->
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 20 </span>
+            <span class="session_date"> (May 6) </span>
+          </div>
+          <div class="preparation_spot">
+            <span class="session_preparation"> <a href="Sessions/Session20/index.html">Preparation</a> </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Capstone Team Project begins <br>
+              Stage 1 begins <br>
+              <!--              Stage 1 begins (at end: robot can move and access all sensors, with an OO design) <br>-->
+              <!--              Using a Team Repository <br>-->
+              Event-Driven Programming <br>
+              Graphical User Interface (GUI) Programming <br>
+              Tkinter/ttk for a GUI <br>
+              <!--              Introduction to Robots <br>-->
+              <!--              Lab 1: Robot Motion-->
+            </span>
+            </p>
+          </div>
+          <!--          <div class="topic_spot">-->
+          <!--            <p>-->
+          <!--            <span class="session_title">-->
+          <!--              <a href="https://docs.google.com/spreadsheets/d/1IIftUteFkgIfTdKbwtUpt9ySQpAD4odzZ_b1o2sznI4/edit?usp=sharing">Your project team and its URL</a>-->
+          <!--            </span>-->
+          <!--            </p>-->
+          <!--&lt;!&ndash;            <p>&ndash;&gt;-->
+          <!--&lt;!&ndash;              <a href="https://docs.google.com/presentation/d/1EiV9ivo0r3W11jgXOCuuLZDFPcTsdz9eRDqCvPJlVUw/edit#slide=id.g1af263c709_0_84">Slides&ndash;&gt;-->
+          <!--&lt;!&ndash;                for introduction to robots</a>&ndash;&gt;-->
+          <!--&lt;!&ndash;            </p>&ndash;&gt;-->
+          <!--&lt;!&ndash;            <p>&ndash;&gt;-->
+          <!--&lt;!&ndash;              <a href="CapstoneProject%20-%20202030.pdf">Capstone Team Project - Specification and How To Turn It In</a>.&ndash;&gt;-->
+          <!--&lt;!&ndash;            </p>&ndash;&gt;-->
+          <!--          </div>-->
+        </div>
+      </td>
+
+      <!--      <td>-->
+      <!--        <div class="grid-container">-->
+      <!--          <div class="session_spot">-->
+      <!--            <span class="session_preparation"> Session </span>-->
+      <!--            <span class="session_number"> 20 </span>-->
+      <!--            <span class="session_date"> (May 4) </span>-->
+      <!--          </div>-->
+      <!--          <div class="preparation_spot">-->
+      <!--            <span class="session_preparation"> <a href="Sessions/Session20/index.html">Preparation</a> </span>-->
+      <!--          </div>-->
+      <!--          <div class="topic_spot">-->
+      <!--            <p>-->
+      <!--              &lt;!&ndash; <span class="optional">Optional</span> Exam 2b paper-and-pencil exam to raise your paper-and-pencil score from Exam 2. </p> &ndash;&gt;-->
+      <!--            <p>-->
+      <!--            <span class="session_title">-->
+      <!--              Iterative Enhancement <br>-->
+      <!--              Functional Decomposition <br>-->
+      <!--              Bigger problems; More complicated logic and loops <br>-->
+      <!--            </span>-->
+      <!--            </p>-->
+      <!--          </div>-->
+      <!--          <div class="topic_spot">-->
+      <!--            <p>-->
+      <!--              <a href="https://docs.google.com/presentation/d/1oI1cGvPLXc3gqiAf3079oQqASL7Eebqd5APydw6sXhY/edit#slide=id.g2e200109_1_0">Slides-->
+      <!--                for today</a>-->
+      <!--            </p>-->
+      <!--            &lt;!&ndash;-->
+      <!--              <div>-->
+      <!--                <a href="https://docs.google.com/spreadsheets/d/1dFywDgNU2KhU7pAVsb6H7z9aEnmF9YwarVnv5PZIaGk/edit#gid=0">For pair programming in Session 21</a>-->
+      <!--              </div>-->
+      <!--            &ndash;&gt;-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--      </td>-->
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot"> <span class="session_preparation"> Session
+            </span> <span class="session_number"> 21
+            </span> <span class="session_date"> (May 7)
+            </span>
+          </div>
+          <!--          <div class="preparation_spot">-->
+          <!--            <span class="session_preparation"> <a href="Sessions/Session24/index.html">Preparation</a> </span>-->
+          <!--          </div>-->
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Capstone Team Project <br>
+              Stage 1 continues <br>
+              Read the
+              <a href="https://docs.google.com/document/d/1ERRsVzQwLZUImH0GJBjVpzfUeNS_Nr7m1kkHhlDVBCo/edit?usp=sharing">
+                Capstone Project Description</a>.
+              <!--              Lab 2: Robot Sensors <br>-->
+              <!--              Printing Sensor Values <br>-->
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+
+      <td>
+        <p>
+          Capstone Team Project continues.
+        </p>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot"> <span class="session_preparation"> Session
+            </span> <span class="session_number"> 22
+            </span> <span class="session_date"> (May 11)
+            </span>
+          </div>
+          <!--          <div class="preparation_spot">-->
+          <!--            <span class="session_preparation"> <a href="Sessions/Session24/index.html">Preparation</a> </span>-->
+          <!--          </div>-->
+          <div class="topic_spot">
+            <p>
+              Stage 1 of the Capstone Team Project continues.
+            </p>
+            <p>
+              <span class="very_important_emphasis">Project Proposal</span> due,
+              as described in the
+              <a href="https://docs.google.com/document/d/1ERRsVzQwLZUImH0GJBjVpzfUeNS_Nr7m1kkHhlDVBCo/edit?usp=sharing">
+                Capstone Project Description</a>.
+            </p>
+            <p>
+              Your instructor must approve that document before you proceed.
+              Meet with your instructor as needed.
+            </p>
+          </div>
+        </div>
+        <!--        <p>-->
+        <!--          Exam 3 is Wednesday of this week.-->
+        <!--        </p>-->
+      </td>
+
+      <!--      <td>-->
+      <!--        <div class="grid-container">-->
+      <!--          <div class="session_spot">-->
+      <!--            <span class="session_preparation"> Catch-up time </span>-->
+      <!--            <span class="session_date"> (May 8) </span>-->
+      <!--          </div>-->
+      <!--          <div class="topic_spot">-->
+      <!--            <p>-->
+      <!--              Just some extra time to help you get caught up,-->
+      <!--              since we know that remote instruction in all your courses-->
+      <!--              is a challenge.-->
+      <!--            </p>-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--      </td>-->
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot"> <span class="session_preparation"> Session
+            </span> <span class="session_number"> 23
+            </span> <span class="session_date"> (May 13)
+            </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+              Stage 1 of the Capstone Team Project continues.
+            </p>
+            <p>
+              <span class="very_important_emphasis">Iterative Enhancement Plan</span>
+              and <span class="very_important_emphasis">UML Class Diagram</span> due,
+              as described in the
+              <a href="https://docs.google.com/document/d/1ERRsVzQwLZUImH0GJBjVpzfUeNS_Nr7m1kkHhlDVBCo/edit?usp=sharing">
+                Capstone Project Description</a>.
+            </p>
+            <p>
+              Create the UML class diagram <span class="important_emphasis">by meeting with your instructor</span>.
+            </p>
+          </div>
+        </div>
+        <!--        <div class="grid-container">-->
+        <!--          <div class="session_spot">-->
+        <!--            <span class="session_preparation"> Session </span>-->
+        <!--            <span class="session_number"> 22 </span>-->
+        <!--            <span class="session_date"> (May 11) </span>-->
+        <!--          </div>-->
+        <!--          <div class="preparation_spot">-->
+        <!--            <span class="session_preparation"> <a href="Sessions/Session25/index.html">Preparation</a> </span>-->
+        <!--          </div>-->
+        <!--          <div class="topic_spot">-->
+        <!--            <p>-->
+        <!--            <span class="session_title">-->
+        <!--              Capstone Team Project <br>-->
+        <!--              Stage 1 ends:  <br>-->
+        <!--              Stage 2 begins <br>-->
+        <!--&lt;!&ndash;              Stage 1 ends: robot can move and access all sensors, with an OO design <br>&ndash;&gt;-->
+        <!--&lt;!&ndash;              Stage 2 begins (at end: Robot Can Be Teleoperated and Print Sensor Values on GUI) <br>&ndash;&gt;-->
+        <!--&lt;!&ndash;              Event-Driven Programming <br>&ndash;&gt;-->
+        <!--&lt;!&ndash;              Graphical User Interface (GUI) Programming <br>&ndash;&gt;-->
+        <!--&lt;!&ndash;              Tkinter for a GUI for Teleoperation<br>&ndash;&gt;-->
+        <!--&lt;!&ndash;              MQTT for Computer-to-Computer Messaging <br>&ndash;&gt;-->
+        <!--&lt;!&ndash;              Lab 3: Integrating MQTT with Tkinter for a GUI for Teleoperation&ndash;&gt;-->
+        <!--            </span>-->
+        <!--            </p>-->
+        <!--          </div>-->
+        <!--&lt;!&ndash;          <div class="topic_spot">&ndash;&gt;-->
+        <!--&lt;!&ndash;            <p>&ndash;&gt;-->
+        <!--&lt;!&ndash;              Follow these <a&ndash;&gt;-->
+        <!--&lt;!&ndash;                href="https://docs.google.com/presentation/d/1gSK1QKSlISkO33JLYltAO-krdeXKl91kuU9yuUsIXGI/edit#slide=id.g276ffdb130_1_47">instructions</a>&ndash;&gt;-->
+        <!--&lt;!&ndash;              <strong> with your instructor &#45;&#45; do NOT get ahead. </strong>&ndash;&gt;-->
+        <!--&lt;!&ndash;            </p>&ndash;&gt;-->
+        <!--&lt;!&ndash;          </div>&ndash;&gt;-->
+        <!--        </div>-->
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 24 </span>
+            <span class="session_date"> (May 14) </span>
+          </div>
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Capstone Team Project <br>
+              Stage 1 ends <br>
+              Stage 2 begins <br>
+              <!--              Lab 4: More Sensors and Integrating MQTT with Tkinter to Print Sensor Values on GUI <br>-->
+            </span>
+            </p>
+          </div>
+          <!--          <div class="preparation_spot">-->
+          <!--            <span class="session_preparation"> <a href="Sessions/Session22/index.html">Preparation</a> </span>-->
+          <!--          </div>-->
+          <!--          <div class="topic_spot">-->
+          <!--            <p>-->
+          <!--              <span class="session_preparation"> <a-->
+          <!--                  href="Sessions/ExamInformation/exam_3.html">-->
+          <!--                Exam 3 - Wednesday, May 13</a> </span>-->
+          <!--            </p>-->
+          <!--            <p>-->
+          <!--              Take the exam during any contiguous three hours from noon to 9 p.m. EDT.-->
+          <!--              Follow the above link for details.-->
+          <!--            </p>-->
+          <!--          </div>-->
+          <!--          <div class="topic_spot">-->
+          <!--            <p>-->
+          <!--            <span class="session_title">-->
+          <!--              <a href="https://docs.google.com/spreadsheets/d/1IIftUteFkgIfTdKbwtUpt9ySQpAD4odzZ_b1o2sznI4/edit?usp=sharing">Sign up for your project team</a>-->
+          <!--            </span>-->
+          <!--            </p>-->
+          <!--          </div>-->
+        </div>
+      </td>
+
+      <!--          <div class="grid-container">-->
+      <!--          <div class="session_spot">-->
+      <!--            <span class="session_preparation"> Session </span>-->
+      <!--            <span class="session_number"> 24 </span>-->
+      <!--            <span class="session_date"> (May 14) </span>-->
+      <!--          </div>-->
+      <!--          <div class="preparation_spot">-->
+      <!--            <span class="session_preparation"> <a href="Sessions/Session26/index.html">Preparation</a> </span>-->
+      <!--          </div>-->
+      <!--          <div class="topic_spot">-->
+      <!--            <p>-->
+      <!--            <span class="session_title">-->
+      <!--              Capstone Team Project <br>-->
+      <!--              Stage 2 continues <br>-->
+      <!--              &lt;!&ndash;              Lab 4: More Sensors and Integrating MQTT with Tkinter to Print Sensor Values on GUI <br>&ndash;&gt;-->
+      <!--            </span>-->
+      <!--            </p>-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--      </td>-->
+
+    </tr>
+    <tr>
+      <td>
+        <p>
+          Capstone Team Project continues.
+        </p>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 25 </span>
+            <span class="session_date"> (May 18) </span>
+          </div>
+          <!--          <div class="preparation_spot">-->
+          <!--            <span class="session_preparation"> <a href="Sessions/Session27/index.html">Preparation</a> </span>-->
+          <!--          </div>-->
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Capstone Team Project <br>
+              <!--              Stage 2 ends: Robot Can Be Teleoperated and Print Sensor Values on GUI  <br>-->
+              Stage 2 continues
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 26 </span>
+            <span class="session_date"> (May 20) </span>
+          </div>
+          <!--          <div class="preparation_spot">-->
+          <!--            <span class="session_preparation"> <a href="Sessions/Session28/index.html">Preparation</a> </span>-->
+          <!--          </div>-->
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Capstone Team Project <br>
+              Stage 2 ends (actually on Tuesday, May 19)<br>
+              Stage 3 begins (actually on Tuesday, May 19)
+            </span>
+            </p>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="grid-container">
+          <div class="session_spot">
+            <span class="session_preparation"> Session </span>
+            <span class="session_number"> 27-30 </span>
+            <span class="session_date"> (May 21) </span>
+          </div>
+          <!--          <div class="preparation_spot">-->
+          <!--            <span class="session_preparation"> <a href="Sessions/Session29/index.html">Preparation</a> </span>-->
+          <!--          </div>-->
+          <div class="topic_spot">
+            <p>
+            <span class="session_title">
+              Capstone Team Project <br>
+              Stage 3 continues
+            </span>
+            </p>
+            <p>
+              Capstone Team Project due date: Tuesday, May 26
+              (but automatic extension to Wednesday, May 27, available upon request).
+              See the
+              <a href="https://docs.google.com/document/d/1ERRsVzQwLZUImH0GJBjVpzfUeNS_Nr7m1kkHhlDVBCo/edit?usp=sharing">
+                Capstone Project Description</a>
+              for how to turn in your project.
+            </p>
+          </div>
+        </div>
+      </td>
+
+    </tr>
+
+    </tbody>
+    <tfoot>
+    <tr>
+      <th colspan=4>
+        <p>
+          Capstone Team Project due. See the
+          <a href="https://docs.google.com/document/d/1ERRsVzQwLZUImH0GJBjVpzfUeNS_Nr7m1kkHhlDVBCo/edit?usp=sharing">
+            Capstone Project Description</a>
+          for how to turn in your project.
+        </p>
+        <p>
+          <!--        <a href="CapstoneProject-202030.pdf">Capstone Team Project - Specification and How To Turn It In</a>.-->
+          No final exam for those who have above a 70% average on BOTH paper-and-pencil and on-the-computer exams.
+        </p>
+      </th>
+    </tr>
+    </tfoot>
+  </table>
+</section>
+
+<!- The following provides space at the bottom to help ensure that students do not miss the last of the above items. -->
+<hr>
+<p><br> <br></p>
+
+</body>
+</html>
