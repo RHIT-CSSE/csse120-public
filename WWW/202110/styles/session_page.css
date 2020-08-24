@@ -1,0 +1,56 @@
+.div.session-header {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.div.session_header > div.session-number {
+}
+
+.div.session_body {
+
+}
+
+.div.session_body > div.preparation {
+
+}
+
+.div.session_body > div.preparation > div.preparation-header {
+
+}
+
+div.session_body > div.start-the-session {
+
+}
+
+.session_body {
+  padding: 10px;
+}
+
+.session_header {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.session_header .session_number {
+  font-size: 150%;
+}
+
+.session_header .session_date {
+  font-size: 50%;
+}
+
+section.quiz, section.videos {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+section.quiz h2, section.videos h2 {
+  color: red;
+  text-align: left;
+  margin-bottom: 0;
+  border-top: 2px solid #111111;
+  border-bottom: 2px solid #111111;
+}

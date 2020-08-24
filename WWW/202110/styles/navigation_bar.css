@@ -1,7 +1,6 @@
 nav {
-  background-color: #006600;
   display: grid;
-  grid-template-columns: 186px auto auto 200px;
+  grid-template-columns: 186px auto auto 200px; /* Must equal widths of the images */
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -14,51 +13,53 @@ nav > img.left {
 
 nav > img.right {
   grid-column: 4;
-  justify-self: right;
+  justify-self: end;
 }
 
 nav > div.course {
   grid-column: 2;
-  justify-self: left;
+  justify-self: start;
   display: grid;
-  height: 186px; /* Must equal the height of the images */
+  height: 186px; /* Must equal the height of the images, both of which must be the same */
   align-content: center;
   justify-content: center;
-  background-color: #2196F3;
   padding: 0;
   margin: 0;
 }
 
 nav > div.course > p  {
   text-align: center;
-  padding: .35em .5em;
   margin: 0;
 }
 
 nav > div.course > p.course-number {
+  grid-row: 1;
   font-size: 1.5em;
   font-weight: bolder;
-  grid-row: 1;
+  padding: 0.35rem 1rem;
 }
 
 nav > div.course > p.course-name {
-  font-size: 1.5em;
-  font-weight: bolder;
-  font-style: italic;
   grid-row: 2;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.2;
+  padding: 0.35rem 1rem;
 }
 
 nav > div.course > p.course-term {
-  font-size: 1.2em;
   grid-row: 3;
+  font-size: 1.2em;
+  padding: 0.5rem 1rem;
 }
 
 nav > div.links {
   grid-column: 3;
-  justify-self: left;
+  justify-self: start;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  height: 186px; /* Must equal the height of the images */
+  height: 186px; /* Must equal the height of the images, both of which must be the same */
   align-content: center;
   justify-content: center;
   padding: 0;
@@ -66,24 +67,7 @@ nav > div.links {
 }
 
 nav > div.links > a {
-  padding: .5em;
-  margin: .5em;
-  color: white;
+  padding: .7em;
+  margin: 1em;
   border: 2pt solid black;
-}
-
-nav > div.links > a:link {
-  color: #ffffff; /* white */
-}
-
-nav > div.links > a:visited {
-  color: lightskyblue; /* black */
-}
-
-nav > div.links > a:hover {
-  background-color: grey;
-}
-
-nav > div.links > a:active {
-  color: yellow;
 }

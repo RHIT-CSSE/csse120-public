@@ -2,52 +2,131 @@ div.schedule {
   display: grid;
   grid-template-columns: auto auto auto;
   align-content: center;
-  grid-row-gap: 0;
+  justify-content: center;
   padding: 0;
   margin: 0;
 }
 
 div.schedule > div {
   text-align: center;
-  font-size: 1rem;
-  padding: 1rem;
-  border: 2px solid black;
+  padding: .5rem;
+  border: 1px solid black;
 }
 
+/* HEADER for the schedule (What to do, When) */
 div.schedule > div.header {
   grid-column: 1 / span 3;
   font-size: 2rem;
   font-weight: bolder;
-  padding: .5rem;
-  background-color: #666666;
 }
 
+/* DAYS OF THE WEEK for the schedule (e.g. Tuesday | Wednesday | Friday) */
 div.schedule > div.day-of-week {
   font-size: 1.5rem;
-  font-weight: bolder;
-  padding: .5rem;
-  background-color: #cc66ff;
-}
-
-div.schedule > div.session {
-
-}
-
-div.schedule > div > span.session-title {
-  font-size: 1.5rem;
-  font-weight: bolder;
+  font-weight: bold;
   font-style: italic;
 }
 
-div.schedule > div > span.session-date {
-  /* No additional styling */
+/* Days when there is NO CLASS. */
+div.schedule > div.no-class, div.break {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+div.schedule div.session-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+div.schedule  div.session-date {
+  /* Normal styling */
+}
+
+/* ORDINARY DAYS (when there IS class) */
+div.schedule > div.session {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 3rem 2rem auto;
+  grid-column-gap: 0;
+}
+
+div.schedule > div.session > div.session-number-and-date {
+  grid-column: 1;
+}
+
+div.schedule > div.session > div.session-preparation {
+  grid-column: 2;
+  font-size:  1.5rem;
+  font-weight: bold;
+}
+
+div.schedule span.session-number {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+div.schedule span.session-prefix {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+div.schedule > div.session > div.topics-title {
+  text-align: left;
+  grid-column: 1 / span 2;
+  grid-row-gap: 0;
+  padding: .5rem 0 0 .25rem;
+ }
+
+div.schedule > div.session > div.session-topics {
+  text-align: left;
+  grid-column: 1 / span 2;
+  column-count: 2;
+  column-fill: balance;
+  column-gap: .15rem;
+  /*border: 1px solid blue;*/
+}
+
+div.schedule > div.session > div.one-topic {
+  column-count: 1;
+}
+
+div.schedule > div.session > div.topics-summary {
+  grid-column: 1 / span 2;
+  text-align: start;
+  padding: .25rem 0 0 0;
+}
+
+div.schedule > div.session > div.topics-summary > span.topics-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+div.schedule > div.session > div.session-topics ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 .8rem;
+}
+
+div.schedule > div.session > div.session-topics ul ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 .3rem;
+}
+
+div.schedule > div.session > div.session-topics span.tight {
+  position: relative;
+  left: -.8rem;
+}
+
+div.schedule > div.session > div.session-topics li {
+  margin: .25rem 0 0 .9rem;
+}
+
+div.schedule > div.session > div.session-topics li li {
+  margin: 0 0 0 .9rem;
 }
 
 
-
-div.schedule > div.no_class {
-
-}
 
 
 .session_spot {

@@ -5,12 +5,7 @@
 body {
   font-family: 'Open Sans', verdana, sans-serif;
   line-height: 1.35;
-  background-color: #ffffe0; /* lightyellow; */
   margin: 3px;
-}
-
-body.no_background_color {
-  background-color: #ffffff; /* white */
 }
 
 p,
@@ -32,172 +27,22 @@ ol > li {
   margin-left: .25rem;
 }
 
-
-/*.schedule {*/
-/*    display: grid;*/
-/*    grid-template-columns: auto auto auto;*/
-/*    padding: 3x;*/
-/*}*/
-
-/*.schedule > div {*/
-/*    text-align: center;*/
-/*    border: 3px solid black;*/
-/*    padding: 3px;*/
-/*    font-size: 12px;;*/
-/*}*/
-
-/*.schedule-header {*/
-/*    grid-column: 1 / 4;*/
-/*    background-color: yellow;*/
-/*    font-size: 60px;*/
-/*}*/
-/*.schedule-day-of-week {*/
-/*    background-color: green;*/
-/*}*/
-
-/*.session-grid {*/
-/*    display: grid;*/
-/*    grid-template-columns: auto auto;*/
-/*}*/
-/*.session-grid > div {*/
-/*    background-color: yellow;*/
-/*    border: 1px solid red;*/
-/*}*/
-
-/*
-nav {
-    background-color: #00adbc;
+hr.footer {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
 }
 
-.session_header, .resource_header, .syllabus_header {
-    background-color: #cc66ff;
-    padding: 10px;
+span.emphasis {
+  font-weight: bold;
+  font-style: italic;
 }
 
-hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
+span.distinguish-from-surrounding {
+  font-style: italic;
 }
 
-div.instruction {
-    border: 3px solid black;
-    margin: 10px;
-    padding: 10px;
-    float: left;
-    width: 15%;
+span.critical {
+  font-weight: bold;
+  font-style: italic;
+  color: red;
 }
-
-aside {
-    border: 4px solid black;
-    margin: 10px;
-    padding: 10px;
-    float: right;
-}
-
-aside h3 {
-    font-family: 'Open Sans Extra Bold', verdana, sans-serif;
-    font-weight: bolder;
-    font-size: 110%;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: black;
-    text-align: left;
-}
-
-aside.small {
-    width: 20%;
-}
-
-.less_important {
-    font-family: 'Open Sans', verdana, sans-serif;
-    font-weight: normal;
-    font-size: 90%;
-}
-
-strong, .important {
-    font-family: 'Open Sans Bold', verdana, sans-serif;
-    font-weight: bold;
-}
-
-.very_important {
-    font-family: 'Open Sans Extra Bold', verdana, sans-serif;
-    font-weight: bolder;
-    font-size: 105%;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: red;
-}
-
-.very_important_black {
-    font-family: 'Open Sans Extra Bold', verdana, sans-serif;
-    font-weight: bolder;
-    font-size: 105%;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: black;
-}
-
-.important_emphasis {
-    font-family: 'Open Sans Bold Italic', verdana, sans-serif;
-    font-style: italic;
-    font-weight: bolder;
-}
-
-.very_important_emphasis {
-    font-family: 'Open Sans Extra Bold Italic', verdana, sans-serif;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 105%;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: red;
-}
-
-.red_emphasis {
-    font-size: 105%;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: red;
-}
-
-a.emphasized_link {
-    font-family: 'Open Sans Bold', verdana, sans-serif;
-    font-weight: bold;
-    color: black;
-}
-
-.required {
-    font-weight: bold;
-    color: red;
-}
-
-.optional {
-    font-weight: bold;
-    font-style: italic;
-    color: green;
-}
-
-.big_code {
-    font-family: "Open Sans", Consolas, sans-serif;
-    font-weight: bolder;
-    font-size: 110%;
-}
-
-.newspaper {
-    column-count: 3;
-    column-rule: 3px solid black;
-    padding-top: 10px;
-}
-
-.newspaper2 {
-    column-count: 2;
-    column-rule: 3px solid black;
-    padding-top: 10px;
-}
-
- */
