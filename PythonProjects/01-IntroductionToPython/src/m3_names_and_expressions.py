@@ -69,11 +69,15 @@ print(answer * 100)
 #   Try it now!  (That is, write
 #       print(type(3.14))
 #   below this _TODO_ and run the program.)
-#  _
+###############################################################################
+
+###############################################################################
+# TODO: 6.
 #   Now go through the BLAH objects listed below, one by one.  For each:
 #      1. First try to GUESS its TYPE.
-#      2. Then write code of the form   print(type(BLAH)).
-#      3. THen RUN the code to LEARN its TYPE.
+#      2. Then write code of the form:
+#            print(type(BLAH))
+#      3. Then RUN the code to LEARN its TYPE.
 #  _
 #       "hello"
 #       'hello'
@@ -93,19 +97,21 @@ print(answer * 100)
 ###############################################################################
 
 ###############################################################################
-# TODO: 6.
+# TODO: 7.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #  _
 #   Then COMMIT-and-PUSH your work as before:
-#     1. Select   VCS   from the menu bar (above).
-#     2. Choose  Commit  from the pull-down menu that appears.
-#     3. In the  Commit Changes  window that pops up,
+#     1. Select    VCS     from the menu bar (above).
+#     2. Choose   Commit   from the pull-down menu that appears.
+#     3. In the   Commit Changes   window that pops up,
 #        press the   Commit and Push   button.
 #           (Note: If you see only a Commit button:
 #              - HOVER over the  Commit  button
 #                (in the lower-right corner of the window)
 #              - CLICK on  Commit and Push.)
+#           (Note: If it asks you to type a message for the Commit, do so,
+#                using   Done   or something like that for the message.)
 #  _
 #   You can COMMIT-and-PUSH as often as you like.
 #   DO IT FREQUENTLY; AT LEAST once per module.
