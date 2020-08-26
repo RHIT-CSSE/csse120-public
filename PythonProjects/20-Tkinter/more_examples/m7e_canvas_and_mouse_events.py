@@ -49,6 +49,8 @@ def main():
     button.grid()
     button['command'] = lambda: flip_pen_color(pen_data)
 
+    button = ttk.Button(main_frame, text="Button on canvas")
+    canvas.create_window(100, 50, window=button)
     root.mainloop()
 
 

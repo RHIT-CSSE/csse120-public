@@ -3,7 +3,7 @@
 import tkinter
 from tkinter import ttk
 
-import mqtt_for_csse120 as communicator
+import old_mqtt_for_csse120 as communicator
 
 
 def main(who_am_i):

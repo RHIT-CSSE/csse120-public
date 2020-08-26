@@ -39,9 +39,9 @@ height</panel_attributes><additional_attributes></additional_attributes></elemen
 
   make_canvas() : Canvas
 
-  start
+  start()
 
-  animation_loop
+  animation_loop()
 
 --
 

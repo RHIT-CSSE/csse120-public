@@ -1,0 +1,79 @@
+m1e_communication:
+  Author:  David Mutchler, based on work by Dave Fisher,
+           Rose-Hulman Institute of Technology.
+
+The  m1e_communication  module herein is an example of:
+  -- running multiple instances of a single program on multiple computers,
+  -- with the copies communicating with each other via the Internet.
+
+The module is based upon the  mqtt_for_csse120   module -- a simplification
+of the MQTT protocol that is an industry standard for the Internet of Things.
+
+You can also run the multiple instances on a SINGLE computer (e.g. yours),
+which is handy for development and testing.  The instances still communicate
+via the Internet, just as they do when run on separate computers.
+
+To run multiple instances on a single computer, you must tell PyCharm
+to allow that, as follows:
+  -- Select the   Run   menu (on the toolbar at the top of PyCharm)
+  -- Choose    Edit Configurations
+  -- Select the   m1e_communication   module in the pane on the left.
+  -- Check the   Allow parallel run   box in the upper right.
+
+Regardless of what computers upon which the multiple instances are running,
+this   m1e_communication   example requires that you run them as follows:
+  -- The last line of the   m1e_communication   module is this:
+         main(1, 4)
+  -- The SECOND number indicates the number of instances of the example that
+       you want to run at once.  In the above, the example expects 4 instances.
+  -- The FIRST number indicates which of the instances is THIS run, numbered
+       from 1 to the number of instances to run.  In the above, the example
+       being run will be the FIRST of the 4 instances expected to run.
+So, to run 4 instances of the example:
+   -- Run one with       main(1, 4)    as the last line in the module.
+   -- Run another with   main(2, 4)    as the last line in the module.
+   -- Run another with   main(3, 4)    as the last line in the module.
+   -- Run another with   main(4, 4)    as the last line in the module.
+
+For this example, it does not matter in what order you start the instances,
+and nothing terrible happens if you run more or fewer than claimed.
+
+When you run an instance of this example.
+  -- The code brings up a tkinter window.
+  -- The window has a filled circle on it -- various colors for the various
+       instances that run.
+  -- There are two Entry boxes and a button.
+  -- The user should enter x and y coordinates (positive integers less than
+       300 or so), then press the button.  This sends those coordinates,
+       through the Internet using the MQTT protocol, to ALL the other instances
+       that are running at that time.
+  -- The receiving instances ALL move their filled circle to the coordinates
+       that it receives.
+
+Read the code to learn how all this works.  You can do lots more than shown
+in this example, but it should get you started.
+
+-------------------------------------------------------------------------------
+This file and associated code are protected by the "MIT License", as follows:
+
+Copyright (c) 2019 Rose-Hulman Institute of Technology
+              Department of Computer Science and Software Engineering
+              David Mutchler, Professor
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
