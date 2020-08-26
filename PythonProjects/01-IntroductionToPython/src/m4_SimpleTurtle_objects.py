@@ -7,20 +7,21 @@ Concepts include:
   -- Reference an object's   ** DATA **   by using an INSTANCE VARIABLE.
 
 Also:
-  -- ASSIGNING a VALUE to a NAME (VARIABLE).
+  -- ASSIGNING a VALUE to a NAME (aka VARIABLE).
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Derek Whitley, their colleagues, and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
+         Matt Boutell, Dave Fisher, their colleagues,
+         and PUT_YOUR_NAME_HERE.
 """
 ###############################################################################
 # TODO: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #  _
-#   On Line 13 above, replace  PUT_YOUR_NAME_HERE  with your OWN name.
+#   On Line 14 above, replace   PUT_YOUR_NAME_HERE   with your OWN name.
 #  _
-#   BTW, the top block of text above forms what is called a DOC-STRING.
-#   It documents what this module does, in a way that exterior programs
-#   can make sense of.  It has no other effect on this program.
+#   BTW, the top block of text above forms a multiple-line comment that is
+#   called a DOC-COMMENT.  It documents what this module does, in a way that
+#   exterior programs can make sense of. It has no other effect on this program.
 ###############################################################################
 
 import rosegraphics as rg
@@ -31,10 +32,10 @@ import rosegraphics as rg
 #     src
 #   folder in this project as a "Sources Root", as follows:
 #  _
-#     In the Project window (to the left), right click on the src  folder,
-#     then select   Mark Directory As ~ Sources Root.
+#     In the Project window (to the left), right click on the   src   folder,
+#     then select   Mark Directory As  ~  Sources Root.
 #  _
-#   You will see that  rosegraphics  in the  import  statement above (line 26)
+#   You will see that  rosegraphics  in the  import  statement above (line 27)
 #   is no longer marked as an error.  You will do this in all projects
 #   that use rosegraphics, so get used to it. :)
 #  _
@@ -48,8 +49,9 @@ import rosegraphics as rg
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
 #  _
-#   Then look at the code below.  Raise your hand when you have questions about
-#   what the code is doing.  Be sure that you understand the notations for:
+#   Then look at the code below.  Ask for help when you have questions about
+#   what the code is doing, or if you are just curious about any of the code.
+#   Be sure that you understand the notations for:
 #  _
 #     -- CONSTRUCTING an instance of a CLASS, e.g.
 #           rg.SimpleTurtle()
@@ -71,8 +73,8 @@ import rosegraphics as rg
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
 #   - CONSTRUCT (make and initialize) a   TurtleWindow   object for animation.
-# The definition of a  TurtleWindow  is in the   rg
-# (shorthand for rosegraphics) module.
+# The definition of a  TurtleWindow is in
+# the   rg  (shorthand for rosegraphics) module.
 # -----------------------------------------------------------------------------
 window = rg.TurtleWindow()
 window.delay(20)  # Bigger numbers mean slower animation.
@@ -95,8 +97,12 @@ boris.forward(200)
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
 #   - Construct a second SimpleTurtle
-#       (using an optional argument that sets the shape displayed - try it!),
+#       (using an optional argument that sets the shape displayed),
 #     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
+# _
+# TIP:  to see what other strings you can use for the shape, hover over
+# the word   SimpleTurtle  in the first line of code below.  Doing so will
+# pop up some quick documentation about whatever you hover upon -- try it!
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle("turtle")
 natasha.pen = rg.Pen("red", 30)  # Second argument is the thickness of the Pen
@@ -132,7 +138,9 @@ natasha.go_to(rg.Point(-100, 200))
 #      this_1_has
 #  _
 #   STYLE RULE: Your names should always begin with a LOWER_CASE letter.
-#   So   mary   is OK   but   Mary   is NOT OK.
+#     So   mary   is OK   but   Mary   is NOT OK.
+#   Choose short-but-meaningful names.  Separate "words" in the name by
+#   underscores, like this:   my_turtle
 #  _
 #   Then add more code that:
 #     -- Constructs a  Pen  object,
@@ -151,14 +159,16 @@ natasha.go_to(rg.Point(-100, 200))
 #   Run one more time to be sure that all is still OK.
 #  _
 #   Then COMMIT-and-PUSH your work as before:
-#     1. Select   VCS   from the menu bar (above).
-#     2. Choose  Commit  from the pull-down menu that appears.
+#     1. Select    VCS    from the menu bar (above).
+#     2. Choose   Commit  from the pull-down menu that appears.
 #     3. In the  Commit Changes  window that pops up,
 #        press the   Commit and Push   button.
 #           (Note: If you see only a Commit button:
 #              - HOVER over the  Commit  button
 #                (in the lower-right corner of the window)
 #              - CLICK on  Commit and Push.)
+#           (Note: If it asks you to type a message for the Commit, do so,
+#                using   Done   or something like that for the message.)
 #  _
 #   You can COMMIT-and-PUSH as often as you like.
 #   DO IT FREQUENTLY; AT LEAST once per module.
