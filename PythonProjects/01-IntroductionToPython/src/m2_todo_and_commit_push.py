@@ -87,10 +87,17 @@ print("Hello, World")
 #   have not yet been COMMITTED to version control and PUSHED to the cloud.
 #  _
 #   COMMIT and PUSH your work by:
-#     1. Select   VCS   from the menu bar (above).
-#     2. Choose  Commit  from the pull-down menu that appears.
-#     3. In the  Commit Changes  window that pops up,
-#        press the   Commit and Push   button.
+#     1. Select   VCS      from the menu bar (above).
+#     2. Choose   Commit   from the pull-down menu that appears.
+#     3a. In the   Commit Changes   window that pops up:
+#        - Just this once, type a short message in the
+#             Commit Message
+#          sub-box, e.g. "Done."
+#          It truly does not matter what message you put (but it WILL matter
+#          when you work with teammates later in the course). Subsequent
+#          commits will auto-apply whatever message you use this time.
+#     3b:  In that same   Commit Changes   window that pops up:
+#        - Press the   Commit and Push   button.
 #           (Note: If you see only a Commit button:
 #              - HOVER over the  Commit  button
 #                (in the lower-right corner of the window)
@@ -99,10 +106,6 @@ print("Hello, World")
 #   COMMIT adds the changed work to the version control system
 #   on your COMPUTER.  PUSH adds the changed work into your
 #   repository in the "cloud".
-#  _
-#   PyCharm forces you to add a  Commit  message intended to describe
-#   your work to teammates, but until your team project use   Done
-#   or whatever you want for the  Commit  message.
 #  _
 #   Always PUSH (in addition to the COMMIT) so that your work
 #   is backed-up in the cloud.  If you COMMIT but forget to PUSH,
