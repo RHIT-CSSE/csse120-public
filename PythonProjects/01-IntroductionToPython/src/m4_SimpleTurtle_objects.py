@@ -117,6 +117,22 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 # TODO: 4.
+#   Your instructor will explain the so-called "dot-trick".
+#   Try it out yourself by typing below
+#      natasha.
+#   and then pausing after typing the dot.  You will see options pop up
+#   for what natasha can do (methods, marked with an M on the pop-up)
+#   and waht natasha knows (instance variables, aka fields, marked with
+#   a F on the pop-up.  Try out one of the methods! (Any is fine.  Experiment!)
+#  _
+#      ** Be quick to ask for help as needed, as the so-called **
+#      ** "dot-trick" is more easily shown than explained. **
+#  _
+#   As always, test by running the module.
+###############################################################################
+
+###############################################################################
+# TODO: 5.
 #   Add a few more lines of your own code to make one of the existing
 #   SimpleTurtles move some more and/or have different characteristics.
 #  _
@@ -127,7 +143,7 @@ natasha.go_to(rg.Point(-100, 200))
 ###############################################################################
 
 ###############################################################################
-# TODO: 5.
+# TODO: 6.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -154,7 +170,7 @@ natasha.go_to(rg.Point(-100, 200))
 ###############################################################################
 
 ###############################################################################
-# TODO: 6.
+# TODO: 7.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #  _
