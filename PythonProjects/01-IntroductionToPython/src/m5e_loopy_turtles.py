@@ -42,8 +42,7 @@ Concepts include:
         rg.PaintBucket().
 
 Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, their colleagues, and
-         PUT_YOUR_NAME_HERE.
+         Matt Boutell, Dave Fisher, and their colleagues.
 """
 import rosegraphics as rg
 

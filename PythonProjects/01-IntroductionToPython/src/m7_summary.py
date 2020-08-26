@@ -7,7 +7,7 @@ Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
 """
 ###############################################################################
 # TODO: 1.
-#   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
+#   On Line 6 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ###############################################################################
 
 ###############################################################################
