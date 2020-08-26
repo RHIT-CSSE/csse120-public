@@ -99,7 +99,7 @@ boris.forward(200)
 #     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle("turtle")
-natasha.pen = rg.Pen("red", 30)  # Second argument is the Pen's thickness
+natasha.pen = rg.Pen("red", 30)  # Second argument is the thickness of the Pen
 natasha.speed = 5  # Bigger means faster, max is usually about 10
 
 natasha.backward(50)
@@ -135,7 +135,7 @@ natasha.go_to(rg.Point(-100, 200))
 #   So   mary   is OK   but   Mary   is NOT OK.
 #  _
 #   Then add more code that:
-#     -- Constructs a Pen object,
+#     -- Constructs a  Pen  object,
 #     -- Assigns your SimpleTurtle's  pen  to the constructed Pen object, and
 #     -- Makes your SimpleTurtle move around a bit.
 #  _

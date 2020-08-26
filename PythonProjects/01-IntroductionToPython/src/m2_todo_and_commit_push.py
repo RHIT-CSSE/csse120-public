@@ -112,7 +112,7 @@ print("Hello, World")
 #   Oh, one more thing:
 #     Do you have any blue bars on the scrollbar-like thing to the
 #     right?  If so, click on each blue bar and change its _TODO_ to
-#     DONE and then run the module (to make sure you didn't break
+#     DONE and then run the module (to make sure you did not break
 #     anything) and COMMIT-and-PUSH again.
 #  _
 #   You can COMMIT-and-PUSH as often as you like.
