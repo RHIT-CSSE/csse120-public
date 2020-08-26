@@ -118,12 +118,14 @@ natasha.go_to(rg.Point(-100, 200))
 ###############################################################################
 # TODO: 4.
 #   Your instructor will explain the so-called "dot-trick".
-#   Try it out yourself by typing below
+#   Try it out yourself by typing
 #      natasha.
-#   and then pausing after typing the dot.  You will see options pop up
-#   for what natasha can do (methods, marked with an M on the pop-up)
-#   and waht natasha knows (instance variables, aka fields, marked with
-#   a F on the pop-up.  Try out one of the methods! (Any is fine.  Experiment!)
+#   somewhere below and then pausing after typing the dot.
+#   You will see options pop up for what natasha can do (methods, marked
+#   with an M on the pop-up) and waht natasha knows (instance variables,
+#   aka fields, marked with a F on the pop-up.
+#  _
+#   Try out one of the methods!  (Any is fine.  Experiment!)
 #  _
 #      ** Be quick to ask for help as needed, as the so-called **
 #      ** "dot-trick" is more easily shown than explained. **
