@@ -1,5 +1,0 @@
-first_day_of_term = 9/3/2020
-last_day_of_tenth_week = 11/13/2020
-days_of_week = Tuesday Wednesday Friday
-start_date_of_break = 10/8/2020
-end_date_of_break = 10/9/2020
