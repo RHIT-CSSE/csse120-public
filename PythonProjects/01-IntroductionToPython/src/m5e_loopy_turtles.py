@@ -41,8 +41,9 @@ Concepts include:
         rg.Pen().
         rg.PaintBucket().
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Amanda Stouder, Aaron Wilkin, and their colleagues.
+Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
+         Matt Boutell, Dave Fisher, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """
 import rosegraphics as rg
 
@@ -59,12 +60,12 @@ blue_turtle.pen = rg.Pen("midnight blue", 3)
 blue_turtle.speed = 20  # Fast
 
 # The first square will be 300 x 300 pixels:
-size = 150
+size = 300
 
 # Do the indented code 6 times.  Each time draws a square.
 for k in range(6):
 
-    # Put the pen down, then draw a square of the given size:
+    # Draw a square of the given size:
     blue_turtle.draw_square(size)
 
     # Move a little below and to the right of where the previous
