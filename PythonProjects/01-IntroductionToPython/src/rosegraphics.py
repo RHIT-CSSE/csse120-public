@@ -1745,7 +1745,8 @@ class SimpleTurtle(object):
         What comes in:
           A turtle.Shape that determines how the Turtle looks.
           Defaults to a Bitmap of the "classic" Turtle (an arrowhead) from
-          early Turtle Graphics.  See above for other shapes that are allowed.
+          early Turtle Graphics.  Shapes allowed are:
+          "turtle"  "arrow"  "classic"  "square"  "circle"  "triangle"  "blank"
 
         Side effects: Constructs and stores in  self._turtle  the "real" Turtle
           to do all the work on behalf of this SimpleTurtle.  This (purposely)
