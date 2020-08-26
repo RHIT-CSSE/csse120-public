@@ -27,12 +27,13 @@ Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
 #    - Makes the SimpleTurtle go 150 pixels straight DOWN.
 #  _
 #   Don't forget to:
-#     - import rosegraphics and construct a TurtleWindow
+#     - import rosegraphics and
+#     - construct a TurtleWindow
 #            [remember the required PARENTHESES for constructing an object!]
 #         at the BEGINNING of your code, and to
 #     - ask your  TurtleWindow to   close_on_mouse_click
-#          as the LAST line of your code.
-#   See the beginning and end of m5e_loopy_turtles for an example.
+#          as the LAST line of your code.  (Again, parentheses needed!)
+#   See the beginning and end of  m5e_loopy_turtles  for an example.
 #  _
 #   As always, test by running the module.
 #   As always, COMMIT-and-PUSH when you are done with this module.
