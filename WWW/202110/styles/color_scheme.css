@@ -1,0 +1,104 @@
+/* This color scheme is based on the
+       Frans Hals Museum    home page https://www.franshalsmuseum.nl/en/
+   as featured in the AWWWWARDS site at:
+   https://www.awwwards.com/websites/sites_of_the_year/
+
+   along with parts of another color scheme, also from the AWWWWARDS, but taken from
+       #50 Lively Yet Soothing
+   at  https://visme.co/blog/website-color-schemes/ */
+
+body {
+  background-color: #fef9c7; /* pale yellow */
+  /* Alternatives:  #abb8c3; /* light grey
+                    #fef9c7; /* pale yellow */
+                    rgb(252, 227, 115);  /* cool yellow
+                    lightyellow; /* really pale yellow, almost white
+   */
+}
+
+div.schedule > div.header {
+  background-color: #0693e3; /* blue */
+}
+
+div.schedule > div.day-of-week {
+  background-color: rgb(154,209,139); /* light green */
+}
+
+div.session-page > div.session-header {
+  background-color: #0693e3; /* blue */
+}
+
+div.session-page > div.session-body > div.preparation > div.preparation-header {
+  background-color: rgb(248,181,184); /* blue */
+  /*color: #ffffff;*/
+}
+
+div.session-page div.start-the-session-quiz-header {
+  background-color: #7bdcb5; /* blue */
+}
+
+div.session-page div.start-the-session-follow-me-header {
+  background-color: #8ed1fc; /* */
+}
+
+nav {
+  background-color: #026670; /* deep cyan */
+}
+
+nav > div.course {
+  background-color: rgb(163, 133, 189); /* gentle purple */
+}
+
+nav > div.links > a {
+  color: #edeae5; /*#edeae5; /*#ffffff; /* white */
+}
+
+nav > div.links > a:link {
+  color: #edeae5; /* almost white */
+}
+
+nav > div.links > a:visited {
+  color: #F0FF33; /* #ff6900; */
+}
+
+nav > div.links > a:hover {
+  background-color: rgb(163, 133, 189); /* gentle purple, same as course */
+}
+
+nav > div.links > a:active {
+  color: yellow;
+}
+
+/*
+For demonstrating the colors:
+<p style="padding: 3rem; background-color: #fce373"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: rgb(252, 227, 115)"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: rgb(248,181,184)"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: rgb(111,171,158)"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: rgb(243, 116, 73)"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: rgb(154,209,139)"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: rgb(163, 133, 189)"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: #231f20"> one two open my shoe. </p>
+
+<p style="padding: 2rem"> more colors </p>
+<p style="padding: 3rem; background-color:#f78da7"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color:#cf2e2e"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color:#ff6900"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color:#fcb900"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color:#7bdcb5"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color:#00d084"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color:#8ed1fc"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color:#0693e3"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color:#eee"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color:#abb8c3"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color:#313131"> one two open my shoe. </p>
+
+<p style="padding: 2rem"> new colors </p>
+
+<p style="padding: 3rem; background-color: #026670"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: #9fedd7"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: #fef9c7"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: #fce181"> one two open my shoe. </p>
+<p style="padding: 3rem; background-color: #edeae5"> one two open my shoe. </p>
+ */
+
