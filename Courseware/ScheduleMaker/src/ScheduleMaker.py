@@ -7,7 +7,7 @@ Author: David Mutchler and his colleagues.
 
 from Constants import *  # All constants, and only constants, are in ALL_CAPS.
 from TermInfo import TermInfo
-from Session import SessionMaker
+from ScheduleSession import SessionMaker
 import HTMLWriter
 
 
@@ -45,6 +45,7 @@ class HomePage:
             self.footer = file_handle.read()
 
     def make_html(self) -> str:
+        print("\nMaking the HTML for the Home Page")
         return self.template.replace(
             "NAVIGATION_BAR", self.navigation_bar).replace(
             "SCHEDULE", self.schedule.make_html()).replace(
@@ -58,8 +59,6 @@ def main():
     #     html = gfm.markdown(xx)
 
     maker = HomePageMaker(TERM)
-    html = maker.make_html()
-    print(html)
     maker.write_html_file()
 
 
