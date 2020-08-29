@@ -4,14 +4,14 @@ from typing import List
 
 import TermInfo
 from Constants import *  # All constants, and only constants, are in ALL_CAPS.
-from Session import Session, RegularClassSession, ReviewSession, \
+from ScheduleSession import Session, RegularClassSession, ReviewSession, \
     EveningExamSession, InClassExamSession, CapstoneProjectSession
 
 
 class ScheduleDay(abc.ABC):
     """ Data associated with a single day in the Schedule. """
 
-    def __init__(self, date: datetime.date, session: Session = None,
+    def __init__(self, date: datetime.date = None, session: Session = None,
                  message: str = None):
         self.date = date
         self.session = session
@@ -88,9 +88,21 @@ class ScheduleDay(abc.ABC):
         return html
 
 
+class WeekNumberDay(ScheduleDay):
+    def __init__(self, week_number):
+        self.week_number = week_number
+        super().__init__()
+        with open(SCHEDULE_WEEK_NUMBER_TEMPLATE, "r") as file_handle:
+            self.template = file_handle.read()
+
+    def make_html(self) -> str:
+        return self.template.replace(
+            "__WEEK_NUMBER__", str(self.week_number))
+
+
 class BeforeClassesStartDay(ScheduleDay):
     def __init__(self, date: datetime.date):
-        super().__init__(date, message="No class")
+        super().__init__(date)
         with open(SCHEDULE_NO_CLASS_TEMPLATE, "r") as file_handle:
             self.template = file_handle.read()
 
@@ -127,7 +139,7 @@ class SessionDay(ScheduleDay):
 
         return self.template.replace(
             "SESSION_NUMBER", str(self.session.session_number)).replace(
-            "SESSION_DATE", self.date.strftime("%B %d")).replace(
+            "SESSION_DATE", self.date_as_string()).replace(
             "SESSION_FOLDER_NUMBER", two_digit_number).replace(
             "SESSION_TITLE", self.session.session_title).replace(
             "SESSION_TOPICS", self.make_html_for_topics())
@@ -170,13 +182,19 @@ class Schedule:
         self.schedule_days = self.make_schedule_days()
 
     def make_schedule_days(self) -> List[ScheduleDay]:
-        # Start on a Monday:
-        if self.term_info.first_day_of_term.weekday() == 3:  # Fall session
-            date = self.term_info.first_day_of_term - datetime.timedelta(3)
+        # Start on the Sunday prior to the first day of the term:
+        if self.term_info.first_day_of_term.weekday() == 3:  # Fall term
+            date = self.term_info.first_day_of_term - datetime.timedelta(4)
         else:
-            date = self.term_info.first_day_of_term
+            date = self.term_info.first_day_of_term - datetime.timedelta(1)
+
         session_index = 0  # For indexing through the Sessions
-        schedule_days = []  # From Monday of Week 1 to Friday of Week 10
+        schedule_days = []  # From Sunday of Week 1 to Friday of Week 10
+
+        if self.term_info.term == "Fall":
+            week_number = 0  # Fall term starts on a Thursday, not Monday
+        else:
+            week_number = 1
 
         while True:
             # Go through each date from the start of term to end of term.
@@ -185,6 +203,10 @@ class Schedule:
                 break
 
             # Deal only with dates that are on class days-of-week.
+            # But treat Sunday as the week number.
+            if date.weekday() == 6:
+                schedule_days.append(WeekNumberDay(week_number))
+                week_number += 1
             if date.weekday() in self.term_info.class_meeting_days_of_week:
                 if date < self.term_info.first_day_of_term:
                     schedule_days.append(BeforeClassesStartDay(date))
