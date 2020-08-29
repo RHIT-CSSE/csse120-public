@@ -30,6 +30,7 @@ div.session-page > div.session-header {
 
 div.session-page > div.session-body > div.preparation > div.preparation-header {
   background-color: rgb(248,181,184); /* blue */
+  /*color: #ffffff;*/
 }
 
 div.session-page div.start-the-session-quiz-header {
@@ -39,7 +40,6 @@ div.session-page div.start-the-session-quiz-header {
 div.session-page div.start-the-session-follow-me-header {
   background-color: #8ed1fc; /* */
 }
-
 
 nav {
   background-color: #026670; /* deep cyan */

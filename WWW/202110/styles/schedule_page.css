@@ -1,8 +1,6 @@
 div.schedule {
   display: grid;
-  grid-template-columns: auto auto auto;
-  align-content: center;
-  justify-content: center;
+  grid-template-columns: auto auto auto auto;
   padding: 0;
   margin: 0;
 }
@@ -15,7 +13,7 @@ div.schedule > div {
 
 /* HEADER for the schedule (What to do, When) */
 div.schedule > div.header {
-  grid-column: 1 / span 3;
+  grid-column: 1 / span 4;
   font-size: 2rem;
   font-weight: bolder;
 }
@@ -27,29 +25,44 @@ div.schedule > div.day-of-week {
   font-style: italic;
 }
 
-/* Days when there is NO CLASS. */
-div.schedule > div.no-class, div.break {
+/* Week number (treated as if it were a day */
+div.schedule > div.week-number {
   display: grid;
   justify-content: center;
   align-content: center;
 }
 
-div.schedule div.session-title {
+div.schedule > div.week-number div.session-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Days when there is NO CLASS. */
+div.schedule > div.no-class {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+div.schedule > div.no-class div.session-title {
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
 }
 
-div.schedule  div.session-date {
-  /* Normal styling */
+div.schedule > div.no-class div.session-date {
+  font-size: 1.15rem;
 }
 
 /* ORDINARY DAYS (when there IS class) */
 div.schedule > div.session {
   display: grid;
   grid-template-columns: auto auto;
+  justify-content: space-around;
   /*grid-template-rows: 3rem 2rem auto;*/
-  grid-column-gap: 0;
+  padding: 1rem;
+  /*grid-column-gap: 2rem;*/
 }
 
 div.schedule > div.session > div.session-number-and-date {
@@ -60,16 +73,28 @@ div.schedule > div.session > div.session-preparation {
   grid-column: 2;
   font-size:  1.5rem;
   font-weight: bold;
+  display: grid;
+  align-content: center;
 }
 
-div.schedule span.session-number {
+div.schedule >  div.session span.session-number {
   font-size: 2rem;
   font-weight: bolder;
 }
 
-div.schedule span.session-prefix {
+div.schedule > div.session span.session-prefix {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+div.schedule > div.session span.session-date {
+  font-size: 1.15rem;
+}
+
+div.schedule > div.session div.session-title {
+  grid-column: 1 / span 2;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 
 div.schedule > div.session > div.topics-title {

@@ -67,8 +67,13 @@ div.session-page ol li {
   padding: .25rem 0 0 0;
 }
 
-div.session-page span.video-title {
+div.session-page span.reading-title,
+span.other-item-title {
   font-weight: bold;
+}
+
+div.session-page ol.activities {
+  list-style-type: lower-alpha;
 }
 
 div.session-page ol.instructions {
