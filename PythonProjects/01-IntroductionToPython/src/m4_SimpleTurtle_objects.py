@@ -122,8 +122,8 @@ natasha.go_to(rg.Point(-100, 200))
 #      natasha.
 #   somewhere below and then pausing after typing the dot.
 #   You will see options pop up for what natasha can do (methods, marked
-#   with an M on the pop-up) and waht natasha knows (instance variables,
-#   aka fields, marked with a F on the pop-up.
+#   with an M on the pop-up) and what natasha knows (instance variables,
+#   aka fields, marked with a F on the pop-up).
 #  _
 #   Try out one of the methods!  (Any is fine.  Experiment!)
 #  _
