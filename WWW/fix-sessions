@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# You MUST have run  make-folders  first!!!
+
+TERM=202110
+
+if [ ! -e ${TERM} ]; then
+  echo "ERROR - No folder for the term.  Run the make-folders script first!!!"
+  exit 1
+fi
+
+cd ${TERM}
+
+session_numbers=( 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 )
+
+cd Sessions
+
+for number in ${session_numbers[@]}; do
+  session=Session${number}
+  echo ${session}
+
+  cp ../Templates/session_page_template.html ${session}/template.html
+  cp ~/120-svn/Public/202020/Sessions/${session}/index.html ${session}/from-202020-index.html
+  cp ~/120-svn/Public/202030/Sessions/${session}/index.html ${session}/from-202030-index.html
+
+  cd ${session}
+
+  sed 's/^  <ol>/STARTSTART/' from-202020-index.html \
+    | sed 's/^<\/section>/ENDEND/' > temp1a.html
+  awk '/STARTSTART/, /ENDEND/' temp1a.html > temp2a.html
+  
+  sed 's/^  <ol>/STARTSTART/' from-202030-index.html \
+    | sed 's/^<\/section>/ENDEND/' > temp1b.html
+  awk '/STARTSTART/, /ENDEND/' temp1b.html > temp2b.html
+  
+  if [ ! -e preparation.html ]; then
+    cp temp2a.html preparation.html
+  fi
+
+  touch follow_me.html
+  cd ..
+done
