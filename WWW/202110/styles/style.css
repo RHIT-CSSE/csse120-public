@@ -59,3 +59,9 @@ span.name-of-something {
 ol ol {
   list-style-type: lower-alpha;
 }
+
+a.video-link {
+  font-size: 1.2rem;
+  padding-left: .5rem;
+  padding-right: .25rem;
+}
