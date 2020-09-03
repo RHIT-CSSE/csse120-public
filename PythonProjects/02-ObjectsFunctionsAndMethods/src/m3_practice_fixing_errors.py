@@ -17,7 +17,9 @@ Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
 #   Then fix the errors, one by one.  IMPORTANT:
 #     -- Fixing one error may bring up additional errors
 #          (after a few seconds or when you run or save the module).
-#     -- Each time, fix the error that is nearest the TOP of the module.
+#     -- Each time, fix the error that is nearest the TOP of the module,
+#          although sometimes that fix does not "take effect"
+#          until you have fixed major errors beneath it.
 #     -- Often the SOURCE of the error may be on the line
 #          just BEFORE the line with a red underline.
 #     -- New errors may appear during the RUN of the module.
