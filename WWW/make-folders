@@ -1,0 +1,65 @@
+#!/bin/bash
+
+TERM=202110
+
+if [ ! -e ${TERM} ]; then
+  mkdir ${TERM}
+fi
+
+cd ${TERM}
+
+# Next need to make index.html and term_info.txt, made via ScheduleMaker.
+# Perhaps stop this script until you have done so.
+# exit 1
+
+session_numbers=( 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 )
+folders=( LearningObjectives Resources Sessions styles Syllabus Templates Images)
+exams=( 1 2 3 )
+
+for folder in ${folders[@]}; do
+  if [ ! -e ${folder} ]; then
+    mkdir ${folder}
+  fi
+done
+
+# Next need to put data into all of the above except Sessions.
+# Do that by copying from the previous term (or make a script for it) and adjusting as needed.
+# Perhaps stop this script until you have done so.
+# exit 1
+
+# Temporary fix for above:
+cp ../temp10/index.html .
+cp ../temp10/term_info.txt .
+
+for folder in ${folders[@]}; do
+  if [ ${folder} != "Sessions" ]; then
+    cp ../temp10/${folder}/* ${folder}
+  fi
+done
+
+# For the Sessions folder, run this, then fix-folders, then use SessionsMaker
+
+for session_number in ${session_numbers[@]}; do
+  session=Sessions/Session${session_number}
+  if [ ! -e ${session} ]; then
+    mkdir ${session}
+  fi
+done
+
+# For these other subfolders of Sessions, copy from a previous term (or make a script for it)
+# and adjust as needed.
+
+if [ ! -e Sessions/Quizzes ]; then
+  mkdir Sessions/Quizzes
+fi
+
+if [ ! -e Sessions/ExamInformation ]; then
+  mkdir Sessions/ExamInformation
+fi
+
+for number in ${exams[@]}; do
+  exam=Sessions/ExamInformation/Exam${number}
+  if [ ! -e ${exam} ]; then
+    mkdir ${exam}
+  fi
+done
