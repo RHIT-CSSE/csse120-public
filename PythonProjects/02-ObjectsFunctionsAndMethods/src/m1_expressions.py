@@ -61,7 +61,7 @@ import math
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 ###############################################################################
-#
+
 # print()
 # print("_TODO 5:")
 # print("2 ** 10  evaluates to:", 2 ** 10)
@@ -95,13 +95,17 @@ import math
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
-#   Then comment-out the line that causes the run-time error.
+#   Then comment-out the line that causes the syntax error.
+#  _
+#   Now type some other statement that causes a syntax error,
+#   for example a statement that is missing a required parenthesis.
+#   Run again to see the error-message from your syntax error,
+#   and finally comment-out your statement to continue to the next _TODO.
 ###############################################################################
 
 # print()
 # print("_TODO 7:")
 # This is crazy!  Python will make no sense of it!
-
 
 ###############################################################################
 # TODO: 8.  [Do this when the video says to do so.]
@@ -147,6 +151,13 @@ import math
 
 ###############################################################################
 # Part 3: Objects, Types, and Values.
+###############################################################################
+
+###############################################################################
+# TODO: 11.  [Do this when the video says to do so.]
+#   READ the following statements and PREDICT what they will produce as output.
+#   Then, uncomment them and run the program, checking your predictions
+#   and learning from any predictions that you got wrong
 ###############################################################################
 
 # print()
