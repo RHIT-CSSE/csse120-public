@@ -52,6 +52,12 @@ span.critical {
   color: red;
 }
 
+span.technical-name {
+  font-weight: bold;
+  font-style: italic;
+  color: #0000ff;
+}
+
 span.name-of-something {
   font-style: italic;
 }
