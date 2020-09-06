@@ -9,6 +9,7 @@ Author: David Mutchler and his colleagues.
 """
 from Constants import *  # All constants, and only constants, are in ALL_CAPS.
 from TermInfo import TermInfo
+from typing import List
 
 
 class SessionTemplates:
@@ -22,8 +23,8 @@ class SessionTemplates:
             'src="', 'src="../../').replace(
             'href="', 'href="../../')
 
-        with open(SESSION_SECTION_PREPARATION_TEMPLATE, "r") as file_handle:
-            self.preparation_template = file_handle.read()
+        with open(SESSION_SECTION_VIDEOS_READING_TEMPLATE, "r") as file_handle:
+            self.videos_reading_template = file_handle.read()
         with open(SESSION_SECTION_QUIZ_TEMPLATE, "r") as file_handle:
             self.quiz_template = file_handle.read()
         with open(SESSION_SECTION_FOLLOW_ME_TEMPLATE, "r") as file_handle:
@@ -44,6 +45,7 @@ class SessionPageItem:
     def __init__(self, data: str, templates: SessionTemplates):
         self.data = data
         self.lines = data.split("\n")
+        print("Lines:")
         print(self.lines)
         if self.lines[0] == "":  # CONSIDER: fix this more elegantly??
             self.lines = self.lines[1:]
@@ -75,20 +77,38 @@ class SessionPageItem:
         self.note = self.lines[note_starts_at:]
 
     def make_html(self):
-        note_string = ""
-        for line in self.note:
-            if line.strip() == "":
-                note_string += "</p>\n<p>"
-            note_string += line + "\n"
-        note_string += "</p>\n"
-
+        note_string = self.make_html_for_note()
         html = self.template.replace(
             "__TITLE__", self.title).replace(
             "__URL__", self.url).replace(
             "__MINUTES__", self.minutes).replace(
             "__NOTE__", note_string)
 
+        lines = html.split("\n")
+        html = ""
+        for line in lines:
+            html += "      " + line + "\n"
+
         return html
+
+    def make_html_for_note(self) -> str:
+        note_string = ""
+        inside_note = False
+        for line in self.note:
+            if line == "":
+                if inside_note:
+                    note_string += "</p>\n"
+                    inside_note = False
+                else:
+                    pass  # Extra blank line, ignore it
+            else:
+                if not inside_note:
+                    inside_note = True
+                    note_string += "<p>\n"
+                note_string += "  " + line + "\n"
+        if inside_note:
+            note_string += "      </p>\n"
+        return note_string
 
 
 class SessionSection:
@@ -100,17 +120,18 @@ class SessionSection:
         if not data:
             self.raw_items = []
         else:
-            self.raw_items = self.data.split("\n\n")
-
+            self.raw_items = self.data.split("---")
         self.items = []
         for k in range(len(self.raw_items)):
+            if self.raw_items[k].replace("\n", "") == "":  # Just empty lines
+                continue
             self.items.append(SessionPageItem(self.raw_items[k],
                                               self.templates))
 
     def make_html(self) -> str:
         """ Returns the HTML for this SessionSection on a Session page. """
-        if self.section_type == SessionSectionType.PREPARATION:
-            template = self.templates.preparation_template
+        if self.section_type == SessionSectionType.VIDEOS_READING:
+            template = self.templates.videos_reading_template
         elif self.section_type == SessionSectionType.QUIZ:
             template = self.templates.quiz_template
         elif self.section_type == SessionSectionType.FOLLOW_ME:
@@ -144,23 +165,26 @@ class SessionPage:
             SESSIONS_FOLDER, self.session_number_string)
         self.filename = "{}/index.html".format(self.session_folder)
 
-        session_preparation_filename = "{}/{}".format(
-            self.session_folder, SESSION_PREPARATION_FILENAME)
+        session_videos_reading_filename = "{}/{}".format(
+            self.session_folder, SESSION_VIDEOS_READING_FILENAME)
         session_quiz_filename = "{}/{}".format(
             self.session_folder, SESSION_QUIZ_FILENAME)
         session_follow_me_filename = "{}/{}".format(
             self.session_folder, SESSION_FOLLOW_ME_FILENAME)
 
-        with open(session_preparation_filename, "r") as file_handle:
-            self.preparation_data = file_handle.read()
+        with open(session_videos_reading_filename, "r") as file_handle:
+            lines = file_handle.readlines()
+            self.videos_reading_data = self.strip_comments(lines)
         with open(session_quiz_filename, "r") as file_handle:
-            self.quiz_data = file_handle.read()
+            lines = file_handle.readlines()
+            self.quiz_data = self.strip_comments(lines)
         with open(session_follow_me_filename, "r") as file_handle:
-            self.follow_me_data = file_handle.read()
+            lines = file_handle.readlines()
+            self.follow_me_data = self.strip_comments(lines)
 
-        self.preparation = SessionSection(self.preparation_data,
-                                          self.templates,
-                                          SessionSectionType.PREPARATION)
+        self.videos_reading = SessionSection(self.videos_reading_data,
+                                             self.templates,
+                                             SessionSectionType.VIDEOS_READING)
         self.quiz = SessionSection(self.quiz_data,
                                    self.templates,
                                    SessionSectionType.QUIZ)
@@ -168,14 +192,23 @@ class SessionPage:
                                         self.templates,
                                         SessionSectionType.FOLLOW_ME)
 
+    @staticmethod
+    def strip_comments(lines: List[str]) -> str:
+        non_comment_lines = []
+        for line in lines:
+            if len(line) > 0 and line[0] == "#":
+                continue
+            non_comment_lines.append(line)
+        return "".join(non_comment_lines)
+
     def make_html(self) -> str:
-        preparation = self.preparation.make_html()
+        videos_reading = self.videos_reading.make_html()
         quiz = self.quiz.make_html()
         follow_me = self.follow_me.make_html()
 
         return self.templates.session_template.replace(
             "__NAVIGATION_BAR__", self.templates.navigation_bar).replace(
-            "__PREPARATION_SECTION__", preparation).replace(
+            "__VIDEOS_READING_SECTION__", videos_reading).replace(
             "__QUIZ_SECTION__", quiz).replace(
             "__FOLLOW_ME_SECTION__", follow_me).replace(
             "__FOOTER__", self.templates.footer).replace(
@@ -187,6 +220,7 @@ class SessionPage:
 
 class SessionPagesMaker:
     """ Generates the HTML for a CSSE 120 Session. """
+
     def __init__(self, banner_term: str):
         """
         The parameter  banner_term  should be a string like 202110

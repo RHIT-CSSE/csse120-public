@@ -9,7 +9,7 @@ TERM = "202110"  # Fall, 2020
 
 FOLDER_FOR_HOME_PAGE = "/Users/davidmutchler/csse120-public/WWW/{}".format(TERM)
 
-NUMBER_OF_SESSIONS = 30  # FIXME, temporary
+NUMBER_OF_SESSIONS = 2 # FIXME, temporary
 
 HOME_PAGE = "{}/index.html".format(FOLDER_FOR_HOME_PAGE)
 TERM_INFO_FILE = "{}/term_info.txt".format(FOLDER_FOR_HOME_PAGE)
@@ -40,8 +40,8 @@ DAYS_OF_WEEK = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 SESSIONS_FOLDER = "{}/Sessions".format(FOLDER_FOR_HOME_PAGE)
 
 SESSION_TEMPLATE = "{}/session_page_template.html".format(TEMPLATES_FOLDER)
-SESSION_SECTION_PREPARATION_TEMPLATE = \
-    "{}/session_section_preparation_template.html".format(TEMPLATES_FOLDER)
+SESSION_SECTION_VIDEOS_READING_TEMPLATE = \
+    "{}/session_section_videos_reading_template.html".format(TEMPLATES_FOLDER)
 SESSION_SECTION_QUIZ_TEMPLATE = \
     "{}/session_section_quiz_template.html".format(TEMPLATES_FOLDER)
 SESSION_SECTION_FOLLOW_ME_TEMPLATE = \
@@ -54,7 +54,7 @@ SESSION_ITEM_READING_TEMPLATE = \
 SESSION_ITEM_OTHER_TEMPLATE = \
     "{}/session_item_other_template.html".format(TEMPLATES_FOLDER)
 
-SESSION_PREPARATION_FILENAME = "preparation"
+SESSION_VIDEOS_READING_FILENAME = "videos-reading"
 SESSION_QUIZ_FILENAME = "quiz-answers"
 SESSION_FOLLOW_ME_FILENAME = "follow-me"
 
@@ -79,6 +79,6 @@ class SessionType(enum.Enum):
 
 @enum.unique
 class SessionSectionType(enum.Enum):
-    PREPARATION = 1
+    VIDEOS_READING = 1
     QUIZ = 2
     FOLLOW_ME = 3

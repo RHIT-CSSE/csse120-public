@@ -3,13 +3,14 @@ Demonstrates using (calling) FUNCTIONS and using (calling) METHODS:
   -- what is similar, and
   -- how they differ.
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Derek Whitley, their colleagues, and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
+         Matt Boutell, Dave Fisher, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
 # TODO: 2.
-#   READ the file   methods_vs_functions.txt   in this project,
+#   READ the file   m4r_methods_vs_functions.txt   in this project,
 #   ASKING QUESTIONS as needed to understand its contents.
 #   After you have done so, mark this _TODO_ as DONE
 #   and continue to the next _TODO_.
@@ -163,7 +164,7 @@ def try_functions():
 ###############################################################################
 def try_methods_and_functions():
     """
-    Constructs a SimpleTurtle and sets its   pen  to a new rg.Pen
+    Constructs a SimpleTurtle and sets its   pen   to a NEW rg.Pen
     that is "blue" with thickness 5.
 
     Then makes the SimpleTurtle do the following (in the order listed):
@@ -175,7 +176,7 @@ def try_methods_and_functions():
          each "twisted" from the previous by 30 degrees.
 
       3. Change its speed to 5 (faster).
-         Change its Pen's color to "red".
+         Change its Pen's color to "red".  (Do NOT make a NEW Pen.)
          Draw 10 squares whose size (width and height) are 50,
          each "twisted" from the previous by 15 degrees.
 

@@ -2,8 +2,9 @@
 Practice DEFINING and CALLING
      FUNCTIONS
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Derek Whitley, their colleagues, and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
+         Matt Boutell, Dave Fisher, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
@@ -55,7 +56,7 @@ def main():
 #   The function should do the following (in the order listed):
 #     a. Constructs two SimpleTurtle objects, where:
 #          - one has a Pen whose color is "green" and has the GIVEN thickness
-#        - - the other has a Pen whose color is the GIVEN color
+#          - the other has a Pen whose color is the GIVEN color
 #              and whose thickness is 5
 #  _
 #        Note: the "GIVEN" color means the PARAMETER that represents a color.
@@ -77,20 +78,35 @@ def main():
 #   COMMIT-and-PUSH your work (after changing this _TODO_ to DONE).
 #  _
 #   As a reminder, here is how you should do so:
-#     1. Select   VCS   from the menu bar (above).
-#     2. Choose  Commit  from the pull-down menu that appears.
-#     3. In the  Commit Changes  window that pops up,
-#        press the   Commit and Push   button.
-#           Note: If you see only a Commit button:
+#     1. Select   VCS      from the menu bar (above).
+#     2. Choose   Commit   from the pull-down menu that appears.
+#     3a. In the   Commit Changes   window that pops up,
+#         - If there is no message in the
+#             Commit Message
+#          sub-box, put one there, e.g. "Done."
+#     3b:  In that same   Commit Changes   window that pops up:
+#        - Press the   Commit and Push   button.
+#           (Note: If you see only a Commit button:
 #              - HOVER over the  Commit  button
-#                  (in the lower-right corner of the window)
-#              - CLICK on  Commit and Push.
+#                (in the lower-right corner of the window)
+#              - CLICK on  Commit and Push.)
 #  _
-#   COMMIT adds the changed work to the version control on your computer.
-#   PUSH adds the changed work into your Github repository in the "cloud".
+#   COMMIT adds the changed work to the version control system on your COMPUTER.
+#   PUSH adds the changed work into your repository in the "cloud".
 #  _
-#   COMMIT-and-PUSH your work as often as you want, but at the least, commit
-#   and push after you have tested a module and believe that it is correct.
+#   Always PUSH (in addition to the COMMIT) so that your work
+#   is backed-up in the cloud.  If you COMMIT but forget to PUSH,
+#   you can subsequently do the PUSH by:
+#      VCS ~ Git ~ Push...
+#  _
+#   Oh, one more thing:
+#     Do you have any blue bars on the scrollbar-like thing to the
+#     right?  If so, click on each blue bar and change its _TODO_ to
+#     DONE and then run the module (to make sure you did not break
+#     anything) and COMMIT-and-PUSH again.
+#  _
+#   You can COMMIT-and-PUSH as often as you like.
+#   DO IT FREQUENTLY; AT LEAST once per module.
 ###############################################################################
 
 

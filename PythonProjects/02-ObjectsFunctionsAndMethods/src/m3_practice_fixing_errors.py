@@ -1,8 +1,9 @@
 """
 This module lets you practice correcting SYNTAX (notation) errors.
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Derek Whitley, their colleagues, and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
+         Matt Boutell, Dave Fisher, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
@@ -16,7 +17,9 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Then fix the errors, one by one.  IMPORTANT:
 #     -- Fixing one error may bring up additional errors
 #          (after a few seconds or when you run or save the module).
-#     -- Each time, fix the error that is nearest the TOP of the module.
+#     -- Each time, fix the error that is nearest the TOP of the module,
+#          although sometimes that fix does not "take effect"
+#          until you have fixed major errors beneath it.
 #     -- Often the SOURCE of the error may be on the line
 #          just BEFORE the line with a red underline.
 #     -- New errors may appear during the RUN of the module.
