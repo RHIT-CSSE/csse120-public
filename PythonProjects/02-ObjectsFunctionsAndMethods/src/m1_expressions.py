@@ -153,6 +153,13 @@ import math
 # Part 3: Objects, Types, and Values.
 ###############################################################################
 
+###############################################################################
+# TODO: 11.  [Do this when the video says to do so.]
+#   READ the following statements and PREDICT what they will produce as output.
+#   Then, uncomment them and run the program, checking your predictions
+#   and learning from any predictions that you got wrong
+###############################################################################
+
 # print()
 # print("_TODO 11:")
 #
