@@ -95,13 +95,17 @@ import math
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
-#   Then comment-out the line that causes the run-time error.
+#   Then comment-out the line that causes the syntax error.
+#  _
+#   Now type some other statement that causes a syntax error,
+#   for example a statement that is missing a required parenthesis.
+#   Run again to see the error-message from your syntax error,
+#   and finally comment-out your statement to continue to the next _TODO.
 ###############################################################################
 
 # print()
 # print("_TODO 7:")
 # This is crazy!  Python will make no sense of it!
-
 
 ###############################################################################
 # TODO: 8.  [Do this when the video says to do so.]
