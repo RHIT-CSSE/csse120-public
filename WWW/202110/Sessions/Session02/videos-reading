@@ -1,0 +1,81 @@
+OTHER
+Preparation from Session 1
+If you skipped any of the <a href="../Session01/index.html">Preparation from Session 1</a>,
+go back and do it now (before you do this Preparation).
+---
+VIDEO
+Getting started in Python - Numbers, Arithmetic Operators, Expressions, Objects, Types, Variables, Assignment, Calling Functions (whew!)
+XXX
+XX:XX
+This video <span class="emphasis">and all the other videos in this section</span>
+have an associated quiz in Moodle.
+
+This video and its Moodle quiz are NOT yet ready.
+
+Make this video from:
+Follow these
+<a href="../../../VideoFiles/02.02-ObjectsTypesValuesVariablesAndAssignment-Handout/1-OpeningAPythonConsole.pdf">instructions for opening a <em>Python Console</em></a>
+window in PyCharm.
+Using the Python Console window that you opened in PyCharm,
+do the exercises on this
+handout on
+<a href="../../../VideoFiles/02.02-ObjectsTypesValuesVariablesAndAssignment-Handout/2-GettingStartedInPython.pdf">Getting
+Started in Python</a>
+(and do the associated quiz in Moodle) as you do so.
+---
+VIDEO
+Introduction to Functions
+https://youtu.be/ANMJaAOrIHs
+10:51
+This video refers to exercises that you will see in Session 2
+(the video falsely claims that you will see them in Session 1).
+---
+VIDEO
+Calling Functions with Arguments
+https://youtu.be/cWeaYTMQXEE
+3:44
+The preceding video explained how a program's <span class="emphasis">flow of control</span>
+changes when a <span class="emphasis">function call</span> occurs.
+
+This video explains the <span class="emphasis">flow of information</span>
+that occurs during a <span class="emphasis">function call.</span>
+---
+VIDEO
+Object Oriented Programming (OOP)
+https://youtu.be/uZEhumLGhzs
+7:47
+This video explains the <em>concept</em>
+of Object Oriented Programming,
+contrasting it with <em>Procedural Programming.</em>
+---
+VIDEO
+Classes &mdash; what objects <span class="emphasis">know</span> (in <span class="technical-name">instance variables</span>) and what they can <span class="emphasis">do</span> (via <span class="technical-name">methods</span>); UML Class Diagrams.
+https://youtu.be/PpER4ObybBI
+7:49
+The previous video introduced the <em>concept</em>
+of Object Oriented Programming (OOP).
+
+This video explains the <em>programming constructs</em>
+that embody OOP &mdash; 
+<span class="technical-name">classes,</span>
+<span class="technical-name">objects,</span>
+<span class="technical-name">methods,</span> and
+<span class="technical-name">instance variables.</span>
+---
+VIDEO
+Objects and Classes; Using Objects
+https://youtu.be/ZpvzmheXD50
+20:00
+This video extends the concepts from the previous videos
+to show how a software developer
+<span class="emphasis">uses objects</span>
+to be more productive.
+---
+VIDEO
+Thinking Like a Computer: Control Flow
+https://youtu.be/605QWg-3t_U
+3:04
+Developed and narrated by Valerie Galluzzi.
+
+<a href="../../../VideoFiles/04.3-ControlFlow/Control_Flow.py">Code</a>
+associated with the video (for your reference).
