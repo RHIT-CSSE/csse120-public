@@ -253,7 +253,7 @@ import math
 ###############################################################################
 
 ###############################################################################
-# TODO: 17.  [Do this when the video says to do so.]
+# TODO: 16.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
@@ -268,10 +268,10 @@ import math
 ###############################################################################
 
 # print()
-# print("_TODO 17:")
+# print("_TODO 16:")
 # first_program = "Hello, world!"
 # print(first_program)
-# # print(greeting)
+# print(greeting)
 #
 # greeting = "Hello, earthlings"
 # print(greeting)
@@ -283,7 +283,7 @@ import math
 # print(n + greeting)
 
 ###############################################################################
-# TODO: 18.  [Do this when the video says to do so.]
+# TODO: 17.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
@@ -301,17 +301,17 @@ import math
 ###############################################################################
 
 # print()
-# print("_TODO 18:")
+# print("_TODO 17:")
 # r = 0
 # s = -9
-# # t = s / r
-# # y = "oops" + s
-# # u = math.sqrt(-2)
+# t = s / r
+# y = "oops" + s
+# u = math.sqrt(-2)
 # v = (-2) ** 0.5
 # print(v)
 
 ###############################################################################
-# TODO: 19.  [Do this when the video says to do so.]
+# TODO: 18.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
@@ -321,22 +321,22 @@ import math
 ###############################################################################
 
 # print()
-# print("_TODO 19:")
+# print("_TODO 18:")
 # a = 45
-# # 45 = a
+# 45 = a
 # b = 10
 # c = b + 20
 # b = c
 # print(a, b, c)
 
 ###############################################################################
-# TODO: 20.  [Do this when the video says to do so.]
+# TODO: 19.  [Do this when the video says to do so.]
 #   Uncomment the following and PREDICT what will get printed.
 #   Then run the program, checking to see whether your prediction is correct.
 ###############################################################################
 
 # print()
-# print("_TODO 20:")
+# print("_TODO 19:")
 # x = 5
 # x = x + 1
 # print(x)
@@ -348,14 +348,14 @@ import math
 # print(x)
 
 ###############################################################################
-# TODO: 21.  [Do this when the video says to do so.]
+# TODO: 20.  [Do this when the video says to do so.]
 #   Uncomment the following and PREDICT what will get printed.
 #   (Hint: what gets printed is  NOT  75 10.)
 #   Then run the program, checking to see whether your prediction is correct.
 ###############################################################################
 
 # print()
-# print("_TODO 21:")
+# print("_TODO 20:")
 # x = 10
 # y = 75
 # x = y
@@ -363,7 +363,7 @@ import math
 # print(x, y)
 
 ###############################################################################
-# TODO: 22.  [Do this when the video says to do so.]
+# TODO: 21.  [Do this when the video says to do so.]
 #  The statements below make x and y refer to random integers between 1 and 99,
 #  then prints the values of x and y.
 #  _
