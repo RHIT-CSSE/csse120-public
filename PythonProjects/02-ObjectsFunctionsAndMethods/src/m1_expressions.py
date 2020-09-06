@@ -61,7 +61,7 @@ import math
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 ###############################################################################
-#
+
 # print()
 # print("_TODO 5:")
 # print("2 ** 10  evaluates to:", 2 ** 10)
