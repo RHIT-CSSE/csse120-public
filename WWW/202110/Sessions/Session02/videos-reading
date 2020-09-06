@@ -4,40 +4,53 @@ If you skipped any of the <a href="../Session01/index.html">Preparation from Ses
 go back and do it now (before you do this Preparation).
 ---
 VIDEO
-Getting started in Python - Numbers, Arithmetic Operators, Expressions, Objects, Types, Variables, Assignment, Calling Functions (whew!)
-XXX
-XX:XX
+Getting started in Python - Numbers, Arithmetic Operators, \
+Expressions, Objects, Types, Names, and Assignment (whew!)
+https://youtu.be/iExTqLdVBVE
+49:42
 This video <span class="emphasis">and all the other videos in this section</span>
 have an associated quiz in Moodle.
 
-This video and its Moodle quiz are NOT yet ready.
+While you watch this video, you will complete the
+<span class="emphasis">m1_expressions</span> module of the
+<span class="emphasis">02-ObjectsFunctionsAndMethods</span> project
+in PyCharm.  Watch the beginning of the video for details.
 
-Make this video from:
-Follow these
-<a href="../../../VideoFiles/02.02-ObjectsTypesValuesVariablesAndAssignment-Handout/1-OpeningAPythonConsole.pdf">instructions for opening a <em>Python Console</em></a>
-window in PyCharm.
-Using the Python Console window that you opened in PyCharm,
-do the exercises on this
-handout on
-<a href="../../../VideoFiles/02.02-ObjectsTypesValuesVariablesAndAssignment-Handout/2-GettingStartedInPython.pdf">Getting
-Started in Python</a>
-(and do the associated quiz in Moodle) as you do so.
+This video introduces a lot of ideas, almost all of which will be so natural
+to you that you hardly need to be told it.  As you watch the video and do
+the accompanying work in PyCharm, <span class="emphasis">make notes to yourself</span>
+on things that you think you might not remember until you have practiced them more.
+Over the next few sessions, you will get LOTS of practice on ALL of the ideas
+in this video.
+
+In making this video, we spoke and typed slowly, so that you could keep up with the video.
+For some of you, it may be TOO slow; if so, watch it at 1.5 (or even double) speed,
+using the settings that YouTube provides in most browsers.
+---
+# VIDEO
+# Calling Functions and Methods
+# XXX
+# XX:XX
+# While you watch this video, you will complete the
+# <span class="emphasis">m2_calling_functions_and_methods</span> module of the
+# <span class="emphasis">02-ObjectsFunctionsAndMethods</span> project
+# in PyCharm.
 ---
 VIDEO
 Introduction to Functions
 https://youtu.be/ANMJaAOrIHs
 10:51
 This video refers to exercises that you will see in Session 2
-(the video falsely claims that you will see them in Session 1).
+(the video falsely claims that you saw them in Session 1).
 ---
 VIDEO
 Calling Functions with Arguments
 https://youtu.be/cWeaYTMQXEE
 3:44
-The preceding video explained how a program's <span class="emphasis">flow of control</span>
+The preceding video explained how a program's <span class="emphasis">flow of CONTROL</span>
 changes when a <span class="emphasis">function call</span> occurs.
 
-This video explains the <span class="emphasis">flow of information</span>
+This video explains the <span class="emphasis">flow of INFORMATION</span>
 that occurs during a <span class="emphasis">function call.</span>
 ---
 VIDEO
@@ -45,18 +58,21 @@ Object Oriented Programming (OOP)
 https://youtu.be/uZEhumLGhzs
 7:47
 This video explains the <em>concept</em>
-of Object Oriented Programming,
-contrasting it with <em>Procedural Programming.</em>
+of <span class="technical-name">Object Oriented Programming,</span>
+contrasting it with <span class="technical-name">Procedural Programming.</span>
 ---
 VIDEO
-Classes &mdash; what objects <span class="emphasis">know</span> (in <span class="technical-name">instance variables</span>) and what they can <span class="emphasis">do</span> (via <span class="technical-name">methods</span>); UML Class Diagrams.
+Classes &mdash; what objects <span class="emphasis">know</span> \
+(in <span class="technical-name">instance variables</span>) \
+and what they can <span class="emphasis">do</span> \
+(via <span class="technical-name">methods</span>); UML Class Diagrams
 https://youtu.be/PpER4ObybBI
 7:49
 The previous video introduced the <em>concept</em>
 of Object Oriented Programming (OOP).
 
 This video explains the <em>programming constructs</em>
-that embody OOP &mdash; 
+that embody OOP:
 <span class="technical-name">classes,</span>
 <span class="technical-name">objects,</span>
 <span class="technical-name">methods,</span> and
@@ -66,10 +82,8 @@ VIDEO
 Objects and Classes; Using Objects
 https://youtu.be/ZpvzmheXD50
 20:00
-This video extends the concepts from the previous videos
-to show how a software developer
-<span class="emphasis">uses objects</span>
-to be more productive.
+This video extends the concepts from the previous videos to show how a software developer
+<span class="emphasis">uses objects</span> to be more productive.
 ---
 VIDEO
 Thinking Like a Computer: Control Flow
