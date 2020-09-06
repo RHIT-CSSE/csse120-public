@@ -10,7 +10,7 @@ Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
 
 ###############################################################################
 # TODO: 2.
-#   READ the file   m4r_methods_vs_functions.txt   in this project,
+#   READ the file   m6r_methods_vs_functions.txt   in this project,
 #   ASKING QUESTIONS as needed to understand its contents.
 #   After you have done so, mark this _TODO_ as DONE
 #   and continue to the next _TODO_.

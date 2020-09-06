@@ -58,13 +58,16 @@ def draw_circles(point):
     # -------------------------------------------------------------------------
     # Draw circles centered at the given Point, by telling the SimpleTurtle to:
     #  Step 1: Go to the given Point and point east (towards the right).
-    #  Step 2: Go 15 pixels DOWN, with its Pen up.
-    #          Then draw a radius R circle.
+    #  Step 2:
+    #      a) Put the Pen up (so that movement does NOT draw anything).
+    #      b) Go 15  pixels DOWN, ending up pointing east again.
+    #      c) Put the Pen down (so that movement will cause drawing).
+    #      d) Draw a circle with radius 15.
     #    Note: The circle will be centered at the given Point,
     #    because of the way that the SimpleTurtle  draw_circle  method works.
-    #  Step 3: Repeat Step 2, but using 30 pixels instead of 15, in both places
-    #  Step 4: Repeat Step 2, but using 45 pixels instead of 15
-    #  Step 5: Repeat Step 2, but using 60 pixels instead of 15
+    #  Step 3: Repeat Step 2, but using 30 pixels instead of 15, in both places.
+    #  Step 4: Repeat Step 2, but using 45 pixels instead of 15.
+    #  Step 5: Repeat Step 2, but using 60 pixels instead of 15.
     #    etc.
     # -------------------------------------------------------------------------
 
