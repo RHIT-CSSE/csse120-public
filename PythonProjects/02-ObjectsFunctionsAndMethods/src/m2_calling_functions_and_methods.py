@@ -31,8 +31,8 @@ Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
 #   that imports the   math   module.
 #  _
 #   Then, below this _TODO, put statements that call functions defined
-#   in the math module to do each of the following, running the program
-#   after typing each, to test your statements one by one:
+#   in the math module to PRINT each of the following.
+#   Run the program after typing each, to test your statements one by one:
 #     -- the cosine of 2.5
 #     -- the degrees that is the equivalent of -0.5 radians
 #     -- The base-2 logarithm of the constant   e   where you use the math
