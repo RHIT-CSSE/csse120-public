@@ -21,7 +21,8 @@ class SessionTemplates:
             self.navigation_bar = file_handle.read()
         self.navigation_bar = self.navigation_bar.replace(
             'src="', 'src="../../').replace(
-            'href="', 'href="../../')
+            'href="', 'href="../../').replace(
+                "../../http", "http")
 
         with open(SESSION_SECTION_VIDEOS_READING_TEMPLATE, "r") as file_handle:
             self.videos_reading_template = file_handle.read()
@@ -97,17 +98,17 @@ class SessionPageItem:
         for line in self.note:
             if line == "":
                 if inside_note:
-                    note_string += "</p>\n"
+                    note_string += "    </li>\n"
                     inside_note = False
                 else:
                     pass  # Extra blank line, ignore it
             else:
                 if not inside_note:
                     inside_note = True
-                    note_string += "<p>\n"
-                note_string += "  " + line + "\n"
-        if inside_note:
-            note_string += "      </p>\n"
+                    note_string += "    <li>\n"
+                note_string += "      " + line + "\n"
+        # if inside_note:
+        #     note_string += "      </ul>\n"
         return note_string
 
 
@@ -142,10 +143,10 @@ class SessionSection:
 
         html = ""
         for item in self.items:
-            print(item.make_html())
             html = html + item.make_html()  # FIXME to add spaces
 
-        return template.replace("__SESSION_SECTION_ITEMS__", html)
+        return template.replace("      __SESSION_SECTION_ITEMS__", html)  #
+        # FIXME
 
 
 class SessionPage:
@@ -165,22 +166,19 @@ class SessionPage:
             SESSIONS_FOLDER, self.session_number_string)
         self.filename = "{}/index.html".format(self.session_folder)
 
-        session_videos_reading_filename = "{}/{}".format(
-            self.session_folder, SESSION_VIDEOS_READING_FILENAME)
-        session_quiz_filename = "{}/{}".format(
-            self.session_folder, SESSION_QUIZ_FILENAME)
-        session_follow_me_filename = "{}/{}".format(
-            self.session_folder, SESSION_FOLLOW_ME_FILENAME)
+        processed_lines = []
+        for filename in (SESSION_VIDEOS_READING_FILENAME,
+                         SESSION_QUIZ_FILENAME,
+                         SESSION_FOLLOW_ME_FILENAME):
+            full_filename = "{}/{}".format(self.session_folder, filename)
+            with open(full_filename, "r") as file_handle:
+                lines = file_handle.readlines()
+            processed_lines.append(
+                self.strip_comments(self.handle_line_continuations(lines)))
 
-        with open(session_videos_reading_filename, "r") as file_handle:
-            lines = file_handle.readlines()
-            self.videos_reading_data = self.strip_comments(lines)
-        with open(session_quiz_filename, "r") as file_handle:
-            lines = file_handle.readlines()
-            self.quiz_data = self.strip_comments(lines)
-        with open(session_follow_me_filename, "r") as file_handle:
-            lines = file_handle.readlines()
-            self.follow_me_data = self.strip_comments(lines)
+        self.videos_reading_data = "".join(processed_lines[0])
+        self.quiz_data = "".join(processed_lines[1])
+        self.follow_me_data = "".join(processed_lines[2])
 
         self.videos_reading = SessionSection(self.videos_reading_data,
                                              self.templates,
@@ -193,13 +191,35 @@ class SessionPage:
                                         SessionSectionType.FOLLOW_ME)
 
     @staticmethod
-    def strip_comments(lines: List[str]) -> str:
+    def strip_comments(lines: List[str]) -> List[str]:
         non_comment_lines = []
         for line in lines:
             if len(line) > 0 and line[0] == "#":
                 continue
             non_comment_lines.append(line)
-        return "".join(non_comment_lines)
+        return non_comment_lines
+
+    @staticmethod
+    def handle_line_continuations(lines: List[str]) -> List[str]:
+        print("lines =", lines)
+        lines_after_continuations = []
+        in_continuation = False
+        continuation_line = ""
+        for line in lines:
+            if in_continuation:
+                continuation_line = continuation_line + line
+                print("in continuation:", continuation_line)
+            else:
+                continuation_line = line
+            in_continuation = (len(continuation_line) > 1
+                               and continuation_line[-2] == "\\")
+            if in_continuation:
+                continuation_line = continuation_line[:-2]
+                print("in continuation again:", continuation_line)
+            else:
+                lines_after_continuations.append(continuation_line)
+        # Assumes that the last line does NOT end with \
+        return lines_after_continuations
 
     def make_html(self) -> str:
         videos_reading = self.videos_reading.make_html()
