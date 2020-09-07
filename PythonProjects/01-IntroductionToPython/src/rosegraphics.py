@@ -258,7 +258,7 @@ class RoseWindow(object):
 
         Example:
         If this method is called and then the user clicks near
-        he upper-right corner of a 300 x 500 window,
+        the upper-right corner of a 300 x 500 window,
         this function would return something like rg.Point(295, 5).
         """
         self.mouse.position = None
