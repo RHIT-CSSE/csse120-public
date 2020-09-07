@@ -10,7 +10,7 @@ Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
 
 def main():
     """
-    Tests the other functionns in this module, by running them.
+    Tests the other functions in this module, by running them.
     """
     strings_1("help me Edgar")
     print("The above should have printed:")
@@ -20,10 +20,27 @@ def main():
     strings_1("Ello, here be eeees and ZEEZEE.")
     print("The above should have printed:")
     print("Zllo, hZrZ bZ ZZZZs and zZZzZZ.")
+    print()
 
     strings_1("abcdef ABCDEF")
     print("The above should have printed:")
     print("abcdZf abcdZf")
+    print()
+
+    strings_2("do THIS in title mode!")
+    print("The above should have printed:")
+    print("Do This In Title Mode!")
+    print()
+
+    strings_2("Hey xxx: who isxxx?")
+    print("The above should have printed:")
+    print("Hey Siri: Who Issiri?")
+    print()
+
+    strings_2("OK xx xxxx Sirixxxsiri.")
+    print("The above should have printed:")
+    print("OK Xx Sirix Sirisirisiri.")
+    print()
 
 
 def strings_1(string):
@@ -39,17 +56,40 @@ def strings_1(string):
     """
     ###########################################################################
     # TODO: 2. Implement and test this function, per its doc-string above.
-    #   The testing code (in main) is already written for you.
+    #   Use the appropriate   string   methods to implement the function.
+    #   Tests are already written for you in  main  above.
     #  _
-    #    NOTE: This function requires
-    #      ** exactly 3 lines **
-    #    If you think it needs more, ** ASK FOR HELP. **
-    #    HINT: see   jump_and_move_turtle   above.
+    #   To discover the appropriate   string   methods, temporarily type
+    #      "".
+    #   (note the dot!) and use the so-called DOT TRICK, seeing what you find.
     ###########################################################################
-    string.title()
+
+
+def strings_2(string):
+    """
+    Prints the given string, but with:
+      -- Each occurrence of   xxx   replaced by   Siri, and then
+      -- The string printed in "title" mode.
+    For example:
+      strings_2("do THIS in title mode!")  prints  Do This In Title Mode!
+      strings_2("Hey xxx: who isxxx?")   prints   Hey Siri: Who Issiri?
+      strings_2("OK xx xxxx Sirixxxsiri.")   prints
+          OK Xx Sirix Sirisirisiri.
+    Type hints:
+      :type string: str
+    """
+    ###########################################################################
+    # TODO: 3. Implement and test this function, per its doc-string above.
+    #   Use the appropriate   string   methods to implement the function.
+    #   Tests are already written for you in  main  above.
+    #  _
+    #   To discover the appropriate   string   methods, temporarily type
+    #      "".
+    #   (note the dot!) and use the so-called DOT TRICK, seeing what you find.
+    ###########################################################################
+
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------
-
 main()
