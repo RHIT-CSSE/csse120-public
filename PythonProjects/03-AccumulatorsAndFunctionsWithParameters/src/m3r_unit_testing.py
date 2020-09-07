@@ -3,9 +3,11 @@ This module helps you understand:
   -- UNIT TESTING.
   -- the difference between PRINT and RETURN
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Derek Whitley, their colleagues, and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
+         Matt Boutell, Dave Fisher, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
 ###############################################################################
 # TODO: 2.  If you have not already done so:
 #   Allow this module to use the  rosegraphics.py  module by marking the
