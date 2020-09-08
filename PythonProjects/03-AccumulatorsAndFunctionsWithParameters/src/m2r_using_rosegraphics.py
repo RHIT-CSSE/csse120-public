@@ -166,6 +166,7 @@ def example3():
     corner1 = rectangle.corner_1
     corner2 = rectangle.corner_2
     print(corner1, corner2)  # You can also PRINT RoseGraphics objects.
+    print(rectangle.get_lower_right_corner())
     print(rectangle)  # See the Console for the output.
 
     # -------------------------------------------------------------------------
