@@ -1818,6 +1818,24 @@ class SimpleTurtle(object):
         self._turtle.goto(point.x, point.y)
 
     def set_heading(self, to_angle):
+        """
+        Sets the "heading" of this SimpleTurtle, that is,
+        the direction that the SimpleTurtle is pointing,
+        to the given number of degrees from the x-axis.
+        Examples:
+           turtle.set_heading(0)
+              makes the SimpleTurtle point east (i.e. to the right)
+           turtle.set_heading(270)
+              makes the SimpleTurtle point south (i.e. down)
+           turtle.set_heading(45)
+              makes the SimpleTurtle point up and to the right
+
+        The   to_angle   parameter is normally set to a number between
+        0 and 360, but negative angles work too, in the way you might expect.
+
+        Type hints:
+          :type to_angle: float
+        """
         self._update_real_turtle()
         self._turtle.setheading(to_angle)
 
