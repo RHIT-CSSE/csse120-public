@@ -181,7 +181,7 @@ def try_methods_and_functions():
          each "twisted" from the previous by 15 degrees.
 
       4. Change its speed to 100 (about the fastest possible).
-         Change its Pen's thickness to 35.
+         Change its Pen's thickness to 35.  (Do NOT make a NEW Pen.)
          Draw 8 squares whose size (width and height) are 300,
          each "twisted" from the previous by 60 degrees.
 
@@ -207,5 +207,4 @@ def try_methods_and_functions():
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------
-
 main()
