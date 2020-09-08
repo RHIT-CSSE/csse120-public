@@ -2,17 +2,31 @@ VIDEO
 For module m3r_unit_testing
 https://youtu.be/FeCBZpDKBCs
 10:24
+Do NOT do this Follow-Me <em>before</em> class.  (But see note below.)
+
+Instead, <span class="strong"> do it just before you do the </span>
+<span class="emphasis">m4_calling_functions_returning_values</span> exercise
+in Session 03-AccumulatorsAndFunctionsWithParameters.
+
+That way, the material of this Follow-Me video will be fresh in your mind when you do the follow-up exercise.
+But if you prefer, you can do this Follow-Me video <em>before</em> class and review it as needed
+just before you do the <span class="emphasis">m4_calling_functions_returning_values</span> exercise.
+---
+VIDEO
+For module m2r_using_rosegraphics
+https://youtu.be/EJGUWfTr4iw
+14:01
+Do NOT do this Follow-Me <em>before</em> class.  (But see note below.)
+
+Instead, <span class="strong"> do it just before you do the </span>
+<span class="emphasis">m8_using_objects</span> exercise
+in Session 03-AccumulatorsAndFunctionsWithParameters.
+
+That way, the material of this Follow-Me video will be fresh in your mind when you do the follow-up exercise.
+But if you prefer, you can do this Follow-Me video <em>before</em> class and review it as needed
+just before you do the <span class="emphasis"> m8_using_objects</span> exercise.
 ---
 #VIDEO
 #For TODOs 1 through 4 of module m4_calling_functions_and_methods
 #XXX
 #XX:XX
----
-VIDEO
-For module m2r_using_rosegraphics
-XXX
-XX:XX
-Do NOT do this Follow-Me <em>before</em> class.
-
-Instead, <span class="emphasis">do it just before you do the m8_using_classes exercise</span>
-in Session 03-AccumulatorsAndFunctionsWithParameters.
