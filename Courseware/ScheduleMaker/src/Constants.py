@@ -9,7 +9,7 @@ TERM = "202110"  # Fall, 2020
 
 FOLDER_FOR_HOME_PAGE = "/Users/davidmutchler/csse120-public/WWW/{}".format(TERM)
 
-NUMBER_OF_SESSIONS = 3 # FIXME, temporary
+NUMBER_OF_SESSIONS = 4 # FIXME, temporary
 
 HOME_PAGE = "{}/index.html".format(FOLDER_FOR_HOME_PAGE)
 TERM_INFO_FILE = "{}/term_info.txt".format(FOLDER_FOR_HOME_PAGE)
