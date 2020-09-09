@@ -5,7 +5,7 @@ go back and do it now (before you do this Preparation).
 ---
 READING
 Conditionals: IF and IF-ELSE and IF-ELIF-ELIF...ELSE statements
-../../../VideoFiles/04.1-Conditionals/Conditionals.pdf4:23
+../../../VideoFiles/04.1-Conditionals/Conditionals.pdf
 The above PDF was constructed from portions of
 <a href="http://openbookproject.net/thinkcs/python/english3e/conditionals.html">
 <span class="emphasis">Chapter 5. Conditionals,</span></a>
@@ -44,14 +44,14 @@ Instead, the video wrongly spoke of "positive slope".
 ---
 READING
 What is Unit Testing?
-../../Images/What is Unit Testing.pdf
+WhatisUnitTesting.pdf
 This excellent explanation is taken from
 <a href="http://softwaretestingfundamentals.com/unit-testing/">Unit Testing chapter</a>
 of <a href="http://softwaretestingfundamentals.com/">Software Testing Fundamentals</a>.
 ---
 READING
 Why Do Unit Testing?
-../../Images/Why Do Unit Testing.pdf
+WhyDoUnitTesting.pdf
 This reading is from a
 <a href="http://stackoverflow.com/questions/1383/what-is-unit-testing/">question on StackOverflow</a>.
 
