@@ -55,7 +55,10 @@ Session 7: Names Are References
     - Mutating Objects
 
 Session 8: Exam 1
-  - <a href="ExamInformation/Exam1">Exam 1</a> is <span class=emphasis>Monday,</span> September 21 in the <span class=emphasis>evening.</span> Follow the link for rooms, your <span class=emphasis>Admission Ticket</span> and more. <span class=emphasis>No class Tuesday.</span>
+  - Day: Monday evening
+  - Date: September 21
+  - Time: 7:30 p.m. to 10 p.m.
+  - NoRegularClass: Tuesday, Sept. 22
 
 
 Session 9: Implementing Classes
@@ -91,15 +94,18 @@ Session 14: Sample Exam 2, Exam 2 Practice
   - More Practice for Exam 2
 
 
-Session 15: Exam 2
-  - <a href="ExamInformation/Exam2">Exam 2</a> is <span class="emphasis">Monday,</span> October 12 in the <span class=emphasis>evening.</span> Follow the link for rooms, your <span class=emphasis>Admission Ticket</span> and more. <span class=emphasis>No class Wednesday.</span>
-
-
-Session 16: Sequences And Mutation et al
+Session 15: Sequences And Mutation et al
   - Sequences, III: More Patterns
     - Mutating Lists
     - Two-indices-each-iteration
     - Iterating-in-Parallel
+
+
+Session 16: Exam 2
+  - Day: Monday evening
+  - Date: October 12
+  - Time: 7:30 p.m. to 10 p.m.
+  - NoRegularClass: Tuesday, Oct. 13
 
 
 Session 17: Input, Wait Until Event, While Loops
@@ -130,7 +136,10 @@ Session 21: Sample Exam 3, Exam 3 Practice
 
 
 Session 22: Exam 3
-  - <a href="ExamInformation/Exam3">Exam 3</a> is Tuesday, October 27 in the <span class=emphasis>evening.</span> Follow the link for rooms, your <span class=emphasis>Admission Ticket</span> and more. <span class=emphasis>No regular class Tuesday.</span>
+  - Day: Monday evening
+  - Date: October 26
+  - Time: 7:30 p.m. to 10 p.m.
+  - NoRegularClass: Tuesday, Oct. 27
 
 
 Session 23: Functional Decomposition

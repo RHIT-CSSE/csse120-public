@@ -55,8 +55,59 @@ div.schedule > div.no-class div.session-date {
   font-size: 1.15rem;
 }
 
+/* ANY kind of day (but intended for EXAM and ORDINARY days). */
+div.schedule div.session-number-and-date {
+  grid-column: 1;
+}
+
+div.schedule div.session-preparation {
+  grid-column: 2;
+  font-size:  1.5rem;
+  font-weight: bold;
+  display: grid;
+  align-content: center;
+}
+
+div.schedule span.session-prefix {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+div.schedule span.session-number {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+/* EXAM DAYS */
+div.schedule > div.exam span.exam-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+div.schedule > div.exam > div.exam-date {
+  grid-column: 1;
+  font-weight: bold;
+}
+
+div.schedule > div.exam > div.exam-time {
+  grid-column: 1;
+}
+
+div.schedule > div.exam > div.exam-notes {
+  grid-column: 2;
+}
+
+div.schedule > div.exam > div.exam-link {
+  grid-column: 2;
+  font-weight: bold;
+}
+
+div.schedule > div.exam span.day-of-week {
+  font-style: italic;
+}
+
 /* ORDINARY DAYS (when there IS class) */
-div.schedule > div.session {
+div.schedule > div.session, div.exam {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-around;
@@ -65,27 +116,9 @@ div.schedule > div.session {
   /*grid-column-gap: 2rem;*/
 }
 
-div.schedule > div.session > div.session-number-and-date {
-  grid-column: 1;
-}
 
-div.schedule > div.session > div.session-preparation {
-  grid-column: 2;
-  font-size:  1.5rem;
-  font-weight: bold;
-  display: grid;
-  align-content: center;
-}
 
-div.schedule >  div.session span.session-number {
-  font-size: 2rem;
-  font-weight: bolder;
-}
 
-div.schedule > div.session span.session-prefix {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
 
 div.schedule > div.session span.session-date {
   font-size: 1.15rem;

@@ -1,7 +1,8 @@
-.div.session-page {
+/* For an SESSION page. */
+div.session-page {
 }
 
-/* HEADER for a Session Page (just below its Navigation Bar) */
+/* HEADER (just below its Navigation Bar) */
 div.session-page > div.session-header {
   text-align: center;
   font-size: 1.5rem;

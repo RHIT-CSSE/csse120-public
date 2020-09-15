@@ -9,38 +9,78 @@
 
 body {
   background-color: #fef9c7; /* pale yellow */
-  /* Alternatives:  #abb8c3; /* light grey
-                    #fef9c7; /* pale yellow */
-                    rgb(252, 227, 115);  /* cool yellow
-                    lightyellow; /* really pale yellow, almost white
+  /* Alternatives:  #abb8c3; light grey
+                    #fef9c7; pale yellow
+                    rgb(252, 227, 115); cool yellow
+                    lightyellow;  really pale yellow, almost white
    */
 }
 
+/* For the HOME PAGE (that contains the schedule) */
 div.schedule > div.header {
   background-color: #0693e3; /* blue */
 }
 
 div.schedule > div.day-of-week {
-  background-color: rgb(154,209,139); /* light green */
+  background-color: rgb(154, 209, 139); /* light green */
 }
 
+/* For a SESSION page */
 div.session-page > div.session-header {
-  background-color: #0693e3; /* blue */
+  background-color: #0693e3; /*  */
 }
 
 div.session-page > div.session-body > div.preparation > div.preparation-header {
-  background-color: rgb(248,181,184); /* blue */
+  background-color: rgb(248, 181, 184); /*  */
   /*color: #ffffff;*/
 }
 
 div.session-page div.start-the-session-quiz-header {
-  background-color: #7bdcb5; /* blue */
+  background-color: #7bdcb5; /*  */
 }
 
 div.session-page div.start-the-session-follow-me-header {
   background-color: #8ed1fc; /* */
 }
 
+/* For an EXAM INFORMATION Page */
+div.exam-information-page  div.title {
+  background-color: #0693e3; /*  */
+}
+
+div.exam-information-page  div.title-for-details {
+  background-color: #0693e3; /*  */
+}
+
+div.exam-information-page div.admission-ticket-header {
+  background-color: rgb(248, 181, 184); /*  */
+}
+
+div.exam-information-page div.both-parts-header {
+  background-color: gold;
+}
+
+div.exam-information-page div.when-and-where {
+  background-color: rgb(163, 133, 189); /*  */
+}
+
+div.exam-information-page div.paper-and-pencil {
+  background-color: #7bdcb5; /*  */
+}
+
+div.exam-information-page div.on-the-computer {
+  background-color: #8ed1fc;
+}
+
+div.exam-information-page div.paper-and-pencil-header {
+  background-color: #7bdcb5; /*  */
+}
+
+div.exam-information-page div.on-the-computer-header {
+  background-color: #8ed1fc;
+}
+
+/* For the Navigation Bar (on any page). */
 nav {
   background-color: #026670; /* deep cyan */
 }
