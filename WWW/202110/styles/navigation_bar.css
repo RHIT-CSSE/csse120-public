@@ -58,7 +58,7 @@ nav > div.links {
   grid-column: 3;
   justify-self: start;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   height: 186px; /* Must equal the height of the images, both of which must be the same */
   align-content: center;
   justify-content: center;
