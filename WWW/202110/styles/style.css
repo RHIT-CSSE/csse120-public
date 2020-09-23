@@ -74,6 +74,19 @@ a.video-link {
   padding-right: .25rem;
 }
 
+a.video-link-text {
+}
+
+a.reading-link {
+  font-size: 1.2rem;
+  padding-left: .5rem;
+  padding-right: .25rem;
+}
+
+a.reading-link-text {
+}
+
+
 a.strong-link {
   font-weight: bolder;
   font-style: italic;
