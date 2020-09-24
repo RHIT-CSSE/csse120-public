@@ -5,9 +5,9 @@ This module lets you practice:
   -- DEFINING functions
   -- CALLING functions
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
-         and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
+         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
