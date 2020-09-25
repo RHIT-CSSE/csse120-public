@@ -19,12 +19,21 @@ import math
 import time
 
 # -----------------------------------------------------------------------------
-# TODO: 2. Your instructor will discuss the next two statements with you:
-#   The first (commented out) sets the pseudo-random number generator
-#   to a FIXED starting point, while the second sets it to a more or less
-#   "random" starting point.  After your instructor talks with you about these,
-#   change the above _TODO_ to DONE.
+# TODO: 2. Watch the VIDEO for this module listed in the Follow-Me section
+#  of the Preparation for this session.  It explains the various kinds of
+#  TESTING that are used in this module.
+#    After you have watched that video, mark this _TODO_ as DONE.
 # -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# The first of the two statements below makes each run of the program
+#   use the same sequence of pseudo-random numbers.
+# The second of the two statements below makes each run of the program
+#   use a hard-to-predict sequence of pseudo-random numbers (one that depends
+#   on the time of day), hence makes the sequence differ from run to run
+#   in a way that appears random.
+# -----------------------------------------------------------------------------
+
 # random.seed(42)
 random.seed((time.time() * 100) % 1000)
 
