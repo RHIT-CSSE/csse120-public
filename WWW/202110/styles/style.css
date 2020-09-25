@@ -54,7 +54,8 @@ span.critical {
   color: red;
 }
 
-span.technical-name {
+span.technical-name,
+span.technical-term {  /* synonyms */
   font-weight: bold;
   font-style: italic;
   color: #0000ff;
@@ -85,7 +86,6 @@ a.reading-link {
 
 a.reading-link-text {
 }
-
 
 a.strong-link {
   font-weight: bolder;
