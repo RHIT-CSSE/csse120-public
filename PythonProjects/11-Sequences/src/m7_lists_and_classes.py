@@ -43,8 +43,8 @@ class Point:
           :type another_point: Point
           :rtype float
         """
-        delta_x = self.x = another_point.x
-        delta_y = self.y = another_point.y
+        delta_x = self.x - another_point.x
+        delta_y = self.y - another_point.y
         return math.sqrt((delta_x * delta_x) + (delta_y * delta_y))
 
 
@@ -168,7 +168,7 @@ class ConceptMap:
                returns  1 + 3 + 4,   which is 8
         """
         # ---------------------------------------------------------------------
-        # TODO: 3. Follow along with the video to implement and test this
+        # TODO: 6. Follow along with the video to implement and test this
         #   method.  Tests have been written for you (below) and include
         #   the example in the above doc-string.
         # ---------------------------------------------------------------------
@@ -178,6 +178,7 @@ class ConceptMap:
         Examines the Circle objects that this ConceptMap has,
         but looking only at those at odd-numbered indices (1, 3, 5, ...)
         Returns the product of the radii of those Circles.
+        For example:
             circles1 = [Circle(Point(11, 12), 10),
                         Circle(Point(14, 13), 8),
                         Circle(Point(10, 20), 5),
@@ -189,7 +190,37 @@ class ConceptMap:
                returns  8 * 12, which is 96
         """
         # ---------------------------------------------------------------------
-        # TODO: 6. Implement and test this method.  Tests have been written
+        # TODO: 7. Implement and test this method.  Tests have been written
+        #   for you (below) and include the example in the above doc-string.
+        # ---------------------------------------------------------------------
+
+    def sum_of_distances(self, point):
+        """
+        Examines the Circle objects that this ConceptMap has.
+        For each such Circle object, examines its center and computes
+        the distance that that center is from the given point
+            [USE THE Point distance_from METHOD TO DO SO!].
+        Adds up all those distances, and returns the resulting sum.
+        For example:
+            circles1 = [Circle(Point(11, 12), 10),
+                        Circle(Point(14, 13), 8),
+                        Circle(Point(10, 20), 5),
+                        Circle(Point(30, 15), 12),
+                        Circle(Point(50, 35), 33)]
+            concept_map1 = ConceptMap(circles1)
+
+            concept_map1.sum_of_distances(Point(14, 12))
+               returns
+              [    distance from (11, 12) to (14, 12)
+                +  distance from (14, 13) to (14, 12)
+                +  distance from (10, 20) to (14, 12)
+                +  distance from (30, 15) to (14, 12)
+                +  distance from (50, 35) to (14, 12)]
+               which is (approximately)
+              [ 3  +  1  +  8.94  +  16.28  +  42.72], which is about 71.943111.
+        """
+        # ---------------------------------------------------------------------
+        # TODO: 8. Implement and test this method.  Tests have been written
         #   for you (below) and include the example in the above doc-string.
         # ---------------------------------------------------------------------
 
@@ -235,6 +266,7 @@ def main():
     run_test_product_of_sums_of_x_and_y_coordinates(concept_map1, concept_map2)
     run_test_sum_of_some_indices(concept_map1, concept_map2)
     run_test_product_of_some_radii(concept_map1, concept_map2)
+    run_test_sum_of_distances(concept_map1, concept_map2)
 
 
 def run_test_sum_of_x_coordinates(concept_map1, concept_map2):
@@ -376,6 +408,34 @@ def run_test_product_of_some_radii(concept_map1, concept_map2):
     print("Expected:", expected)
     print("Actual:  ", actual)
     if actual != expected:
+        testing_helper.print_colored("FAILED the above test", color="red")
+
+
+def run_test_sum_of_distances(concept_map1, concept_map2):
+    """
+    What comes in: two ConceptMap objects.
+    Side effects:  Tests the   sum_of_distances   method twice:
+      once using the given concept_map1 and then using the given concept_map2.
+    """
+    print()
+    print("--------------------------------------------------")
+    print("Testing the  sum_of_distances   method:")
+    print("--------------------------------------------------")
+
+    # Test using concept_map1:
+    expected = 71.943111
+    actual = concept_map1.sum_of_distances(Point(14, 12))
+    print("Expected:", expected, "(approximately)")
+    print("Actual:  ", actual)
+    if actual is None or abs(actual - expected) > 0.00001:
+        testing_helper.print_colored("FAILED the above test", color="red")
+
+    # Test using concept_map2:
+    expected = 398.519518
+    actual = concept_map2.sum_of_distances(Point(100, 200))
+    print("Expected:", expected, "(approximately)")
+    print("Actual:  ", actual)
+    if actual is None or abs(actual - expected) > 0.00001:
         testing_helper.print_colored("FAILED the above test", color="red")
 
 
