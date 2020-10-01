@@ -22,7 +22,7 @@ import time
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_summary1a()
-    run_test_summary1c()
+    run_test_summary1b()
     run_test_summary1c()
 
 
