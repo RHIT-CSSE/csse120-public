@@ -1,5 +1,4 @@
 """
-
 This module lets you practice various patterns
 for ITERATING through SEQUENCES, including selections from:
   -- Beginning to end
@@ -27,67 +26,142 @@ import math
 def main():
     """ Calls the   TEST   functions in this module. """
     # Un-comment the tests as you implement their functions.
-    run_test_make_even_numbers()
-    run_test_make_concatenation()
-    run_test_multiply_x_coordinates()
-    run_test_shortest_string()
-    run_test_index_of_largest_number()
-    run_test_has_stutters()
-    run_test_is_palindrome()
-    run_test_count_same()
+    run_test_biggest_at_even()
+    # run_test_smallest_index_where_zero()
+    # run_test_multiply_x_coordinates()
+    # run_test_count_same()
+    # run_test_index_of_largest_number()
+    # run_test_has_stutters()
+    # run_test_shortest_string()
+    # run_test_is_palindrome()
+    # run_test_make_even_numbers()
+    # run_test_make_concatenation()
 
 
-def run_test_make_even_numbers():
-    """ Tests the   make_even_numbers   function. """
+def run_test_biggest_at_even():
+    """ Tests the    biggest_at_even    function. """
     print()
-    print("--------------------------------------------------")
-    print("Testing the   make_even_numbers   function:")
-    print("--------------------------------------------------")
+    print('--------------------------------------------------')
+    print('Testing the   biggest_at_even  function:')
+    print('--------------------------------------------------')
 
-    format_string = "    make_even_numbers ( {} )"
+    format_string = '    biggest_at_even( {} )'
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
-    expected = [2, 4, 6, 8]
-    print_expected_result_of_test([4], expected, test_results, format_string)
-    actual = make_even_numbers(4)
+    expected = 161
+    sequence = (12, 33, 18, 9, 13, 3, 99, 20, 19, 20)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
-    expected = [2, 4, 6, 8, 10, 12, 14]
-    print_expected_result_of_test([7], expected, test_results, format_string)
-    actual = make_even_numbers(7)
+    expected = 29
+    sequence = (3, 12, 10, 8, 8, 9, 8, 11)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 3:
-    expected = []
-    print_expected_result_of_test([0], expected, test_results, format_string)
-    actual = make_even_numbers(0)
+    expected = -9999999999
+    sequence = (-9999999999, 8888888888)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
-
-    print_summary_of_test_results(test_results)
 
     # Test 4:
-    expected = [2]
-    print_expected_result_of_test([1], expected, test_results, format_string)
-    actual = make_even_numbers(1)
+    expected = 8888888888
+    sequence = (8888888888, -9999999999)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
+    # Test 5:
+    expected = -176
+    sequence = (-77, 20000, -33, 40000, -55, 60000, -11)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    expected = 0
+    sequence = ()
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    expected = 0
+    sequence = []
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 8:
+    expected = 8
+    sequence = [8]
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 9:
+    expected = -77
+    sequence = (-77, 8)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 10:
+    expected = 0
+    sequence = (-77, 8, 77)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 11:
+    expected = 1
+    sequence = (-77, 8, 78)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 12:
+    expected = 1
+    sequence = (-77, 8, 78, 100)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = biggest_at_even(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # SUMMARY of test results:
     print_summary_of_test_results(test_results)
 
 
-def make_even_numbers(n):
+def biggest_at_even(sequence):
     """
-    What comes in:  A non-negative integer n.
-    What goes out: Returns the list   [2, 4, 6, 8, 10, 12, ... 2n]
-      for the given n.
+    What comes in:
+      A sequence of numbers.
+    What goes out:
+      Returns the sum of the numbers at EVEN INDICES of the sequence.
     Side effects: None.
     Examples:
-      -- make_even_numbers(4) returns the list:  [2, 4, 6, 8]
-      -- make_even_numbers(7) returns the list:  [2, 4, 6, 8, 10, 12, 14]
-      -- make_even_numbers(0) returns the list:  []  (the empty list)
+      If the sequence is:
+          (12, 33, 18, 9, 13, 3, 99, 20, 19, 20)
+      then this function returns
+           12 + 18 + 13 + 99 + 19, which is 161.
     Type hints:
-      :type n: int
+      :type sequence: list(float)    or tuple(float)
     """
     # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
@@ -95,90 +169,123 @@ def make_even_numbers(n):
     # -------------------------------------------------------------------------
 
 
-def run_test_make_concatenation():
-    """ Tests the   make_concatenation   function. """
+def run_test_smallest_index_where_zero():
+    """ Tests the    smallest_index_where_zero    function. """
     print()
-    print("--------------------------------------------------")
-    print("Testing the   concatenation   function:")
-    print("--------------------------------------------------")
+    print('--------------------------------------------------')
+    print('Testing the   smallest_index_where_zero  function:')
+    print('--------------------------------------------------')
 
-    format_string = "    make_concatenation ( {} )"
+    format_string = '    smallest_index_where_zero( {} )'
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
-    expected = "GivePeaceAChance"
-    strings = ["Give", "Peace", "A", "Chance"]
-    print_expected_result_of_test([strings], expected, test_results,
+    expected = 1
+    sequence = (9, 0, 8, 0, 0, 4, 4, 0)
+    print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = make_concatenation(strings)
+    actual = smallest_index_where_zero(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
-    expected = "HelloGoodbyeHere andThere"
-    strings = ["Hello", "Goodbye", "Here and", "There"]
-    print_expected_result_of_test([strings], expected, test_results,
+    expected = 4
+    sequence = (9, 9, 9, 9, 0, 9, 9, 9)
+    print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = make_concatenation(strings)
+    actual = smallest_index_where_zero(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 3:
-    expected = "I love that hat."
-    strings = ["I ", "love ", "that hat."]
-    print_expected_result_of_test([strings], expected, test_results,
+    expected = -1
+    sequence = (4, 5, 4, 5, 4, 5, 4)
+    print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = make_concatenation(strings)
+    actual = smallest_index_where_zero(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
-    print_summary_of_test_results(test_results)
-
     # Test 4:
-    expected = ""
-    strings = []
-    print_expected_result_of_test([strings], expected, test_results,
+    expected = 0
+    sequence = [0, 0, 0]
+    print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = make_concatenation(strings)
+    actual = smallest_index_where_zero(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 5:
-    expected = ""
-    strings = ["", "", ""]
-    print_expected_result_of_test([strings], expected, test_results,
+    expected = 0
+    sequence = [0, 0]
+    print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = make_concatenation(strings)
+    actual = smallest_index_where_zero(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    expected = 0
+    sequence = [0, 77]
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = smallest_index_where_zero(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    expected = 1
+    sequence = [-40, 0]
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = smallest_index_where_zero(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 8:
+    expected = -1
+    sequence = [-40, 67]
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = smallest_index_where_zero(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 9:
+    expected = 1
+    sequence = (1, 0, 2, 0, 0, 0, 0, 6, 9, 0, 0, 12)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = smallest_index_where_zero(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # SUMMARY of test results:
     print_summary_of_test_results(test_results)
 
 
-def make_concatenation(strings):
+def smallest_index_where_zero(sequence):
     """
-    What comes in: A sequence of strings.
-    What goes out: Returns the "concatenation" of all the strings,
-      that is, returns a single string that is all of the strings
-      "stiched together".  See examples.
+    What comes in: A sequence of integers.
+    What goes out: Returns the first (leftmost) place (index)
+      for which the item at that place equals 0.
+      Returns -1 if the sequence contains no items equal to 0.
     Side effects: None.
     Examples:
-      -- make_concatenation(["Give",
-                             "Peace",
-                             "A",
-                             "Chance"])
-             returns "GivePeaceAChance"
-      -- make_concatenation(["Hello", "Goodbye", "Here and", "There"])
-            returns    "HelloGoodbyeHere andThere"
-      -- make_concatenation(["I ", "love ", "that hat."])
-            returns    "I love that hat."
-      -- make_concatenation([])   returns  ""  (the empty string)
-      -- make_concatenation(["", "", ""])   returns   ""  (the empty string)
+      Given sequence (9, 0, 8, 0, 0, 4, 4, 0)
+         -- this function returns 1
+              since 0 first appears at index 1
+
+      Given sequence [9, 9, 9, 9, 0, 9, 9, 9]
+         -- this function returns 4
+              since 0 first appears at index 4
+
+      Given sequence (4, 5, 4, 5, 4, 5, 4)
+         -- this function returns -1
+              since none of the items are 0.
+
+      Given sequence [0, 0, 0]
+         -- this function returns 0
+              since 0 first appears at index 0
+
     Type hints:
-      :type strings: list[str]
+      :type: sequence: list    or tuple or string
     """
     # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #     The testing code is already written for you (above).
-    #   HINT: The   +    operator concatenates ("stiches together")
-    #   any two strings.
-    # -------------------------------------------------------------------------
+    #  ------------------------------------------------------------------------
 
 
 def run_test_multiply_x_coordinates():
@@ -281,127 +388,182 @@ def multiply_x_coordinates(circles):
     #  ------------------------------------------------------------------------
 
 
-def run_test_shortest_string():
-    """ Tests the   shortest_string   function. """
+def run_test_count_same():
+    """ Tests the   count_same   function. """
     print()
     print("--------------------------------------------------")
-    print("Testing the   shortest_string   function:")
+    print("Testing the   count_same   function:")
     print("--------------------------------------------------")
 
-    format_string = "    shortest_string ( {} )"
+    format_string = "    count_same ( {} )"
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
-    expected = "a"
-    sequence = ("all", "we", "are", "saying",
-                "is", "give", "peace", "a", "chance")
-    print_expected_result_of_test([sequence], expected, test_results,
-                                  format_string)
-    actual = shortest_string(sequence)
+    expected = 3
+    sequence1 = (11, 33, 83, 18, 30, 55)
+    sequence2 = (99, 33, 83, 19, 30, 44)
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
-    expected = "we"
-    sequence = ("all", "we", "are", "saying",
-                "is", "give", "peace", "a chance")
-    print_expected_result_of_test([sequence], expected, test_results,
-                                  format_string)
-    actual = shortest_string(sequence)
+    expected = 8
+    sequence1 = "how are you today?"
+    sequence2 = "HOW? r ex u tiday?"
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 3:
-    expected = "is"
-    sequence = ("all we", "are saying",
-                "is", "give", "peace", "a chance")
-    print_expected_result_of_test([sequence], expected, test_results,
-                                  format_string)
-    actual = shortest_string(sequence)
+    expected = 1
+    sequence1 = [1, 44, 55]
+    sequence2 = [0, 44, 77]
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 4:
-    expected = "all we are saying is give peace a chance"
-    sequence = ("all we are saying is give peace a chance",)
-    print_expected_result_of_test([sequence], expected, test_results,
-                                  format_string)
-    actual = shortest_string(sequence)
+    expected = 2
+    sequence1 = (1, 44, 55, 88, 44, 88)
+    sequence2 = (1, 55, 44, 55, 88, 88)
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 5:
-    expected = "a"
-    sequence = ("a", "c", "b")
-    print_expected_result_of_test([sequence], expected, test_results,
-                                  format_string)
-    actual = shortest_string(sequence)
+    expected = 0
+    sequence1 = [1, 44, 55, 88, 44]
+    sequence2 = [0, 43, 77, 8, 4]
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 6:
-    expected = "c"
-    sequence = ("ab", "c", "b")
-    print_expected_result_of_test([sequence], expected, test_results,
-                                  format_string)
-    actual = shortest_string(sequence)
+    expected = 0
+    sequence1 = []
+    sequence2 = []
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 7:
-    expected = "b"
-    sequence = ("ab", "cd", "b")
-    print_expected_result_of_test([sequence], expected, test_results,
-                                  format_string)
-    actual = shortest_string(sequence)
+    expected = 2
+    sequence1 = "ok"
+    sequence2 = "ok"
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 8:
-    expected = "a"
-    sequence = ("a", "c", "b")
-    print_expected_result_of_test([sequence], expected, test_results,
-                                  format_string)
-    actual = shortest_string(sequence)
+    expected = 1
+    sequence1 = "ox"
+    sequence2 = "ok"
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 9:
-    expected = ""
-    sequence = ("a", "b", "")
-    print_expected_result_of_test([sequence], expected, test_results,
-                                  format_string)
-    actual = shortest_string(sequence)
+    expected = 1
+    sequence1 = "ok"
+    sequence2 = "xk"
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 10:
-    expected = ""
-    sequence = ("a", "b", "")
-    print_expected_result_of_test([sequence], expected, test_results,
-                                  format_string)
-    actual = shortest_string(sequence)
+    expected = 1
+    sequence1 = "o"
+    sequence2 = "o"
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 11:
+    expected = 0
+    sequence1 = "y"
+    sequence2 = "n"
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 12:
+    expected = 20
+    sequence1 = "12345678901234567890"
+    sequence2 = "12345678901234567890"
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 13:
+    expected = 19
+    sequence1 = "12345678901234567890"
+    sequence2 = "1234567890123456789z"
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 14:
+    expected = 18
+    sequence1 = "12345678901234567890"
+    sequence2 = "z234567890123456789z"
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 15:
+    expected = 0
+    sequence1 = "12345678901234567890"
+    sequence2 = "23456789012345678901"
+    print_expected_result_of_test([sequence1, sequence2], expected,
+                                  test_results, format_string)
+    actual = count_same(sequence1, sequence2)
     print_actual_result_of_test(expected, actual, test_results)
 
     # SUMMARY of test results:
     print_summary_of_test_results(test_results)
 
 
-def shortest_string(strings):
+def count_same(sequence1, sequence2):
     """
     What comes in:
-      -- a non-empty sequence of strings
-    What goes out: Returns the shortest string in the given sequence
-    of strings.  If there is a tie for shortest string, returns the one
-    (among the ties) whose index is smallest.
+      -- two sequences that have the same length
+    What goes out: Returns the number of indices at which the two
+      given sequences have the same item at that index.
     Side effects: None.
     Examples:
-      If the argument is:
-        ["all", "we",  "are saying", "is", "give", "peace", "a chance"]
-      then this function returns  "we"
+      If the sequences are:
+          (11, 33, 83, 18, 30, 55)
+          (99, 33, 83, 19, 30, 44)
+      then this function returns  3
+      since the two sequences have the same item at:
+        -- index 1 (both are 33)
+        -- index 2 (both are 83)
+        -- index 4 (both are 30)
 
-      If the argument is:
-        ["all we",  "are saying", "is give", "peace", "a chance"]
-      then this function returns  "peace"
-
-      If the argument is:
-        ["all we are saying", "is give", "peace a chance"]
-      then this function returns  "is give"
-
-      If the argument is ["abc"], then this function returns  "abc".
+      Another example:  if the sequences are:
+          "how are you today?"
+          "HOW? r ex u tiday?"
+      then this function returns  8  since the sequences are the same
+      at indices 5 (both are "r"), 10 (both are "u"), 11 (both are " "),
+      12 (both are "t"), 14 (both are "d"), 15 (both are "a"),
+      16 (both are "y") and 17 (both are "?") -- 8 indices.
     Type hints:
-      :type strings: list[str]   or tuple(str)
+      type: sequence1: tuple or list or string
+      type: sequence2: tuple or list or string
     """
     # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
@@ -754,6 +916,134 @@ def has_stutters(s):
     # -------------------------------------------------------------------------
 
 
+def run_test_shortest_string():
+    """ Tests the   shortest_string   function. """
+    print()
+    print("--------------------------------------------------")
+    print("Testing the   shortest_string   function:")
+    print("--------------------------------------------------")
+
+    format_string = "    shortest_string ( {} )"
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # Test 1:
+    expected = "a"
+    sequence = ("all", "we", "are", "saying",
+                "is", "give", "peace", "a", "chance")
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:
+    expected = "we"
+    sequence = ("all", "we", "are", "saying",
+                "is", "give", "peace", "a chance")
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    expected = "is"
+    sequence = ("all we", "are saying",
+                "is", "give", "peace", "a chance")
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 4:
+    expected = "all we are saying is give peace a chance"
+    sequence = ("all we are saying is give peace a chance",)
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    expected = "a"
+    sequence = ("a", "c", "b")
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    expected = "c"
+    sequence = ("ab", "c", "b")
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    expected = "b"
+    sequence = ("ab", "cd", "b")
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 8:
+    expected = "a"
+    sequence = ("a", "c", "b")
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 9:
+    expected = ""
+    sequence = ("a", "b", "")
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 10:
+    expected = ""
+    sequence = ("a", "b", "")
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # SUMMARY of test results:
+    print_summary_of_test_results(test_results)
+
+
+def shortest_string(strings):
+    """
+    What comes in:
+      -- a non-empty sequence of strings
+    What goes out: Returns the shortest string in the given sequence
+    of strings.  If there is a tie for shortest string, returns the one
+    (among the ties) whose index is smallest.
+    Side effects: None.
+    Examples:
+      If the argument is:
+        ["all", "we",  "are saying", "is", "give", "peace", "a chance"]
+      then this function returns  "we"
+
+      If the argument is:
+        ["all we",  "are saying", "is give", "peace", "a chance"]
+      then this function returns  "peace"
+
+      If the argument is:
+        ["all we are saying", "is give", "peace a chance"]
+      then this function returns  "is give"
+
+      If the argument is ["abc"], then this function returns  "abc".
+    Type hints:
+      :type strings: list[str]   or tuple(str)
+    """
+    # -------------------------------------------------------------------------
+    # TODO: 8. Implement and test this function.
+    #     The testing code is already written for you (above).
+    # -------------------------------------------------------------------------
+
+
 def run_test_is_palindrome():
     """ Tests the   is_palindrome   function. """
     print()
@@ -904,7 +1194,7 @@ def is_palindrome(s):
       :type s: str
     """
     # -------------------------------------------------------------------------
-    # TODO: 8. Implement and test this function.
+    # TODO: 9. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ___
     #  ########################################################################
@@ -915,186 +1205,147 @@ def is_palindrome(s):
     # -------------------------------------------------------------------------
 
 
-def run_test_count_same():
-    """ Tests the   count_same   function. """
+def run_test_make_even_numbers():
+    """ Tests the   make_even_numbers   function. """
     print()
     print("--------------------------------------------------")
-    print("Testing the   count_same   function:")
+    print("Testing the   make_even_numbers   function:")
     print("--------------------------------------------------")
 
-    format_string = "    count_same ( {} )"
+    format_string = "    make_even_numbers ( {} )"
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
-    expected = 3
-    sequence1 = (11, 33, 83, 18, 30, 55)
-    sequence2 = (99, 33, 83, 19, 30, 44)
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
+    expected = [2, 4, 6, 8]
+    print_expected_result_of_test([4], expected, test_results, format_string)
+    actual = make_even_numbers(4)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
-    expected = 8
-    sequence1 = "how are you today?"
-    sequence2 = "HOW? r ex u tiday?"
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
+    expected = [2, 4, 6, 8, 10, 12, 14]
+    print_expected_result_of_test([7], expected, test_results, format_string)
+    actual = make_even_numbers(7)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 3:
-    expected = 1
-    sequence1 = [1, 44, 55]
-    sequence2 = [0, 44, 77]
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
+    expected = []
+    print_expected_result_of_test([0], expected, test_results, format_string)
+    actual = make_even_numbers(0)
     print_actual_result_of_test(expected, actual, test_results)
 
+    print_summary_of_test_results(test_results)
+
     # Test 4:
-    expected = 2
-    sequence1 = (1, 44, 55, 88, 44, 88)
-    sequence2 = (1, 55, 44, 55, 88, 88)
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
+    expected = [2]
+    print_expected_result_of_test([1], expected, test_results, format_string)
+    actual = make_even_numbers(1)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    print_summary_of_test_results(test_results)
+
+
+def make_even_numbers(n):
+    """
+    What comes in:  A non-negative integer n.
+    What goes out: Returns the list   [2, 4, 6, 8, 10, 12, ... 2n]
+      for the given n.
+    Side effects: None.
+    Examples:
+      -- make_even_numbers(4) returns the list:  [2, 4, 6, 8]
+      -- make_even_numbers(7) returns the list:  [2, 4, 6, 8, 10, 12, 14]
+      -- make_even_numbers(0) returns the list:  []  (the empty list)
+    Type hints:
+      :type n: int
+    """
+    # -------------------------------------------------------------------------
+    # TODO: 10. Implement and test this function.
+    #     The testing code is already written for you (above).
+    # -------------------------------------------------------------------------
+
+
+def run_test_make_concatenation():
+    """ Tests the   make_concatenation   function. """
+    print()
+    print("--------------------------------------------------")
+    print("Testing the   concatenation   function:")
+    print("--------------------------------------------------")
+
+    format_string = "    make_concatenation ( {} )"
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # Test 1:
+    expected = "GivePeaceAChance"
+    strings = ["Give", "Peace", "A", "Chance"]
+    print_expected_result_of_test([strings], expected, test_results,
+                                  format_string)
+    actual = make_concatenation(strings)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:
+    expected = "HelloGoodbyeHere andThere"
+    strings = ["Hello", "Goodbye", "Here and", "There"]
+    print_expected_result_of_test([strings], expected, test_results,
+                                  format_string)
+    actual = make_concatenation(strings)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    expected = "I love that hat."
+    strings = ["I ", "love ", "that hat."]
+    print_expected_result_of_test([strings], expected, test_results,
+                                  format_string)
+    actual = make_concatenation(strings)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    print_summary_of_test_results(test_results)
+
+    # Test 4:
+    expected = ""
+    strings = []
+    print_expected_result_of_test([strings], expected, test_results,
+                                  format_string)
+    actual = make_concatenation(strings)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 5:
-    expected = 0
-    sequence1 = [1, 44, 55, 88, 44]
-    sequence2 = [0, 43, 77, 8, 4]
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 6:
-    expected = 0
-    sequence1 = []
-    sequence2 = []
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 7:
-    expected = 2
-    sequence1 = "ok"
-    sequence2 = "ok"
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 8:
-    expected = 1
-    sequence1 = "ox"
-    sequence2 = "ok"
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 9:
-    expected = 1
-    sequence1 = "ok"
-    sequence2 = "xk"
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 10:
-    expected = 1
-    sequence1 = "o"
-    sequence2 = "o"
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 11:
-    expected = 0
-    sequence1 = "y"
-    sequence2 = "n"
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 12:
-    expected = 20
-    sequence1 = "12345678901234567890"
-    sequence2 = "12345678901234567890"
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 13:
-    expected = 19
-    sequence1 = "12345678901234567890"
-    sequence2 = "1234567890123456789z"
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 14:
-    expected = 18
-    sequence1 = "12345678901234567890"
-    sequence2 = "z234567890123456789z"
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 15:
-    expected = 0
-    sequence1 = "12345678901234567890"
-    sequence2 = "23456789012345678901"
-    print_expected_result_of_test([sequence1, sequence2], expected,
-                                  test_results, format_string)
-    actual = count_same(sequence1, sequence2)
+    expected = ""
+    strings = ["", "", ""]
+    print_expected_result_of_test([strings], expected, test_results,
+                                  format_string)
+    actual = make_concatenation(strings)
     print_actual_result_of_test(expected, actual, test_results)
 
     # SUMMARY of test results:
     print_summary_of_test_results(test_results)
 
 
-def count_same(sequence1, sequence2):
+def make_concatenation(strings):
     """
-    What comes in:
-      -- two sequences that have the same length
-    What goes out: Returns the number of indices at which the two
-      given sequences have the same item at that index.
+    What comes in: A sequence of strings.
+    What goes out: Returns the "concatenation" of all the strings,
+      that is, returns a single string that is all of the strings
+      "stiched together".  See examples.
     Side effects: None.
     Examples:
-      If the sequences are:
-          (11, 33, 83, 18, 30, 55)
-          (99, 33, 83, 19, 30, 44)
-      then this function returns  3
-      since the two sequences have the same item at:
-        -- index 1 (both are 33)
-        -- index 2 (both are 83)
-        -- index 4 (both are 30)
-
-      Another example:  if the sequences are:
-          "how are you today?"
-          "HOW? r ex u tiday?"
-      then this function returns  8  since the sequences are the same
-      at indices 5 (both are "r"), 10 (both are "u"), 11 (both are " "),
-      12 (both are "t"), 14 (both are "d"), 15 (both are "a"),
-      16 (both are "y") and 17 (both are "?") -- 8 indices.
+      -- make_concatenation(["Give",
+                             "Peace",
+                             "A",
+                             "Chance"])
+             returns "GivePeaceAChance"
+      -- make_concatenation(["Hello", "Goodbye", "Here and", "There"])
+            returns    "HelloGoodbyeHere andThere"
+      -- make_concatenation(["I ", "love ", "that hat."])
+            returns    "I love that hat."
+      -- make_concatenation([])   returns  ""  (the empty string)
+      -- make_concatenation(["", "", ""])   returns   ""  (the empty string)
     Type hints:
-      type: sequence1: tuple or list or string
-      type: sequence2: tuple or list or string
+      :type strings: list[str]
     """
     # -------------------------------------------------------------------------
-    # TODO: 9. Implement and test this function.
+    # TODO: 11. Implement and test this function.
     #     The testing code is already written for you (above).
+    #   HINT: The   +    operator concatenates ("stiches together")
+    #   any two strings.
     # -------------------------------------------------------------------------
 
 
