@@ -54,6 +54,12 @@ span.critical {
   color: red;
 }
 
+span.optional {
+  font-weight: bold;
+  font-style: italic;
+  color: darkgreen;
+}
+
 span.technical-name,
 span.technical-term {  /* synonyms */
   font-weight: bold;
