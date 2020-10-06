@@ -35,7 +35,6 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_practice_problem3a()
     run_test_practice_problem3b()
     run_test_practice_problem3c()
     run_test_practice_problem3d()
@@ -81,110 +80,6 @@ def is_prime(n):
 # Students: Some of the testing code below uses a simple testing framework.
 # Ask for help if the tests that we supply are not clear to you.
 ###############################################################################
-
-def run_test_practice_problem3a():
-    """ Tests the    practice_problem3a    function. """
-    print()
-    print('--------------------------------------------------')
-    print('Testing the   practice_problem3a  function:')
-    print('--------------------------------------------------')
-
-    format_string = '    practice_problem3a( {} )'
-    test_results = [0, 0]  # Number of tests passed, failed.
-
-    # Test 1:
-    expected = 5 * 2 * 7 * 10 * 2  # which is 1400
-    circles = (rg.Circle(rg.Point(5, 10), 20),
-               rg.Circle(rg.Point(2, 20), 20),
-               rg.Circle(rg.Point(7, 30), 10),
-               rg.Circle(rg.Point(10, 40), 20),
-               rg.Circle(rg.Point(2, 50), 10))
-    print_expected_result_of_test([circles], expected, test_results,
-                                  format_string)
-    actual = practice_problem3a(circles)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 2:
-    expected = 58
-    circles = (rg.Circle(rg.Point(58, 10), 20),)
-    print_expected_result_of_test([circles], expected, test_results,
-                                  format_string)
-    actual = practice_problem3a(circles)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 3:
-    expected = 84 * 28 * 10005  # which is 23531760
-    circles = (rg.Circle(rg.Point(84, 100), 200),
-               rg.Circle(rg.Point(28, 200), 200),
-               rg.Circle(rg.Point(10005, 300), 100))
-    print_expected_result_of_test([circles], expected, test_results,
-                                  format_string)
-    actual = practice_problem3a(circles)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 4:
-    expected = 1
-    circles = ()
-    print_expected_result_of_test([circles], expected, test_results,
-                                  format_string)
-    actual = practice_problem3a(circles)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 5:
-    expected = 5 * 0 * 7 * 10 * 2  # which is 0
-    circles = (rg.Circle(rg.Point(5, 10), 20),
-               rg.Circle(rg.Point(0, 20), 20),
-               rg.Circle(rg.Point(7, 30), 10),
-               rg.Circle(rg.Point(10, 40), 20),
-               rg.Circle(rg.Point(2, 50), 10))
-
-    print_expected_result_of_test([circles], expected, test_results,
-                                  format_string)
-    actual = practice_problem3a(circles)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # Test 6:
-    circles = []
-    for k in range(1, 101):
-        circles.append(rg.Circle(rg.Point(k, k + 20), 5 * k))
-    expected = math.factorial(100)
-    print_expected_result_of_test([circles], expected, test_results,
-                                  format_string)
-    actual = practice_problem3a(circles)
-    print_actual_result_of_test(expected, actual, test_results)
-
-    # SUMMARY of test results:
-    print_summary_of_test_results(test_results)
-
-
-def practice_problem3a(circles):
-    """
-    What comes in:  A sequence of rg.Circles.
-    What goes out:  Returns a list of the centers of the rg.Circle objects
-    whose
-      Returns 1 if the given sequence is empty.
-    Side effects: None.
-    Examples:
-      If the sequence is a list containing these 5 rg.Circles:
-        rg.Circle(rg.Point(5, 10), 20)
-        rg.Circle(rg.Point(2, 20), 20)
-        rg.Circle(rg.Point(7, 30), 10)
-        rg.Circle(rg.Point(10, 40), 20)
-        rg.Circle(rg.Point(2, 50), 10)
-      then this function returns:
-        5 x 2 x 7 x 10 x 2, which is 1400.
-    Type hints:
-      :type sequence: [rg.Circle]
-    """
-    # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
-    #     The testing code is already written for you (above).
-    #  ------------------------------------------------------------------------
-    #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      7
-    #    TIME ESTIMATE:   10 minutes.
-    # -------------------------------------------------------------------------
-
 
 def run_test_practice_problem3b():
     """ Tests the    practice_problem3b    function. """
