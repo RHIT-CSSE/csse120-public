@@ -49,10 +49,8 @@ Session 6: Sample Exam1, Exam 1 Practice
   - More Practice for Exam 1
 
 
-Session 7: Names Are References
-  - Names are _References_ to Objects
-    - Box-and-Pointer Diagrams
-    - Mutating Objects
+Session 7: Catch-up day
+
 
 Session 8: Exam 1
   - Day: Monday evening
@@ -61,7 +59,10 @@ Session 8: Exam 1
   - NoRegularClass: Tuesday, Sept. 22
 
 
-Session 9: Implementing Classes
+Session 9: Names Are References
+  - Names are _References_ to Objects
+    - Box-and-Pointer Diagrams
+    - Mutating Objects
   - Implementing Classes, I
 
 
@@ -80,39 +81,44 @@ Session 12: More Sequences
   - Sequences, II: Patterns for Sequences
     - Building a Sequence
     - Find
+    - Two places at once
     - Max and Min
 
 
-Session 13: Exam 2 Practice
+Session 13: More Patterns for Sequences
+  - Looping through all or part of a sequence, forwards or backwards
+  - Summing/counting through a sequence
+  - Building up a Sequence
+  - Find
+  - Max and Min
+  - Two places at once
+  - Parallel lists
+
+
+Session 14: Sample Exam 2, Exam 2 Practice
   - Debugging, revisited
   - Looping, revisited
   - Iterative Enhancement
   - Practice for Exam 2
+    - Paper-and-Pencil problems
+    - On-the-computer problems
 
 
-Session 14: Sample Exam 2, Exam 2 Practice
-  - More Practice for Exam 2
-
-
-Session 15: Sequences And Mutation et al
-  - Sequences, III: More Patterns
-    - Mutating Lists
-    - Two-indices-each-iteration
-    - Iterating-in-Parallel
-
-
-Session 16: Exam 2
+Session 15: Exam 2
   - Day: Monday evening
   - Date: October 12
   - Time: 7:30 p.m. to 10 p.m.
-  - NoRegularClass: Tuesday, Oct. 13
+  - NoRegularClass: Wednesday, October 7
 
 
-Session 17: Input, Wait Until Event, While Loops
+Session 16: Input, Wait Until Event, While Loops
   - Waiting for Events
   - Indefinite Loops
   - Input from a Console
   - File Reading and Writing
+
+
+Session 17: Sequences and Mutation
 
 
 Session 18: Loops Within Loops
