@@ -1,9 +1,9 @@
 """
 PRACTICE Exam 2, practice_problem 1.
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
-         and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
+         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
@@ -38,7 +38,9 @@ import testing_helper
 #    clone
 #    distance_from
 #  For full credit, you must use (call) these as appropriate in your code.
-#  After you UNDERSTAND the Point class, change the above _TODO_ to DONE.
+#  After you UNDERSTAND the SPECIFICATIONS of the methods and instance
+#  variables (but not necessarily all of the code) of the Point class,
+#  change the above _TODO_ to DONE.
 ###############################################################################
 class Point(object):
     """ Represents a point in 2-dimensional space. """
@@ -122,6 +124,7 @@ def main():
 class Triangle(object):
     """ Represents a triangle in 2-dimensional space. """
 
+    # IMPORTANT: Be CERTAIN you understand the Example in the spec below.
     def __init__(self, a, b, c):
         """
         What comes in:
@@ -168,6 +171,7 @@ class Triangle(object):
         #        They include the Example in the above doc-string.
         # ---------------------------------------------------------------------
 
+    # IMPORTANT: Read the HINT in the specification below.
     def area(self):
         """
         What comes in:
@@ -211,6 +215,7 @@ class Triangle(object):
         #        They include the Example in the above doc-string.
         # ---------------------------------------------------------------------
 
+    # IMPORTANT: CALL the   area   method in your solution to the following.
     def bigger_triangle(self, triangle2):
         """
         What comes in:
@@ -234,6 +239,7 @@ class Triangle(object):
         #        They include the Example in the above doc-string.
         # ---------------------------------------------------------------------
 
+    # IMPORTANT:  In the function below, do NOT return a Triangle.  Mutate it.
     def shrink_or_expand(self, f):
         """
          What comes in:

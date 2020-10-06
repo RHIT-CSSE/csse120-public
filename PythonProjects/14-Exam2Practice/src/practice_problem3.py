@@ -1,10 +1,11 @@
 """
 PRACTICE Exam 2, practice_problem 3.
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
-         and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
+         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
 
 ###############################################################################
 # Students:
@@ -159,8 +160,8 @@ def run_test_practice_problem3a():
 def practice_problem3a(circles):
     """
     What comes in:  A sequence of rg.Circles.
-    What goes out:  Returns the product of the x-coordinates
-      of the centers of the rg.Circles.
+    What goes out:  Returns a list of the centers of the rg.Circle objects
+    whose
       Returns 1 if the given sequence is empty.
     Side effects: None.
     Examples:
