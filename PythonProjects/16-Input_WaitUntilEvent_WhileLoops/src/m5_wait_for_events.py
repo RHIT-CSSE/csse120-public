@@ -10,9 +10,9 @@ If you wish to use the    while <condition>:    form, that is OK too,
 but we reserve the right to offer help only if you use the   while True:  form,
 since many people find it easier to write correct code in that form.
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
-         and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
+         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import math
