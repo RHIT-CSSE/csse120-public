@@ -141,19 +141,22 @@ Session 21: Sample Exam 3, Exam 3 Practice
   - More Practice for Exam 3
 
 
-Session 22: Redo problems from Exam 2, Box-and-Pointer diagrams revisited
-  - Redo problem 4 (trace code with class definition) from paper-and-pencil Exam 2
-  - Redo implement-classes problem from on-the-computer Exam 2
-
-
-Session 23: Box-and-Pointer diagrams revisited
-
-
-Session 24: Exam 3
-  - Day: Thursday evening
-  - Date: October 29
+Session 22: Exam 3
+  - Day: Monday evening
+  - Date: October 26
   - Time: 7:30 p.m. to 10 p.m.
-  - NoRegularClass: Friday, October 30
+  - NoRegularClass: Tuesday, Oct. 27
+
+
+Session 23: Functional Decomposition
+  - Functional Decomposition
+  - Bigger Problems: More Complicated Logic and Loops
+
+
+Session 24: Object-Oriented Design, Tkinter, CapstoneProject
+  - Object-Oriented Design, UML Class Diagrams
+  - The Model/View/Controller Pattern
+  - Capstone Project: Stage 1 begins
 
 
 Session 25: Tkinter Animation, Robots, Capstone Project
