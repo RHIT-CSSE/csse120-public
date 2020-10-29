@@ -146,35 +146,29 @@ Session 22: Redo problems from Exam 2, Box-and-Pointer diagrams revisited
   - Redo implement-classes problem from on-the-computer Exam 2
 
 
-Session 23: Box-and-Pointer diagrams revisited
-
-
-Session 24: Exam 3
+Session 23: Exam 3
   - Day: Thursday evening
   - Date: October 29
   - Time: 7:30 p.m. to 10 p.m.
   - NoRegularClass: Friday, October 30
 
 
-Session 25: Tkinter Animation, Robots, Capstone Project
-  - Capstone Project: Stage 1 continues
+Session 24: Pre-project starts.  Do 00-MovingSmile in class.  Before NEXT session, complete 01-DogBark (26 minutes of video), 02-ClickInTheCircle (18 minutes of video), and as much as you possibly can of 03-Raindrops (74 minutes of video). 
 
 
-Session 26: MQTT, TkinterCommunication, Capstone Project
-  - Capstone Project: Stage 1 ends, Stage 2 begins
+Session 25: Pre-project continues.  Finish 03-Raindrops.  Before NEXT session, complete 04-DogBark (5 minutes of video but will take much longer) and begin 05-TicTacToe (57 minutes of video). 
 
 
-Session 27: Capstone Project
-  - Capstone Project: Stage 2 continues
+Session 26: Pre-project continues.  Finish 05-TicTacToe.  Before NEXT session, complete as much as you possibly can of 06-SpaceInvaders (103 minutes of video). 
 
 
-Session 28: Capstone Project
-  - Capstone Project: Stage 2 ends, Stage 3 begins
+Session 27: Pre-project ends, Project begins.  Finish 06-SpaceInvaders.  Start your own project. 
 
 
-Session 29: Capstone Project
-  - Capstone Project: Stage 3 continues
+Session 28: Project continues.
 
 
-Session 30: Capstone Project
-  - Capstone Project: Stage 3 continues/ends
+Session 29: Project continues.
+
+
+Session 30: Project continues (due on XXX).
