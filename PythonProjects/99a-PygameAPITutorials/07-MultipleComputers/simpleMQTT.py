@@ -12,11 +12,12 @@ Licensed under CC BY-NC-SA 4.0.  To view a copy of this license, visit
   https://creativecommons.org/licenses/by-nc-sa/4.0.
 """
 
+import inspect
 import sys
 import time
-import inspect
-import paho.mqtt.client as paho_mqtt
 import traceback
+
+import paho.mqtt.client as paho_mqtt
 
 
 def activate(unique_id, sender, receiver=None, broker=None):
@@ -331,6 +332,7 @@ class TalkerToBroker:
         # CONSIDER: What SHOULD happen when an exception occurs in response
         # to the user program acting on a message?  Just print? Stop the
         # program? Print/pause?  Have flags to allow different responses????
+        # noinspection PyBroadException
         try:
             self.receiver.message_received(message, sender_id)
         except Exception:

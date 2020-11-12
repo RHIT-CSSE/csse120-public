@@ -23,8 +23,9 @@ Authors: David Mutchler, Dave Fisher, Sana Ebrahimi, Mohammad Noureddine
   licensed under CC BY-NC-SA 4.0.  To view a copy of this license, visit
       https://creativecommons.org/licenses/by-nc-sa/4.0.
 """
-import simpleMQTT as mq
 import time
+
+import simpleMQTT as mq
 
 
 # -----------------------------------------------------------------------------
@@ -32,6 +33,7 @@ import time
 # -----------------------------------------------------------------------------
 class Controller:
     """ Receives and acts upon messages received from the other computer. """
+
     def __init__(self, name_of_friend):
         self.name_of_friend = name_of_friend
 

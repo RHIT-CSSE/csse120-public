@@ -31,10 +31,12 @@ Authors: David Mutchler, Dave Fisher, Sana Ebrahimi, Mohammad Noureddine
       https://creativecommons.org/licenses/by-nc-sa/4.0.
 """
 
-import simpleMQTT as mq
-import pygame
 import sys
 import time
+
+import pygame
+
+import simpleMQTT as mq
 
 
 # -----------------------------------------------------------------------------
@@ -42,6 +44,7 @@ import time
 # -----------------------------------------------------------------------------
 class Controller:
     """ Receives and acts upon messages received from the other computer. """
+
     def __init__(self, zombie):
         self.zombie = zombie  # type: Player
 
@@ -65,6 +68,7 @@ class Controller:
 
 class Player:
     """ A Player in the game.  For now, simply a filled circle. """
+
     def __init__(self, screen, x, y, speed_x, speed_y, color):
         self.screen = screen
         self.x = x
@@ -164,7 +168,6 @@ def main(who_am_i):
     player.set_sender(sender)
 
     background = pygame.color.Color("grey")
-
     # -------------------------------------------------------------------------
     # See Note 6 below
     # -------------------------------------------------------------------------
@@ -195,7 +198,6 @@ if __name__ == '__main__':
         time.sleep(1)
         raise
 
-
 ###############################################################################
 # NOTES mentioned in the simpleMQTT code above.
 #
@@ -206,15 +208,52 @@ if __name__ == '__main__':
 #    The method MUST be spelled exactly as shown above.
 #    The method MUST have exactly 3 parameters: self, message, sender_id.
 #
-#    The method can do whatever you want it to do; in this example,
-#    it stores the "Zombie" (via its __init__) and when a message arrives,
-#    the  act_on_message_received  method decodes the message into
-#    x and y coordinates and sets the Zombie's position to that (x, y).
-#
 #    In this example, the class for that object is called Controller.
 #    You can call it whatever you want.
 #
+#    The   act_on_message_received   method can do whatever you want it to do.
+#    In this example:
+#      -- The Controller stores the "Zombie"
+#           when the Controller is constructed (see its  __init__)
+#      -- When a message arrives (via the  act_on_message_received  method,
+#           the Controller decodes the message into x and y coordinates
+#           and sets the Zombie's position to that (x, y).
+#   The "decoding" the STRING message into NUMBERS x and y is done by:
+#      1. Apply the  split  method to the message to SPLIT the STRING
+#         at white space (here, space characters) into a LIST of STRINGS.
+#           Example:   "100 38".split()  =   ["100", "38"]
+#      2. Access the items at indices 0 (for x) and 1 (for y).
+#           Examples:  "100 38".split()[0]  =>  ["100", "38"][0]  =>  "100"
+#                      "100 38".split()[1]  =>  ["100", "38"][1]  =>  "38"
+#      3. Convert from a string to a FLOAT.  Example:
+#            float("100 38".split()[0]) => ["100", "38"][0] => "100" => 100.0
+#         (This program stores coordinates as floats and sends them that way.)
+#
+#
 # Note 2:
+#    The  Player  object needs a Sender to send the Player's position
+#    to the other computer, for the OTHER computer to use as ITS Zombie.
+#
+#    It so happens that the Player is constructed in this example BEFORE
+#    the Sender is constructed.  (It did not HAVE to be that way, but in
+#    some other example it might need to be.)  So it is IMPOSSIBLE to
+#    have the Sender be an argument to the Player's __init__.
+#
+#    Instead, the Player stores   self.sender   as None  TEMPORARILY.
+#    Soon after the Player is constructed, the Sender is constructed,
+#    and at THAT time the Player applies its  set_sender  method
+#    to store the REAL Sender in self.sender.
+#    This happens before any messages need to be sent, so all is well.
+#
+# Note 3:
+#    This shows why the Player must have the Sender as an instance variable.
+#
+# Note 4:
+#    All this is the same as the  m0  example EXCEPT that here the Controller
+#    takes an argument that is an OBJECT (the Player that is the Zombie)
+#    that the Controller asks to move when the Controller acts on a message.
+#
+#    [The rest of this note is repeated from  m0  example.]
 #    You MUST have a unique_id. It distinguishes YOUR simpleMQTT-enabled
 #    program from OTHER simpleMQTT-enabled programs that may be running
 #    at the same time as yours and with the same Broker as yours.
@@ -232,21 +271,23 @@ if __name__ == '__main__':
 #
 #   You MUST call the   mq.activate  function to enable communication.
 #
-# Note 3:
+# Note 5:  [same as the corresponding note in the  m0  example]
 #    Printing the messages sent and received is invaluable for debugging.
 #    By default, Senders and Receivers print all messages.
 #      FYI: Setting  verbosity  to  0  disables printing of debugging messages.
 #      ADVICE: Do NOT set verbosity to 0 until your program WORKS CORRECTLY.
 #
-# Note 4:
+# Note 6:
 #    The code enters the "game loop" here.  In this example, the program
-#    repeatedly inputs a message to send, then sends it.
+#    repeatedly moves the Player per the arrow keys and draws both Player
+#    objects (the arrow-key-driven Player and the Zombie).
 #    Meanwhile, the Receiver is listening in the background, sending each
-#    message received to the Controller, which prints the message.
+#    message received to the Controller, which changes the position of
+#    the Zombie, hence "moving" it the next time the Zombie is drawn.
 #
 #    In this simple example, no attempt is made to "untangle" the printing.
 #
-# Note 5:
+# Note 7:  [same as the corresponding note in the  m0  example]
 #   Run the program on two computers, or twice on your computer (see the video).
 #     On one of the computers, run by calling:  main(1)
 #     On the other computer,   run by calling:  main(2)
