@@ -9,8 +9,8 @@ Concepts include:
 Also:
   -- ASSIGNING a VALUE to a NAME (aka VARIABLE).
 
-Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, their colleagues, and
+Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
+         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
          PUT_YOUR_NAME_HERE.
 """
 ###############################################################################
