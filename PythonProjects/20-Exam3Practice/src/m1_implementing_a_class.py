@@ -114,9 +114,9 @@ def main():
     print('Un-comment the calls in MAIN one by one')
     print(' to run the testing code as you complete the TODOs.')
 
-    # run_test_init()
-    # run_test_multiply_me()
-    # run_test_make_child()
+    run_test_init()
+    run_test_multiply_me()
+    run_test_make_child()
     # run_test_get_point()
     # run_test_get_distance()
     # run_test_swap_colors()
@@ -158,6 +158,9 @@ class Blob(object):
         #     of the specification of this method.
         #  b. Implement and test this method.
         # ---------------------------------------------------------------------
+        self.color = c
+        self.size = n
+        self.color_from_recent_make_child = None
 
     def multiply_me(self):
         """
@@ -171,7 +174,7 @@ class Blob(object):
         #     of the specification of this method.
         #  b. Implement and test this method.
         # ---------------------------------------------------------------------
-
+        self.size = self.size * 10
     def make_child(self, other_blob):
         """
         Returns a new Blob object whose:
@@ -188,7 +191,9 @@ class Blob(object):
         #     of the specification of this method.
         #  b. Implement and test this method.
         # ---------------------------------------------------------------------
-
+        new = Blob(self.color, other_blob.size)
+        self.color_from_recent_make_child = new.color
+        return new
     def get_point(self, other_blob):
         """
         Returns a Point whose x-coordinate is this Blob's size
@@ -204,7 +209,6 @@ class Blob(object):
         #     of the specification of this method.
         #  b. Implement and test this method.
         # ---------------------------------------------------------------------
-
     def get_distance(self, other_blob):
         """
         Returns the distance between the following two Points:
@@ -226,7 +230,8 @@ class Blob(object):
         #     of the specification of this method.
         #  b. Implement and test this method.
         # ---------------------------------------------------------------------
-
+        p1 = self.get_point()
+        p2 = other_blob.get_point()
     def swap_colors(self, other_blob):
         """
         Swaps this Blob's color with the given other_blob's color.
@@ -252,6 +257,8 @@ class Blob(object):
         #     of the specification of this method.
         #  b. Implement and test this method.
         # ---------------------------------------------------------------------
+        return self.color_from_recent_make_child
+
 
     def get_bigger_size(self, more_blobs):
         """
