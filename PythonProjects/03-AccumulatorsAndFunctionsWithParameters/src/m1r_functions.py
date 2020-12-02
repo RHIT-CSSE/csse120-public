@@ -1,5 +1,14 @@
+"""
+This module lets you practice   TRACING BY HAND   FUNCTION CALLS
+for functions whose definition we supplied.
+
+Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
+         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
+         PUT_YOUR_NAME_HERE.
+"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
 ###############################################################################
-# TODO:
+# TODO: 2.
 #   1. READ the code below.
 #   2. TRACE (by hand) the execution of the code,
 #        predicting what will get printed.
