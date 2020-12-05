@@ -62,17 +62,34 @@ class Parser:
 
     @staticmethod
     def parse_session_type(lines: List[str]) -> SessionType:
+        # FIXME: The following is brittle.
+        session_title = Parser.parse_session_title(lines)
         topic_lines = "\n".join(lines[1:]).lower()
-        if "Practice for Exam" in topic_lines:
+        if session_title.strip()[:5] == "Exam " \
+                and "practice" not in  session_title.lower():
+            if "evening" in topic_lines.lower():
+                return SessionType.EVENING_EXAM
+            else:
+                return SessionType.IN_CLASS_EXAM
+        if "exam" in session_title.lower() and \
+                "practice" in  topic_lines.lower():
             return SessionType.REVIEW
-        elif "exam " in topic_lines and "evening" in topic_lines:
-            return SessionType.EVENING_EXAM
-        elif "exam" in topic_lines:
-            return SessionType.IN_CLASS_EXAM
-        elif "capstone project" in topic_lines:
+        elif "capstone project" in topic_lines.lower():
             return SessionType.CAPSTONE_PROJECT
         else:
             return SessionType.REGULAR
+        # old, throw away when change is OK
+        # topic_lines = "\n".join(lines[1:]).lower()
+        # if "Practice for Exam" in topic_lines:
+        #     return SessionType.REVIEW
+        # elif "exam " in topic_lines and "evening" in topic_lines:
+        #     return SessionType.EVENING_EXAM
+        # elif "exam" in topic_lines:
+        #     return SessionType.IN_CLASS_EXAM
+        # elif "capstone project" in topic_lines:
+        #     return SessionType.CAPSTONE_PROJECT
+        # else:
+        #     return SessionType.REGULAR
 
     @staticmethod
     def parse_topics(lines: List[str]) -> List[Topic]:
@@ -94,8 +111,14 @@ class Parser:
         pass
 
     @staticmethod
-    def parse_exam_number(lines: List[str]) -> int:
-        pass
+    def parse_exam_information(lines: List[str]) -> (str, str, str, str):
+        # FIXME: the following is brittle
+        exam_number = int(Parser.parse_session_title(lines)[6])
+        day_of_week = lines[1].split(": ")[1].strip()
+        date = lines[2].split(": ")[1].strip()
+        time = lines[3].split(": ")[1].strip()
+        no_regular_class = lines[4].split(": ")[1].strip()
+        return exam_number, day_of_week, date, time, no_regular_class
 
     @staticmethod
     def parse_sprint_number(lines: List[str]) -> int:

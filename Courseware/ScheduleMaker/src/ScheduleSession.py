@@ -51,13 +51,22 @@ class ExamSession(Session):
 class EveningExamSession(ExamSession):
     def __init__(self, session_number: int, session_title: str,
                  topics: List[Topic],
-                 exam_number: int, exam_type: ExamOrReviewType):
+                 exam_number: int,  day_of_week: str, date: str,
+                 time: str, no_regular_class: str,
+                 exam_type: ExamOrReviewType):
         super().__init__(session_number, session_title, topics,
                          exam_number, exam_type)
+        self.exam_number = exam_number
+        self.day_of_week = day_of_week
+        self.date = date
+        self.time = time
+        self.no_regular_class = no_regular_class
 
     def __repr__(self) -> str:
-        return "{} {} {} {}".format(super().__repr__(), "evening exam",
-                                    self.exam_number, self.exam_type)
+        return "{} {} {} {} {} {} {} {}".format(
+            super().__repr__(), "evening exam", self.exam_number,
+            self.day_of_week, self.date, self.time,
+            self.no_regular_class, self.exam_type)
 
 
 class InClassExamSession(ExamSession):
@@ -103,6 +112,7 @@ class SessionMaker:
         #   with data obtained not just from the session titles.
         self.sessions = []
         for k in range(NUMBER_OF_SESSIONS):
+            print("Making session", k+1)
             session = self.make_session(k + 1, self.sessions_raw_data[k])
             self.sessions.append(session)
 
@@ -119,32 +129,29 @@ class SessionMaker:
         topics = Parser.parse_topics(lines)
         session_type = Parser.parse_session_type(lines)
 
-        exam_number = exam_or_review_type = sprint_number = None
-        if session_type in (SessionType.REVIEW, SessionType.EVENING_EXAM,
-                            SessionType.IN_CLASS_EXAM):
-            exam_number = Parser.parse_exam_number(lines)
-            exam_or_review_type = Parser.parse_type_of_exam_or_review(lines)
-        elif session_type is CapstoneProjectSession:
-            sprint_number = Parser.parse_sprint_number(lines)
+        if session_type is SessionType.EVENING_EXAM:
+            exam_number, exam_day, exam_date, exam_time, exam_no_regular_class\
+                = Parser.parse_exam_information(lines)
+            return EveningExamSession(session_number, session_title, topics,
+                                      exam_number, exam_day, exam_date,
+                                      exam_time, exam_no_regular_class,
+                                      ExamOrReviewType.BOTH)
 
         if session_type is SessionType.REGULAR:
             return RegularClassSession(session_number, session_title, topics)
 
+        # TODO: Handle remaining types correctly
+        elif session_type is SessionType.CAPSTONE_PROJECT:
+            return CapstoneProjectSession(session_number, session_title,
+                                          topics, 0)
+
         elif session_type is SessionType.REVIEW:
             return ReviewSession(session_number, session_title, topics,
-                                 exam_number, exam_or_review_type)
-
-        elif session_type is SessionType.EVENING_EXAM:
-            return EveningExamSession(session_number, session_title, topics,
-                                      exam_number, exam_or_review_type)
+                                 0, ExamOrReviewType.BOTH)
 
         elif session_type is SessionType.IN_CLASS_EXAM:
             return InClassExamSession(session_number, session_title, topics,
-                                      exam_number, exam_or_review_type)
-
-        elif session_type is SessionType.CAPSTONE_PROJECT:
-            return CapstoneProjectSession(session_number, session_title,
-                                          topics, sprint_number)
+                                      0, ExamOrReviewType.BOTH)
 
         else:
             raise ValueError("Unknown session type:\n" + str(session_type))

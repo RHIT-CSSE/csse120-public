@@ -125,18 +125,20 @@ class BreakDay(ScheduleDay):
 
 
 class SessionDay(ScheduleDay):
-    def __init__(self, date: datetime.date, session: Session):
+    def __init__(self, date: datetime.date, session: Session,
+                 template_name: str):
         super().__init__(date, session)
-        with open(SCHEDULE_SESSSION_TEMPLATE, "r") as file_handle:
+        with open(template_name, "r") as file_handle:
             self.template = file_handle.read()
-        self.template.replace("    SESSIONS", "SESSIONS")
+
+    def get_two_digit_session_number(self):
+        if self.session.session_number < 10:
+            return "0{}".format(self.session.session_number)
+        else:
+            return "{}".format(self.session.session_number)
 
     def make_html(self) -> str:
-        if self.session.session_number < 10:
-            two_digit_number = "0{}".format(self.session.session_number)
-        else:
-            two_digit_number = "{}".format(self.session.session_number)
-
+        two_digit_number = self.get_two_digit_session_number()
         return self.template.replace(
             "SESSION_NUMBER", str(self.session.session_number)).replace(
             "SESSION_DATE", self.date_as_string()).replace(
@@ -146,23 +148,35 @@ class SessionDay(ScheduleDay):
 
 
 class RegularClassSessionDay(SessionDay):
-    pass
+    def __init__(self, date: datetime.date, session: Session):
+        super().__init__(date, session, SCHEDULE_SESSION_TEMPLATE)
 
 
-class ReviewSessionDay(SessionDay):
-    pass
-
-
+# CONSIDER:  Can I combine some of the functionality of this into SessionDay?
 class EveningExamSessionDay(SessionDay):
     def __init__(self, date: datetime.date, session: EveningExamSession):
-        super().__init__(date, session)
+        super().__init__(date, session, SCHEDULE_EXAM_TEMPLATE)
+        self.session = session  # Redundant, here to set the type for type hints
+
+    def make_html(self) -> str:
+        html = super().make_html()
+        return html.replace(
+            "__EXAM_NUMBER__", str(self.session.exam_number)).replace(
+            "__EXAM_DAY_OF_WEEK__", self.session.day_of_week).replace(
+            "__EXAM_DATE__", self.session.date).replace(
+            "__EXAM_TIME__", self.session.time).replace(
+            "__REGULAR_CLASS_DAY__", self.session.no_regular_class)
 
 
-class InClassExamSessionDay(SessionDay):
+class ReviewSessionDay(RegularClassSessionDay):
     pass
 
 
-class CapstoneProjectSessionDay(SessionDay):
+class InClassExamSessionDay(RegularClassSessionDay):
+    pass
+
+
+class CapstoneProjectSessionDay(RegularClassSessionDay):
     pass
 
 
@@ -229,6 +243,7 @@ class Schedule:
                     else:
                         raise ValueError("Unknown session type")
 
+                    print("day type is:", day_type)
                     schedule_days.append(day_type(date, session))
                     session_index = session_index + 1
 

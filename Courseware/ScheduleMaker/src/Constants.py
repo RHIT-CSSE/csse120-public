@@ -5,12 +5,10 @@ Author: David Mutchler and his colleagues.
 
 import enum
 
-TERM = "202110"  # Fall, 2020
-
+TERM = "202120"  # Winter, 2020-21
 FOLDER_FOR_HOME_PAGE = "/Users/davidmutchler/csse120-public/WWW/{}".format(TERM)
 
-NUMBER_OF_SESSIONS = 4 # FIXME, temporary
-
+NUMBER_OF_SESSIONS = 30 # FIXME, temporary
 HOME_PAGE = "{}/index.html".format(FOLDER_FOR_HOME_PAGE)
 TERM_INFO_FILE = "{}/term_info.txt".format(FOLDER_FOR_HOME_PAGE)
 
@@ -23,7 +21,9 @@ FOOTER_TEMPLATE = "{}/footer_template.html".format(TEMPLATES_FOLDER)
 
 SCHEDULE_WEEK_NUMBER_TEMPLATE = "{}/schedule_week_number_template.html".format(
     TEMPLATES_FOLDER)
-SCHEDULE_SESSSION_TEMPLATE = "{}/schedule_session_template.html".format(
+SCHEDULE_SESSION_TEMPLATE = "{}/schedule_session_template.html".format(
+    TEMPLATES_FOLDER)
+SCHEDULE_EXAM_TEMPLATE = "{}/schedule_exam_template.html".format(
     TEMPLATES_FOLDER)
 SCHEDULE_NO_CLASS_TEMPLATE = "{}/schedule_no_class_template.html".format(
     TEMPLATES_FOLDER)
@@ -38,8 +38,10 @@ SESSION_TITLES_FILENAME = "{}/SessionTitles.md".format(
 DAYS_OF_WEEK = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 
 SESSIONS_FOLDER = "{}/Sessions".format(FOLDER_FOR_HOME_PAGE)
+EXAM_INFO_FOLDER = "{}/ExamInformation".format(SESSIONS_FOLDER)
 
-SESSION_TEMPLATE = "{}/session_page_template.html".format(TEMPLATES_FOLDER)
+SESSION_TEMPLATE = "{}/page_for_session_template.html".format(TEMPLATES_FOLDER)
+EXAM_INFO_TEMPLATE = "{}/page_for_exam_information_template.html"
 SESSION_SECTION_VIDEOS_READING_TEMPLATE = \
     "{}/session_section_videos_reading_template.html".format(TEMPLATES_FOLDER)
 SESSION_SECTION_QUIZ_TEMPLATE = \
