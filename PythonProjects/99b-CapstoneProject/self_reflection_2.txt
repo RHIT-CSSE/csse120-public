@@ -1,0 +1,40 @@
+
+PUT YOUR NAME HERE: _________________________________
+
+NOTE: If you are working by yourself (no teammates), then ignore this file
+(self_reflection_2.txt) and use file   self_reflection_1.txt   instead.
+If you are working with teammates, then the order
+of the names in your team repository determines who uses which of the three
+self_reflection_X.txt files, as per this example:
+   For team     csse120-202110-andersm3-morrisnc-sheerimm
+     -- anderssm3 must use   self_reflection_1.txt
+     -- morrisnc  must use   self_reflection_2.txt
+     -- sheerimm  must use   self_reflection_3.txt
+Another example:
+   For team     csse120-202101-kintnecm-rams-harristj
+     -- kintnecm  must use   self_reflection_1.txt
+     -- rams      must use   self_reflection_2.txt
+     -- harristj  must use   self_reflection_3.txt
+
+Then answer the following questions.
+Answers can be BRIEF, but we expect them to be THOUGHTFUL answers.
+
+1.  Explain, in a sentence or two, something that SURPRISED you
+    after you began working on your project.
+
+    [PUT YOUR ANSWER HERE, using as many lines as you need.]
+
+2.  Identify something that you would have done DIFFERENTLY in your project,
+    with hindsight.  Then explain, in a short paragraph, how you did that
+    something (in your actual project), how you would have done it differently,
+    why you would do it differently, and how you would encourage yourself
+    to do it (or its equivalent) differently in future projects.
+
+    [PUT YOUR ANSWER HERE, using as many lines as you need.]
+
+3.  Identify something that you are particularly PROUD of your work in your
+    project.  Explain, in a short paragraph, what it is, why you are proud
+    of it, and how you will encourage yourself to do it (or its equivalent)
+    similarly in future projects.
+
+    [PUT YOUR ANSWER HERE, using as many lines as you need.]

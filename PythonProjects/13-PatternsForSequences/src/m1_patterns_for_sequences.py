@@ -578,7 +578,7 @@ def run_test_index_of_largest_number():
     print("Testing the   index_of_largest_number   function:")
     print("--------------------------------------------------")
 
-    format_string = "    shortest_string ( {} )"
+    format_string = "    index_of_largest_number ( {} )"
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
@@ -1051,7 +1051,7 @@ def run_test_is_palindrome():
     print("Testing the   is_palindrome   function:")
     print("--------------------------------------------------")
 
-    format_string = "    has_stutters ( {} )"
+    format_string = "    is_palindrome ( {} )"
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
@@ -1267,7 +1267,7 @@ def run_test_make_concatenation():
     """ Tests the   make_concatenation   function. """
     print()
     print("--------------------------------------------------")
-    print("Testing the   concatenation   function:")
+    print("Testing the   make_concatenation   function:")
     print("--------------------------------------------------")
 
     format_string = "    make_concatenation ( {} )"
