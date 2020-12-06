@@ -3,3 +3,4 @@ last_day_of_tenth_week = 2/19/2021
 days_of_week = Tuesday Wednesday Friday
 start_date_of_break = 12/23/2020
 end_date_of_break = 1/5/2021
+piazza_url = https://piazza.com/rose-hulman/winter2021/2021wcsse120ol1/home
