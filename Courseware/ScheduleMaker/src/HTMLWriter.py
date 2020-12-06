@@ -96,8 +96,11 @@ class WeekNumberDay(ScheduleDay):
             self.template = file_handle.read()
 
     def make_html(self) -> str:
-        return self.template.replace(
-            "__WEEK_NUMBER__", str(self.week_number))
+        if self.week_number >= 0:
+            return self.template.replace("__WEEK_NUMBER__",
+                                         str(self.week_number))
+        else:
+            return " &nbsp; "
 
 
 class BeforeClassesStartDay(ScheduleDay):
@@ -209,6 +212,7 @@ class Schedule:
             week_number = 0  # Fall term starts on a Thursday, not Monday
         else:
             week_number = 1
+        previous_week_number = -1
 
         while True:
             # Go through each date from the start of term to end of term.
@@ -219,8 +223,11 @@ class Schedule:
             # Deal only with dates that are on class days-of-week.
             # But treat Sunday as the week number.
             if date.weekday() == 6:
-                schedule_days.append(WeekNumberDay(week_number))
-                week_number += 1
+                if week_number == previous_week_number:
+                    schedule_days.append(WeekNumberDay(-1))
+                else:
+                    previous_week_number = week_number
+                    schedule_days.append(WeekNumberDay(week_number))
             if date.weekday() in self.term_info.class_meeting_days_of_week:
                 if date < self.term_info.first_day_of_term:
                     schedule_days.append(BeforeClassesStartDay(date))
@@ -246,6 +253,9 @@ class Schedule:
                     print("day type is:", day_type)
                     schedule_days.append(day_type(date, session))
                     session_index = session_index + 1
+                    if session_index % 3 == 2:
+                        previous_week_number = week_number
+                        week_number = week_number + 1
 
             date = date + datetime.timedelta(1)
 

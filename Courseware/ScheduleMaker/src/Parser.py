@@ -7,6 +7,7 @@ import dateutil.parser
 from typing import List
 from Constants import *  # All constants, and only constants, are in ALL_CAPS.
 from Topic import Topic
+import re
 
 
 class Parser:
@@ -95,12 +96,13 @@ class Parser:
     def parse_topics(lines: List[str]) -> List[Topic]:
         topics = []
         for k in range(1, len(lines)):
-            if lines[k].startswith("  - "):
-                topic_item = lines[k].replace("  - ", "").strip()
-                topics.append(Topic(topic_item, 1))
-            elif lines[k].startswith("    - "):
-                topic_item = lines[k].replace("    - ", "").strip()
-                topics.append(Topic(topic_item, 2))
+            line = lines[k]
+            before_dash = re.sub(r"- .*$", "", line)
+            if len(before_dash) % 2 == 0:
+                level = len(before_dash) // 2
+                topic_item = re.sub(r"^ +- ", "", line)
+                topics.append(Topic(topic_item, level))
+                print(level, topic_item)
             else:
                 raise ValueError("Bad topic line {}: {}".format(k, lines[k]))
 

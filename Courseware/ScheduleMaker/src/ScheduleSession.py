@@ -7,6 +7,7 @@ from typing import List
 from Constants import *  # All constants, and only constants, are in ALL_CAPS.
 from Parser import Parser
 from Topic import Topic
+import re
 
 
 class Session:
@@ -99,12 +100,23 @@ class SessionMaker:
         with open(filename, "r") as file_handle:
             self.text = file_handle.read()
 
+        # Sessions are separated by TWO blank lines.
+        # First eliminate spaces at the end of lines.
+        self.text = re.sub(r" +\n", "\n", self.text)
         sessions_raw_data = self.text.split("\n\n")
+
         # Check for bad data:
-        assert len(sessions_raw_data) == NUMBER_OF_SESSIONS
+        try:
+            assert len(sessions_raw_data) == NUMBER_OF_SESSIONS
+        except AssertionError:
+            for session in sessions_raw_data:
+                print(session)
+            raise AssertionError("Data has {} sessions, expected {}".format(len(sessions_raw_data),
+                                                                            NUMBER_OF_SESSIONS))
 
         for k in range(len(sessions_raw_data)):
             sessions_raw_data[k] = sessions_raw_data[k].strip("\n")
+            print(sessions_raw_data[k])
         self.sessions_raw_data = sessions_raw_data
 
         # Make the Session objects.
