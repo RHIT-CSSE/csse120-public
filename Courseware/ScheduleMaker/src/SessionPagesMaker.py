@@ -234,8 +234,10 @@ class SessionPage:
             "__FOOTER__", self.templates.footer).replace(
             "TERM_AND_YEAR", self.term_info.term_and_year).replace(
             "TERM_PER_BANNER", self.term_info.banner_term).replace(
+            "__PIAZZA_URL__", self.term_info.piazza_url).replace(
             "__QUIZ_NUMBER__", self.session_number_string).replace(
-            "__SESSION_NUMBER__", str(self.session_number))
+            "__SESSION_NUMBER__", str(self.session_number)).replace(
+            "../../http", "http")
 
 
 class SessionPagesMaker:
