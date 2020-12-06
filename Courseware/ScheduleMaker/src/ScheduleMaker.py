@@ -12,7 +12,7 @@ import HTMLWriter
 
 
 class HomePageMaker:
-    """ Generates the HTML for the CSSE 120 Home Page for a given term. """
+    """ Generates HTML for CSSE 120 Home (Schedule) Page for a given term. """
 
     def __init__(self, banner_term: str):
         """
@@ -51,7 +51,8 @@ class HomePage:
             "SCHEDULE", self.schedule.make_html()).replace(
             "FOOTER", self.footer).replace(
             "TERM_AND_YEAR", self.term_info.term_and_year).replace(
-            "TERM_PER_BANNER", self.term_info.banner_term)
+            "TERM_PER_BANNER", self.term_info.banner_term).replace(
+            "__PIAZZA_URL__", self.term_info.piazza_url)
 
 
 def main():

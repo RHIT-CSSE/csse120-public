@@ -38,6 +38,10 @@ class TermInfo:
         self.start_date_of_break, self.end_date_of_break = \
             Parser.parse_days_for_break(lines)
 
+        # Piazzi URL for this term:
+        self.piazza_url = Parser.parse_piazza_url(lines)
+
+
         # Term (Fall, Winter, Spring), Year (e.g. 2020-21)
         # and Term and Year (e.g. Fall term, 2020-21):
         self.term, self.year, self.term_and_year = \

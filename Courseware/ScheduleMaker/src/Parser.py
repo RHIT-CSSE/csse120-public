@@ -52,6 +52,10 @@ class Parser:
         return start_date_of_break, end_date_of_break
 
     @staticmethod
+    def parse_piazza_url(lines: List[str]) -> str:
+        return lines[5].split()[2]
+
+    @staticmethod
     def parse_session_number(lines: List[str]) -> int:
         session_blah = lines[0].split(":")[0]
         session_number = int(session_blah.split(" ")[1])
@@ -125,3 +129,4 @@ class Parser:
     @staticmethod
     def parse_sprint_number(lines: List[str]) -> int:
         pass
+
