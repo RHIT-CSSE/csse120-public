@@ -21,154 +21,196 @@ Session 3: Accumulators, and Functions With Parameters
     - Accumulators: Summing
   - Names (aka variables)
     - Arguments and Parameters
+    - Scope
   - Testing and Debugging:
     - Unit Testing
     - Test-Driven Development
     - Debugging with Print
-    - Tracing Code by Hand
+    - Tracing Code By Hand
 
 
-Session 4: The Accumulator Pattern
-  - The Accumulator Pattern: Summing, Counting, and in Graphics
+Session 4: Conditionals, The Accumulator Pattern
   - Conditionals
-  - Names (aka variables)
-    - Scope and Lifetime
+  - The Accumulator Pattern: Summing, Counting, and in Graphics
+  - Names
+    - Scope (LEGB - https://realpython.com/python-scope-legb-rule/)
+    - Lifetime
     - Memory: The Stack, Heap and Garbage Collector
+  - Do a Concrete Example By Hand
   - Pair Programming
 
 
 Session 5: Debugging, Exam 1 Practice
   - Boolean Logic
   - Debugging: Run-Time Errors and Stack Traces
-  - Coding Standards and Reviews
+  - Coding Standards
+  - Code Reviews
   - Practice for Exam 1
+    - Paper-and-Pencil problems
+    - On-the-computer problems
+    - Sample Exam
 
 
-Session 6: Sample Exam1, Exam 1 Practice
+Session 6: More Exam 1 Practice
   - The Debugger
   - More Practice for Exam 1
 
 
-Session 7: Catch-up day
-
-
-Session 8: Exam 1
-  - Day: Monday evening
-  - Date: September 21
-  - Time: 7:30 p.m. to 10 p.m.
-  - NoRegularClass: Tuesday, Sept. 22
-
-
-Session 9: Names Are References
+Session 7: Names Are References
   - Names are _References_ to Objects
     - Box-and-Pointer Diagrams
     - Mutating Objects
+    - Mutating Arguments in Function Calls
   - Implementing Classes, I
 
 
-Session 10: More Implementing Classes
+Session 8: Exam 1
+  - Day: Wednesday evening
+  - Date: December 16
+  - Time: 7:30 p.m. to 10:30 p.m.
+  - NoRegularClass: Wednesday, Dec. 16
+
+
+Session 9: More Implementing Classes
   - Implementing Classes, II
+  - Tracing Code by Hand Through Method Calls
+  - Box-and-Pointer Diagrams, revisited
 
 
-Session 11: Sequences
+Session 10: Sequences
   - Sequences, I
     - What is a Sequence?
-    - Patterns for Sequences: Iterating Through All or Part of a Sequence
+    - Patterns for Sequences:
+      - Iterating Through All or Part of a Sequence
+      - Summing/Counting through a Sequence
   - Classes with Sequences
+  - Looping, revisited
 
 
-Session 12: More Sequences
+Session 11: More Sequences
   - Sequences, II: Patterns for Sequences
     - Building a Sequence
     - Find
     - Two places at once
     - Max and Min
-
-
-Session 13: More Patterns for Sequences
-  - Looping through all or part of a sequence, forwards or backwards
-  - Summing/counting through a sequence
-  - Building up a Sequence
-  - Find
-  - Max and Min
-  - Two places at once
-  - Parallel lists
-
-
-Session 14: Sample Exam 2, Exam 2 Practice
-  - Debugging, revisited
-  - Looping, revisited
+    - Parallel lists
   - Iterative Enhancement
+
+
+Session 12: Sequences and Classes
+  - More Practice at Sequences
+  - More Practice at Classes
+  - Combining Sequences and Classes
+
+
+Session 13: Exam 2 Practice
+  - Looping, revisited
+  - Debugging, revisited
+  - Iterative Enhancement, revisited
   - Practice for Exam 2
     - Paper-and-Pencil problems
     - On-the-computer problems
+    - Sample Exam
 
 
-Session 15: Exam 2
-  - Day: Monday evening
-  - Date: October 12
-  - Time: 7:30 p.m. to 10 p.m.
-  - NoRegularClass: Wednesday, October 7
+Session 14: More Exam 2 Practice
+  - Box-and-Pointer Diagrams, revisited
+  - Continue Practice for Exam 2
 
 
-Session 16: Input, Wait Until Event, While Loops
+Session 15: Wait Until Event, While Loops, Sequences and Mutation
   - Waiting for Events
   - Indefinite Loops
+  - Sequences and Mutation
+    - Box-and-Pointer Diagrams, Revisited
+    
+
+Session 16: Exam 2
+  - Day: Monday evening
+  - Date: January 18
+  - Time: 7:30 p.m. to 10:30 p.m.
+  - NoRegularClass: Tuesday, Jan. 19
+
+
+Session 17: Loops Within Loops
+  - Loops within Loops
+    - In Printing
+    - In Sub-Sequences within Sequences
+    - In Graphics
+  
+
+Session 18: More Loops Within Loops
+  - More Practice at Loops Within Loops
   - Input from a Console
   - File Reading and Writing
 
 
-Session 17: Sequences and Mutation
-
-
-Session 18: Loops Within Loops
-  - Loops within Loops
-  - Sub-Sequences within Sequences
-
-
-Session 19: More Loops Within Loops
-  - More Loops within Loops
-  - More Sub-Sequences within Sequences
-
-
-Session 20: Exam 3 Practice
+Session 19: Exam 3 Practice
+  - Looping, revisited
   - Iterative Enhancement, revisited
-  - Looping, revisited yet again
+  - Debugging, revisited
   - Practice for Exam 3
+    - Paper-and-Pencil problems
+    - On-the-computer problems
+    - Sample Exam
 
 
-Session 21: Sample Exam 3, Exam 3 Practice
-  - More Practice for Exam 3
+Session 20: More Exam 3 Practice
+  - Box-and-Pointer Diagrams, revisited
+  - Continue Practice for Exam 3
 
 
-Session 22: Redo problems from Exam 2, Box-and-Pointer diagrams revisited
-  - Redo problem 4 (trace code with class definition) from paper-and-pencil Exam 2
-  - Redo implement-classes problem from on-the-computer Exam 2
+Session 21: Project, Part 1 begins.
+  - 00-MovingSmile
+  - 01-DogBark
+  - 02-ClickInTheCircle
+
+   
+Session 22: Exam 2
+  - Day: Monday evening
+  - Date: February 1
+  - Time: 7:30 p.m. to 10:30 p.m.
+  - NoRegularClass: Tuesday, Feb. 2
 
 
-Session 23: Exam 3
-  - Day: Thursday evening
-  - Date: October 29
-  - Time: 7:30 p.m. to 10 p.m.
-  - NoRegularClass: Friday, October 30
+Session 23: Project, Part 1 continues.
+  - 03-Raindrops
+  - 04-DogBark
 
 
-Session 24: Pre-project starts.  Do 00-MovingSmile in class.  Before NEXT session, complete 01-DogBark (26 minutes of video), 02-ClickInTheCircle (18 minutes of video), and as much as you possibly can of 03-Raindrops (74 minutes of video). 
+Session 24: Project, Part 1 completes.
+  - 05-TicTacToe
+  - 06-SpaceInvaders
+  - 07-MultipleComputers
 
 
-Session 25: Pre-project continues.  Finish 03-Raindrops.  Before NEXT session, complete 04-DogBark (5 minutes of video but will take much longer) and begin 05-TicTacToe (57 minutes of video). 
+Session 25:  Project, Part 2 begins.
+  - Agile, Scrum
+  - Object-Oriented Design
+  - Project Proposal/Specification
+  - Project Class Diagram
+  - Project Plan: Sprint 1 begins
 
 
-Session 26: Pre-project continues.  Finish 05-TicTacToe.  Before NEXT session, complete as much as you possibly can of 06-SpaceInvaders (103 minutes of video). 
+Session 26:  Project, Part 2 continues.
+  - Sprint 1 continues
 
 
-Session 27: Pre-project ends, Project begins.  Finish 06-SpaceInvaders.  Start your own project. 
+Session 27:  Project, Part 2 continues.
+  - Sprint 1 ends
+  - Sprint 2 begins
 
 
-Session 28: Project continues.
+Session 28:  Project, Part 2 continues.
+  - Sprint 2 continues
+
+ 
+Session 29:  Project, Part 2 continues.
+  - Sprint 2 ends
+  - Sprint 3 begins
 
 
-Session 29: Project continues.
-
-
-Session 30: Project continues (due on XXX).
+Session 30:  Project, Part 2 continues.
+  - Course evaluations
+  - Sprint 3 continues
+  - Sprint 3 ends (project is due) on Thursday of Exam week
