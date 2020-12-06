@@ -31,6 +31,7 @@ Session 3: Accumulators, and Functions With Parameters
 
 Session 4: Conditionals, The Accumulator Pattern
   - Conditionals
+  - Boolean Logic
   - The Accumulator Pattern: Summing, Counting, and in Graphics
   - Names
     - Scope (LEGB - https://realpython.com/python-scope-legb-rule/)
@@ -41,8 +42,11 @@ Session 4: Conditionals, The Accumulator Pattern
 
 
 Session 5: Debugging, Exam 1 Practice
-  - Boolean Logic
-  - Debugging: Run-Time Errors and Stack Traces
+  - Debugging:
+    - Practices that Minimize the Need for Debugging
+      - Iterative Enhancement
+      - Other practices
+    - Run-Time Errors and Stack Traces
   - Coding Standards
   - Code Reviews
   - Practice for Exam 1
@@ -94,7 +98,7 @@ Session 11: More Sequences
     - Two places at once
     - Max and Min
     - Parallel lists
-  - Iterative Enhancement
+  - Iterative Enhancement, revisited
 
 
 Session 12: Sequences and Classes
