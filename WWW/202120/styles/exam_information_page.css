@@ -36,6 +36,22 @@ div.exam-information-page div.title span.prefix {
   font-weight: bold;
 }
 
+/* Parts for Before the Exam, Admission Ticket, When and How to Take the Exam */
+/* BEFORE TH# EXAM. */
+div.exam-information-page  div.before-the-exam {
+  grid-column: 1;
+}
+
+/* ADMISSION TICKET. */
+div.exam-information-page  div.admission-ticket {
+  grid-column: 2;
+}
+
+/* FOR BOTH the Paper-and-Pencil part AND the On-the-Computer part */
+div.exam-information-page  div.when-and-how {
+  grid-column: 3;
+}
+
 /* Parts for Admission Ticket, Paper-and-Pencil Part, and On-the-Computer Part */
 div.exam-information-page div.part {
   border: 2px solid black;
@@ -45,18 +61,23 @@ div.exam-information-page div.body {
   margin: .3rem .5rem 1rem;
 }
 
+/* BEFORE TH# EXAM. */
+div.exam-information-page  div.before-the-exam {
+  grid-column: 1;
+}
+
 /* ADMISSION TICKET. */
 div.exam-information-page  div.admission-ticket {
-  grid-column: 1;
+  grid-column: 2;
 }
 
 /* FOR BOTH the Paper-and-Pencil part AND the On-the-Computer part */
 div.exam-information-page  div.both-parts {
-  grid-column: 2;
+  grid-column: 3;
 }
 
 div.exam-information-page div.specifics-for-parts {
-  grid-column: 3;
+  grid-column: 4;
 }
 
 /* PAPER-AND-PENCIL part */

@@ -48,12 +48,7 @@ div.exam-information-page  div.title {
   background-color: #0693e3; /*  */
 }
 
-div.exam-information-page  div.title-for-details {
-  background-color: #0693e3; /*  */
-}
-
-div.exam-information-page div.admission-ticket-header {
-  background-color: rgb(248, 181, 184); /*  */
+background-color: rgb(248, 181, 184); /*  */
 }
 
 div.exam-information-page div.both-parts-header {
@@ -61,6 +56,23 @@ div.exam-information-page div.both-parts-header {
 }
 
 div.exam-information-page div.when-and-where {
+  background-color: rgb(163, 133, 189); /*  */
+
+
+
+div.exam-information-page  div.title-for-details {
+  background-color: #0693e3; /*  */
+}
+
+div.exam-information-page div.both-parts-header {
+  background-color: rgb(248, 181, 184); /*  */
+}
+
+div.exam-information-page div.admission-ticket-header {
+  background-color: gold;
+}
+
+div.exam-information-page div.when-and-how-header {
   background-color: rgb(163, 133, 189); /*  */
 }
 
