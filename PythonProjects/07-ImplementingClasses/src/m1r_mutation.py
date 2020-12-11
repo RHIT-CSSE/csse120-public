@@ -1,8 +1,9 @@
 """
 This module demonstrates MUTATION and RE-ASSIGNMENT.
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Derek Whitley, their colleagues, and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
+         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ##############################################################################
