@@ -12,6 +12,10 @@ div.newspaper {
   column-count: 2;
 }
 
+div.newspaper3 {
+  column-count: 3;
+}
+
 p,
 ul,
 ol {

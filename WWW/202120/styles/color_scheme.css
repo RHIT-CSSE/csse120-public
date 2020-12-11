@@ -48,39 +48,74 @@ div.exam-information-page  div.title {
   background-color: #0693e3; /*  */
 }
 
-div.exam-information-page div.both-parts-header {
-  background-color: gold;
-}
-
-div.exam-information-page  div.title-for-details {
-  background-color: #0693e3; /*  */
-}
-
-div.exam-information-page div.both-parts-header {
+div.exam-information-page div.description-header {
   background-color: rgb(248, 181, 184); /*  */
 }
 
-div.exam-information-page div.admission-ticket-header {
+div.exam-information-page div.how-to-prepare-header {
   background-color: gold;
 }
 
-div.exam-information-page div.when-and-how-header {
+div.exam-information-page div.admission-ticket-header {
   background-color: rgb(163, 133, 189); /*  */
 }
 
-div.exam-information-page div.paper-and-pencil {
+div.exam-information-page div.how-to-take-header {
   background-color: #7bdcb5; /*  */
 }
 
-div.exam-information-page div.on-the-computer {
+div.exam-information-page div.when-and-where-header {
   background-color: #8ed1fc;
 }
 
-div.exam-information-page div.paper-and-pencil-header {
+div.parts-for-how-to-take-exam  div.title {
+  background-color: #0693e3; /*  */
+}
+
+div.parts-for-how-to-take-exam div.microsoft-teams-header {
+  background-color: gold;
+}
+
+div.parts-for-how-to-take-exam div.get-paper-and-pencil-header {
+  background-color: rgb(163, 133, 189); /*  */
+}
+
+div.parts-for-how-to-take-exam div.get-on-the-computer-header {
   background-color: #7bdcb5; /*  */
 }
 
-div.exam-information-page div.on-the-computer-header {
+div.parts-for-how-to-take-exam div.turn-in-header {
+  background-color: #7bdcb5; /*  */
+}
+
+div.parts-for-what-to-expect  div.title {
+  background-color: #0693e3; /*  */
+}
+
+div.parts-for-what-to-expect div.paper-and-pencil-header {
+  background-color: gold;
+}
+
+div.parts-for-what-to-expect div.on-the-computer-header {
+  background-color: rgb(163, 133, 189); /*  */
+}
+
+div.parts-for-exam-rules  div.title {
+  background-color: #0693e3; /*  */
+}
+
+div.parts-for-exam-rules div.online-exam-header {
+  background-color: gold;
+}
+div.parts-for-exam-rules div.both-parts-header {
+  background-color: rgb(163, 133, 189);
+}
+
+div.parts-for-exam-rules div.paper-and-pencil-header {
+  background-color: #7bdcb5; /*  */
+}
+
+div.parts-for-exam-rules div.on-the-computer-header {
   background-color: #8ed1fc;
 }
 

@@ -3,28 +3,14 @@ For an EXAM-INFORMATION and EXAM-DETAILS page.
 */
 
 /* STRUCTURE of an EXAM-INFORMATION page */
-div.exam-information-page {
+div.exam-information-page div.parts {
   display: grid;
-  grid-template-columns: auto auto auto;
-}
-
-/* STRUCTURE of an EXAM-DETAILS page */
-div.exam-information-page div.details {
-  display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 
 /* TITLE (just below the Navigation Bar) */
-div.exam-information-page  div.title {
-  grid-column: 1 / span 3;
-  text-align: center;
-  font-size: 1.75rem;
-  font-weight: bold;
-  padding: 1rem;
-}
-
-div.exam-information-page div.title-for-details {
-  grid-column: 1 / span 2;
+div.exam-information-page div.title {
+  grid-column: 1 / span 4;
   text-align: center;
   font-size: 1.75rem;
   font-weight: bold;
@@ -36,68 +22,9 @@ div.exam-information-page div.title span.prefix {
   font-weight: bold;
 }
 
-/* Parts for Before the Exam, Admission Ticket, When and How to Take the Exam */
-/* BEFORE TH# EXAM. */
-div.exam-information-page  div.before-the-exam {
-  grid-column: 1;
-}
-
-/* ADMISSION TICKET. */
-div.exam-information-page  div.admission-ticket {
-  grid-column: 2;
-}
-
-/* FOR BOTH the Paper-and-Pencil part AND the On-the-Computer part */
-div.exam-information-page  div.when-and-how {
-  grid-column: 3;
-}
-
-/* Parts for Admission Ticket, Paper-and-Pencil Part, and On-the-Computer Part */
+/* PARTS FOR:  Description, How to Prepare, Admission Ticket, When and Where */
 div.exam-information-page div.part {
   border: 2px solid black;
-}
-
-div.exam-information-page div.body {
-  margin: .3rem .5rem 1rem;
-}
-
-/* BEFORE TH# EXAM. */
-div.exam-information-page  div.before-the-exam {
-  grid-column: 1;
-}
-
-/* ADMISSION TICKET. */
-div.exam-information-page  div.admission-ticket {
-  grid-column: 2;
-}
-
-/* FOR BOTH the Paper-and-Pencil part AND the On-the-Computer part */
-div.exam-information-page  div.both-parts {
-  grid-column: 3;
-}
-
-div.exam-information-page div.specifics-for-parts {
-  grid-column: 4;
-}
-
-/* PAPER-AND-PENCIL part */
-div.exam-information-page div.paper-and-pencil {
-  font-size: 1.2rem;
-}
-
-/* FOR the DETAILS page: 2 parts */
-div.exam-information-page div.paper-and-pencil-details {
-  grid-column: 1;
-}
-
-/* FOR BOTH the Paper-and-Pencil part AND the On-the-Computer part */
-div.exam-information-page div.on-the-computer-details {
-  grid-column: 2;
-}
-
-/* ON-THE-COMPUTER part */
-div.exam-information-page div.on-the-computer {
-  font-size: 1.2rem;
 }
 
 /* Header of a part */
@@ -109,12 +36,117 @@ div.exam-information-page div.part div.header {
   padding-bottom: .5rem;
 }
 
+/* Body of a part */
+div.exam-information-page div.part div.body {
+  margin: .3rem .5rem 1rem;
+}
+
+/* DESCRIPTION part. */
+div.exam-information-page div.parts div.description {
+  grid-column: 1;
+}
+
+/* HOW TO PREPARE part. */
+div.exam-information-page div.parts div.how-to-prepare {
+  grid-column: 2;
+}
+
+/* ADMISSION TICKET part. */
+div.exam-information-page div.parts div.admission-ticket {
+  grid-column: 3;
+}
+
+/* HOW TO TAKE part */
+div.exam-information-page div.how-to-take {
+  grid-column: 4;
+}
+
+/* WHEN AND WHERE part (same column as HOW TO TAKE) */
+div.exam-information-page div.when-and-where {
+}
+
+/* STRUCTURE of an HOW TO GET, TAKE and TURN IN page */
+div.exam-information-page div.parts-for-how-to-take-exam {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+/* FOR the HOW TO GET, TAKE and TURN IN page  */
+div.exam-information-page div.parts-for-how-to-take-exam div.microsoft-teams {
+  grid-column: 1;
+}
+
+div.exam-information-page div.parts-for-how-to-take-exam div.get-paper-and-pencil {
+  grid-column: 2;
+}
+
+div.exam-information-page div.parts-for-how-to-take-exam div.get-on-the-computer {
+  grid-column: 3;
+}
+div.exam-information-page div.parts-for-how-to-take-exam div.turn-in {
+  grid-column: 4;
+}
+
+/* STRUCTURE of a WHAT TO EXPECT page */
+div.exam-information-page div.parts-for-what-to-expect {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+div.exam-information-page div.parts-for-what-to-expect div.title {
+  grid-column: 1 / span 4;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+/* FOR the HOW TO GET, TAKE and TURN IN page  */
+div.exam-information-page div.parts-for-what-to-expect div.paper-and-pencil {
+  grid-column: 1;
+}
+
+div.exam-information-page div.parts-for-what-to-expect div.on-the-computer {
+  grid-column: 2;
+}
+
+/* STRUCTURE of an EXAM RULES page */
+div.exam-information-page div.parts-for-exam-rules {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+div.exam-information-page div.parts-for-exam-rules div.title {
+  grid-column: 1 / span 4;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+div.exam-information-page div.parts-for-exam-rules div.online-exam {
+  grid-column: 1;
+}
+
+div.exam-information-page div.parts-for-exam-rules div.both-parts {
+  grid-column: 2;
+}
+
+div.exam-information-page div.parts-for-exam-rules div.paper-and-pencil {
+  grid-column: 3;
+}
+
+div.exam-information-page div.parts-for-exam-rules div.on-the-computer {
+  grid-column: 4;
+}
+
+/* GENERAL CSS for an EXAM-INFORMATION page */
 div.exam-information-page p {
   margin: 0 0 0 0;
   padding: .75rem .15rem 0 .15rem;
 }
 
-div.exam-information-page  p.title-for-list {
+div.exam-information-page p.title-for-list {
   margin: 0 0 0 0;
   padding: 1.25rem .15rem 0 .15rem;
 }
