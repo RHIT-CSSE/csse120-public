@@ -1,25 +1,53 @@
 VIDEO
-Review of Implementing a Class and what SELF is
-https://youtu.be/mo25Jz29HmM
-5:22
-Do not do any coding for this video.
-Simply watch and ABSORB THE CONCEPTS of this important video.
+For module m1_Line, TODO 1 and TODO 2
+https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4110c13c-9553-4542-af68-ab940180f11b
+6:45
 ---
 VIDEO
-Implementing a Point class
-https://youtu.be/BFcK2vPIFRs
-29:08
-The video indicates that the project is <span class="emphasis">08</span>-Implementing Classes,
-but in fact it is <span class="emphasis">09</span>-ImplementingClasses.
+For module m1_Line, walk-through of the Point class
+https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=79e14a1e-eccb-4504-b104-ab940183af31
+2:58
+You will use the <span class="emphasis">Point</span> class
+in implementing the <span class="emphasis">Line</span>
+class in <span class="important_emphasis">m1_Line.</span>
+---
+VIDEO
+For module m1_Line, TODO 3
+https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=77425680-3c6c-4e7d-bf3e-ab940184a8cb
+4:13
+---
+VIDEO
+An explanation of the <span class="technical-name">__repr__</span> and <span class="technical-name">__eq__</span> methods of the Line class.
+https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=198696ee-7d6b-4bf2-b014-ab94018691c4
+3:17
+---
+VIDEO
+For module m1_Line, TODO 4 (the <span class="technical-name">clone</span> method)
+https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f56c4d03-ab1d-4faf-adef-ab9401890f29
+2:54
+---
+VIDEO
+For module m1_Line, TODO 5 (the <span class="technical-name">reverse</span> method)
+https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=77e02f80-a569-40f0-a237-ab94018b2afb
+5:07
+---
+VIDEO
+A follow-up that uses diagrams to show how to SWAP the values of two variables
+https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=605ec5e0-1880-4ebb-8af8-ab950007d5fc
+4:32
+---
+VIDEO
+Introduction of the <span class="technical-name">m2_baby_class</span>
+https://youtu.be/dqRHa7mjGvM
+14:18
+<span class="emphasis">Do NOT watch this video BEFORE Session 10.</span>
 
-It is best to do this Follow-Me video BEFORE class,
-since that makes the most effective use of your time.
-But as always with Follow-Me videos,
-you may do them in-class.  It just means that you will have more to do AFTER class
-than you would otherwise.
-<ul>
-  <li>
-    If you noticed that you tended to fall behind during Sessions 1 through 5,
-    we <span class="emphasis">strongly</span> recommend that you do this Follow-Me video BEFORE class.
-  </li>
-</ul>
+Instead, watch it <span class="emphasis">when you are ready to BEGIN implementing the m2_baby_class.</span>
+---
+# VIDEO
+# Introduction of the <span class="technical-name">m3_capital_t_class</span>
+#
+# XX:XX
+# <span class="emphasis">Do NOT watch this video BEFORE Session 10.</span>
+#
+# Instead, watch it <span class="emphasis">when you are ready to BEGIN implementing the m2_baby_class.</span>

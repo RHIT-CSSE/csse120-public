@@ -1,77 +1,54 @@
 READING
-Range expressions
-../../../VideoFiles/08.1-RangeExpressions/RangeExpressions.pdf
-This document on Python's RANGE expression extends the 1-argument form that you know to the 2 and
-3-argument forms.
+Slides on Implementing Classes
+../../../VideoFiles/10.1-ImplementingClasses-KeyConcepts/ImplementingClasses-KeyConcepts.pdf
+There are TWO Moodle quizzes associated with this item.
 
-As you read the document, do its associated quiz on Moodle.
----
-VIDEO
-Box-and-Pointer Diagrams
-https://youtu.be/OD3Kr_E6YQY
-9:22
+Try to make sense of these slides,
+but don't worry if you don't understand all of them
+(they really need a video to accompany them).
 
-As you watch the video, do its associated quiz on Moodle.
-
-Optional reading:
-This handout on
-<a href="../../../VideoFiles/12.2-BoxAndPointerDiagrams/Handouts/BoxAndPointerDiagrams.pdf">Box-and-Pointer diagrams</a>
-covers the same material as the video, plus a little more.
+Just <span class="emphasis">bring your questions about them to class</span>.
 ---
 VIDEO
 What is a CLASS -- the concept
 ../../../VideoFiles/17.0-ImplementingClasses/Classes-Concepts/Classes-Concepts.mp4
 7:44
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
+
 This video reviews the <span class="emphasis">concepts</span>
 of a <span class="technical-term">object</span>
 and
 <span class="technical-term">class</span>.
 
-As you watch the above video,
-answer <span class="emphasis">questions 1 to 9</span> of this
-<a href="Quiz/Quiz-Session08.pdf">Quiz for the Session 8 videos on CLASSES</a>.
-<ul>
-  <li>
-    It says that it is for Session 8,
-    but it is really for Session 9.
-  </li>
-</ul>
-
-You do not have to print the quiz (unless you want to).
-Just hand-write your answers on paper or type your answers into a file, whichever is easier for you.
-
-It is likely that you will not know the answers to all of the questions in the above quiz.
-That is OK &mdash; just do what you can and BRING YOUR QUESTIONS TO CLASS.
+There are no Moodle quizzes associated with this and the remaining items
+in this Videos/Reading section.
 ---
 VIDEO
 What is a CLASS -- the notation
 ../../../VideoFiles/17.0-ImplementingClasses/Classes-Notation/Classes-Notation.mp4
 6:56
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
+
 This video reviews the <span class="technical-term">notation of a class</span>,
 as well as the concepts.
 It is important preparation for the next video.
-
-As you watch the above video,
-answer <span class="emphasis">questions 10 to 15</span> of the above
-<a href="Quiz/Quiz-Session08.pdf">Quiz for the Session 8 videos on CLASSES</a>.
-<ul>
-  <li> Mysteriously, there is no question 12.</li>
-  <li> If question 14 does not make sense to you, no worries, just skip it. </li>
-</ul>
 ---
 VIDEO
 What is a CLASS -- the implementation
 ../../../VideoFiles/17.0-ImplementingClasses/Classes-Implementing/Classes-Implementing.mp4
 11:43
-This is the new stuff (but the previous videos are super-important
-preparation without which this video will make no sense).
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
 
-It shows all the basics of how to implement a class,
+This video shows all the basics of how to implement a class,
 using a Point class as an example.
+---
+READING
+Exercise on Box-and-Pointer Diagrams
+./box_and_pointer_exercise.html
+Work this IMPORTANT exercise carefully.  It will take you about 45 minutes.
 
-As you watch the above video,
-answer <span class="emphasis">questions 16 to 22</span> of the above
-<a href="Quiz/Quiz-Session08.pdf">Quiz for the Session 8 videos on CLASSES</a>.
-
-Reminder: It is likely that you will not know the answers to all of the questions in the above quiz.
-That is OK &mdash; just do what you can and BRING YOUR QUESTIONS TO CLASS.
+If there is anything in the exercise that you do not COMPLETELY understand,
+<span class="emphasis">bring your questions to class.</span>
