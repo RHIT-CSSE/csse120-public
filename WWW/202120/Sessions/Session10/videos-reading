@@ -1,54 +1,53 @@
-READING
-Slides on Implementing Classes
-../../../VideoFiles/10.1-ImplementingClasses-KeyConcepts/ImplementingClasses-KeyConcepts.pdf
-There are TWO Moodle quizzes associated with this item.
-
-Try to make sense of these slides,
-but don't worry if you don't understand all of them
-(they really need a video to accompany them).
-
-Just <span class="emphasis">bring your questions about them to class</span>.
+VIDEO
+Sequences
+https://youtu.be/kCZMydx1OfM
+8:43
+Do the Moodle quiz as you watch this video.
 ---
 VIDEO
-What is a CLASS -- the concept
-../../../VideoFiles/17.0-ImplementingClasses/Classes-Concepts/Classes-Concepts.mp4
-7:44
-<span class="emphasis">Optionally,</span>
-review this video from the previous session.
-
-This video reviews the <span class="emphasis">concepts</span>
-of a <span class="technical-term">object</span>
-and
-<span class="technical-term">class</span>.
-
-There are no Moodle quizzes associated with this and the remaining items
-in this Videos/Reading section.
----
-VIDEO
-What is a CLASS -- the notation
-../../../VideoFiles/17.0-ImplementingClasses/Classes-Notation/Classes-Notation.mp4
-6:56
-<span class="emphasis">Optionally,</span>
-review this video from the previous session.
-
-This video reviews the <span class="technical-term">notation of a class</span>,
-as well as the concepts.
-It is important preparation for the next video.
----
-VIDEO
-What is a CLASS -- the implementation
-../../../VideoFiles/17.0-ImplementingClasses/Classes-Implementing/Classes-Implementing.mp4
-11:43
-<span class="emphasis">Optionally,</span>
-review this video from the previous session.
-
-This video shows all the basics of how to implement a class,
-using a Point class as an example.
+The Last Item in a Sequence
+https://youtu.be/Z_ieQp5xRzY
+3:20
+Do the Moodle quiz as you watch this video.
 ---
 READING
-Exercise on Box-and-Pointer Diagrams
-./box_and_pointer_exercise.html
-Work this IMPORTANT exercise carefully.  It will take you about 45 minutes.
+RANGE expressions
+../../../VideoFiles/08.1-RangeExpressions/RangeExpressions.pdf
+Briefly review this document that you read in a previous Preparation.
 
-If there is anything in the exercise that you do not COMPLETELY understand,
-<span class="emphasis">bring your questions to class.</span>
+It extends the 1-argument form that you know to the 2 and
+3-argument forms.
+
+There is a SINGLE Moodle quiz that is associated with BOTH
+this reading AND the next video.
+---
+VIDEO
+Iterating Through a Sequence
+https://youtu.be/KVRMHskYu18
+11:35
+There is a SINGLE Moodle quiz that is associated with BOTH
+the above reading AND this video.
+---
+READING
+Worms, Python and Ethics
+Reading.pdf
+Read this fascinating and important excerpt from a textbook by Horstmann and Necaise.
+
+Do the Moodle quiz as or after you complete this short reading.
+---
+VIDEO
+Code Review
+../../../VideoFiles/03.4-Code Review/CodeReview.mp4
+6:45
+Download this <span class="emphasis">code inspection checklist</span>
+as a <a href="./code_inspection.xlsx">Microsoft Excel Spreadsheet</a> or
+as a <a href="./code_inspection.pdf">PDF</a> (same document in two forms, your choice).
+
+Use the downloaded checklist to help improve Mark's code as you watch the above video
+that shows Valerie doing a <span class="technical-term">code review</span> of Mark's code.
+
+There is no Moodle quiz associated with this item.
+
+Throughout the rest of the course,
+you will frequently <span class="emphasis">review classmates' code</span>
+and <span class="emphasis">have your code reviewed</span>.
