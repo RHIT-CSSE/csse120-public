@@ -9,8 +9,8 @@ It also demonstrates the distinction between:
   -- an INDEX of the sequence (e.g., -5 is at index 1 in [0, -5, 12, -6]) and
   -- the item AT an index (e.g., the item at index 3 in [0, -5, 12, -6] is -6).
 
-Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
+         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 

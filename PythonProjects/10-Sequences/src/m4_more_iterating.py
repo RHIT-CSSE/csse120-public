@@ -8,8 +8,8 @@ through a SEQUENCE.
 It also demonstrates using an ORACLE and/or PROBABILITY THEORY
 in testing and BOUNDARY (EDGE) TESTING.
 
-Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
+         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
