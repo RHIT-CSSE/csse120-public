@@ -222,7 +222,8 @@ class Line(object):
         #        The tests are already written (below).
         #        They include the Example in the above doc-string.
         # ---------------------------------------------------------------------
-
+        self.start = Point.clone(start)
+        start.clone()
     def __repr__(self):
         """
         What comes in:
