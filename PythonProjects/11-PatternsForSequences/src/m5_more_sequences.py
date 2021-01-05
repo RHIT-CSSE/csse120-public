@@ -418,6 +418,198 @@ def contains_an_a(s):
 
 
 ###############################################################################
+# Some problems iterate (loop) through the sequence keeping track of the
+# place (index) where the BEST SO FAR has been found.
+###############################################################################
+def run_test_index_of_largest_number():
+    """ Tests the   index_of_largest_number   function. """
+    print()
+    print("--------------------------------------------------")
+    print("Testing the   index_of_largest_number   function:")
+    print("--------------------------------------------------")
+
+    format_string = "    index_of_largest_number ( {} )"
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # Test 1:
+    expected = 2
+    sequence = [90, 0, 100, 200, -5, 100, -10, 200, 15]
+    n = 3
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:
+    expected = 0
+    sequence = [90, 0, 100, 200, -5, 100, -10, 200, 15]
+    n = 2
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    expected = 3
+    sequence = [90, 0, 100, 200, -5, 100, -10, 200, 15]
+    n = 9
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 4:
+    expected = 2
+    sequence = [90, 0, 100, -5, 100, -10, 15]
+    n = 3
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    expected = 0
+    sequence = [90, 0, 100, -5, 100, -10, 15]
+    n = 2
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    expected = 2
+    sequence = [90, 0, 93, -5, 93, -10, 15]
+    n = 7
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    expected = 5
+    sequence = [5, 30, 10, 15, 1, 60]
+    n = 6
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 8:
+    expected = 0
+    sequence = [-5, 30, 10, 15, 1, 60]
+    n = 1
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 9:
+    expected = 1
+    sequence = [-500000000000000000000000000000,
+                -400000000000000000000000000000]
+    n = 2
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 10:
+    expected = 0
+    sequence = [-40000000000000000000000000000000000,
+                -50000000000000000000000000000000000]
+    n = 2
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 11:
+    expected = 0
+    sequence = [-40000000000000000000000000000000000,
+                -50000000000000000000000000000000000]
+    n = 2
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 12:
+    expected = 0
+    sequence = [90, 0, 100, -5, 100, -10, 15]
+    n = 1
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 13:
+    expected = 2
+    sequence = [90, 0, 100, -5, 100, -10, 15]
+    n = 4
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 14:
+    expected = 2
+    sequence = [90, 0, 100, -5, 100, -10, 15]
+    n = 5
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 15:
+    expected = 2
+    sequence = [90, 0, 100, -5, 100, -10, 15]
+    n = 6
+    print_expected_result_of_test([sequence, n], expected, test_results,
+                                  format_string)
+    actual = index_of_largest_number(sequence, n)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # SUMMARY of test results:
+    print_summary_of_test_results(test_results)
+
+
+def index_of_largest_number(numbers, n):
+    """
+    What comes in:
+      -- a non-empty sequence of numbers
+      -- a positive integer  n  that is less than or equal to
+           the length of the given sequence
+    What goes out:  INDEX of the largest number in the first n numbers
+      of the given sequence of numbers.  If there is a tie for largest
+      number, returns the smallest of the indices of the tied numbers.
+    Side effects: None.
+    Examples:
+      If the first argument is:
+         [90, 0, 100, 200, -5, 100, -10, 200, 15]
+      and the second argument  n  is 3,
+      then this function returns  2  (because 100, at index 2,
+      is the largest of the first 3 numbers in the list).
+
+      Another example: for the same list as above, but with n = 2,
+      this function returns  0  (because 90, at index 0,
+      is the largest of the first 2 numbers in the list).
+
+      Yet another example:  For the same list as above, but with n = 9,
+      this function returns  3  (because 200, at indices 3 and 7,
+      is the largest of the first 9 numbers in the list,
+      and we break the tie in favor of the smaller index).
+
+    Type hints:
+      :type numbers: list[float]   or tuple[float]
+      :type n:       int
+    """
+    # -------------------------------------------------------------------------
+    # TODO: 6. Implement and test this function.
+    #     The testing code is already written for you (above).
+    # -------------------------------------------------------------------------
+
+
+###############################################################################
 # Some problems iterate (loop) through the sequence accessing TWO
 # (or more) places in the sequence AT THE SAME ITERATION,
 # as in the  number_of_stutters  problem below.
@@ -525,7 +717,7 @@ def number_of_stutters(s):
        :type s: str
     """
     # -------------------------------------------------------------------------
-    # TODO: 6. Implement and test this function.
+    # TODO: 7. Implement and test this function.
     #     The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
