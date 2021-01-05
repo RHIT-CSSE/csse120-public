@@ -52,7 +52,7 @@ def main():
 #  where BLAH is (in all of these patterns) some expression appropriate
 #  as the range, e.g.
 #        len(seq)
-#  if the problem requires examining all the items in the sequeence.
+#  if the problem requires examining all the items in the sequence.
 #  _
 #  EXAMPLE:
 #     Given a sequence of numbers,
@@ -287,7 +287,13 @@ def two_sequences_at_each_iteration(numbers_1, numbers_2):
     Examples:
       -- two_sequences_at_each_iteration( [5, 2, 7, 11, 8, 20],
                                           [9, 1, 3, 20, 9, 40] )
-            returns  5 + 1 + 3 + 11 + 8 + 20, which is 48
+                 returns  5 + 1 + 3 + 11 + 8 + 20, which is 48
+      -- two_sequences_at_each_iteration( [10, 5, 8, 4],
+                                          [20, 3, 8, 100] )
+                 returns  10 + 3 + 8 + 4, which is 25
+      -- two_sequences_at_each_iteration( [20, 3, 8, 100],
+                                          [10, 5, 8, 4])
+                 returns  10 + 3 + 8 + 4, which is 25
     """
     # -------------------------------------------------------------------------
     # TODO: 11. Implement and test this function.
@@ -729,6 +735,78 @@ def run_test_two_sequences_at_each_iteration():
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
+    sequence_1 = [10, 5, 8, 4]
+    sequence_2 = [20, 3, 8, 100]
+    expected = 10 + 3 + 8 + 4  # which is 25
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    sequence_1 = [20, 3, 8, 100]
+    sequence_2 = [10, 5, 8, 4]
+    expected = 10 + 3 + 8 + 4  # which is 25
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 4:
+    sequence_1 = [5, 200, 7, 11, 8, 20, 10, 14, 101]
+    sequence_2 = [1, -10, 5, 20, 9, 40, 10, 20, 100]
+    expected = 1 + -10 + 5 + 11 + 8 + 20 + 10 + 14 + 100  # which is 159
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    sequence_1 = [5]
+    sequence_2 = [1]
+    expected = 1
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    sequence_1 = [1]
+    sequence_2 = [5]
+    expected = 1
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    sequence_1 = [10, 20, 30, 40, 50]
+    sequence_2 = [-1, -1, -1, -1, -1]
+    expected = -5
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 8:
+    sequence_1 = [10, 20, 30, 20, 10, 5, 4, 3, 2]
+    sequence_2 = [-9, 19, 25, 15, 20, 9, 9, 9, 0]
+    expected = -9 + 19 + 25 + 15 + 10 + 5 + 4 + 3 + 0  # which is 72
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 9:
+    sequence_1 = [10, 20, 30, 20, 10, 5, 4, 3, 2]
+    sequence_2 = [-9, 19, 25, 15, 20, 9, 9, 9, 0]
+    expected = -9 + 19 + 25 + 15 + 10 + 5 + 4 + 3 + 0  # which is 72
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 10:
     sequence_1 = [5, 200, 7, 11, 8, 20, 10, 14, 101]
     sequence_2 = [1, -10, 5, 20, 9, 40, 10, 20, 100]
     expected = 1 + -10 + 5 + 11 + 8 + 20 + 10 + 14 + 100  # which is 159
