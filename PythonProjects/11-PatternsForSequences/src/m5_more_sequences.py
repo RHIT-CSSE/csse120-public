@@ -1,13 +1,17 @@
 """
 This module lets you practice various patterns
 for ITERATING through SEQUENCES, including:
-  -- Beginning to end
-  -- Other ranges (e.g., backwards and every-3rd-item)
-  -- The COUNT/SUM/etc pattern
-  -- The FIND pattern (via LINEAR SEARCH)
+  -- COUNT/SUM/EXAMINE-ITEMS
+  -- FIND-ITEM
+  -- FIND-BEST-ITEM
+  -- TWO-PLACES-AT-EACH-ITERATION
+  -- TWO-SEQUENCES-AT-EACH-ITERATION
+  -- BUILD-A-SEQUENCE 
+Additionally, they let you practice when and how you should iterate
+through PART of the sequence versus ALL of the sequence.
 
-Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
+         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -29,6 +33,7 @@ def main():
     # run_test_contains_an_a()
     # run_test_index_of_largest_number()
     # run_test_number_of_stutters()
+    # run_test_vector_sum()
 
 
 ###############################################################################
@@ -383,7 +388,7 @@ def run_test_contains_an_a():
         if type(actual) is str and actual == str(expected):
             print("Your code FAILED this test for   contains_an_a.")
             print("  You appear to have returned the STRING:")
-            print("      \"" + actual + "\"")
+            print("      \"" + str(actual) + "\"")
             print("  instead of the built-in constant:")
             print("       " + str(expected))
 
@@ -724,6 +729,156 @@ def number_of_stutters(s):
     # -------------------------------------------------------------------------
     # TODO: 7. Implement and test this function.
     #     The testing code is already written for you (above).
+    # -------------------------------------------------------------------------
+
+
+###############################################################################
+# Some problems iterate (loop) through TWO sequences at each iteration
+# of the loop, and some problems require "building up" a list.
+# The problem below requires both of these patterns.
+###############################################################################
+def run_test_vector_sum():
+    """ Tests the   vector_sum   function. """
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   vector_sum   function:')
+    print('--------------------------------------------------')
+
+    format_string = '    vector_sum( {}, {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    format_string = '    two_sequences_at_each_iteration( {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # Test 1:
+    sequence_1 = [5, 2, 7, 11, 8, 20]
+    sequence_2 = [9, 1, 3, 20, 9, 40]
+    expected = [14, 3, 10, 31, 17, 60]
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:
+    sequence_1 = [10, 5, 8, 4]
+    sequence_2 = [20, 3, 8, 100]
+    expected = [30, 8, 16, 104]
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    sequence_1 = [20, 3, 8, 100]
+    sequence_2 = [10, 5, 8, 4]
+    expected = [30, 8, 16, 104]
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 4:
+    sequence_1 = [5, 200, 7, 11, 8, 20, 10, 14, 101]
+    sequence_2 = [1, -10, 5, 20, 9, 40, 10, 20, 100]
+    expected = [6, 190, 12, 31, 17, 60, 20, 34, 201]
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    sequence_1 = [5]
+    sequence_2 = [1]
+    expected = [6]
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    sequence_1 = [1]
+    sequence_2 = [5]
+    expected = [6]
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    sequence_1 = [10, 20, 30, 40, 50]
+    sequence_2 = [-1, -1, -1, -1, -1]
+    expected = [9, 19, 29, 39, 49]
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 8:
+    sequence_1 = [10, 20, 30, 20, 10, 5, 4, 3, 2]
+    sequence_2 = [-9, 19, 25, 15, 20, 9, 9, 9, 0]
+    expected = [1, 39, 55, 35, 30, 14, 13, 12, 2]
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 9:
+    sequence_1 = [-9, 19, 25, 15, 20, 9, 9, 9, 0]
+    sequence_2 = [10, 20, 30, 20, 10, 5, 4, 3, 2]
+    expected = [1, 39, 55, 35, 30, 14, 13, 12, 2]
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 10:
+    sequence_1 = [5, 200, 7, 11, 8, 20, 10, 14, -1010]
+    sequence_2 = [1, -10, 5, 20, 9, 40, 10, 20, -1000]
+    expected = [6, 190, 12, 31, 17, 60, 20, 34, -2010]
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 11:
+    sequence_1 = []
+    sequence_2 = []
+    expected = []
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = vector_sum(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    print_summary_of_test_results(test_results)
+
+
+def vector_sum(numbers_1, numbers_2):
+    """
+    What comes in:  Two sequences of numbers, each of the same length.
+    What goes out:
+      -- Returns the list that is the vector sum of the two sequences.
+           That is, if the sequences are:
+              [x1, x2, x3, ... xn] and
+              [y1, y2, y3, ... yn],
+           this function returns [x1 + y1, x2 + y2, x3 + y3, ... xn + yn].
+    Side effects:   None.
+    Examples:
+      -- two_sequences_at_each_iteration( [5, 2, 7, 11, 8, 20],
+                                          [9, 1, 3, 20, 9, 40] )
+           returns
+                    [(5 + 9), (2 + 1), (7 + 3), (11 + 20), (8 + 9), (20 + 40),
+           which is [14, 3, 10, 31, 17, 60]
+      -- two_sequences_at_each_iteration( [10, 5, 8, 4],
+                                          [20, 3, 8, 100] )
+            returns  [(10 + 20), (5 + 3), (8 + 8), (4 + 100),
+            which is [30, 8, 16, 104]
+      -- two_sequences_at_each_iteration( [20, 3, 8, 100],
+                                          [10, 5, 8, 4])
+            also returns  [30, 8, 16, 104]
+    """
+    # -------------------------------------------------------------------------
+    # TODO: 8. Implement and test this function.
+    #          The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
 
