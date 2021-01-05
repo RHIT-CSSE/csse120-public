@@ -5,7 +5,7 @@ for ITERATING through SEQUENCES, including these patterns:
   -- FIND-ITEM
   -- FIND-BEST-ITEM
   -- TWO-PLACES-AT-EACH-ITERATION
-  -- TWO-SEQUENCES-AT-EACH-ITERATION (in a forthcoming module)
+  -- TWO-SEQUENCES-AT-EACH-ITERATION
   -- BUILD-A-SEQUENCE (in other modules of this session)
 
 Of course, these are not the only patterns, and some problems require
@@ -28,12 +28,12 @@ def main():
     print("Un-comment each of the following TEST functions")
     print("as you implement the functions that they test.")
     print("-----------------------------------------------")
-    run_test_count_sum_examine_items()
-    run_test_find_item()
-    run_test_find_best_item()
-    run_test_two_places_at_each_iteration()
+    # run_test_count_sum_examine_items()
+    # run_test_find_item()
+    # run_test_find_best_item()
+    # run_test_two_places_at_each_iteration()
     # run_test_two_sequences_at_each_iteration()
-    # run_test_build_a_sequence()
+
 
 ###############################################################################
 # NOTE: In order to focus your attention on the CODE that you write using the
@@ -82,11 +82,6 @@ def count_sum_examine_items(integers):
     # TODO: 3. Implement and test this function.
     #          The testing code is already written for you (below).
     # -------------------------------------------------------------------------
-    total = 0
-    for k in range(len(integers)):
-        if integers[k] % 2 == 1:
-            total = total + integers[k]
-    return total
 
 
 # -----------------------------------------------------------------------------
@@ -141,10 +136,6 @@ def find_item(numbers, threshold):
     # TODO: 5. Implement and test this function.
     #          The testing code is already written for you (below).
     # -------------------------------------------------------------------------
-    for k in range(len(numbers)):
-        if numbers[k] < threshold:
-            return k
-    return -99
 
 
 # -----------------------------------------------------------------------------
@@ -211,12 +202,6 @@ def find_best_item(integers):
     #          The testing code is already written for you (below).
     #  *** The usual   sum_of_digits   function is defined further below.
     # -------------------------------------------------------------------------
-    index_of_best_so_far = 0
-    for k in range(1, len(integers)):
-        best_so_far = sum_of_digits(integers[index_of_best_so_far])
-        if sum_of_digits(integers[k]) > best_so_far:
-            index_of_best_so_far = k
-    return integers[index_of_best_so_far]
 
 
 # -----------------------------------------------------------------------------
@@ -226,8 +211,8 @@ def find_best_item(integers):
 #  but at each iteration it examines TWO items, at two DIFFERENT indices.
 #  _
 #  PATTERN:
-#    for k in range( BLAH ):
-#        ... sequence[ INDEX_1 ] ... sequence[ INDEX_2 ] ...
+#        for k in range( BLAH ):
+#            ... sequence[ INDEX_1 ] ... sequence[ INDEX_2 ] ...
 #  _
 #  where BLAH is some range appropriate to the problem,
 #       INDEX_1 is some function of k that gives ONE
@@ -264,61 +249,50 @@ def two_places_at_each_iteration(numbers):
     # TODO: 9. Implement and test this function.
     #          The testing code is already written for you (below).
     # -------------------------------------------------------------------------
-    for k in range(len(numbers) - 1):
-        if numbers[k] > numbers[k + 1]:
-            return False
-    return True
 
 
 # -----------------------------------------------------------------------------
 # TODO: 10. Read the following, ASKING QUESTIONS AS NEEDED.
 #  _
-#  The   TWO-SEQUENCES-AT-EACH-ITERATION    pattern loops through TWO (or more)
-#  seuences "in parallel".
+#  The   TWO-SEQUENCES-AT-EACH-ITERATION    pattern
+#  loops through TWO (or more) sequences "in parallel".
 #  _
 #  PATTERN:
-#    for k in range( BLAH ):
-#        ... sequence[ INDEX_1 ] ... sequence[ INDEX_2 ] ...
+#        for k in range(len(sequence1)):
+#            ... sequence_1[k] ... sequence_2[k] ...
 #  _
-#  where BLAH is some range appropriate to the problem,
-#       INDEX_1 is some function of k that gives ONE
-#             of the "two places at each iteration" to examine, and
-#       INDEX_2 is another function of k that gives the OTHER
-#             of the "two places at each iteration" to examine.
-#  Typically, INDEX_1 or INDEX_2 (but not both) is simply k.
+#  The above assumes that the sequences are of equal length
+#  (or that you just want to do the length of sequence_1).
 #  _
 #  EXAMPLE:
-#     Given a sequence of numbers,
-#     return the number of places in the sequence where the number at one
-#     place is greater than the number at the next place.
+#     Given two sequences of numbers,
+#     return the number of places where the item in the first sequence
+#     is greater than the same-index item in the second sequence.
 #  _
 #     count = 0
-#     for k in range(len(numbers) - 1):
-#         if numbers[k] > numbers[k + 1]:
+#     for k in range(len(numbers_1)):
+#         if numbers_1[k] > numbers_2[k]:
 #             count = count + 1
 #     return count
 #  _
 #  After you are SURE that you understand the above, mark this _TODO_ as DONE.
 # ----------------------------------------------------------------------------
-def two_sequences_at_each_iteration(numbers):
+def two_sequences_at_each_iteration(numbers_1, numbers_2):
     """
-    What comes in:  A non-empty sequence of numbers.
+    What comes in:  Two sequences of numbers, each of the same length.
     What goes out:
-      -- Returns True if the sequence is in ascending order,
-         else returns False.
+      -- Returns the sum of items, where each item to be summed
+         is the smaller of the same-index items in the two sequences.
     Side effects:   None.
     Examples:
-      -- two_places_at_each_iteration( [19, 23, 23, 45, 50] )  returns  True
-      -- two_places_at_each_iteration( [19, 23, 20, 45, 42] )  returns  False
+      -- two_sequences_at_each_iteration( [5, 2, 7, 11, 8, 20],
+                                          [9, 1, 3, 20, 9, 40] )
+            returns  5 + 1 + 3 + 11 + 8 + 20, which is 48
     """
     # -------------------------------------------------------------------------
     # TODO: 11. Implement and test this function.
     #          The testing code is already written for you (below).
     # -------------------------------------------------------------------------
-    for k in range(len(numbers) - 1):
-        if numbers[k] > numbers[k + 1]:
-            return False
-    return True
 
 
 def run_test_count_sum_examine_items():
@@ -731,6 +705,38 @@ def run_test_two_places_at_each_iteration():
                                   format_string)
     actual = two_places_at_each_iteration(sequence)
     print_actual_result_of_test(expected, actual, test_results)
+
+    print_summary_of_test_results(test_results)
+
+
+def run_test_two_sequences_at_each_iteration():
+    """ Tests the   two_sequences_at_each_iteration   function. """
+    print()
+    print("------------------------------------------------------")
+    print("Testing the   two_sequences_at_each_iteration   function:")
+    print("------------------------------------------------------")
+
+    format_string = '    two_sequences_at_each_iteration( {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # Test 1:
+    sequence_1 = [5, 2, 7, 11, 8, 20]
+    sequence_2 = [9, 1, 3, 20, 9, 40]
+    expected = 5 + 1 + 3 + 11 + 8 + 20  # which is 48
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:
+    sequence_1 = [5, 200, 7, 11, 8, 20, 10, 14, 101]
+    sequence_2 = [1, -10, 5, 20, 9, 40, 10, 20, 100]
+    expected = 1 + -10 + 5 + 11 + 8 + 20 + 10 + 14 + 100  # which is 159
+    print_expected_result_of_test([sequence_1, sequence_2], expected,
+                                  test_results, format_string)
+    actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
+    print_actual_result_of_test(expected, actual, test_results)
+
     print_summary_of_test_results(test_results)
 
 
@@ -761,86 +767,6 @@ def sum_of_digits(number):
         number = number // 10
 
     return digit_sum
-
-
-
-
-
-# -----------------------------------------------------------------------------
-# The   TWO-PLACES-AT-ONCE   pattern:
-# -----------------------------------------------------------------------------
-def two_places_at_once(sequence):
-    """
-    Demonstrates iterating (looping) through a sequence,
-    but examining TWO places in the sequence on the SAME ITERATION.
-
-    This particular example returns the number of items in the sequence
-    that are bigger than the previous item in the sequence.
-    For example, if the sequence is [4, 66, 33, 90, 93, 3, 3, 3, 2, 15],
-    then the function returns   4
-    since   66 > 4   and   90 > 33   and   93 > 90   and   15 > 2.
-
-    Type hints:
-      :type sequence: list[int | float] | tuple[int | float]
-      :rtype: int
-    """
-    # -------------------------------------------------------------------------
-    # The   TWO-PLACES-AT-ONCE   pattern is:
-    #
-    #    for k in range( BLAH ):
-    #        ... sequence[ FOO_1 ] ... sequence[ FOO_2 ] ...
-    #
-    # where BLAH is some range appropriate to the problem,
-    #       FOO_1 is some function of k that gives ONE
-    #             of the "two places at once" to examine, and
-    #       FOO_2 is another function of k that gives the OTHER
-    #             of the "two places at once" to examine.
-    # Typically, FOO_1 or FOO_2 (but not both) is simply k.
-    # -------------------------------------------------------------------------
-    count = 0
-    for k in range(len(sequence) - 1):
-        if sequence[k + 1] > sequence[k]:
-            count = count + 1
-
-    return count
-
-
-# -----------------------------------------------------------------------------
-# The   TWO-SEQUENCES-IN-PARALLEL   pattern:
-# -----------------------------------------------------------------------------
-def two_sequences_in_parallel(sequence1, sequence2):
-    """
-    Demonstrates iterating (looping) through TWO sequences in PARALLEL.
-
-    This particular example assumes that the two sequences are of equal
-    length and returns the number of items in sequence2 that are bigger
-    than  their corresponding item in sequence1.  For example,
-    if the sequences are:
-        [11, 22, 10, 44, 33, 12]
-        [55, 10, 30, 30, 30, 30]
-    then this function returns 3, since 55 > 11 and 30 > 10 and 30 > 12.
-
-    Type hints:
-      :type sequence1: list[int | float] | tuple[int | float]
-      :type sequence2: list[int | float] | tuple[int | float]
-      :rtype: int
-    Precondition:  the two sequences are of equal length.
-    """
-    # -------------------------------------------------------------------------
-    # The TWO-SEQUENCES-IN-PARALLEL pattern is:
-    #
-    #    for k in range(len(sequence1)):
-    #        ... sequence1[k] ... sequence2[k] ...
-    #
-    # The above assumes that the sequences are of equal length
-    # (or that you just want to do the length of sequence1).
-    # -------------------------------------------------------------------------
-    count = 0
-    for k in range(len(sequence1)):
-        if sequence1[k] > sequence2[k]:
-            count = count + 1
-
-    return count
 
 
 ###############################################################################

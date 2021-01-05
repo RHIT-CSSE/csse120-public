@@ -19,11 +19,16 @@ import sys
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_sum_radii()
-    run_test_count_last_n_odds()
-    run_test_index_of_first_negative()
-    run_test_contains_an_a()
-    run_test_number_of_stutters()
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
+    # run_test_sum_radii()
+    # run_test_count_last_n_odds()
+    # run_test_index_of_first_negative()
+    # run_test_contains_an_a()
+    # run_test_index_of_largest_number()
+    # run_test_number_of_stutters()
 
 
 ###############################################################################
