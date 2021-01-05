@@ -722,7 +722,7 @@ def run_test_two_sequences_at_each_iteration():
     print("Testing the   two_sequences_at_each_iteration   function:")
     print("------------------------------------------------------")
 
-    format_string = '    two_sequences_at_each_iteration( {} )'
+    format_string = '    two_sequences_at_each_iteration( {}, {} )'
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
@@ -798,8 +798,8 @@ def run_test_two_sequences_at_each_iteration():
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 9:
-    sequence_1 = [10, 20, 30, 20, 10, 5, 4, 3, 2]
-    sequence_2 = [-9, 19, 25, 15, 20, 9, 9, 9, 0]
+    sequence_1 = [-9, 19, 25, 15, 20, 9, 9, 9, 0]
+    sequence_2 = [10, 20, 30, 20, 10, 5, 4, 3, 2]
     expected = -9 + 19 + 25 + 15 + 10 + 5 + 4 + 3 + 0  # which is 72
     print_expected_result_of_test([sequence_1, sequence_2], expected,
                                   test_results, format_string)
@@ -807,9 +807,9 @@ def run_test_two_sequences_at_each_iteration():
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 10:
-    sequence_1 = [5, 200, 7, 11, 8, 20, 10, 14, 101]
-    sequence_2 = [1, -10, 5, 20, 9, 40, 10, 20, 100]
-    expected = 1 + -10 + 5 + 11 + 8 + 20 + 10 + 14 + 100  # which is 159
+    sequence_1 = [5, 200, 7, 11, 8, 20, 10, 14, -1010]
+    sequence_2 = [1, -10, 5, 20, 9, 40, 10, 20, -1000]
+    expected = 1 + -10 + 5 + 11 + 8 + 20 + 10 + 14 + -1010  # which is -951
     print_expected_result_of_test([sequence_1, sequence_2], expected,
                                   test_results, format_string)
     actual = two_sequences_at_each_iteration(sequence_1, sequence_2)
