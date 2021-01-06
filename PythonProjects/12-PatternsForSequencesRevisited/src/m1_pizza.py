@@ -5,8 +5,8 @@ This module lets you practice:
   -- DEFINING functions
   -- CALLING functions
 
-Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
+         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -30,7 +30,11 @@ def main():
     #        RE-commenting out the previous test to reduce the output.
     # -------------------------------------------------------------------------
 
-    run_test_generate_points_on_circle()
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
+    # run_test_generate_points_on_circle()
     # run_test_draw_points_on_circle()
     # run_test_pizza()
     # run_test_polygon()
@@ -449,6 +453,12 @@ def run_test_fancy_polygon():
     # -------------------------------------------------------------------------
 
 
+###############################################################################
+#  IMPORTANT: In the following problem, you will find that you want to do
+#  "wrapping".  One way to do so is to use the  %  operator appropriately.
+#  After you have read the problem, ASK YOUR INSTRUCTOR FOR AN EXAMPLE
+#  (or see the relevant question on Piazza) as needed.
+###############################################################################
 def fancy_polygon(window, circle, number_of_lines, hops_to_next_point, color,
                   thickness):
     """
