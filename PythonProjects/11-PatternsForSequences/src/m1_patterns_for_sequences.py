@@ -258,7 +258,7 @@ def two_places_at_each_iteration(numbers):
 #  loops through TWO (or more) sequences "in parallel".
 #  _
 #  PATTERN:
-#        for k in range(len(sequence1)):
+#        for k in range(len(sequence_1)):
 #            ... sequence_1[k] ... sequence_2[k] ...
 #  _
 #  The above assumes that the sequences are of equal length
