@@ -43,7 +43,7 @@ def main():
     print("Un-comment each of the following TEST functions")
     print("as you implement the functions that they test.")
     print("-----------------------------------------------")
-    # run_test_biggest_at_even()
+    # run_test_sum_at_even()
     # run_test_smallest_index_where_zero()
     # run_test_multiply_x_coordinates()
     # run_test_count_same()
@@ -54,14 +54,14 @@ def main():
     # run_test_make_concatenation()
 
 
-def run_test_biggest_at_even():
-    """ Tests the    biggest_at_even    function. """
+def run_test_sum_at_even():
+    """ Tests the    sum_at_even    function. """
     print()
     print('--------------------------------------------------')
-    print('Testing the   biggest_at_even  function:')
+    print('Testing the   sum_at_even  function:')
     print('--------------------------------------------------')
 
-    format_string = '    biggest_at_even( {} )'
+    format_string = '    sum_at_even( {} )'
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
@@ -69,7 +69,7 @@ def run_test_biggest_at_even():
     sequence = (12, 33, 18, 9, 13, 3, 99, 20, 19, 20)
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
@@ -77,7 +77,7 @@ def run_test_biggest_at_even():
     sequence = (3, 12, 10, 8, 8, 9, 8, 11)
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 3:
@@ -85,7 +85,7 @@ def run_test_biggest_at_even():
     sequence = (-9999999999, 8888888888)
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 4:
@@ -93,7 +93,7 @@ def run_test_biggest_at_even():
     sequence = (8888888888, -9999999999)
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 5:
@@ -101,7 +101,7 @@ def run_test_biggest_at_even():
     sequence = (-77, 20000, -33, 40000, -55, 60000, -11)
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 6:
@@ -109,7 +109,7 @@ def run_test_biggest_at_even():
     sequence = ()
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 7:
@@ -117,7 +117,7 @@ def run_test_biggest_at_even():
     sequence = []
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 8:
@@ -125,7 +125,7 @@ def run_test_biggest_at_even():
     sequence = [8]
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 9:
@@ -133,7 +133,7 @@ def run_test_biggest_at_even():
     sequence = (-77, 8)
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 10:
@@ -141,7 +141,7 @@ def run_test_biggest_at_even():
     sequence = (-77, 8, 77)
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 11:
@@ -149,7 +149,7 @@ def run_test_biggest_at_even():
     sequence = (-77, 8, 78)
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 12:
@@ -157,14 +157,14 @@ def run_test_biggest_at_even():
     sequence = (-77, 8, 78, 100)
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
-    actual = biggest_at_even(sequence)
+    actual = sum_at_even(sequence)
     print_actual_result_of_test(expected, actual, test_results)
 
     # SUMMARY of test results:
     print_summary_of_test_results(test_results)
 
 
-def biggest_at_even(sequence):
+def sum_at_even(sequence):
     """
     What comes in:
       A sequence of numbers.
