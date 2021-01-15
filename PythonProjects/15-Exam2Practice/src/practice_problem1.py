@@ -6,7 +6,6 @@ Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-
 ###############################################################################
 # Students:
 #
@@ -130,7 +129,7 @@ def practice_problem1a(sequence, delta):
     #    DIFFICULTY:      3
     #    TIME ESTIMATE:   5 minutes.
     # -------------------------------------------------------------------------
-    
+
 
 def run_test_practice_problem1b():
     """ Tests the    practice_problem1b    function. """
@@ -246,14 +245,14 @@ def practice_problem1b(sequence):
       :type: sequence: list    or tuple or string
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # TODO: 3. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      3
     #    TIME ESTIMATE:   5 minutes
     # -------------------------------------------------------------------------
-    
+
 
 def run_test_practice_problem1c():
     """ Tests the    practice_problem1c    function. """
@@ -351,7 +350,7 @@ def practice_problem1c(sequence):
       :type sequence: (list | tuple) of (float | int)
     """
     # -------------------------------------------------------------------------
-    # TODO: 9. Implement and test this function.
+    # TODO: 4. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -466,14 +465,14 @@ def practice_problem1d(sequence1, sequence2):
       :type sequence2: (list | tuple | str)
     """
     # -------------------------------------------------------------------------
-    # TODO: 9. Implement and test this function.
+    # TODO: 5. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      5
     #    TIME ESTIMATE:   10 minutes.
     # -------------------------------------------------------------------------
-    
+
 
 def run_test_practice_problem1e():
     """ Tests the    practice_problem1e    function. """
@@ -601,7 +600,7 @@ def practice_problem1e(sequence):
       :type sequence: list(float)    or tuple(float)
     """
     # -------------------------------------------------------------------------
-    # TODO: 7. Implement and test this function.
+    # TODO: 6. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -724,7 +723,7 @@ def practice_problem1f(sequence):
       :type: sequence: list    or tuple or string
     """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # TODO: 7. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -732,7 +731,7 @@ def practice_problem1f(sequence):
     #    TIME ESTIMATE:   8 minutes.
     # 
     # -------------------------------------------------------------------------
-    
+
 
 def run_test_practice_problem1g():
     """ Tests the    practice_problem1g    function. """
@@ -894,7 +893,7 @@ def practice_problem1g(sequence):
       :type: sequence: list    or tuple or string
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # TODO: 8. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ___
     #  IMPLEMENTATION REQUIREMENT:  You are NOT allowed to use the
@@ -1037,14 +1036,14 @@ def practice_problem1h(circles):
       :type circles: [rg.Circle]
     """
     # -------------------------------------------------------------------------
-    # TODO: 10. Implement and test this function.
+    # TODO: 9. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      7
     #    TIME ESTIMATE:   10 minutes.
     # -------------------------------------------------------------------------
-    
+
 
 def run_test_practice_problem1i():
     """ Tests the    practice_problem1i    function. """
@@ -1126,7 +1125,7 @@ def practice_problem1i(sequence):
       :type sequence: list | tuple | string
     """
     # -------------------------------------------------------------------------
-    # TODO: 8. Implement and test this function.
+    # TODO: 10. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -1234,7 +1233,7 @@ def practice_problem1j(sequence):
       :type sequence: [str]
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # TODO: 11. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)

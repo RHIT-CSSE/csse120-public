@@ -6,7 +6,6 @@ Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-
 ###############################################################################
 # Students:
 #
@@ -115,7 +114,7 @@ def run_test_practice_problem1():
 
     # Test 3:
     expected = True
-    sequence = (77, 112, 33, 1 , 0, 43, 5, 115)
+    sequence = (77, 112, 33, 1, 0, 43, 5, 115)
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
     actual = practice_problem1(sequence)
@@ -160,7 +159,6 @@ def practice_problem1(sequence):
     Type hints:
       :type: sequence: list    or tuple or string
     """
-
 
     # -------------------------------------------------------------------------
     # ToDo: 1. Implement and test this function.
@@ -277,7 +275,7 @@ def practice_problem2(sequence):
     """
 
     # -------------------------------------------------------------------------
-    # Todo: 2. Implement and test this function.
+    # ToDo: 2. Implement and test this function.
     #     The testing code is already written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -393,8 +391,6 @@ def practice_problem3(sequence, threshold):
     #    DIFFICULTY:      5
     #    TIME ESTIMATE:   10 minutes for both parts of this problem combined.
     # -------------------------------------------------------------------------
-
-
 
 
 def run_test_practice_problem4():
@@ -522,7 +518,6 @@ def practice_problem4(sequence):
     Type hints:
       :type sequence: list(float)    or tuple(float)
     """
-
 
     # -------------------------------------------------------------------------
     # Todo: 4. Implement and test this function.
@@ -711,7 +706,6 @@ def practice_problem6(sequence):
       :type sequence: (list | tuple) of (float | int)
     """
 
-
     # -------------------------------------------------------------------------
     # Todo: 6. Implement and test this function.
     #     The testing code is already written for you (above).
@@ -854,7 +848,6 @@ def practice_problem7(circles):
 
 
 def run_test_practice_problem8():
-
     """
     #-------------------------------------------------------------------------
     # Todo: 8.  Write 2 test cases based on the function signature for problem 8
@@ -866,6 +859,8 @@ def run_test_practice_problem8():
     # -------------------------------------------------------------------------
 
     """
+
+
 def practice_problem8(sequences1, sequences2):
     """
     What comes in:  Two sequences of integers of the same length
