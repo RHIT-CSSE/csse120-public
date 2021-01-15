@@ -1,10 +1,11 @@
 VIDEO
-How to determine the structure of nested loops
-../../../VideoFiles/15.3-LoopStructures/LoopStructures.mp4
-11:21
-There is no Moodle quiz associated with this video.
+Loops within Loops (aka Nested Loops) &mdash; How they work
+../../../VideoFiles/16.0-LoopsWithinLoops-HowTheyWork/LoopsWithinLoops-HowTheyWork.mp4
+6:21
+There is a SINGLE Moodle quiz that covers BOTH of the videos for this Session.
+The quiz indicates when it switches from the first video to the second
 ---
-OTHER
-Optional review:
-If you are struggling with the Session18_LoopsWithinLoops project,
-consider watching some of the videos from the Preparation for that project (perhaps for a second time).
+VIDEO
+A Technique for Solving Print-On-Console Loop-Within-Loop Problems
+../../../VideoFiles/15.1-PrintingLoopsWithinLoopsTechnique/15.1-PrintingLoopsWithinLoopsTechnique.mp4
+8:20
