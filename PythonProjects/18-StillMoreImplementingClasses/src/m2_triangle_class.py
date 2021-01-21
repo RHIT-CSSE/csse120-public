@@ -1,30 +1,11 @@
 """
-PRACTICE Exam 2, practice_problem 1.
+More practice implementing classes.
+You are GIVEN a Point class and IMPLEMENT a Triangle class.
 
-Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
+         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
-
-###############################################################################
-# Students:
-#
-# These problems have DIFFICULTY and TIME ratings:
-#  DIFFICULTY rating:  1 to 10, where:
-#     1 is very easy
-#     3 is an "easy" Exam 2 question.
-#     5 is a "typical" Exam 2 question.
-#     7 is a "hard" Exam 2 question.
-#    10 is an EXTREMELY hard problem (too hard for an Exam 2 question)
-#
-#  TIME ratings: A ROUGH estimate of the number of minutes that we
-#     would expect a well-prepared student to take on the problem.
-#
-#  IMPORTANT: For ALL the problems in this module,
-#    if you reach the time estimate and are NOT close to a solution,
-#    STOP working on that problem and ASK YOUR INSTRUCTOR FOR HELP
-#    on it, in class or via Piazza.
-###############################################################################
 
 import math
 import time
