@@ -36,7 +36,7 @@ by replacing each occurrence of its character with an asterisk ("*").
 
        elsa = Censor("a")
        elsa.transform("Cats are naturally lazy")
-          returns     "C*ts a*e n*tur*lly l*zy"
+          returns     "C*ts *re n*tur*lly l*zy"
        
        sarah = Censor()
        sarah.transform("Tweedledee and Tweedledum")
