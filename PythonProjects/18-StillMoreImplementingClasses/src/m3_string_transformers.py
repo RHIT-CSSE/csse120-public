@@ -29,8 +29,8 @@ in front of the phrase, where BLAH is the name associated with the NameDropper.
 
 ###############################################################################
 """
-A Censor has a character (string) associated with it,
-that defaults to the character "e".
+A Censor has a character (string) associated with it, that defaults to the
+character "e". (Hint: Google for "python default parameter" to learn defaults.)
 Its  transform  method transforms the phrase that it is given
 by replacing each occurrence of its character with an asterisk ("*").
 
@@ -44,6 +44,9 @@ by replacing each occurrence of its character with an asterisk ("*").
  
 """
 # TODO: 3. Implement the Censor class and add some code that tests it.
+#   HINT:  Throughout, using string methods to do all the heavy lifting.
+#   Type        "" then DOT           or, if you prefer,  "xxx" then DOT
+#   and PAUSE to let the DOT trick show you string methods.
 ###############################################################################
 
 
