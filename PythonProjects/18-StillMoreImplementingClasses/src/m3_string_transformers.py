@@ -124,10 +124,12 @@ An UpperLowerCaser's transform  method transforms the phrase it is given into:
   -- all lower-case the second time that it is called
   --  [alternates from there: upper-case, lower-case, upper-case, etc.]
 
-       elsa = Repeater(3)
-       elsa.transform("Hello")        returns "HelloHelloHello"
-       elsa.transform("Goodbye")      returns "GoodbyeGoodbyeGoodbye"
-       elsa.transform("Watch me")     returns "Watch meWatch meWatch me"
+       elsa = UpperLowerCaser()
+       elsa.transform("Hello")        returns "HELLO"
+       elsa.transform("Goodbye")      returns "goodbye"
+       elsa.transform("Watch me")     returns "WATCH ME"
+       elsa.transform("This Is OKK")  returns "this is okk"
+       elsa.transform("This Is OKK")  returns "THIS IS OKK"
 """
 # TODO: 8. Implement the UpperLowerCaser class and add some code that tests it.
 ###############################################################################
