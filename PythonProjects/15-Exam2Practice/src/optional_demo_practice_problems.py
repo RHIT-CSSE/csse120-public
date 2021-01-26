@@ -1,5 +1,8 @@
 """
-PRACTICE Exam 2, Demo File
+PRACTICE Exam 2, Demo File.
+These problems are similar to the ACTUAL practice problems.
+Your instructor might or might not want to "live-code" some of these
+with you, as a warm-up for the actual 
 
 Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
          Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
@@ -508,13 +511,13 @@ def practice_problem4(sequence):
     What comes in:
       A sequence of numbers.
     What goes out:
-      Returns the sum of the numbers at INDICES  that are multiples of the sequence.
+      Returns the sum of the numbers at INDICES that are multiples of three.
     Side effects: None.
     Examples:
       If the sequence is:
           (12, 33, 18, 9, 13, 3, 99, 20, 19, 20)
       then this function returns
-           12 + 18 + 13 + 99 + 19, which is 161.
+           12 + 9 + 99 + 20, which is 140
     Type hints:
       :type sequence: list(float)    or tuple(float)
     """
