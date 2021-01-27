@@ -4,9 +4,9 @@ PRACTICE Exam 3.
 This problem provides practice at:
   ***  MUTATING  and  RETURNING-NEW  LISTS.  ***
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
-         and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
+         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
@@ -71,10 +71,16 @@ def run_test_doubler():
     # -------------------------------------------------------------------------
     # Test 1:
     # -------------------------------------------------------------------------
-    seq_of_lists = ([10, 3, 101], [8, 0], [-20, 5, 1, 2, 3, 4, 5], [])
+    seq_of_lists = ([10, 3, 101],
+                    [8, 0],
+                    [-20, 5, 1, 2, 3, 4, 5],
+                    [])
 
     # After the function call,  seq_of_lists  should be mutated to:
-    expected_mutated = ([20, 6, 202], [16, 0], [-40, 10, 2, 4, 6, 8, 10], [])
+    expected_mutated = ([20, 6, 202],
+                        [16, 0],
+                        [-40, 10, 2, 4, 6, 8, 10],
+                        [])
 
     print_function_call_of_test([seq_of_lists], test_results, format_string)
 
@@ -159,12 +165,18 @@ def doubler(seq_of_lists):
            by doubling each number in the sub-list
     Example:
       If the given sequence of lists is:
-          ([10, 3, 101], [8, 0], [-20, 5, 1, 2, 3, 4, 5], [])
+          ([10, 3, 101],
+           [8, 0],
+           [-20, 5, 1, 2, 3, 4, 5],
+           [])
     then this method MUTATES the sub-lists so that the sequence of lists
     after the function call is:
-         ([20, 6, 202], [16, 0], [-40, 10, 2, 4, 6, 8, 10], [])
+          ([20, 6, 202],
+           [16, 0],
+           [-40, 10, 2, 4, 6, 8, 10],
+           [])
     Type hints:
-      :type seq_of_lists: sequence of lists
+      :type seq_of_lists: list[list] | tuple[list]
     """
     # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
@@ -319,13 +331,15 @@ def zero_changer(tuple_of_lists):
       this function MUTATES the sub-lists so that after the function call is
       the tuple of lists is:
           ([8, 4, 1, 9], [77, 2, 3, 11, 15, 4], [5, 6, 7], [4, 8, 4])
+                  ^           ^  ^          ^    ^  ^  ^       ^
+      where the   ^    symbols are just to help you see the items that changed.
       Note that:
         -- If there are no zeros in the given sequence of lists,
              then this function does nothing.
         -- After this function call, the sequence of lists IN THE CALLER
              should contain no zeros.
     Type hints:
-      :type tuple_of_lists: tuple of list[int]
+      :type tuple_of_lists: tuple[list[int]]
     """
     # -------------------------------------------------------------------------
     # TODO: 6. Implement and test this function.
@@ -336,7 +350,6 @@ def zero_changer(tuple_of_lists):
     #    DIFFICULTY:      7
     #    TIME ESTIMATE:  10 to 15 minutes.
     # -------------------------------------------------------------------------
-
 
 ###############################################################################
 # Our tests use the following to print error messages in red.
