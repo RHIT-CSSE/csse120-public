@@ -1,0 +1,63 @@
+D. Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/08.1-TheWaitUntilEventPattern/The-Wait-Until-Event-Pattern_old.mp4" target=newtab><b>The Wait-until-event Pattern</b></a>
+
+1. Which scenario best fits an <strong><em>indefinite</em></strong> loop pattern?
+a. The robot needs to go forward until it bumps into a wall.~
+b. The robot needs to move in a square pattern.
+c. The robot needs to use a sensor.
+d. The robot falls off a table.
+
+2. Which scenario best fits a <strong><em>definite</em></strong> loop pattern?
+a. The robot needs to go forward until it bumps into a wall.
+b. The robot needs to move in a square pattern.~
+c. The robot needs to use a sensor.
+d. The robot falls off a table.
+
+3. Write a <strong><em>definite loop</em></strong> (using a <em>FOR</em> statement) that prints the numbers 0, 1, 2, ... 99.
+M. Line 1 -> for i in range(100):
+M. Line 2 -> &nbsp;&nbsp;&nbsp;&nbsp;print(i)
+M. -> for i in range(99)
+M. -> for i in range(101)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;print(n)
+
+4. Write an <strong><em>indefinite</em></strong> loop (using a <em>WHILE</em> statement) that prints the numbers  0, 1, 2, ... 99.  (Note:  Write it in such a way that it would work even if no numbers were to be printed.  If this note makes no sense to you, just do the problem and you will see what I mean.)
+M. Line 1 -> i = 0
+M. Line 2 -> while True:
+M. Line 3 -> &nbsp;&nbsp;&nbsp;&nbsp;if i > 99:
+M. Line 4 -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break
+M. Line 5 -> &nbsp;&nbsp;&nbsp;&nbsp;print(i)
+M. Line 6 -> &nbsp;&nbsp;&nbsp;&nbsp;i = i + 1
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;i = i - 1
+M. -> i = 1
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;print(n)
+M. -> while true:
+
+5. Write an indefinite loop (using a <em>WHILE</em> statement) that prints integers starting at 100,000 and stopping when it encounters an integer whose cosine is less than -0.999. Do not print the integer whose cosine is less than -0.999.  Assume that an <em>import math</em> statement has already been written elsewhere in the code.
+M. Line 1 -> i = 100000
+M. Line 2 -> while True:
+M. Line 3 -> &nbsp;&nbsp;&nbsp;&nbsp;if math.cos(i) < -0.999:
+M. Line 4 -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break
+M. Line 5 -> &nbsp;&nbsp;&nbsp;&nbsp;print(i)
+M. Line 6 -> &nbsp;&nbsp;&nbsp;&nbsp;i = i + 1
+M. -> i = 99999
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;i = i - 1
+M. -> i = 0
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;print(n)
+M. -> while true:
+M. -> if math.cos(i) > -0.999:
+
+10. In the previous problem you were not to print the integer whose cosine is less than -0.999. How would you modify your answer above if you were supposed to print the integer whose cosine is less than -0.999, but still stop the loop after doing so?  
+M. Line 1 -> i = 100000
+M. Line 2 -> while True:
+M. Line 3 -> &nbsp;&nbsp;&nbsp;&nbsp;print(i)
+M. Line 4 -> if math.cos(i) < -0.999:
+M. Line 5 -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break
+M. Line 6 -> &nbsp;&nbsp;&nbsp;&nbsp;i = i + 1
+M. -> i = 99999
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;i = i - 1
+M. -> i = 0
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;print(n)
+M. -> while true:
+M. -> if math.cos(i) > -0.999:

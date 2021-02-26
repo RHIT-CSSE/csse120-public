@@ -1,0 +1,761 @@
+<?xml version="1.0" ?>
+<quiz>
+<question type="category">
+<category>
+<text> $course/Quizzes-201630/$Quiz 8/</text>
+</category>
+</question>
+<question type="description">
+<name><text><![CDATA[001 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/10.1-Sequences/Video/Sequences/Sequences.mp4" target=newtab><b>Sequences</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/10.1-Sequences/Video/Sequences/Sequences.mp4" target=newtab><b>Sequences</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[002 Sequences are powerful because:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Sequences are powerful because:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[They let you refer to an entire collection, as well as the items in the collection, using a single name.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[They let you iterate and facilitate the creation of terminating loops.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[They are larger than integers.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[They make Python a Turing Complete language.]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[003 Match the statements to the correct value when <pre>sequence = [74, 34, 13, 30, 4004]</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Match the statements to the correct value when <pre>sequence = [74, 34, 13, 30, 4004]</pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[len(sequence)]]></text>
+<answer>
+<text><![CDATA[5]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[sequence[0]]]></text>
+<answer>
+<text><![CDATA[74]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[sequence[1]]]></text>
+<answer>
+<text><![CDATA[34]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[sequence[4]]]></text>
+<answer>
+<text><![CDATA[4004]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[sequence[len(sequence) - 1]]]></text>
+<answer>
+<text><![CDATA[4004]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[13]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[30]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[6]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[0]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[004 Match the statements to the correct value when <pre>sequence = 'Expert texpert!'</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Match the statements to the correct value when <pre>sequence = 'Expert texpert!'</pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[len(sequence)]]></text>
+<answer>
+<text><![CDATA[15]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[sequence[0]]]></text>
+<answer>
+<text><![CDATA['E']]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[sequence[1]]]></text>
+<answer>
+<text><![CDATA['x']]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[sequence[4]]]></text>
+<answer>
+<text><![CDATA['r']]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[sequence[len(sequence) - 1]]]></text>
+<answer>
+<text><![CDATA['!']]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[16]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA['t']]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA['e']]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA['p']]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[005 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/10.2-LastItemInASequence/Video/LastItemInASequence/LastItemInASequence.mp4" target=newtab><b>The Last Item in a Sequence</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/10.2-LastItemInASequence/Video/LastItemInASequence/LastItemInASequence.mp4" target=newtab><b>The Last Item in a Sequence</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[006 Choose the expression that represents the <em>first</em> item in a sequence named <strong><em>seq</em></strong>:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Choose the expression that represents the <em>first</em> item in a sequence named <strong><em>seq</em></strong>:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[seq[0]]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[seq[1]]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[seq]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[seq[len(seq)]]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[seq[len(seq) - 1]]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[007 Choose the expression that represents the <em>last</em> item in a sequence named <strong><em>seq</em></strong>:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Choose the expression that represents the <em>last</em> item in a sequence named <strong><em>seq</em></strong>:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[seq[len(seq) - 1]]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[seq[len(seq)]]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[seq[1]]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[seq(len)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[seq(len - 1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[len(seq)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[len(seq) - 1]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[008 Given that <strong></em>seq</em></strong> is a sequence, what is the result of the expression <pre>seq[len(seq)]</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Given that <strong></em>seq</em></strong> is a sequence, what is the result of the expression <pre>seq[len(seq)]</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[An IndexError is generated.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The result is the last item of the sequence.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The result is the length of the sequence.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A syntax error is generated.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[009 A fellow student turns to you and says "I don't understand why my code is giving me an error on this line: <pre>s[len(s)] = 40</pre> I used <strong>len(s)</strong> before in my FOR loop and it seemed to work just fine!" The FOR loop to which they referred is: <pre>for k in range(len(s)): <br> &nbsp; &nbsp; &nbsp; &nbsp; s[k] = k</pre> What do you tell them to explain why their statement <pre>s[len(s)] = 30</pre> is wrong?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[A fellow student turns to you and says "I don't understand why my code is giving me an error on this line: <pre>s[len(s)] = 40</pre> I used <strong>len(s)</strong> before in my FOR loop and it seemed to work just fine!" The FOR loop to which they referred is: <pre>for k in range(len(s)): <br> &nbsp; &nbsp; &nbsp; &nbsp; s[k] = k</pre> What do you tell them to explain why their statement <pre>s[len(s)] = 30</pre> is wrong?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[Previously you used len(s) as an argument to the RANGE function. The last value that the RANGE function yields is the argument - 1 so you accessed the last element in the sequence at index len(s) - 1.  The index len(s) is actually <strong><em>one past the end of the sequence!</em></strong>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[I don't know, all of your code seems valid. There is probably a problem with Eclipse.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[You probably changed the length of the sequence s sometime between when you used it in your FOR loop and when you later access an element with the code <strong>s[len(s)]</strong>.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[You can only use a number for the index of a sequence and len(s) is not a number.]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[010 Do the reading on using the RANGE function (see the Session 11 Preparation page).  Then watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/10.3-IteratingThroughASequence/Video/IteratingThroughASequence/IteratingThroughASequence.mp4" target=newtab><b>Iterating Through Sequences</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Do the reading on using the RANGE function (see the Session 11 Preparation page).  Then watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/10.3-IteratingThroughASequence/Video/IteratingThroughASequence/IteratingThroughASequence.mp4" target=newtab><b>Iterating Through Sequences</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[011 Write a loop that prints all the elements of sequence <strong><em>x</em></strong> <em>backwards</em>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write a loop that prints all the elements of sequence <strong><em>x</em></strong> <em>backwards</em>.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[for k in range(len(x) - 1, -1, -1):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[print(x[k])]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(len(x)):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(len(x), -1):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(-1):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(len(x) - 1, 0, -1):]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[012 What RANGE statement would you use if you wanted to print all elements of sequence <strong><em>x</em></strong> between indices 4 and 7, inclusive, <em>backwards</em>? Assume that the sequence will have at least 8 elements.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What RANGE statement would you use if you wanted to print all elements of sequence <strong><em>x</em></strong> between indices 4 and 7, inclusive, <em>backwards</em>? Assume that the sequence will have at least 8 elements.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[range(7, 3, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(8, 3, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(6, 3, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(7, 4, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(8, 4, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(6, 4, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(7, 5, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(8, 5, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(6, 5, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(3, 7, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(3, 8, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(3, 6, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(4, 7, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(4, 8, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(4, 6, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(5, 7, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(5, 8, -1)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(5, 6, -1)]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[013 What RANGE statement would you use if you wanted to print <em>every third element</em> of sequence <strong><em>x</em></strong>, starting at index 1, <em>fowards</em>? Assume that the sequence will have at least 2 elements.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What RANGE statement would you use if you wanted to print <em>every third element</em> of sequence <strong><em>x</em></strong>, starting at index 1, <em>fowards</em>? Assume that the sequence will have at least 2 elements.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[range(1, len(x), 3)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(0, len(x), 3)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(2, len(x), 3)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(1, len(x) - 1, 3)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(0, len(x) - 1, 3)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(2, len(x) - 1, 3)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(1, len(x) - 3, 3)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(0, len(x) - 3, 3)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[range(2, len(x) - 3, 3)]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[014 Which of the following statements constructs a <em>list</em> containing three numbers and assigns the variable <strong><em>numbers</em></strong> to that list.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which of the following statements constructs a <em>list</em> containing three numbers and assigns the variable <strong><em>numbers</em></strong> to that list.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[numbers = [11, 7, 13]]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers = (11, 7, 13)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers = '[11, 7, 13]']]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers = ['11', '7', '13']]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers = '11, 7, 13']]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[015 Which of the following statements changes the <em>beginning</em> element (that is, the 11) in the list <strong><em>numbers</em></strong> from the previous problem to 66.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which of the following statements changes the <em>beginning</em> element (that is, the 11) in the list <strong><em>numbers</em></strong> from the previous problem to 66.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[numbers[0] = 66]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[len(numbers)] = 66]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[1] = 66]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[11] = 66]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers = 66]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers(0) = 66]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers(11)= 66]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[016 Which of the following statements changes the <em>last</em> element (that is, the 13) in the list <strong><em>numbers</em></strong> from the previous problem to 4.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which of the following statements changes the <em>last</em> element (that is, the 13) in the list <strong><em>numbers</em></strong> from the previous problem to 4.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[numbers[2] = 4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[3] = 4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[4] = 4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[len(numbers)] = 4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[] = 4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[4] = 2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[4] = 3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[13] = 4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[numbers[4] = 13]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[017 Implement a function named <b><em>sum_all</em></b> for which: <ul> <li> Its sole argument is a sequence of numbers. </li> <li> It returns the sum of the numbers in the sequence. </li> </ul>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Implement a function named <b><em>sum_all</em></b> for which: <ul> <li> Its sole argument is a sequence of numbers. </li> <li> It returns the sum of the numbers in the sequence. </li> </ul>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[def sum_all(seq):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;total = 0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;for k in range(len(seq)):<\code>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total = total + 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;return total]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;for k in range(seq):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[def sum_all():]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if k < 0:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[seq[k] = seq[k] + 1]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[018 Implement a function named <b><em>count_positives</em></b> for which: <ul> <li> Its sole argument is a sequence of integers. </li> <li> It returns the number of integers in the sequence that are positive. </li> </ul>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Implement a function named <b><em>count_positives</em></b> for which: <ul> <li> Its sole argument is a sequence of integers. </li> <li> It returns the number of integers in the sequence that are positive. </li> </ul>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[def count_positives(seq):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;count = 0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;for k in range(len(seq)):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if seq[k] > 0:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count = count + 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 6]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;return count]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;for k in range(seq):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[def count_positive():>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if k < 0:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if k > 0:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[else:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if seq[k] >= 0:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if seq[k] < 0:]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[019 Do the reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/201630/Sessions/Session11/Reading.pdf" target=newtab><b>Computing & Society 6.1 Computer Viruses</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Do the reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/201630/Sessions/Session11/Reading.pdf" target=newtab><b>Computing & Society 6.1 Computer Viruses</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[020 In November 1988, Robert Morris launched a computer virus (actually, a form of virus called a worm) that, through an error in his code, delivered a denial-of-service attack to computers on the Internet.  His worm worked by attacking a program called <strong><em>finger</em></strong> that was written in the programming language C. If <strong><em>finger</em></strong> had been written and run in Python, his attack would NOT have succeeded.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In November 1988, Robert Morris launched a computer virus (actually, a form of virus called a worm) that, through an error in his code, delivered a denial-of-service attack to computers on the Internet.  His worm worked by attacking a program called <strong><em>finger</em></strong> that was written in the programming language C. If <strong><em>finger</em></strong> had been written and run in Python, his attack would NOT have succeeded.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="essay">
+<name><text><![CDATA[021 Very briefly, explain your answer to the previous problem.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Very briefly, explain your answer to the previous problem.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[022 Morris was convicted under <i>The Computer Fraud and Abuse Act</i>. After appeal, what was his sentence?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Morris was convicted under <i>The Computer Fraud and Abuse Act</i>. After appeal, what was his sentence?]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Years probation]]></text>
+<answer>
+<text><![CDATA[3 years]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Hours of community service]]></text>
+<answer>
+<text><![CDATA[400 hours]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Fine]]></text>
+<answer>
+<text><![CDATA[$10,000]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[$1,000]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[5 years]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[1 year, suspended]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[100 hours]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[1,000 hours]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[$400]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[$50,000]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[023 In your own opinion, do you feel that his sentence was: [you get full credit for ANY answer here, even though Moodle will probably mark your answer as "wrong"; just select what best fits YOUR opinion]]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In your own opinion, do you feel that his sentence was: [you get full credit for ANY answer here, even though Moodle will probably mark your answer as "wrong"; just select what best fits YOUR opinion]]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[A lot too leniant (i.e., he should have gotten a heavier sentence -- jail time, or a longer probation, or more required community service, or a larger fine, or some combination of those)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A little too leniant]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[About right]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A little too severe]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A lot too severe (i.e., he should have gotten a lighter sentence -- a shorter probation, or less required community service, or a smaller fine, or some combination of those)]]></text>
+</answer>
+</question>
+<question type="essay">
+<name><text><![CDATA[024 Very briefly, explain your answer to the previous problem.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Very briefly, explain your answer to the previous problem.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[]]></text>
+</answer>
+</question>
+</quiz>

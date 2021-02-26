@@ -1,0 +1,180 @@
+D. Read the document <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/08.1-RangeExpressions/RangeExpressions.pdf" target=newtab>Python's range expression</a>, doing the next set of questions while you do so.
+
+D. For the next several questions, consider the following snippet of code: <pre>  for k in range(500): <br>      print(k) </pre>
+
+1. What is the <em>first</em> number that the above loop prints?
+ANS. 0
+
+1. What is the <em>last</em> number that the above loop prints?
+ANS. 499
+
+1. How many numbers does the above loop print?
+ANS. 500
+
+D. For the next several questions, consider the following snippet of code: <pre>  for k in range(300, 700): <br>      print(k) </pre>
+
+1. What is the <em>first</em> number that the above loop prints?
+ANS. 300
+
+1. What is the <em>last</em> number that the above loop prints?
+ANS. 699
+
+1. How many numbers does the above loop print?
+ANS. 400
+
+D. For the next several questions, consider the following snippet of code: <pre>  for k in range(300, 320, 5): <br>      print(k) </pre>
+
+1. What is the <em>first</em> number that the above loop prints?
+ANS. 300
+
+1. What is the <em>last</em> number that the above loop prints?
+ANS. 315
+
+1. How many numbers does the above loop print?
+ANS. 4
+
+D. For the next several questions, consider the following snippet of code: <pre>  for k in range(300, 321, 5): <br>      print(k) </pre>
+
+1. What is the <em>first</em> number that the above loop prints?
+ANS. 300
+
+1. What is the <em>last</em> number that the above loop prints?
+ANS. 320
+
+1. How many numbers does the above loop print?
+ANS. 5
+
+D. For the next several questions, consider the following snippet of code: <pre>  for k in range(321, 300, -5): <br>      print(k) </pre>
+
+1. What is the <em>first</em> number that the above loop prints?
+ANS. 321
+
+1. What is the <em>last</em> number that the above loop prints?
+ANS. 301
+
+1. How many numbers does the above loop print?
+ANS. 5
+
+1. How many numbers does the following code snippet print? <pre>  for k in range(1, 10, -1): <br>      print(k) </pre>
+ANS. 0
+ANS. None
+
+1. A student wrote the following code to compute <code>n!</code> (n factorial). <pre>product = 1 <br>for k in range(n, 0): <br>    product = product * k </pre> What error did the student make?
+
+1. True or false:  The code snippet <pre>total = 0 <br>for k in range(m, n): <br>    total = total + k <br>print(total) </pre> and <pre>total = 0 <br>for j in range(n - m): <br>    total = total + j + m <br>print(total) </pre> both print the same thing.
+a. True~
+b. False
+
+
+D. Watch the video <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/12.2-BoxAndPointerDiagrams/BoxAndPointerDiagrams.mp4" target=newtab>Box and Pointer Diagrams</a>, doing the next set of questions while you do so.
+
+1. True or False? <blockquote>A <strong><em>box and pointer diagram</em></strong> helps explain the idea that a variable is a REFERENCE to its value.</blockquote>
+a. True~
+b. False
+
+2. True or False? <blockquote> A <strong><em>box and pointer diagram</em></strong> helps show the CONSEQUENCES of the idea that a variable is a REFERENCE to its value. </blockquote>
+a. True~
+b. False
+
+3. A <em>block and pointer diagram</em>:
+a. Shows the flow of control of a program.
+b. Gives hints for how to ship boxes safely.
+c. Explains why cats chase laser pointers.
+d. Shows a snapshot of the variables and their values at a given point of a program's execution.~
+
+4. True or False? <blockquote> In Python, every piece of data is an <em>OBJECT</em>. </blockquote>
+a. True~
+b. False
+
+4. True or False? <blockquote> Every object has a <em>TYPE</em>. </blockquote>
+a. True~
+b. False
+
+5. What is the <em>TYPE</em> of the object <code>98.6</code>?
+a. <code>int</code> (shorthand for integer)
+b. <code>float</code> (shorthand for floating-point number)~
+c. <code>str</code> (shorthand for string)
+d. None of the above
+
+6. What is the type of the object <code>48</code>?
+a. <code>int</code> (shorthand for integer)~
+b. <code>float</code> (shorthand for floating-point number)
+c. <code>str</code> (shorthand for string)
+d. None of the above
+
+7. What is the type of the object <code>'Once upon a time ...'</code>?
+a. <code>int</code> (shorthand for integer)
+b. <code>float</code> (shorthand for floating-point number)
+c. <code>str</code> (shorthand for string)~
+d. None of the above
+
+8. What is the type of the object <code>"HELLO"</code>?
+a. <code>int</code> (shorthand for integer)
+b. <code>float</code> (shorthand for floating-point number)
+c. <code>str</code> (shorthand for string)~
+d. None of the above
+
+9. Consider the line of code: <pre> c2 = rg.Circle(rg.Point(100, 300), 45) </pre> Are the following equivalent? <blockquote><code>c2</code> <strong><em>REFERS to</em></strong> the rg.Circle whose center is at (100, 300) and whose radius is 45. <br> <code>c2</code> <strong><em>POINTS to</em></strong> the rg.Circle whose center is at (100, 300) and whose radius is 45. <br> <code>c2</code> is the <strong><em>NAME OF</em></strong> the rg.Circle whose center is at (100, 300) and whose radius is 45. </blockquote>
+a. Yes, they are equivalent.~
+b. No, they are NOT equivalent.
+
+10. Consider the line of code: <pre> x = 53 </pre> True or False: <code>x</code> refers to the integer 53.
+a. True~
+b. False
+
+11. Consider the line of code: <pre> s = 'Greetings, earthling!' </pre> True or False: <code>s</code> is the name of the string 'Greetings, earthling!'.
+a. True~
+b. False
+
+12. Consider the line of code: <pre> s = 'Greetings, earthling!' </pre> True or False: <code>s</code> points to the string 'Greetings, earthling!'.
+a. True~
+b. False
+ 
+13. Which of the following are CONTAINER objects?
+a. <code>rg.Point(0, 0)</code>~
+b. <code>0</code>
+c. <code>(0, 0)</code>~
+d. <code>[0, 0, 0]</code>~
+e. <code>rg.Rectangle(rg.Point(3, 20), rg.Point(300, 500))</code>~
+f. <code>100</code>
+g. <code>0.0</code>
+h. <code>'Hello'</code>~
+i. <code>'H'</code>~
+j. <code>''</code> (that is, the empty string)~
+k. The Python object <code>None</code>
+l. The Python object <code>True</code>
+
+14. Consider the Python statement: <pre> temperature = 98.6 </pre> Which of the following is a correct box-and-pointer diagram of that statement? <blockquote> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rules-1-and-2a.png"><br><br> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rules-1-and-2b.png"></blockquote>
+a. The FIRST diagram (on the top) is correct.
+b. The SECOND diagram (on the bottom) is correct.~
+
+15. Consider the Python statement: <pre> center = rg.Point(50, 30) </pre> Which of the following is a correct box-and-pointer diagram of that statement? <blockquote> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rule3a.png"> <br> <br> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rule3b.png"> <br> <br> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rule3c.png"> </blockquote>
+a. The FIRST diagram (on the top) is correct.
+b. The SECOND diagram (in the middle) is correct.
+b. The THIRD diagram (on the bottom) is correct.~
+
+16. Consider the code snippet: <pre> x = 50 <br> y = 30 <br> center = rg.Point(x, y) </pre> Which of the following is a correct box-and-pointer diagram for that snippet? <blockquote> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rules-1-2-and-3a.png"> <br> <br> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rules-1-2-and-3b.png"> </blockquote>
+a. The FIRST diagram (on the top) is correct.
+b. The SECOND diagram (on the bottom) is correct.~
+
+17. Consider the code snippet: <pre> y = 7 <br> y = y * 3 </pre> The box-and-pointer diagram after the FIRST line executes is as follows: <blockquote> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rule-4.png"> </blockquote> On a piece of scratch paper (NOT here in this Moodle quiz), re-draw the above diagram and then augment your diagram to show the effect of the SECOND line of code shown above. (Nothing to turn in for this problem: just leave its answer box blank.)
+
+D. The previous problem asked you to draw a box-and-pointer diagram for the following: <pre> y = 7 <br> y = y * 3 </pre> Here is a correct answer: <blockquote> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rule-4b.png"> </blockquote> <strong>Compare your answer (that you wrote on scratch paper) to the above.</strong>  Be sure that they are the same (and if not, bring any questions that you have about them to class).
+
+18. Consider the code snippet: <pre> x = 10 <br> y = x * 2 <br> p = rg.Point(x, y) <br> x = 40 <br> p.y = 30 </pre> The box-and-pointer diagram after the FIRST THREE lines execute is as follows: <blockquote> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rule-4c.png"> </blockquote> On a piece of scratch paper (NOT here in this Moodle quiz), re-draw the above diagram and then augment your diagram to show the effect of the last two lines of code shown above. (Nothing to turn in for this problem: just leave its answer box blank.)
+
+D. The previous problem asked you to draw a box-and-pointer diagram for the following: <pre> x = 10 <br> y = x * 2 <br> p = rg.Point(x, y) <br> x = 40 <br> p.y = 30 </pre> Here is a correct answer. <blockquote> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rule-4d.png"> </blockquote> <strong>Compare your answer (that you wrote on scratch paper) to the above.</strong>  Be sure that they are the same (and if not, bring any questions that you have about them to class).
+ 
+19. Consider the code snippet: <pre> number1 = 88 <br> number2 = number1 </pre> Explain what is WRONG about the following attempt at a box-and-pointer diagram for the above code snippet: <blockquote> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-variables-never-point-to-variables.png">
+
+20. Consider the code snippet: <pre> r = 66 <br> r2 = r <br> center = rg.Point(90, 40) <br> circle = rg.Circle(center, r) <br> r = 35 <br> center.x = 200 <br> <br> print(r) <br> print(r2) <br> print(center) </br> print(circle) </pre> Determine IN YOUR HEAD (that is, without using a computer and without using any scratch paper) what would be printed when the above code snippet executes.  In the box below, write your answer for what would be printed. (The details of how you write the center and circle are unimportant; any way is fine.  Just don't use any VARIABLES in your answer.  That is, use only NUMBERS and the class names rg.Circle and rg.Point.)
+
+21. On a piece of scratch paper (NOT here in this Moodle quiz), draw a box and pointer diagram for the FIRST FOUR lines of the code snippet in the previous problem. (Nothing to turn in for this problem: just leave its answer box blank.)
+
+D. The previous problem asked you to draw a box-and-pointer diagram for the FIRST FOUR lines of the following six-line code snippet: <pre> r = 66 <br> r2 = r <br> center = rg.Point(90, 40) <br> circle = rg.Circle(center, r) <br> r = 35 <br> center.x = 200 </pre> Here is a correct answer to the previous problem: <blockquote> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rules-summary-a.png"> </blockquote> <strong>Compare your answer (that you wrote on scratch paper) to the above.</strong>  Be sure that they are the same (and if not, bring any questions that you have about them to class).
+
+22. Augment your box-and-pointer diagram for the previous problem to include the remaining two lines of its code snippet. (Nothing to turn in for this problem: just leave its answer box blank.)
+
+D. The previous problem asked you to draw a box-and-pointer diagram for the first six lines of the following code snippet: <pre> r = 66 <br> r2 = r <br> center = rg.Point(90, 40) <br> circle = rg.Circle(center, r) <br> r = 35 <br> center.x = 200 <br> <br> print(r) <br> print(r2) <br> print(center) </br> print(circle) </pre> Here is a correct answer to the previous problem: <blockquote> <img src="http://www.rose-hulman.edu/class/csse/csse120/Images/for_quizzes/box-and-pointer-rules-summary-b.png"> </blockquote> <strong>Compare your answer (that you wrote on scratch paper) to the above.</strong>  Be sure that they are the same (and if not, bring any questions that you have about them to class).
+
+23. Now that you have a box-and-pointer diagram for the above code snippet, consider again: What what would be printed when the above code snippet executes?  In the box below, write your answer for what would be printed. <strong> Compare your answer to THIS problem to what you wrote for a PREVIOUS problem (three problems back) that asked the same question.</strong>  Are the two answers the same?  If they are NOT the same, and you are uncertain which is correct, <strong> bring any questions that you have to class.</strong>

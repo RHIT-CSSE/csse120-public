@@ -1,0 +1,34 @@
+""" one
+two
+
+  three """
+ok 1
+''' one
+two
+  three '''
+ok 2
+ok 3
+  
+  			
+
+"""
+'''
+blah
+""" ok 4
+ok 5'''"""'''ok 6
+ok 7
+""" Testing this """
+''' And this too '''
+"""
+"""
+
+""" ''' xxxx """
+
+''' xxx """ '''
+ok 8 # not this
+ok 9
+# nor this
+# or this
+ok 10 """
+   
+not this either

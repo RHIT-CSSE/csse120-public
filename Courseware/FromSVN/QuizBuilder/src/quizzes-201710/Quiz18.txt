@@ -1,0 +1,228 @@
+D. Watch <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/16.0-LoopsWithinLoops-HowTheyWork/LoopsWithinLoops-HowTheyWork.mp4" target=newtab>Loops Within Loops - How They Work</a>.
+
+D. For the next set of questions, consider the following code snippet:<pre>for j in range(3):<br>    for k in range(1, 6):<br>        print(j, end="")<br>    print()</pre>Note:  the   <code>end=""</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.  So there will be 3 lines printed by this problem, each with 5 numbers on it.
+
+1. How many lines will the above code snippet print?
+ANS. 3
+ANS. Three
+ANS. three
+
+1. How many numbers will be printed on each line?
+ANS. 5
+ANS. Five
+ANS. five
+
+1. What will appear on the FIRST line that is printed?
+a. 00000~
+b. 11111
+c. 22222
+d. 33333
+e. 12345
+f. 23456
+g. 34567
+f. None of the above.
+
+1. What will appear on the SECOND line that is printed?
+a. 00000
+b. 11111~
+c. 22222
+d. 33333
+e. 12345
+f. 23456
+g. 34567
+f. None of the above.
+
+1. What will appear on the THIRD line that is printed?
+a. 00000
+b. 11111
+c. 22222~
+d. 33333
+e. 12345
+f. 23456
+g. 34567
+f. None of the above.
+
+D. For the next set of questions, consider the following code snippet:<pre>for j in range(3):<br>    for k in range(1, 6):<br>        print(k, end="")<br>    print()</pre>Note:  the   <code>end=""</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.  So there will be 3 lines printed by this problem, each with 5 numbers on it.
+
+1. How many lines will the above code snippet print?
+ANS. 3
+ANS. Three
+ANS. three
+
+1. How many numbers will be printed on each line?
+ANS. 5
+ANS. Five
+ANS. five
+
+1. What will appear on the FIRST line that is printed?
+a. 00000
+b. 11111
+c. 22222
+d. 33333
+e. 12345~
+f. 23456
+g. 34567
+f. None of the above.
+
+1. What will appear on the SECOND line that is printed?
+a. 00000
+b. 11111
+c. 22222
+d. 33333
+e. 12345~
+f. 23456
+g. 34567
+f. None of the above.
+
+1. What will appear on the THIRD line that is printed?
+a. 00000
+b. 11111
+c. 22222
+d. 33333
+e. 12345~
+f. 23456
+g. 34567
+f. None of the above.
+
+D. For the next set of questions, consider the following code snippet:<pre>for j in range(3):<br>    for k in range(1, 6):<br>        print(j + k, end="")<br>    print()</pre>Note:  the   <code>end=""</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.  So there will be 3 lines printed by this problem, each with 5 numbers on it.
+
+1. How many lines will the above code snippet print?
+ANS. 3
+ANS. Three
+ANS. three
+
+1. How many numbers will be printed on each line?
+ANS. 5
+ANS. Five
+ANS. five
+
+1. What will appear on the FIRST line that is printed?
+a. 00000
+b. 11111
+c. 22222
+d. 33333
+e. 12345~
+f. 23456
+g. 34567
+f. None of the above.
+
+1. What will appear on the SECOND line that is printed?
+a. 00000
+b. 11111
+c. 22222
+d. 33333
+e. 12345
+f. 23456~
+g. 34567
+f. None of the above.
+
+1. What will appear on the THIRD line that is printed?
+a. 00000
+b. 11111
+c. 22222
+d. 33333
+e. 12345
+f. 23456
+g. 34567~
+f. None of the above.
+
+D. For the next set of questions, consider the following code snippet:<pre>for j in range(4):<br>    for k in range(1, j + 2):<br>        print(j + k, end="")<br>    print()</pre>Note:  the   <code>end=" "</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.
+
+1. How many lines will the above code snippet print?
+ANS. 4
+ANS. Four
+ANS. four
+
+1. What will appear on the FIRST line that is printed?
+a. 1234
+f. 2345
+g. 3456
+h. 1~
+a. 23
+a. 345
+a. 4567
+a. 12
+b. 123
+a. 1234
+f. None of the above.
+
+1. What will appear on the SECOND line that is printed?
+a. 1234
+f. 2345
+g. 3456
+h. 1
+a. 23~
+a. 345
+a. 4567
+a. 12
+b. 123
+a. 1234
+f. None of the above.
+
+1. What will appear on the THIRD line that is printed?
+a. 1234
+f. 2345
+g. 3456
+h. 1
+a. 23
+a. 345~
+a. 4567
+a. 12
+b. 123
+a. 1234
+f. None of the above.
+
+
+1. What will appear on the FOURTH line that is printed?
+a. 1234
+f. 2345
+g. 3456
+h. 1
+a. 23
+a. 345
+a. 4567~
+a. 12
+b. 123
+a. 1234
+f. None of the above.
+
+D. Watch <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/15.1-PrintingLoopsWithinLoopsTechnique/15.1-PrintingLoopsWithinLoopsTechnique.mp4" target=newtab>A Technique for Solving Print-On-Console Loop-Within-Loop Problems</a>.
+
+1. The software engineering principle: "Wherever possible, separate concerns"
+a. Is a way to organize code.
+b. Means that you separate your personal life from your professional life.
+c. Means that you divide the problem into pieces that can be solved, implemented, and tested all at once.
+c. Means that you divide the problem into pieces that can be solved, implemented, and tested independently of each other.~
+
+2. True or False: Step 1 of the process recommended by this video is to get the NUMBER of ROWS right.
+a. True~
+b. False
+
+2. True or False: When getting the NUMBER of ROWS right, you should ignore the columns for now.
+a. True~
+b. False
+
+2. True or False: When getting the NUMBER of ROWS right, you should ignore what gets printed for now.
+a. True~
+b. False
+
+2. True or False: Step 2 of the process recommended by this video is to get the NUMBER of ITEMS in EACH ROW right.
+a. True~
+b. False
+
+2. True or False: When getting the NUMBER of ITEMS in EACH ROW right, you should ignore the columns for now.
+a. True
+b. False~
+
+2. True or False: When getting the NUMBER of ITEMS in EACH ROW right, you should ignore what gets printed for now.
+a. True~
+b. False
+
+2. True or False: If the RANGE expression of the interior loop mentions the loop variable of the outer loop, the number of items in the row will vary from row to row.
+a. True~
+b. False
+
+2. True or False: Step 3 of the process recommended by this video is PRINT THE RIGHT THING.
+a. True~
+b. False
+

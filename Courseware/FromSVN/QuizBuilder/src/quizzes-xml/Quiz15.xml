@@ -1,0 +1,333 @@
+<?xml version="1.0" ?>
+<quiz>
+<question type="category">
+<category>
+<text> $course/Quizzes-201730/$Quiz 15/</text>
+</category>
+</question>
+<question type="description">
+<name><text><![CDATA[001 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/08.1-TheWaitUntilEventPattern/The-Wait-Until-Event-Pattern_old.mp4" target=newtab><b>The Wait-until-event Pattern</b></a>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/08.1-TheWaitUntilEventPattern/The-Wait-Until-Event-Pattern_old.mp4" target=newtab><b>The Wait-until-event Pattern</b></a>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[002 Which scenario best fits an <strong><em>indefinite</em></strong> loop pattern?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which scenario best fits an <strong><em>indefinite</em></strong> loop pattern?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[The robot needs to go forward until it bumps into a wall.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The robot needs to move in a square pattern.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The robot needs to use a sensor.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The robot falls off a table.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[003 Which scenario best fits a <strong><em>definite</em></strong> loop pattern?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which scenario best fits a <strong><em>definite</em></strong> loop pattern?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[The robot needs to go forward until it bumps into a wall.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[The robot needs to move in a square pattern.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The robot needs to use a sensor.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The robot falls off a table.]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[004 Write a <strong><em>definite loop</em></strong> (using a <em>FOR</em> statement) that prints the numbers 0, 1, 2, ... 99.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write a <strong><em>definite loop</em></strong> (using a <em>FOR</em> statement) that prints the numbers 0, 1, 2, ... 99.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[for i in range(100):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(i)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for i in range(99)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for i in range(101)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(n)]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[005 Write an <strong><em>indefinite</em></strong> loop (using a <em>WHILE</em> statement) that prints the numbers  0, 1, 2, ... 99.  (Note:  Write it in such a way that it would work even if no numbers were to be printed.  If this note makes no sense to you, just do the problem and you will see what I mean.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write an <strong><em>indefinite</em></strong> loop (using a <em>WHILE</em> statement) that prints the numbers  0, 1, 2, ... 99.  (Note:  Write it in such a way that it would work even if no numbers were to be printed.  If this note makes no sense to you, just do the problem and you will see what I mean.)]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[i = 0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[while True:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;if i > 99:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(i)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 6]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i - 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[i = 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(n)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[while true:]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[006 Write an indefinite loop (using a <em>WHILE</em> statement) that prints integers starting at 100,000 and stopping when it encounters an integer whose cosine is less than -0.999. Do not print the integer whose cosine is less than -0.999.  Assume that an <em>import math</em> statement has already been written elsewhere in the code.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write an indefinite loop (using a <em>WHILE</em> statement) that prints integers starting at 100,000 and stopping when it encounters an integer whose cosine is less than -0.999. Do not print the integer whose cosine is less than -0.999.  Assume that an <em>import math</em> statement has already been written elsewhere in the code.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[i = 100000]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[while True:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;if math.cos(i) < -0.999:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(i)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 6]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[i = 99999]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i - 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[i = 0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(n)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[while true:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[if math.cos(i) > -0.999:]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[007 In the previous problem you were not to print the integer whose cosine is less than -0.999. How would you modify your answer above if you were supposed to print the integer whose cosine is less than -0.999, but still stop the loop after doing so?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In the previous problem you were not to print the integer whose cosine is less than -0.999. How would you modify your answer above if you were supposed to print the integer whose cosine is less than -0.999, but still stop the loop after doing so?]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[i = 100000]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[while True:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(i)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[if math.cos(i) < -0.999:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 6]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[i = 99999]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i - 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[i = 0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(n)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[while true:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[if math.cos(i) > -0.999:]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+</quiz>

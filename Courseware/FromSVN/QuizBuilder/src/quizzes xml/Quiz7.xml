@@ -1,0 +1,375 @@
+<?xml version="1.0" ?>
+<quiz>
+<question type="category">
+<category>
+<text> $course$/quiz7/</text>
+</category>
+</question>
+<question type="description">
+<name><text><![CDATA[001 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/08.1-WhileLoops/WhileLoops.mp4" target=newtab><b>While Loops</b></a>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/08.1-WhileLoops/WhileLoops.mp4" target=newtab><b>While Loops</b></a>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[002 A while loop is:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[A while loop is:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[A loop that terminates when certain conditions are satisfied.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A loop that executes a set number of times.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A function that takes a parameter.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A special type of variable.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[003 What is a danger of while loops?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is a danger of while loops?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[They must be carefully designed to terminate.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[They take up more memory than for loops.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[They cannot be used for the same things as for loops.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[They need to be instantiated in order to work.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[004 "In order to make a terminating while loop, it must be <b>ITCh</b>-ing to change". What does ITCh stand for?]]></text></name>
+<questiontext format="html">
+<text><![CDATA["In order to make a terminating while loop, it must be <b>ITCh</b>-ing to change". What does ITCh stand for?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[Initialization, Test, Change]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Iterate, Total, Charting]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Infinite, Total, Counting, Halting]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Iterate, Tabulate, Conditional]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[005 Will the following loop terminate? <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARIAAACBCAIAAACD0KItAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAq2SURBVHhe7Z2/ruO6EYf9XH4gP8d9BHdbbJl6myBw+oMAqYMLbHOKC6QIAixSBUg2t3EokTPiX4kjDU1J/n0gFudIFM215tOMbEnn8nw+f/78af4FAFQCbQAQA20AEANtABADbQAQA23a87hdbg/38zY+79fr/dP9Avoh0Obz/rxcnpfrU3G/3cyAYdOJr/1gnBlREIeGgjnd6aaNGy1pOtpQhHkoHfBFmOyg+9qKEoINdNLm83m1nqjmrhEK1ZjXR5qLcd3koG4iWEEfbTjVqO/7kjSvj7Mm0gxAnP700eZxG4e6uV/18KzpewbgJtJmEhCnNyfThs9pOp82u3k0i+tmqQxUcfnv/34vaXO/jsEdtYI2Uef5gNmFNmk9NzPpVZ1nusxNlNctb7/436SpQDBVLn//579SbfjcI9NSbR5JH2r+bk8/a07b9e46S0gjOkMYNhyYKWl8iToPVFgzQONGg9Diuq3ndfDfmvmeQMTlz3/5NdaGNQizQb5Io8/EgojPjbAbbRb7+wEm6uxwEb0Q9wYafBojXVKk5lX82VcMCWq5/OFPf420seVWGsFZbUqdWafszlIt0hYje4CDJujtxVx2uagz4VZWhSkPNA5Cv0k2XegrGhLUcvnjx98CbShRpG9zRhtyIwoci00vcVCN9Du34TjNdOGNaZWoM1OdbCw00O3uXk24YW13oMjlt38E5zYzH5dlVpXParhl665+2pSj3TCttLEo6sy4FfXhPI1kEG8GbTpw+fd/jDXvqE0m3OKVos6MWyEJZx6rNO0cK14HKBF/b7NOG+meO3W2qTvpmPBKQYN0s+r+QJHk686yCe6bGV+b2fP+GXZ5bpOuEnWecJOoSwM0kOlNk6/bUPQqQJdEGzIh2h0u0CNt+GNloQD9tPHjPYg53tLAG4s6M54JS0Sm0K/F2U+4F1nqSXOpGBHUk7m4hr/v570eXAEQauMqt7C/ZVhVEKOjNmHM5wg2FXUmKr1hKb1+tWFeZw2/gmFpRCAgd00aJZygmRC39Vty2jMlorTtUZswmmKSUBd1Jtw85mbB40aDlJYHuPHnugxAm0bktBnxv9R3e6egjSW9CGBmn3bWZiTVYWbCos4DNJFCt2m8TIfZlQPUYWEOA9QV0qhS1AZspCLhrEMgDWgEtGnHQsZZB6TZA9CmJSSOWsppYiIQA20aoxjocGY3QJvmDGWVUqQbceDMHoA2AIiBNgCIgTYAiIE2AIiBNgCIgTYAiIE2AIiBNgCIeUdtig+p2k7u4Qon/X7yrS+OgzYC0hv4YqDNewBtqvGUqNqW+kObZjy+XS6/TO368aqbiqCNgOVs4wNtWvLjfvWE8dpL5gNtmgFt2vG4pZJ8vzlzvrS/kxXaNAPatOLz45pPLGTO7btb0Irja2Ojs/CEA4v1hN9kXxv/yTumZUKAot9vVZFSrQ3XfrZtjEO6Kyd3bxyv04h1O1iHhxR83r8MbuTOZNyqy7f8/49U3zzp42sz+/h2i308CL9VbFEUr7bF72hTbXKD27YlrsmOKDposYYzhl7auLOa6/2HW8BQFirUaSTNwMZpn6FIi6xIyWrjGj89hx9zNfM8neoEMrDYmV4xKBdZpE2P9UkPq2oHWmZBG5K0zMqpuEoskp/yjGu5QwO0CeDsYbF11xSLSTpibaLTm8xDriNUtbHTyJxi0YQ37VmOkfF90ZemmzYupfj5hD8MMLaUc5FB7W04oTbOCo5+G76eDMV4XbRCUZvZ2tKmx9wRUwIFrvgv59SxoE0rQm2mJONOdWa1UeMM2tiHFToNuNbio7UNX6/m2YU2tHamZWYoJDji60pDg3fUxk8ybiW0qccVV1aMMRzvXp0W12zvpI15GRJHP7w7aeOVZEOLP0/Ln/locwZtXAiO2gyZZ6zHhjpn/MHmIv9t3JU2LXevfw6sH+B29GJ8Bpkuy8oJTdcHlD9Ma/2N5ym0sYUZ28L+jEFpf/Dfxl2d27TbvySNCWwK4cbH4IBm2piRs3lmYOF7GzVOoQ2dQz/GSHWxMf5s3LCS+G/jLrShOW/7oLlMZAr9+vqaqgF0BWdyFHAVWvHEBp+khTgTQkNsncaJiNmJNv4FClGfYdUWnbg68wJLLWQcXjJ7PbPXpJVSDb8rho3vwkm0sZXY0LxomxZu0MZ2LrbcyMUWdjZMM0zbem1y0gyUlq9iqsH6JLDwg4GpzZzVQJsYjr8gIkiDKAT3o43FVWte2xDXU2xkBpldKYTG0nBwJdGVActXcNKcUaQB8HqgDQBioA0AYqANAGKgDQBioA0AYqANAGLOo83Xr1/dTwA0BtkGADHQBgAxKNIAEINsA4AYaAN2zOOmdano5/2qeKk2ijSwV6I77bagfZcess3J4XsZ+l3fvwr1+xIUJYQ2J4fvOMreX7Qa7+ENbXAxrnsHnKKJKNJOTotss/z40m00kWZATRxkGyCmrTYutvWlGVASB9oAMU21calG7ZwmRiWVoUjrhi2f7N7zn2JjWiZk7FkKRWrw7I40fL1TGm6lMPSnET0SJNjEe0pwsW0XqSIb0Ll9LvJ53fL2m7xBtumGjVezf9NHcJgW71TWJhu+UbzKtVmexku0qayhyI4o9Glx3dZbvIE23eCT9aF5z9Zx4TtrwvSxGC0vhgp1mNfGNZ4GS5J77lS7Is1F9ELcG8ivKfbTJUWqX6UIirRucLzGHw1ToAf739Mmigs3Tum5atXaRNOYcaOZNi70q/IAaWKjXyCN7GXyINt0w8Zr9usUm3CCo2HWpRF3QrJNm8w0yhs200aYBrgok/4Bn83pBtp0Y0abzKql6C9yYm14A4t4M2hz2CIN2nisCGcWR1JyQZvjAm0SpCcdfH4zIt0M5zZHpBiv9ClWcDB8C21kaYCkMb0p59RtuDnZoEjrRyle+TvHYK/uUJsVk1nCM2GJyBT6tSKFbE82yDb9yMZr/k8nGPakDedD/YRT6Q118/vRsiUdFKyBNv2w8ZptsiBOmBl5aGGsr9HGrAwvw3FNwyKXNuaiOifNQGl5wPYKzYAirRv54C5F3s60GaAOU1NJPlH1FcNu5DrMrhygDtusQbbpRzFe356KhLMOJWmgTUegTZmFjLMONWlQpHUE2sxB4qilHFUTkW26AW0WUAx07ewFbboBbRYZyiqlSDfiaDljQJEGgBhkGwDEINsAIAbZBgAx0AYAMSjSABCDbAOAGGgDgBgUaQCIQbYBQAy0AW/E99vll8vQvm270AZFGngLftyvVhhoA0AFjxvZcv143L9AGwCWeHyzztjrnz+hTcixijS6ASR3GxavU7zSXYMjztlgyrNJEmhzdCjSoiCkxfuLP8MR5xwAbY4P3dw+BWG6RA4f+ItsGb3NnF8GtIk45CdpFHL2OK0TgG21aTPnlwFtTgIXONI/0tKRI87ZAm1OQ5AeDhKALebMaSxC8y2BNhFH/rqTg/Agpc6A/pyhDagnjJbtQRgkgizbX0N7zi8D2pwDCkBzSKV433h0ba+N/pxfBrSJOGSRFkUd/brrw/cR58xAm8PDlY53qKZlew3CI87ZB9ocnFwADpSW74Ejznm6WaDQrh9y21GkdYHjLBdosyv7ccQ5D0AbAHYBtAFADIo0AMQg2wAgBtoAIAZFGgBikG0AEINsA4CQ5/P/QnQcx8lRM4sAAAAASUVORK5CYII="/>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Will the following loop terminate? <img src="data:image/png;base64,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"/>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Yes.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Yes, as long as the input is greater than or equal to zero.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[No.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Yes, as long as the input is less than zero.]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[006 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/08.1-WhileLoops/The-Wait-Until-Event-Pattern.mp4" target=newtab><b>The Wait-until-event Pattern</b></a>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/08.1-WhileLoops/The-Wait-Until-Event-Pattern.mp4" target=newtab><b>The Wait-until-event Pattern</b></a>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[007 Which scenario best fits an indefinite loop pattern?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which scenario best fits an indefinite loop pattern?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[The robot needs to go forward until it bumps into a wall.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The robot needs to move in a square pattern.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The robot needs to use a sensor.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The robot falls off a table.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[008 Which scenario best fits a definite loop pattern?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which scenario best fits a definite loop pattern?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[The robot needs to go forward until it bumps into a wall.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[The robot needs to move in a square pattern.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The robot needs to use a sensor.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The robot falls off a table.]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[009 Write a definite loop (using a for statement) that prints the numbers 0-100, inclusive.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write a definite loop (using a for statement) that prints the numbers 0-100, inclusive.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[for i in range(101):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(i)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for i in range(100)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(n)]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[010 Write an indefinite loop (using a while statement) that prints the numbers 0-100, inclusive.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write an indefinite loop (using a while statement) that prints the numbers 0-100, inclusive.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[i = 0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[while i < 101:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(i)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[while i > 100:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i - 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[while i < 100:]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[011 Write an indefinite loop (using a while statement) that prints integers starting at 100,000 and stopping when it encounters an integer whose cosine is less than -0.999. Do not print the integer whose cosine is less than -0.999.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write an indefinite loop (using a while statement) that prints integers starting at 100,000 and stopping when it encounters an integer whose cosine is less than -0.999. Do not print the integer whose cosine is less than -0.999.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[import math]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[i = 100000]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[while math.cos(i) >= -0.999:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(i)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[i = 99999]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[while math.cos(i) < -0.999:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i - 1]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[012 In the previous problem you were not to print the integer whose cosine is less than -0.999. How would you modify your answer above if you were supposed to print the integer whose cosine is less than -0.999, but still stop the loop after doing so?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In the previous problem you were not to print the integer whose cosine is less than -0.999. How would you modify your answer above if you were supposed to print the integer whose cosine is less than -0.999, but still stop the loop after doing so?]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[import math]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[i = 99999]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[while math.cos(i) >= -0.999:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(i)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[i = 100000]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[while math.cos(i) < -0.999:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = i - 1]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[013 Re-write this code as a definite loop (using a for statement).<img src="data:image/png;base64,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"/>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Re-write this code as a definite loop (using a for statement).<img src="data:image/png;base64,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"/>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[for i in range(7):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(2 ** (i + 1))]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for i in range(100):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(i)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;i = 2 * i]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for i in range(6):]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+</quiz>

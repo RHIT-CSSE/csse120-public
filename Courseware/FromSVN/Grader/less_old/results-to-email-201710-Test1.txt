@@ -1,0 +1,2686 @@
+alawamhm
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary parentheses in IF statement
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+bakerak
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 5
+Points were deducted for the following reasons:
+Range is wrong (that is, it is off by more than 1) - Points deducted: -5
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re: unnecessary ELSE clause
+See me re: assignment that does nothing
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Wrongly includes 0 (whose reverse is 0) in the total. - Points deducted: -1
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 57
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 57
+
+chattoa
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  You used IS correctly.  Do you know when you must NOT use IS?
+See me re:  unnecessary is True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Has no tests of their own.  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  going down instead of up is fine, but perhaps it obscures?  In any case, be sure you know what you are doing!
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 4
+Points were deducted for the following reasons:
+Otherwise fails to construct new rectangles correctly - Points deducted: -3
+Wrong locations for all 4 other rectangles - Points deducted: -3
+Wrong sizes for all 4 other rectangles - Points deducted: -3
+Wrong outline color for all 4 other rectangles (should be fill color of given rectangle) - Points deducted: -3
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Way off - Points deducted: -20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 24
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 24
+
+chengh
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  You used IS correctly.  Do you know when you must NOT use IS?
+See me re:  unnecessary is True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Has no tests of their own.  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+See me re:  Judicious use of white space can help clarify code.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 56
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 56
+
+chenx5
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+clarkta
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Never reasssign a parameter
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Never reasssign a parameter
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 17
+Points were deducted for the following reasons:
+Nice use of clone and move_by - Points deducted: 1
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Judicious use of white space can help clarify code.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  How you can avoid the special case for k=0.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 64
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 64
+
+corsojr
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 17
+Points were deducted for the following reasons:
+Locations of items are slightly wrong - Points deducted: -3
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 60
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 60
+
+debrotm
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Judicious use of white space can help clarify code.
+See me re:  Use render(NUMBER) and/or multiple renders and/or render INSIDE a loop only when you want animation.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+evardl
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Uses uninformative variable names (that is, names that fail to suggest their purpose).  (Note: loop variables that are single letters are fine.)
+See me re:  unnecessary parentheses in IF statement
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Uses uninformative variable names (that is, names that fail to suggest their purpose).  (Note: loop variables that are single letters are fine.)
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders only when you want animation.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 66
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 66
+
+fettrogd
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re: extra blank lines
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  solution fails tests!
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 4
+Points were deducted for the following reasons:
+Otherwise fails to construct new rectangles correctly - Points deducted: -3
+Wrong locations for all 4 other rectangles - Points deducted: -3
+Wrong sizes for all 4 other rectangles - Points deducted: -3
+Wrong outline color for all 4 other rectangles (should be fill color of given rectangle) - Points deducted: -3
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 10
+Points were deducted for the following reasons:
+Locations of items are wrong (more than slightly wrong) and/or the wrong number of items appear (more than off-by-one) - Points deducted: -10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  any warning message
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 41
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 41
+
+frantotj
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Wrongly includes 0 (whose reverse is 0) in the total. - Points deducted: -1
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+See me re:  Judicious use of white space can help clarify code.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 62
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 62
+
+georgenp
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders and/or render INSIDE a loop only when you want animation.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+gingerae
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary parentheses in IF statement
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+See me re:  Judicious use of white space can help clarify code.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 66
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 66
+
+gobens
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders and/or render INSIDE a loop only when you want animation.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+heiljt
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary parentheses in IF statement
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Has only 1 real test of their own (their other test may or may not be real).  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+See me re:  How to organize your loop better.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 58
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 58
+
+hud
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 4
+Points were deducted for the following reasons:
+2 or more unnecessary special cases - Points deducted: -5
+Wrong answer in a special case that no test uncovered (but a test in 1b DID uncover it, sort of) - Points deducted: -1
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Has no tests of their own.  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 14
+Points were deducted for the following reasons:
+Wrong locations for 2 or 3 other rectangles - Points deducted: -2
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 11
+Points were deducted for the following reasons:
+Range is off by 1 - Points deducted: -2
+Locations of items are slightly wrong - Points deducted: -3
+Constructs Rectangles instead of Squares - Points deducted: -4
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 42
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 42
+
+johnsocp
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 17
+Points were deducted for the following reasons:
+Particularly nice use of internal comments - Points deducted: 1
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 64
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 64
+
+kime2
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Poor choice of variable name for returned value from is_perfect
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Has only 1 real test of their own (their other test may or may not be real).  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders and/or render INSIDE a loop only when you want animation.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 61
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 61
+
+labruyma
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Uses variable names that begin with an upper-case letter (bad) or use camelCase (violates style)
+See me re: No blank lines between function definitions
+See me re:  unnecessary parentheses in IF statement
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Wrongly includes 0 (whose reverse is 0) in the total. - Points deducted: -1
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Uses variable names that begin with an upper-case letter
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Judicious use of white space can help clarify code.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 14
+Points were deducted for the following reasons:
+Range is off by 1 - Points deducted: -2
+Constructs Rectangles instead of Squares - Points deducted: -4
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 56
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 56
+
+liuy11
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Has no tests of their own.  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 16
+Points were deducted for the following reasons:
+Constructs Rectangles instead of Squares - Points deducted: -4
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 52
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 52
+
+lovinsjl
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re: assignment that does nothing
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Has no tests of their own.  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Using an auxiliary variable vs using the loop variable
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 5
+Points were deducted for the following reasons:
+Otherwise fails to construct new rectangles correctly - Points deducted: -3
+Wrong locations for all 4 other rectangles - Points deducted: -3
+Wrong outline color for all 4 other rectangles (should be fill color of given rectangle) - Points deducted: -3
+Fails to render the window (or renders at a wrong point) - Points deducted: -2
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 18
+Points were deducted for the following reasons:
+Range is off by 1 - Points deducted: -2
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 43
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 43
+
+mac2
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Has only 1 real test of their own (their other test may or may not be real).  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+See me re:  Judicious use of white space can help clarify code.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 16
+Points were deducted for the following reasons:
+Constructs Rectangles instead of Squares - Points deducted: -4
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 54
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 54
+
+masonwd
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 6
+Points were deducted for the following reasons:
+Range is off by 1 - Points deducted: -2
+Argument to is_perfect is off by 1 - Points deducted: -2
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  solution fails tests!
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Has only 1 real test of their own (their other test may or may not be real).  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 14
+Points were deducted for the following reasons:
+Circle and/or Square sizes are wrong (but not unreasonable) - Points deducted: -2
+Color of circles are wrong - Points deducted: -4
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 48
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 48
+
+mulholbn
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unwise to treat True as 1 and False as 0
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+See me re:  Use render(NUMBER) and/or multiple renders only when you want animation.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 16
+Points were deducted for the following reasons:
+Constructs Rectangles instead of Squares - Points deducted: -4
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  If you use side effects not called for by the problem (e.g., printing things), be sure to comment them out from your final solution.
+See me re:  Curious title for your RoseWindow.  Why?
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 59
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 59
+
+neessc
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary parentheses in IF statement
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+See me re:  Judicious use of white space can help clarify code.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+pareehgl
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary parentheses in IF statement
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders only when you want animation.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 16
+Points were deducted for the following reasons:
+Constructs Rectangles instead of Squares - Points deducted: -4
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders and/or render INSIDE a loop only when you want animation.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 59
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 59
+
+paytonzk
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 3
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  warning message, statement has no effect
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Has only 1 real test of their own (their other test may or may not be real).  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Wrongly includes 0 (whose reverse is 0) in the total. - Points deducted: -1
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  statement has no effect
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+See me re:  Judicious use of white space can help clarify code.
+See me re:  Use render(NUMBER) and/or multiple renders only when you want animation.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 17
+Points were deducted for the following reasons:
+Locations of items are slightly wrong - Points deducted: -3
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders and/or render INSIDE a loop only when you want animation.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 57
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 57
+
+ponsotml
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 5
+Points were deducted for the following reasons:
+Range is wrong (that is, it is off by more than 1) - Points deducted: -5
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re wrongly testing preconditions
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 5
+Points were deducted for the following reasons:
+Misunderstood the problem, it seems, but test cases should have clarified it. - Points deducted: -5
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 4
+Points were deducted for the following reasons:
+Otherwise fails to construct new rectangles correctly - Points deducted: -3
+Wrong locations for all 4 other rectangles - Points deducted: -3
+Wrong sizes for all 4 other rectangles - Points deducted: -3
+Wrong outline color for all 4 other rectangles (should be fill color of given rectangle) - Points deducted: -3
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 4
+Points were deducted for the following reasons:
+Locations of items are wrong (more than slightly wrong) and/or the wrong number of items appear (more than off-by-one) - Points deducted: -6
+Circle and/or Square sizes are wrong (but not unreasonable) - Points deducted: -2
+Color of circles are wrong - Points deducted: -4
+Fails to wait for mouse click - Points deducted: -2
+Fails to attach things correctly - Points deducted: -2
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 25
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 25
+
+robisoct
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re: unnecessary ELSE clause
+See me re: assignment that does nothing
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 13
+Points were deducted for the following reasons:
+Locations of items are slightly wrong - Points deducted: -3
+Color of circles are wrong - Points deducted: -4
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 56
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 56
+
+ryanjf
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+saadatda
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Has only 1 real test of their own (their other test may or may not be real).  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 14
+Points were deducted for the following reasons:
+Locations of items are wrong (more than slightly wrong) and/or the wrong number of items appear (more than off-by-one) - Points deducted: -6
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 52
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 52
+
+shaferw
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Range is larger than necessary - Points deducted: -1
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unwise to treat True as 1 and False as 0
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Wrongly includes 0 (whose reverse is 0) in the total. - Points deducted: -1
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  If you use side effects not called for by the problem (e.g., printing things), be sure to comment them out from your final solution.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders and/or render INSIDE a loop only when you want animation.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 61
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 61
+
+slavensr
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Has only 1 real test of their own (their other test may or may not be real).  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Wrongly includes 0 (whose reverse is 0) in the total. - Points deducted: -1
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  any warning message
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Judicious use of white space can help clarify code.
+See me re:  Overuse of parentheses
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 57
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 57
+
+smithrs2
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re: No blank lines between function definitions
+See me re:  You used IS correctly.  Do you know when you must NOT use IS?
+See me re:  unnecessary is True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Has only 1 real test of their own (their other test may or may not be real).  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Wrongly includes 0 (whose reverse is 0) in the total. - Points deducted: -1
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 14
+Points were deducted for the following reasons:
+Wrong outline color for all 4 other rectangles (should be fill color of given rectangle) - Points deducted: -2
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Should be CLOSE_on_mouse_click.  Do you understand why?
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 55
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 55
+
+songw
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Has no tests of their own.  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+See me re:  Judicious use of white space can help clarify code.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 16
+Points were deducted for the following reasons:
+Constructs Rectangles instead of Squares - Points deducted: -4
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders and/or render INSIDE a loop only when you want animation.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 52
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 52
+
+takagisr
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Choosing names, balancing clarity and brevity
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 8
+Points were deducted for the following reasons:
+Used Excel to calculate test cases and noted so. - Points deducted: 1
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 16
+Points were deducted for the following reasons:
+Constructs Rectangles instead of Squares - Points deducted: -4
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+thriftcm
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Judicious use of white space can help clarify code.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+tianzhx
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Has no tests of their own.  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Judicious use of white space can help clarify code.
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 56
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 56
+
+tomasir
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Abuse (maybe) of elif and <=, also dangerous (maybe) use of flags, also how lists could clarify your solution (maybe).
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 18
+Points were deducted for the following reasons:
+Range is off by 1 - Points deducted: -2
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders and/or render INSIDE a loop only when you want animation.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 61
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 61
+
+trubyan
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 0
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 0
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 0
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 0
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 0
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 0
+
+wangy16
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Choosing names, no need to avoid names in other functions (see 1b)
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Has no tests of their own.  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 56
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 56
+
+watsoncj
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+wilkinmj
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  any warning message
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+worcesac
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Judicious use of white space can help clarify code.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 63
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 63
+
+wul
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Has only 1 real test of their own (their other test may or may not be real).  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 58
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 58
+
+yangj3
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Wrongly includes 0 (whose reverse is 0) in the total. - Points deducted: -1
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  going down instead of up is fine, but perhaps it obscures?  In any case, be sure you know what you are doing!
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use PLURAL names only for SEQUENCES.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 62
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 62
+
+yangj4
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Has no tests of their own.  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Way off - Points deducted: -5
+Range is wrong (that is, it is off by more than 1) - Points deducted: -3
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Way off - Points deducted: -16
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 10
+Points were deducted for the following reasons:
+Circle and/or Square sizes are wrong (but not unreasonable) - Points deducted: -2
+No correct Squares constructed - Points deducted: -4
+Color of circles are wrong - Points deducted: -4
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  How you constructed rg.Circles.  IMPORTANT!
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 22
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 22
+
+yodersp
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Judicious use of white space can help clarify code.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 66
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 66
+
+zhouy9
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unnecessary == True
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -3
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Has no tests of their own.  [A call to problem1c whose expected result is NOT shown is NOT a test, nor is one whose expected answer could not have been computed except by running the program.] - Points deducted: -7
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 16
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 20
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Use render(NUMBER) and/or multiple renders and/or render INSIDE a loop only when you want animation.
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 56
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 56
+
+ziglermn
+Hi!  Here is your score on Test 1, along with comments on your work.
+
+IMPORTANT: Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+For the in-class portion of Test 1, your score on each problem is
+on Moodle.  For problems where you missed points, re-try the problem.
+Then, in class show me your reworked result and I will tell you
+whether or not it is correct.  That way, you can learn from your mistakes!
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+  ... david m.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 0
+
+Score and comments on problem: problem1b (points available: 3)
+Your score on this problem: 0
+
+Score and comments on problem: testProblem1c (points available: 7)
+Your score on this problem: 0
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 0
+
+Score and comments on problem: problem2 (points available: 16)
+Your score on this problem: 0
+
+Score and comments on problem: problem3 (points available: 20)
+Your score on this problem: 0
+
+Your total score on Test 1 is:
+  Total (of 66) on the on-the-computer part of the test: 0
+  Total (of 34) on the paper-and-pencil part of the test: 0
+  Total (of 100) on the test: 0
+

@@ -1,0 +1,107 @@
+Q.
+This starts a problem, with the "question" part of the problem.
+It continues, using markdown (if desired), until eventually:
+
+A.
+This starts an answer for a problem.
+It continues until another question begins
+(with Q. at the beginning of a line).
+
+A.
+True   [a T/F question whose answer is True, similarly for Yes/No]
+A.
+Choice 1  [multiple choice]
+Choice 2
+Choice 3~
+Choice 4
+
+A.
+Blah -> Foo  [matching, because of presence of   ->  in answer]
+Blah -> Foo Foo
+-> xxxx
+
+Q.
+if no A, then it is a description
+
+Q.
+A.
+just white space here means Essay
+
+Q.
+foo
+bar
+foo
+bar
+is for short answer with these being correct answers
+
+
+
+
+This script (quiz_builder.py) creates Moodle xml quizzes from properly
+formatted txt files. This is the "version 2" Format:
+
+0. A slash   \   as the last character of a line is a line continuation:
+   The next line is treated as if it replaced the trailing slash.
+   
+1. Quiz questions are separated by two (or more) empty lines.
+
+2. Each question consists of:
+  -- The statement of the question.
+  -- An empty line
+  -- The answer(s) to the question.
+
+3. A question is multiple-choice by default, with each line being
+   a choice, and with a tilde  ~  at the end of correct choice(s).
+   
+   Exception: Code blocks in an answer are always treated as if they
+   were part of a single answer.
+   
+4. A question whose sole answer is  True   or   False is a T/F question.
+5. Likewise, Yes or No indicates a Yes/No question.
+6. A question with one or more answer-lines beginning  ->   is a Matching question.
+7. A question that begins:  SA.
+   is a Short Answer question, with answer lines be correct answers.
+   If there are no answer lines, then it is an Essay question.
+8. A question with no answer is a Description.
+
+1. Each question is preceded by a number and a period (just like this line)
+
+2. The following types of questions are supported. Each has a different format:
+	a. Multiple choice
+	b. True/false
+	c. Short answer
+	d. Matching
+	e. Essay
+	f. Descriptive (i.e., no question, just comment to students)
+	
+3. You can add any html code you want (e.g., <b>, html links).
+
+4. If you want to include photos or figures, you can
+use base64 image encoding. Simply make your image
+and use a base64 image encoder to make the string
+you need (one website has an image encoder here: https://www.base64-image.de/ ).
+You can then put it in an img tag to make an image display in
+the quiz question.
+
+
+FORMATTING
+Multiple Choice:
+	-Each answer is on a separate line
+	-Each line is preceded by a letter and period (e.g., a.)
+	-The correct answer has a ~ at the end of the line.
+True/false:
+	-Similar to multiple choice, preceded by letter and period
+	-Answers are only True or False
+	-~ marks correct answer
+Short Answer:
+	-Answer is preceded by ANS. (e.g., ANS. 12)
+	-Can add multiple answers--simply add more lines with the ANS. marking
+Matching:
+	-Answer is preceded by M.
+	-Matching answer is indicated by an arrow from left hand side
+	-Example: M. Line 1 -> int j=0
+Essay:
+	-Just a question without associated answers
+Descriptive:
+	-Preceded by D. (e.g. D. Read chapter 3.)
+	

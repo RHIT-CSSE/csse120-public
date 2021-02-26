@@ -1,0 +1,88 @@
+TODO right away:
+    Done.  Implement LED.
+    Done.  Implement read acknowledgements.
+    Done.  Implement Sensors.
+    Done.  Implement tones.
+    Done.  Implement Motors.
+    Done.  Write a GUI hardware test program.
+    Done.  Dual-motor sends controls for both, then pwm for both.
+
+When the Python program is waiting for a message, if it does not
+  receive one in a timely way, the program should leave the function,
+  indicate a connection error, and offer the suggestion to reconnect (?)
+Arduino:
+  -- Add command for turning BOTH motors on.
+  -- See if delays are reasonable (reduce if I can)
+  -- Clean up comments et al
+  -- Check into enum and replace with #define if need be
+  -- Add Pixy support
+  
+Reduce delays throughout.
+Leave them as variables that can be set at construction time.
+Test to seem what works OK in the context of GUI.
+In any case, tones need small delay!
+
+Cap tones at when they stop going up (freq less than 64k for sure).
+
+Look at TODOs in file.  Deal with the important ones.
+
+All commands need to print a message or something if the Robot
+is not connected.  Blink .. maybe not???
+
+FIXME:
+Ask Valerie:  Change Arduino's use of ENUM to #define (or its equivalent),
+  since (as best I can tell)
+  an ENUM does not guarantee that the values are 0, 1, 2, ...
+  The Python code needs to know the enumeration values.
+  
+I think that if the Python code sends one byte of the three and
+  then breaks, the Arduino would need a reset.FIXME:
+  
+Order brackets!!!
+Ask Dave:  New batteries need the white thing to test charge.  How?
+Need a stiff piece of white paper to test proximiyt (and reflectance)
+
+Number the batteries.  Also number the robots (apart from their Wfly).
+It appears that if the power is turned off and then you try to make
+motors run:
+  == Doens't run
+  == Tkinter hangs.
+  CTO!
+
+Buy some zip ties for tying up the servo wires and others.
+White and black.
+
+Dave: Some of the RoseBots do not have the header on the right and left
+  that others do.  Do we need to use the 4 AAs for those?
+
+Make it possible to interrupt tests in the hardware test program.
+
+
+Eventually:  Have a TONE alternative in which Arduino tones are set
+  per whatever table the Python command sends.  Could send the table
+  at the beginning of the run or even just before playing some song.
+The Arduino TONE pitches.h library stops at 4978.  The formula in the
+current version of the code reaches 4978 at a much smaller number
+than 255.  I think that maybe the buzzer/tone is not capable of doing
+much beyond 4978 Hz.
+Perhaps we would do better to:
+  -- tone is linear (i.e., "bare" tone)
+  -- 255 -> about 5000
+  -- provide a SOFTWARE table from pitches.c.  STUDENTS can do the
+  translation using that table.
+
+Try out other robots.  See if the following are true:
+
+    Warn students that different reflectance sensors will vary widely
+    within a robot and across robots, mostly because of the (various) ways
+    that they are mounted.
+
+    Warn students that proximity sensors vary wildly from one reading to the
+    next, even if everything is stationary.
+
+TODO eventually, maybe:
+Have the acknowledgement echo back the decoded information sent,
+so that we can tell that the pin conversion worked, for example.
+
+
+ 

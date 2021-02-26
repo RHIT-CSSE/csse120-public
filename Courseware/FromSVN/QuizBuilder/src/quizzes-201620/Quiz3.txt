@@ -1,0 +1,233 @@
+D. Do this online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/201630/Sessions/Session03/03b-Counted%20Loops/Handouts/CountedLoops.pdf" target=newtab><b>Counted Loops</b></a>, doing the next set of questions while you do so.
+
+1. Choose the correct lines to make a loop that prints 'funny' 40,000 times.
+M. Line 1->for k in range(40000):
+M. Line 2->&nbsp;&nbsp;&nbsp;&nbsp;print('funny')
+M. ->for k in range(40001)
+M. ->for k in range(n)
+M. ->&nbsp;&nbsp;&nbsp;&nbsp;return 'funny'
+M. ->&nbsp;&nbsp;&nbsp;&nbsp;print 'funny'
+
+30. Choose the correct lines to make a loop that prints the cubes of the numbers from 35 to <b>m</b>, inclusive (where <b>m</b> is some integer bigger than 35). For example, if <b>m</b> were 37, then this loop should print: <p>42875</p><p>46656</p><p>50653</p> These are 35 cubed, 36 cubed, and 37 cubed.
+M. Line 1->for i in range(m-34)
+M. ->for i in range(m)
+M. ->for i in range(0)
+M. ->for i in range(m-35)
+M. ->for i in range(m-36)
+M. Line 2->&nbsp;&nbsp;&nbsp;&nbsp;print(i**3)
+M. ->&nbsp;&nbsp;&nbsp;&nbsp;print(35**3)
+M. ->&nbsp;&nbsp;&nbsp;&nbsp;print(m**3)
+
+D. Watch <a href="https://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.2-TheAccumulatorPattern-Part1-Summing/TheAccumulatorPattern-Summing.mp4">Video: The Accumulator Pattern - Summing</a>, doing the next set of questions while you do so.
+
+11. Trace the snippet of code shown to below by hand (no fair typing it into a program), and show what gets printed: <pre><br>total = 0<br>for k in range(5):<br>    total = total + (k + 10)<br>    print(k, total)<br><br>print('The sum 10 + 11 + 12 + 13 + 14 is')<br>print(total)</pre>
+M. Line 1 -> 0 10
+M. Line 2 -> 1 21
+M. Line 3 -> 2 33
+M. Line 4 -> 3 46
+M. Line 5 -> 4 60
+M. Line 6 -> The sum 10 + 11 + 12 + 13 + 14 is
+M. Line 7 -> 60
+M. -> 0 10
+M. -> 1 11
+M. -> 2 12
+M. -> 3 13
+M. -> 4 14
+M. -> 5 15
+M. -> 75
+
+12. Write a snippet of code that calculates: <div><pre>math.sin(3)+math.sin(4)+math.sin(5)+...+math.sin(500)</pre></div> Assume that there is already an import math that executed previously in the code.
+M. Line 1 -> total = 0
+M. Line 2 -> for k in range(408):
+M. Line 3 -> &nbsp;&nbsp;&nbsp;&nbsp;total = total + math.sin(k+3)
+M. -> for k in range(500):
+M. -> for k in range(3):
+M. -> total = 500
+M. -> total = math.sin(k+3)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;total = math.sin(k+3)
+
+D. Do this online reading: <a href="https://www.rose-hulman.edu/class/csse/csse120/201630/Sessions/Session03/04b-FunctionsWithParameters/Handouts/FunctionsWithParameters.pdf">Functions with Parameters and Returned Values</a>, doing the next set of questions while you do so.
+
+13. Consider the function call   <pre>round(3.14159, 2)</pre>, which rounds 3.14159 to 2 decimal places. What are the <b>arguments?</b>
+a. 3.14159 and 2~
+b. 3.14159
+c. 2
+d. 3.14
+e. round
+
+14. Consider the function call   <pre>round(3.14159, 2)</pre>, which rounds 3.14159 to 2 decimal places.  What is the <b>return value?</b>
+a. 3.14159 and 2
+b. 3.14159
+c. 2
+d. 3.14~
+e. round
+
+15.  As a user of a function (that is, as someone who will call the function), you don't need to know how the function is implemented; you just need to know the specification of the function.
+a. True~
+b. False
+
+D. Consider the cubeVolume function defined below. <pre>def cubeVolume(sideLength):<br>    volume = sideLength ** 3<br>    return volume<br></pre>
+
+16. What is the value of cubeVolume(3)?
+a. 9
+b. 27~
+c. 81
+d. 256
+e. 512
+
+17. What is the value of cubeVolume(cubeVolume(2))?
+a. 9
+b. 27
+c. 81
+d. 256
+e. 512~
+
+18. Provide an alternate implementation of the body of the cubeVolume that does not use the exponent operator.
+M. Line 1 -> &nbsp;&nbsp;&nbsp;&nbsp;volume = sideLength * sideLength * sideLength
+M. Line 2 -> &nbsp;&nbsp;&nbsp;&nbsp;return volume
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;volume = sideLength * 3
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;volume = sideLength ^ 3
+
+D. Consider the mystery function defined below. <pre>def mystery(x, y):<br>    result = (x + y) / (y - x)<br>    return result<br></pre>
+
+19. What is the value of mystery(2,3)?
+ANS. 5
+
+20. What is the value of mystery(3,2)?
+ANS. -5
+
+D. Do this online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.6-VariableScope-Handout/NamespacesAndVariablesScope.pdf" target=newtab> Namespaces and Variables' Scope</a>, doing the next set of questions while you do so.
+
+21. What gets printed when main is called in the program shown below?  (Pay close attention to the order in which the statements are executed.)   <pre>def main():<br>    hello()<br>    goodbye()<br>    hello_and_goodbye()<br>    goodbye()<br>   <br>def hello():<br>    print('Hello!')<br>    return 'Hello!'<br>    print('Hello Again!')<br>   <br>def goodbye():<br>    print('Ciao!')<br>   <br>def hello_and_goodbye():<br>    print('Here is stuff!')<br>    goodbye()<br>    hello()<br>    hello()<br>    print('Here is more!')<br>    hello()<br>    goodbye()<br></pre>
+M. Line 1 -> Hello!
+M. Line 2 -> Ciao!
+M. Line 3 -> Here is stuff!
+M. Line 4 -> Ciao!
+M. Line 5 -> Hello!
+M. Line 6 -> Hello!
+M. Line 7 -> Here is more!
+M. Line 8 -> Hello!
+M. Line 9 -> Ciao!
+M. Line 10 -> Ciao!
+M. -> Hello Again!
+M. -> Hello Again!
+
+22. What gets printed when main is called in the program shown below?<pre><br>def main():<br>    a = 4<br>    answer = mystery(a + 1)<br>    print(answer)<br><br>def mystery(x):<br>    y = x * x<br>    return y<br></pre>
+ANS. 25
+
+23. What gets printed when main is called in the program shown below?<pre><br>def main():<br>    big()<br>    bigger()<br>    biggest()<br>    big()<br><br>def big():<br>    print('basketball')<br><br>def bigger():<br>    print('truck')<br>    big()<br><br>def biggest():<br>    print('house')<br>    bigger()<br>    big()<br></pre>
+M. Line 1 -> basketball
+M. Line 2 -> truck
+M. Line 3 -> basketball
+M. Line 4 -> house
+M. Line 5 -> truck
+M. Line 6 -> basketball
+M. Line 7 -> basketball
+M. Line 8 -> basketball
+
+24. What gets printed when main is called in the program shown below?<pre>def main():<br>    a = 4<br>    print(mystery(a + 1))<br>   <br>def mystery(x):<br>    return x * x<br></pre>
+ANS. 25
+
+25. Consider the totalCents function shown below.  This function correctly calculates and returns the number of cents that is equivalent to a given number of dollars and cents.<pre><br>def totalCents(dollars, cents):<br>    cents = (dollars * 100) + cents<br>    return cents<br></pre> For example,    totalCents(3, 71)     correctly returns 371. However, this function violates a style rule:  Do Not Modify Parameter Values (in a function's body).  This style rule is a good rule because modifying parameter values:
+a. Yields ugly code.
+b. Is an error-prone practice.~
+c. Causes the sky to fall.
+d. Makes Pointy-Headed Managers unhappy.
+
+26. Show how one could write totalCents without violating the Do Not Modify Parameter Values rule.
+M. Line 1 -> change = (dollars * 100) + cents
+M. Line 2 -> return change
+M. -> dollars = (dollars * 100) + cents
+M. -> cents = (dollars * 100) + cents
+M. -> return dollars
+M. -> return cents
+
+D. The boxString function takes a string as its argument and displays that string "in a box":<pre><br>def boxString(contents):<br>    n = len(contents)<br>    print('-' * (n + 2))<br>    print('!' + contents + '!')<br>    print('-' * (n + 2))<br></pre> Calling boxString with 'Hello Moon' as its argument yields the following: <pre>------------<br/>!Hello Moon!<br/>------------</pre>
+
+27.  Consider the following (silly!) statement: <pre>print(boxString('Hello'))</pre> What, exactly, does the above statement cause to appear on the Console?
+M. Line 1 -> -------
+M. Line 2 -> !Hello!
+M. Line 3 -> -------
+M. Line 4 -> None
+M. -> !Hello Moon!
+M. -> ------------
+M. -> ------------
+M. -> (nothing appears on this line)
+
+28. How <b>should</b> the above statement been written, to be sensible?
+a. boxString('Hello')~
+a. print(boxString('Hello'))
+b. print(boxString('Hello')) - None
+c. print(boxString('Hello') - None)
+d. boxString('!Hello!')
+
+29. Write statements that would use boxString to produce on the Console the output shown below.<pre><br/>-------<br/>!Hello!<br/>-------<br/>------<br/>!Moon!<br/>------</pre>
+M. Line 1 -> boxString('Hello')
+M. Line 2 -> boxString('Moon')
+M. -> print(boxString('Hello'))
+M. -> print(boxString('Moon'))
+
+D. For each of the following boxes: <ul><li>If the code is correct, state what gets printed when main runs.</li><li>If the code is wrong, explain why.</li></ul> For this and all subsequent problems, assume that <b>no global variables have been defined</b>.
+
+30. <pre>def main():<br>    x = foo()<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>
+a. Correct, prints x**3
+b. Correct, prints m**3
+c. Incorrect because the call to foo is missing a parameter~
+d. Incorrect because m is undefined
+e. Incorrect because x is undefined
+f. Incorrect because the value of m can't be cubed
+
+31. <pre>def main():<br>    x = foo(m)<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>  
+a. Correct, prints x**3
+b. Correct, prints m**3
+c. Incorrect because the call to foo is missing a parameter
+d. Incorrect because m is undefined~
+e. Incorrect because x is undefined
+f. Incorrect because the value of m can't be cubed
+
+32. <pre>def main():<br>    x = foo('help')<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>  
+a. Correct, prints helphelphelp
+a. Correct, prints m**3
+c. Incorrect because the call to foo is missing a parameter
+d. Incorrect because m is undefined
+e. Incorrect because x is undefined
+f. Incorrect because the value of m can't be cubed~
+
+33. The code in the box below has syntax errors:  it causes big red X error message(s).  Check all lines that will have red X error message(s) beside them. <pre>def main():<br>    foo()<br>    print(n)<br>    print(m)<br><br>def foo():<br>    n = 3<br>    m = 1<br>    return m</pre>
+a. def main():
+b.    foo()
+c.    print(n)~
+d.    print(m)~
+e. def foo():
+f.    n = 3
+g.    m = 1
+h.    return m
+
+34. Suppose you want to write a function called <b><i>distance</i></b> that has two rg.Point objects sent to it and returns the distance between them.  What would be the best "header" line of <b><i>distance</i></b>?
+a. def distance(start, end)~
+b. def distance(a, b)
+c. def distance(x, y)
+d. def foo(a, b)
+
+35. Suppose you want to write a function called <b><i>drawPoint</i></b> that takes a rg.Point object and a  rg.RoseWindow object (in that order) and draws the point on the window. What would be the best "header" line of <b><i>drawPoint</i></b>?
+a. def drawPoint(point, window)~
+b. def drawPoint(p, w)
+c. def drawPoint(a, b)
+d. def drawPoint(x, y)
+
+36. What gets printed when main is called in the program shown below?<pre>def main():<br>    a = 2<br>    b = 3<br><br>    m = do_it(a, b)<br>    print(m)<br><br>    m = do_it(b, a)<br>    print(m)<br><br>    m = do_it(a, a)<br>    print(m)<br><br>    m = do_it(b, b)<br>    print(m)<br><br>    c = do_it(b, a)<br>    m = do_it(c, a)<br>    print(m)<br><br>    b = do_it(b, a)<br>    m = do_it(b, a)<br>    print(m)<br><br>def do_it(x, y):<br>    return x ** y</pre>
+M. Line 1 -> 8
+M. Line 2 -> 9
+M. Line 3 -> 4
+M. Line 4 -> 27
+M. Line 5 -> 81
+M. Line 6 -> 81
+M. -> 6561
+
+37. What gets printed when main is called in the program shown below? <pre>def main():<br>    a = 2<br>    b = 3<br><br>    foo1()<br>    print(a, b)<br><br>    foo2(a, b)<br>    print(a, b)<br><br>    foo3(a, b)<br>    print(a, b)<br><br>def foo1():<br>    a = 88<br>    b = 99<br><br>def foo2(a, b):<br>    a = 400<br>    b = 500<br><br>def foo3(x, y):<br>    x = 44<br>    y = 55</pre>
+M. Line 1 -> 2 3
+M. Line 2 -> 2 3
+M. Line 3 -> 2 3
+M. -> 88 99
+M. -> 400 500
+M. -> 44 55

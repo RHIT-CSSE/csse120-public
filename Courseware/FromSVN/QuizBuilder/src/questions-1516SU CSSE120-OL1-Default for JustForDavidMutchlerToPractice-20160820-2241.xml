@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Default for JustForDavidMutchlerToPractice</text>
+
+    </category>
+  </question>
+
+<!-- question: 291496  -->
+  <question type="truefalse">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="markdown">
+      <text>The sky is blue.
+```
+def foo(blah):
+    x = 500
+    y10 = 'hello'
+```
+
+**What** is ***this***?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

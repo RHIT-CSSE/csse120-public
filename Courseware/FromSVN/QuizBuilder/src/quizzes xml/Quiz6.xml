@@ -1,0 +1,312 @@
+<?xml version="1.0" ?>
+<quiz>
+<question type="category">
+<category>
+<text> $course$/quiz6/</text>
+</category>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[001 Suppose that <b>x</b> and <b>y</b> are variables whose values are numbers. Consider the following expression: <b>x < y</b>. The value of the expression might be:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Suppose that <b>x</b> and <b>y</b> are variables whose values are numbers. Consider the following expression: <b>x < y</b>. The value of the expression might be:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<single>false</single><answer fraction="50.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[True]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[False]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA['true']]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA['false']]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[002 Suppose that <b>x</b> and <b>yx</b> are variables whose values are integers. Match the desired behavior to the correct boolean expression.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Suppose that <b>x</b> and <b>yx</b> are variables whose values are integers. Match the desired behavior to the correct boolean expression.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[True when both are zero]]></text>
+<answer>
+<text><![CDATA[<b>(x == 0) and (y == 0)</b>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[True when at least one is zero]]></text>
+<answer>
+<text><![CDATA[<b>(x == 0) or (y == 0)</b>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[True when exactly one is zero]]></text>
+<answer>
+<text><![CDATA[<b>(x == 0) != (y == 0)</b>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[True when neither of them is zero]]></text>
+<answer>
+<text><![CDATA[<b>(x != 0) and (y != 0)</b>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[<b>(x != 0) or (y != 0)</b>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[<b>(x = 0) and (y = 0)</b>]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[003 If <b>frozen</b> is a variable whose value is a Boolean value, <b>not not frozen</b> is equivalent to <b>frozen</b>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If <b>frozen</b> is a variable whose value is a Boolean value, <b>not not frozen</b> is equivalent to <b>frozen</b>.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[004 Why would you choose to use a boolean value rather than an integer (e.g., 0 or 1) or string (e.g., 'False' and 'True')?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Why would you choose to use a boolean value rather than an integer (e.g., 0 or 1) or string (e.g., 'False' and 'True')?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[It makes it easier for others to understand your code.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Boolean operators can only be used on boolean values.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A string or integer cannot be compared to a boolean value, so complicated expressions cannot be evaluated (e.g., <b>(x > y) and y > z</b> would not work if <b>x</b>, <b>y</b>, and <b>z</b> were not all boolean values).]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[005 Suppose that <b>b = False</b> and <b>x = 3</b>. Match the statement to its value.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Suppose that <b>b = False</b> and <b>x = 3</b>. Match the statement to its value.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[<b>b and (x == 3)</b>]]></text>
+<answer>
+<text><![CDATA[False]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>b and (x == 4)</b>]]></text>
+<answer>
+<text><![CDATA[False]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>b or (x == 3)</b>]]></text>
+<answer>
+<text><![CDATA[True]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>b or (x == 4)</b>]]></text>
+<answer>
+<text><![CDATA[False]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>(not b) and (x == 3)</b>]]></text>
+<answer>
+<text><![CDATA[True]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>(not b) or (x == 3)</b>]]></text>
+<answer>
+<text><![CDATA[True]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>b and (x != 3)</b>]]></text>
+<answer>
+<text><![CDATA[False]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>b or (x != 3)</b>]]></text>
+<answer>
+<text><![CDATA[True]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>b and (x != 4)</b>]]></text>
+<answer>
+<text><![CDATA[False]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>b or (x != 4)</b>]]></text>
+<answer>
+<text><![CDATA[False]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>(not b) and (x != 3)</b>]]></text>
+<answer>
+<text><![CDATA[True]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[<b>(not b) or (x != 3)</b>]]></text>
+<answer>
+<text><![CDATA[True]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="essay">
+<name><text><![CDATA[006 Consider the statement shown. Choose an equivalent single-line statement.TODO]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the statement shown. Choose an equivalent single-line statement.TODO]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[007 What is the value of <b>(1 + 2) == 3</b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b>(1 + 2) == 3</b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[True]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[False]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Difficult to say for sure]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[008 What is the value of <b>(0.1 + 0.2) == 0.3</b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b>(0.1 + 0.2) == 0.3</b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[True]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[False]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Difficult to say for sure]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[009 What is the value of <b>(math.sin(math.pi)) == 0</b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b>(math.sin(math.pi)) == 0</b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[True]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[False]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Difficult to say for sure]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[010 What is the value of <b>(1 / 10) + (9 / 10) == 1</b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b>(1 / 10) + (9 / 10) == 1</b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[True]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[False]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Difficult to say for sure]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[011 What is the value of <b>(3 // 1) == (9 // 3)</b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b>(3 // 1) == (9 // 3)</b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[True]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[False]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Difficult to say for sure]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[012 What is the value of <b>x > y or x <= y</b>? Assume x and y are arbitrary integers.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b>x > y or x <= y</b>? Assume x and y are arbitrary integers.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[True]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[False]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Difficult to say for sure]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[013 What is the value of <b>not (x > y and y > z) or x > z</b>? Assume x, y, and z are arbitrary integers.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b>not (x > y and y > z) or x > z</b>? Assume x, y, and z are arbitrary integers.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[True]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[False]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Difficult to say for sure]]></text>
+</answer>
+</question>
+</quiz>

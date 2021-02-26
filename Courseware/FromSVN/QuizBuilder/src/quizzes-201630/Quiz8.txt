@@ -1,0 +1,186 @@
+D. Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/10.1-Sequences/Video/Sequences/Sequences.mp4" target=newtab><b>Sequences</b></a>, doing the next set of questions while you do so.
+
+1. Sequences are powerful because:
+a. They let you refer to an entire collection, as well as the items in the collection, using a single name.~
+b. They let you iterate and facilitate the creation of terminating loops.
+c. They are larger than integers.
+d. They make Python a Turing Complete language.
+
+2. Match the statements to the correct value when <pre>sequence = [74, 34, 13, 30, 4004]</pre>
+M. len(sequence) -> 5
+M. sequence[0] -> 74
+M. sequence[1] -> 34
+M. sequence[4] -> 4004
+M. sequence[len(sequence) - 1] -> 4004
+M. -> 13
+M. -> 30
+M. -> 6
+M. -> 0
+
+3. Match the statements to the correct value when <pre>sequence = 'Expert texpert!'</pre>
+M. len(sequence) -> 15
+M. sequence[0] -> 'E'
+M. sequence[1] -> 'x'
+M. sequence[4] -> 'r'
+M. sequence[len(sequence) - 1] -> '!'
+M. -> 16
+M. -> 't'
+M. -> 'e'
+M. -> 'p'
+
+D. Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/10.2-LastItemInASequence/Video/LastItemInASequence/LastItemInASequence.mp4" target=newtab><b>The Last Item in a Sequence</b></a>, doing the next set of questions while you do so.
+
+4. Choose the expression that represents the <em>first</em> item in a sequence named <strong><em>seq</em></strong>:
+a. seq[0]~
+b. seq[1]
+c. seq
+d. seq[len(seq)]
+e. seq[len(seq) - 1]
+f. 0
+g. 1
+
+5. Choose the expression that represents the <em>last</em> item in a sequence named <strong><em>seq</em></strong>:
+a. seq[len(seq) - 1]~
+b. seq[len(seq)]
+c. seq[1]
+d. seq(len)
+e. seq(len - 1)
+f. len(seq)
+g. len(seq) - 1
+
+6. Given that <strong></em>seq</em></strong> is a sequence, what is the result of the expression <pre>seq[len(seq)]</pre>
+a. An IndexError is generated.~
+b. The result is the last item of the sequence.
+c. The result is the length of the sequence.
+d. A syntax error is generated.
+
+7. A fellow student turns to you and says "I don't understand why my code is giving me an error on this line: <pre>s[len(s)] = 40</pre> I used <strong>len(s)</strong> before in my FOR loop and it seemed to work just fine!" The FOR loop to which they referred is: <pre>for k in range(len(s)): <br>    s[k] = k</pre> What do you tell them to explain why their statement <pre>s[len(s)] = 40</pre> is wrong?
+a. Previously you used len(s) as an argument to the RANGE function. The last value that the RANGE function yields is the argument - 1 so you accessed the last element in the sequence at index len(s) - 1.  The index len(s) is actually <strong><em>one past the end of the sequence!</em></strong>~
+b. I don't know, all of your code seems valid. There is probably a problem with Eclipse.
+c. You probably changed the length of the sequence s sometime between when you used it in your FOR loop and when you later access an element with the code <strong>s[len(s)]</strong>.
+d. You can only use a number for the index of a sequence and len(s) is not a number.
+
+D. Do the reading on using the RANGE function (see the Session 11 Preparation page).  Then watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/10.3-IteratingThroughASequence/Video/IteratingThroughASequence/IteratingThroughASequence.mp4" target=newtab><b>Iterating Through Sequences</b></a>, doing the next set of questions while you do so.
+
+8. Write a loop that prints all the elements of sequence <strong><em>x</em></strong> <em>backwards</em>.
+M. Line 1 -> for k in range(len(x) - 1, -1, -1):
+M. Line 2 -> &nbsp;&nbsp;&nbsp;&nbsp; print(x[k])
+M. -> for k in range(len(x)):
+M. -> for k in range(len(x), -1):
+M. -> for k in range(-1):
+M. -> for k in range(len(x) - 1, 0, -1):
+
+9. What RANGE statement would you use if you wanted to print all elements of sequence <strong><em>x</em></strong> between indices 4 and 7, inclusive, <em>backwards</em>? Assume that the sequence will have at least 8 elements.
+a. range(7, 3, -1)~
+b. range(8, 3, -1)
+c. range(6, 3, -1)
+d. range(7, 4, -1)
+e. range(8, 4, -1)
+f. range(6, 4, -1)
+g. range(7, 5, -1)
+h. range(8, 5, -1)
+i. range(6, 5, -1)
+j. range(3, 7, -1)
+k. range(3, 8, -1)
+l. range(3, 6, -1)
+m. range(4, 7, -1)
+n. range(4, 8, -1)
+o. range(4, 6, -1)
+p. range(5, 7, -1)
+q. range(5, 8, -1)
+r. range(5, 6, -1)
+
+10. What RANGE statement would you use if you wanted to print <em>every third element</em> of sequence <strong><em>x</em></strong>, starting at index 1, <em>fowards</em>? Assume that the sequence will have at least 2 elements.
+a. range(1, len(x), 3)~
+b. range(0, len(x), 3)
+c. range(2, len(x), 3)
+d. range(1, len(x) - 1, 3)
+e. range(0, len(x) - 1, 3)
+f. range(2, len(x) - 1, 3)
+g. range(1, len(x) - 3, 3)
+h. range(0, len(x) - 3, 3)
+i. range(2, len(x) - 3, 3)
+
+11. Which of the following statements constructs a <em>list</em> containing three numbers and assigns the variable <strong><em>numbers</em></strong> to that list.
+a. numbers = [11, 7, 13]~
+b. numbers = (11, 7, 13)
+c. numbers = '[11, 7, 13]'
+d. numbers = ['11', '7', '13']
+e. numbers = '11, 7, 13'
+
+12. Which of the following statements changes the <em>beginning</em> element (that is, the 11) in the list <strong><em>numbers</em></strong> from the previous problem to 66.
+a. numbers[0] = 66~
+b. numbers[len(numbers)] = 66
+c. numbers[1] = 66
+d. numbers[11] = 66
+e. numbers = 66
+f. numbers(0) = 66
+g. numbers(11)= 66
+
+13.Which of the following statements changes the <em>last</em> element (that is, the 13) in the list <strong><em>numbers</em></strong> from the previous problem to 4.
+a. numbers[2] = 4~
+b. numbers[3] = 4
+c. numbers[4] = 4
+d. numbers[len(numbers)] = 4
+e. numbers[] = 4
+f. numbers[4] = 2
+g. numbers[4] = 3
+h. numbers[13] = 4
+i. numbers[4] = 13
+
+14. Implement a function named <b><em>sum_all</em></b> for which: <ul> <li> Its sole argument is a sequence of numbers. </li> <li> It returns the sum of the numbers in the sequence. </li> </ul>
+M. Line 1 -> def sum_all(seq):
+M. Line 2 -> &nbsp;&nbsp;&nbsp;&nbsp;total = 0
+M. Line 3 -> &nbsp;&nbsp;&nbsp;&nbsp;for k in range(len(seq)):
+M. Line 4 -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; total = total + seq[k]
+M. Line 5 -> &nbsp;&nbsp;&nbsp;&nbsp;return total
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;for k in range(seq):
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;for k in range(len(seq) - 1):
+M. -> def sum_all():
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if k < 0:
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; seq[k] = seq[k] + 1
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; total = total + 1
+
+15. Implement a function named <b><em>count_positives</em></b> for which: <ul> <li> Its sole argument is a sequence of integers. </li> <li> It returns the number of integers in the sequence that are positive. </li> </ul>
+M. Line 1 -> def count_positives(seq):
+M. Line 2 -> &nbsp;&nbsp;&nbsp;&nbsp;count = 0
+M. Line 3 -> &nbsp;&nbsp;&nbsp;&nbsp;for k in range(len(seq)):
+M. Line 4 -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if seq[k] > 0:
+M. Line 5 -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count = count + 1
+M. Line 6 -> &nbsp;&nbsp;&nbsp;&nbsp;return count
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;for k in range(seq):
+M. -> def count_positive():
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if k < 0:
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if k > 0:
+M. -> else:
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if seq[k] >= 0:
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if seq[k] < 0:
+
+D. Do the reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/201630/Sessions/Session11/Reading.pdf" target=newtab><b>Computing & Society 6.1 Computer Viruses</b></a>, doing the next set of questions while you do so.
+
+16. In November 1988, Robert Morris launched a computer virus (actually, a form of virus called a worm) that, through an error in his code, delivered a denial-of-service attack to computers on the Internet.  His worm worked by attacking a program called <strong><em>finger</em></strong> that was written in the programming language C. If <strong><em>finger</em></strong> had been written and run in Python, his attack would <strong><em>NOT</em></strong> have succeeded.
+a. True~
+b. False
+
+17. Very briefly, explain your answer to the previous problem.
+
+18. Morris was convicted under <i>The Computer Fraud and Abuse Act</i>. After appeal, what was his sentence?
+M. Years probation -> 3 years
+M. Hours of community service -> 400 hours
+M. Fine -> $10,000
+M. -> $1,000
+M. -> 5 years
+M. -> 1 year, suspended
+M. -> 100 hours
+M. -> 1,000 hours
+M. -> $400
+M. -> $50,000
+
+19. In your own opinion, do you feel that his sentence was: [you get full credit for ANY answer here, even though Moodle will probably mark your answer as "wrong"; just select what best fits YOUR opinion]
+a. A lot too leniant (i.e., he should have gotten a heavier sentence -- jail time, or a longer probation, or more required community service, or a larger fine, or some combination of those)
+b. A little too leniant
+c. About right
+d. A little too severe
+e. A lot too severe (i.e., he should have gotten a lighter sentence -- a shorter probation, or less required community service, or a smaller fine, or some combination of those)
+
+20. Very briefly, explain your answer to the previous problem.

@@ -1,0 +1,137 @@
+D. Video:  <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/05.4-Application-TheCreateRobot-Hardware/TheCreateRobot.html">The Create Robot – Hardware</a> [7:17 minutes]
+
+1.	Give an example of a human effector:
+a. Hand~
+b. Wheel
+c. Pneumatics
+d. Biceps
+e. Eye
+f. Rangefinder
+g. Brain
+h. Processor
+
+2.	Give an example of a robot effector:
+a. Hand
+b. Wheel~
+c. Pneumatics
+d. Biceps
+e. Eye
+f. Rangefinder
+g. Brain
+h. Processor
+
+3.	Give an example of a human actuator:
+a. Hand
+b. Wheel
+c. Pneumatics
+d. Biceps~
+e. Eye
+f. Rangefinder
+g. Brain
+h. Processor
+
+4.	Give an example of a robot actuator:
+a. Hand
+b. Wheel
+c. Pneumatics~
+d. Biceps
+e. Eye
+f. Rangefinder
+g. Brain
+h. Processor
+
+5.	Give an example of a human sensor:
+a. Hand
+b. Wheel
+c. Pneumatics
+d. Biceps
+e. Eye~
+f. Rangefinder
+g. Brain
+h. Processor
+
+6.	Give an example of a robot sensor:
+a. Hand
+b. Wheel
+c. Pneumatics
+d. Biceps
+e. Eye
+f. Rangefinder~
+g. Brain
+h. Processor
+
+7.	Give an example of a human controller:
+a. Hand
+b. Wheel
+c. Pneumatics
+d. Biceps
+e. Eye
+f. Rangefinder
+g. Brain~
+h. Processor
+
+8.	Give an example of a robot controller:
+a. Hand
+b. Wheel
+c. Pneumatics
+d. Biceps
+e. Eye
+f. Rangefinder
+g. Brain
+h. Processor~
+
+9.	The Create has touch sensors in the front of the robot.
+a. True~
+b. False
+
+10.	The Create has touch sensors in the back of the robot.
+a. True
+b. False~
+
+11.	The Create has buttons that can sense when they are pressed.
+a. True~
+b. False
+ 
+12.	The Create has infrared sensors on its underbody that shine light down and measure how much is reflected back up.  We can use those sensors to:
+a. Tell whether the robot is about to fall off the table or stairs~
+b. Follow black lines~
+c. Measure the strength of a light source in front of the robot
+d. Find heat sources
+
+13.	The Create has a passive infrared sensor on its top.  What does passive mean here?
+a. The sensor emits infrared light
+b. The sensor does not emit infrared light~
+c. You don't need to call a function to actively detect infrared light
+d. You can drive the Create with a Roomba remote
+
+14.	What do the wheel encoders tell you?
+a. How far the Create traveled, in cm
+b. How far the Create thinks it traveled, in cm~
+
+15.	In the way that we will use the Create, when we run robot commands for the Create, those commands start in the Python program running on your laptop.
+a. True~
+b. False
+
+16.	Those Python commands are translated to commands in the language native to the Create robot, then sent via Bluetooth to a Bluetooth receiver on the Create robot, and then the Bluetooth receiver sends the commands to the Create’s hardware to be executed on the Create.
+a. True~
+b. False
+
+D. Video:  <a href="https://www.rose-hulman.edu/class/csse/csse120/VideoFiles/05.5-Application-TheCreateRobot-Software/YourFirstRobotProgram.html">Your First Robot Program</a> [2:34 minutes]
+
+17.	Write a complete main function that constructs a Create object (assume that the COM port number is 4), makes that robot go backward (just backward, no spin) at 30 cm/second for 2.5 seconds, then prints the distance the robot traveled.
+M. Line 1 -> def main()
+M. Line 2 -> &nbsp;&nbsp;&nbsp;&nbsp;port = 4
+M. Line 3 -> &nbsp;&nbsp;&nbsp;&nbsp;robot = new_create.Create(port)
+M. Line 4 -> &nbsp;&nbsp;&nbsp;&nbsp;robot.toFullMode()
+M. Line 5 -> &nbsp;&nbsp;&nbsp;&nbsp;robot.go(-30, 0)
+M. Line 6 -> &nbsp;&nbsp;&nbsp;&nbsp;time.sleep(2.5)
+M. Line 7 -> &nbsp;&nbsp;&nbsp;&nbsp;robot.stop()
+M. Line 8 -> &nbsp;&nbsp;&nbsp;&nbsp;sensor = new_create.Sensors.distance
+M. Line 9 -> &nbsp;&nbsp;&nbsp;&nbsp;distance = robot.getSensor(sensor)
+M. Line 10 -> &nbsp;&nbsp;&nbsp;&nbsp;print('Current value of the distance sensor:', distance)
+M. Line 11 -> &nbsp;&nbsp;&nbsp;&nbsp;robot.shutdown()
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;print('Current value of the distance sensor:', sensor)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;port = 'sim'
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;robot.go(-30, -30)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;return('Current value of the distance sensor:' + distance)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;robot.stop

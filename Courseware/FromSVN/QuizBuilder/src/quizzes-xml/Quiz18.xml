@@ -1,0 +1,724 @@
+<?xml version="1.0" ?>
+<quiz>
+<question type="category">
+<category>
+<text> $course/Quizzes-201730/$Quiz 18/</text>
+</category>
+</question>
+<question type="description">
+<name><text><![CDATA[001 Watch <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/16.0-LoopsWithinLoops-HowTheyWork/LoopsWithinLoops-HowTheyWork.mp4" target=newtab>Loops Within Loops - How They Work</a>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/16.0-LoopsWithinLoops-HowTheyWork/LoopsWithinLoops-HowTheyWork.mp4" target=newtab>Loops Within Loops - How They Work</a>.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[002 For the next set of questions, consider the following code snippet:<pre>for j in range(3):<br>    for k in range(1, 6):<br>        print(j, end="")<br>    print()</pre>Note:  the   <code>end=""</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.  So there will be 3 lines printed by this problem, each with 5 numbers on it.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For the next set of questions, consider the following code snippet:<pre>for j in range(3):<br>    for k in range(1, 6):<br>        print(j, end="")<br>    print()</pre>Note:  the   <code>end=""</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.  So there will be 3 lines printed by this problem, each with 5 numbers on it.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[003 How many lines will the above code snippet print?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[How many lines will the above code snippet print?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Three]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[three]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[004 How many numbers will be printed on each line?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[How many numbers will be printed on each line?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Five]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[five]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[005 What will appear on the FIRST line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the FIRST line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[00000]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11111]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[22222]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33333]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[34567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[006 What will appear on the SECOND line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the SECOND line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[00000]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[11111]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[22222]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33333]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[34567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[007 What will appear on the THIRD line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the THIRD line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[00000]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11111]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[22222]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33333]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[34567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[008 For the next set of questions, consider the following code snippet:<pre>for j in range(3):<br>    for k in range(1, 6):<br>        print(k, end="")<br>    print()</pre>Note:  the   <code>end=""</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.  So there will be 3 lines printed by this problem, each with 5 numbers on it.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For the next set of questions, consider the following code snippet:<pre>for j in range(3):<br>    for k in range(1, 6):<br>        print(k, end="")<br>    print()</pre>Note:  the   <code>end=""</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.  So there will be 3 lines printed by this problem, each with 5 numbers on it.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[009 How many lines will the above code snippet print?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[How many lines will the above code snippet print?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Three]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[three]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[010 How many numbers will be printed on each line?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[How many numbers will be printed on each line?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Five]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[five]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[011 What will appear on the FIRST line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the FIRST line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[00000]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11111]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[22222]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33333]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[12345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[34567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[012 What will appear on the SECOND line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the SECOND line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[00000]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11111]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[22222]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33333]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[12345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[34567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[013 What will appear on the THIRD line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the THIRD line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[00000]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11111]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[22222]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33333]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[12345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[34567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[014 For the next set of questions, consider the following code snippet:<pre>for j in range(3):<br>    for k in range(1, 6):<br>        print(j + k, end="")<br>    print()</pre>Note:  the   <code>end=""</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.  So there will be 3 lines printed by this problem, each with 5 numbers on it.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For the next set of questions, consider the following code snippet:<pre>for j in range(3):<br>    for k in range(1, 6):<br>        print(j + k, end="")<br>    print()</pre>Note:  the   <code>end=""</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.  So there will be 3 lines printed by this problem, each with 5 numbers on it.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[015 How many lines will the above code snippet print?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[How many lines will the above code snippet print?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Three]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[three]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[016 How many numbers will be printed on each line?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[How many numbers will be printed on each line?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Five]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[five]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[017 What will appear on the FIRST line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the FIRST line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[00000]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11111]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[22222]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33333]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[12345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[34567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[018 What will appear on the SECOND line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the SECOND line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[00000]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11111]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[22222]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33333]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12345]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[23456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[34567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[019 What will appear on the THIRD line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the THIRD line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[00000]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11111]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[22222]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33333]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23456]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[34567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[020 For the next set of questions, consider the following code snippet:<pre>for j in range(4):<br>    for k in range(1, j + 2):<br>        print(j + k, end="")<br>    print()</pre>Note:  the   <code>end=" "</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For the next set of questions, consider the following code snippet:<pre>for j in range(4):<br>    for k in range(1, j + 2):<br>        print(j + k, end="")<br>    print()</pre>Note:  the   <code>end=" "</code>   in the print statement causes a space instead of the default newline to appear after the items of the print statement are printed.  Combined with the no-argument print statement, the effect is to print all the items on each iteration of the j loop on the same line.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[021 How many lines will the above code snippet print?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[How many lines will the above code snippet print?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Four]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[four]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[022 What will appear on the FIRST line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the FIRST line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[1234]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3456]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[123]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1234]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[023 What will appear on the SECOND line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the SECOND line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[1234]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[23]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[123]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1234]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[024 What will appear on the THIRD line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the THIRD line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[1234]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[123]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1234]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[025 What will appear on the FOURTH line that is printed?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What will appear on the FOURTH line that is printed?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[1234]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2345]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3456]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[23]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[345]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[4567]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[123]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1234]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[026 Watch <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/15.1-PrintingLoopsWithinLoopsTechnique/15.1-PrintingLoopsWithinLoopsTechnique.mp4" target=newtab>A Technique for Solving Print-On-Console Loop-Within-Loop Problems</a>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/15.1-PrintingLoopsWithinLoopsTechnique/15.1-PrintingLoopsWithinLoopsTechnique.mp4" target=newtab>A Technique for Solving Print-On-Console Loop-Within-Loop Problems</a>.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[027 The software engineering principle: "Wherever possible, separate concerns"]]></text></name>
+<questiontext format="html">
+<text><![CDATA[The software engineering principle: "Wherever possible, separate concerns"]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Is a way to organize code.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Means that you separate your personal life from your professional life.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Means that you divide the problem into pieces that can be solved, implemented, and tested all at once.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Means that you divide the problem into pieces that can be solved, implemented, and tested independently of each other.]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[028 True or False: Step 1 of the process recommended by this video is to get the NUMBER of ROWS right.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: Step 1 of the process recommended by this video is to get the NUMBER of ROWS right.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[029 True or False: When getting the NUMBER of ROWS right, you should ignore the columns for now.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: When getting the NUMBER of ROWS right, you should ignore the columns for now.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[030 True or False: When getting the NUMBER of ROWS right, you should ignore what gets printed for now.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: When getting the NUMBER of ROWS right, you should ignore what gets printed for now.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[031 True or False: Step 2 of the process recommended by this video is to get the NUMBER of ITEMS in EACH ROW right.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: Step 2 of the process recommended by this video is to get the NUMBER of ITEMS in EACH ROW right.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[032 True or False: When getting the NUMBER of ITEMS in EACH ROW right, you should ignore the columns for now.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: When getting the NUMBER of ITEMS in EACH ROW right, you should ignore the columns for now.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[033 True or False: When getting the NUMBER of ITEMS in EACH ROW right, you should ignore what gets printed for now.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: When getting the NUMBER of ITEMS in EACH ROW right, you should ignore what gets printed for now.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[034 True or False: If the RANGE expression of the interior loop mentions the loop variable of the outer loop, the number of items in the row will vary from row to row.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: If the RANGE expression of the interior loop mentions the loop variable of the outer loop, the number of items in the row will vary from row to row.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[035 True or False: Step 3 of the process recommended by this video is PRINT THE RIGHT THING.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: Step 3 of the process recommended by this video is PRINT THE RIGHT THING.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+</quiz>

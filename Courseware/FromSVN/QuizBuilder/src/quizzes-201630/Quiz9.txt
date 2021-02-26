@@ -1,0 +1,50 @@
+D. Do the online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/11.1-OverloadingThePlusSymbol/Handouts/OverloadingThePlusSymbol.pdf" target=newtab><b>Overloading the plus operator</b></a>, doing the next set of questions while you do so.
+
+1. 11 + 22 evaluates to: (HINT: enter <em>error</em> if it generates an error)
+ANS. 33
+
+2. '11' + '22' evaluates to: (HINT: enter <em>error</em> if it generates an error)
+ANS. '1122'
+ANS. 1122
+ANS. "1122"
+
+3. '11' + str(3 + 3) + '22' evaluates to: (HINT: enter <em>error</em> if it generates an error)
+ANS. '11622'
+ANS. "11622"
+ANS. 11622
+
+4. '11' + 33 evaluates to: (HINT: enter <em>error</em> if it generates an error)
+ANS. error
+ANS. ERROR
+
+5. What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(x, y, z)</pre>
+a. 1, 2, 3
+b. 1 2 3~
+c. 6
+d. 123
+
+6. What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(str(x) + str(y) + str(z))</pre>
+a. 1, 2, 3
+b. 1 2 3
+c. 6
+d. 123~
+
+7. What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(x + y + z)</pre>
+a. 1, 2, 3
+b. 1 2 3
+c. 6~
+d. 123
+
+8. What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(str(x + y) + str(z))</pre>
+ANS. 33
+
+9. Implement a function named <em>print_equation</em> that given two numbers <em>x</em> and <em>y</em> prints an equation for the sum of them (e.g., if x is 65 and y is 11, the function would print 65+11=76)
+M. Line 1 -> def print_equation(x, y):
+M. Line 2 -> &nbsp;&nbsp;&nbsp;&nbsp;print(str(x) + "+" + str(y) + "=" + str(x+y))
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;print(x, y, x+y)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;print(x+++y+ = +x+y)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp;print("65+11=76")
+
+D. Do the online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/11.2-AccumulatingSequences/Handouts/AccumulatingSequences.pdf" target=newtab><b>Accumulating Sequences</b></a>, doing the next set of questions while you do so.
+
+10. Implement the following function, per its doc-string.  You do NOT have to be completely correct, just try to get the main idea correct, with guidance from the reading. <pre>def make_simple_list(m, n):<br>    """<br>    Returns the list [m, m+1, m+2, ... n],<br>   where m and n are the given arguments.<br>    For example, if m is 5 and n is 13,<br>    then this function returns:<br>        [5, 6, 7, 8, 9, 10, 11, 12, 13]<br>    """</pre>

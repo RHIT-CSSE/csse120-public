@@ -1,0 +1,44 @@
+This script (quizMaker.py) creates Moodle xml quizzes from properly formatted
+txt files. The necessary format is as follows:
+
+1. Each question is preceded by a number and a period (just like this line)
+
+2. The following types of questions are supported. Each has a different format:
+	a. Multiple choice
+	b. True/false
+	c. Short answer
+	d. Matching
+	e. Essay
+	f. Descriptive (i.e., no question, just comment to students)
+	
+3. You can add any html code you want (e.g., <b>, html links).
+
+4. If you want to include photos or figures, you can
+use base64 image encoding. Simply make your image
+and use a base64 image encoder to make the string
+you need (one website has an image encoder here: https://www.base64-image.de/ ).
+You can then put it in an img tag to make an image display in
+the quiz question.
+
+
+FORMATTING
+Multiple Choice:
+	-Each answer is on a separate line
+	-Each line is preceded by a letter and period (e.g., a.)
+	-The correct answer has a ~ at the end of the line.
+True/false:
+	-Similar to multiple choice, preceded by letter and period
+	-Answers are only True or False
+	-~ marks correct answer
+Short Answer:
+	-Answer is preceded by ANS. (e.g., ANS. 12)
+	-Can add multiple answers--simply add more lines with the ANS. marking
+Matching:
+	-Answer is preceded by M.
+	-Matching answer is indicated by an arrow from left hand side
+	-Example: M. Line 1 -> int j=0
+Essay:
+	-Just a question without associated answers
+Descriptive:
+	-Preceded by D. (e.g. D. Read chapter 3.)
+	

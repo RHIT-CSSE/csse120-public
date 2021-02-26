@@ -1,0 +1,112 @@
+D. Do this online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.1-Conditionals/Conditionals.pdf" target=newtab>Conditionals</a>, doing the next set of questions while you do so.
+
+1. Consider the following code. <img src="http://www.rose-hulman.edu/class/csse/csse120/201630/Images/for_quizzes/conditionals-1.png" alt="n = random.randrange(50) if ...: print('Banana')"> <p>What statement should be added in the box so the function prints <code> Banana! </code> only if the value of <code>n</code> is larger than 20? </p>
+a. <code> if n < 20: </code>
+b. <code> if n > 20: </code>~
+c. <code> elif n > 20: </code>
+d. <code> else n > 20: </code>
+
+2. Consider the following code. <img src="http://www.rose-hulman.edu/class/csse/csse120/201630/Images/for_quizzes/conditionals-2.png" alt="if [box A]: print('A won') elif [box B]" print('B won') else [box C]: print('Game tied"> <p>What statements should be in boxes A, B, and C so that the sequence correctly prints either <code>'A won'</code>, <code>'B won'</code>, or <code>'Game tied'</code> given <code>scoreA</code> (the score of player A) and <code>scoreB</code> (the score of player B).</p>
+M. Box A -> if scoreA > scoreB:
+M. Box B -> elif scoreB > scoreA:
+M. Box C -> else:
+M. -> elif scoreB >= scoreA:
+M. -> else if scoreB > scoreA:
+
+D. For the following questions, consider Versions 1 and 2: <img src="http://www.rose-hulman.edu/class/csse/csse120/201630/Images/for_quizzes/conditionals-3.png" alt="version 1: if-else, version 2: if-if">
+
+3. Versions 1 and 2 will print the same thing given the same <code>x</code> and <code>y</code>.
+a. True~
+b. False
+
+4. Which of the versions runs faster?
+a. Version 1~
+b. Version 2
+c. Neither (they run equally fast)
+
+4. Which of the versions is better?
+a. Version 1~
+b. Version 2
+c. Neither (they are equally good)
+
+
+D. Watch <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/06.1-TheAccumulatorPattern-Part2/TheAccumulatorPattern.mp4" target=newtab>The Accumulator Pattern (revisited)</a>.
+
+5. What is the value of <code>x</code> after the following code executes? <img src="http://www.rose-hulman.edu/class/csse/csse120/201630/Images/for_quizzes/accumulators-1.png" alt="x = 2  x = x + 1  x = x + 2  x = x + 3">
+
+ANS. 8
+
+6. What is the value of <code>y</code> after the following code executes? <img src="http://www.rose-hulman.edu/class/csse/csse120/201630/Images/for_quizzes/accumulators-2.png" alt="y = 2  y = y * 2  y = y * 3">
+
+ANS. 12
+
+D. Consider the following code: <img src="http://www.rose-hulman.edu/class/csse/csse120/201630/Images/for_quizzes/accumulators-3.png" alt="x = 1  y = 2  z = x + y  x = x + 2  y = y * 2  z = z + x + y  x = x + 3  y = y * 3  z = z + x + y">
+
+6. What is the value of <code>x</code> after the above code executes?
+
+ANS. 6
+
+6. What is the value of <code>y</code> after the above code executes?
+
+ANS. 12
+
+6. What is the value of <code>z</code> after the above code executes?
+
+ANS. 28
+
+7. Choose the correct options to produce a function that returns the sum <pre> 2 + 4 + 6 + ... + 2n</pre>For example, this function should return <code> 2 + 4 + 6 + 8</code>, which is <code>20</code>, when <code>n</code> is <code>4</code>.)
+M. Line 1 -> def add_them(n):
+M. Line 2 -> &nbsp;total = 0
+M. Line 3 -> &nbsp;for i in range(n):
+M. Line 4 -> &nbsp;&nbsp;total = total + (2 * (i + 1))
+M. Line 5 -> &nbsp;return total
+M. -> &nbsp;&nbsp;total = 2 * i
+M. -> &nbsp;&nbsp;total = total + 2
+M. -> &nbsp;for i in range(n - 1):
+M. -> def add_them()
+M. -> total = n
+
+
+D. Watch <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.7-FirstDoAConcreteExampleByHand/FirstDoAConcreteExampleByHand.mp4" target=newtab>First Solve a Concrete Example By Hand</a>.
+
+8. True or False: To solve a problem by writing computer code for it, you must <em>understand</em> the problem that you are solving.
+a. True ~
+b. False
+
+8. True or False: One excellent way to figure out how to <em>code</em> the problem that you are solving is to <em>first solve a concrete example by hand.</em>.
+a. True ~
+b. False
+
+9. In choosing a concrete example to solve by hand, you should (check all that apply):
+a. Choose numbers that make the calculations easy.~
+b. Choose spicy foods.
+c. Avoid symmetry. ~
+d. Avoid anything that may lead to a special case.~
+e. Avoid carbonated drinks.
+
+
+10. As you solve the problem by hand, using the concrete example that you have chosen, you should (check all that apply):
+a. Listen to music by Beethovan.
+b. Give <em>names</em> to the relevant items.~
+c. Write the relevant code.
+d. Keep track of <em>how</em> you calculated each item, or at least be able to figure out afterwards how you calculated it.~
+e. Twist and shout &ldquo;Roll over, Beethovan.&rdquo;
+
+D. Online Reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/201710/Sessions/Session04/index.html" target=_newtab>What is Unit Testing?</a> (reading appears in the top image on the right-hand side of the page)
+
+11. Explain briefly, in your own words: <strong>What is <em>unit testing</em>?</strong>
+
+D. Online Reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/201710/Sessions/Session04/index.html" target=_newtab>Why Do Unit Testing?</a> (reading appears in the lower image on the right-hand side of the page)
+
+11. Explain briefly, in your own words: <strong>What is Test-Driven Development (TDD)</em>?</strong>
+
+D. Online Reading: <a href="http://www.extremeprogramming.org/rules/testfirst.html" target=newtab>Code the Unit Test First</a>.
+
+12. Which of the following is typically faster?
+a. Code the unit tests for a function, then code the function itself.~
+b. Code the function, then code the unit tests for that function.
+c. The two approaches are equally fast.
+
+13. Writing the unit tests first helps you better understand the problem for which you are writing code.
+a. True~
+b. False

@@ -1,0 +1,235 @@
+D. Watch the video:<a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.1-TheFlippedClassroom/TheFlippedClassroom.mp4" target=newtab><b>The Flipped Classroom</b></a>, doing the next set of questions while you do so.
+
+1. True or False: CSSE 120 uses a <i>flipped learning</i> approach.
+a. True~
+b. False
+
+2. In a flipped classroom, the <em>deep</em> learning occurs:
+a. In the classroom, during lectures.
+b. In the classroom, doing exercises.~
+c. Outside the classroom, doing homework.
+d. Outside the classroom, watching videos.
+
+3. True or False: In CSSE120, before most sessions you will watch some short videos and/or do some reading, plus do a short quiz to help you digest the main ideas from the videos/reading.
+a. True~
+b. False
+
+4. You should do the quiz:
+a. Before you watch the associated videos and/or do the reading.
+b. While you are watching the associated videos and/or doing the reading.
+c. After you watch the associated videos and/or do the reading.
+d. Your choice &mdash; any of the answers are fine, although many students will do best answering questions <em>while</em> watching the videos and/or doing the reading.~
+
+5. What should you do if there are questions in the quiz whose answer you don't know?
+a. Weep and wail.
+b. Blame your professor.
+c. Leave the question(s) blank and ask about them at the beginning of class.~
+
+6. If you don't watch the video and do the quiz before class, should you come to class anyhow?
+a. Yes~
+b. No
+
+7. Is it appropriate to NOT do the video until class, and then ask your professor (or an assistant or classmate) for the answers to all the questions?
+a. Yes
+b. No~
+
+8. True or False: Before you begin the in-class exercises for a session, you must do the quiz (and hence its associated videos/reading) for that session, even if that means doing the quiz at the beginning of a session. That is, your quiz is your <em>admission ticket</em> for doing the in-class exercises.
+a. True~
+b. False
+
+D. Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.3-WhatIsSoftwareEngineering/WhatIsSoftwareEngineering.mp4" target=newtab><b>What is Software Engineering?</b></a>, doing the next set of questions while you do so.
+
+9. What is the name of the programming language that we will use in this course?
+ANS. Python
+ANS. python
+
+10. True or False: The programming language for our course is mostly used to teach beginners how to program.
+a. True
+b. False~
+
+11. True or False: Many software engineers see themselves as an <em>artist</em> who creates beautiful artifacts, much as a painter or musician would.
+a. True~
+b. False
+
+12. This course focuses on:
+a. All of software engineering.
+b. The subset of software engineering called <em>software development.</em>~
+
+13. True or False:  Learning techniques that <em>scale up</em> to software development of real-world, large programs is an important goal of this course.
+a. True~
+b. False
+
+14. True or False: Software engineers rarely interact with other people when doing their job well.
+a. True
+b. False~
+
+15. A typical software engineer spends most of her time typing lines in a program.
+a. True
+b. False~
+
+16. Men are usually better software engineers than women are.
+a. True
+b. False~
+
+17. Software engineering requires being a creative thinker.
+a. True~
+b. False
+
+D. Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.6-YourFirstPrograms/m1e-comments_strings_print/m1e-comments_strings_print.mp4" target=newtab><b>Your First Programs, Part 1: Comments, Strings and the PRINT function</b></a>, doing the next set of questions while you do so.
+
+18. You should expect to master the material of this video:
+a. From the video alone.
+b. From the video PLUS the exercises you do in class that reinforce the ideas of this video.~
+
+19. Files with Python code are called:
+a. Anacondas.
+b. Trouble.
+c. Packages.
+d. Modules.~
+
+20. True or False: In each class session, you work through the &ldquo;m&rdquo; files (that is, the ones whose names begin with &ldquo;m&rdquo;) in the order in which they are numbered.
+a. True~
+b. False
+
+21. Which of the following is a Python <em>comment</em>?
+a. <code>Authors: Dr. Jekyl and Mr. Hyde.</code>
+b. <code>'Date written: March 5, 2016'</code>
+c. <code># TODO: Write a program that makes people laugh.</code>~
+d. <code>print('This program prints "Hello, World"')</code>
+
+22. Check each of the following that is a <em>string</em>.
+a. <code>"Once upon a time..."</code>~
+b. <code>'Once upon a time...'</code>~
+c. <code>Once upon a time...</code>
+d. <code># Once upon a time...</code>
+
+23. What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>  print('one')</pre>
+ANS. one
+
+24. What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>#  print('one')</pre>
+ANS. nothing
+ANS. nothing.
+ANS. Nothing
+ANS. Nothing.
+
+25. What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print(2 + 2)</pre>
+ANS. 4
+
+26. What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print('2 + 2')</pre>
+ANS. 2 + 2
+ANS. 2  +  2
+
+27. What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print(4, 9)</pre>
+ANS. 4 9
+ANS. 4  9
+
+28. What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print('4, 9')</pre>
+ANS. 4, 9
+ANS. 4,9
+ANS. 4,  9
+
+29. A <em>function</em> in Python is:
+a. A chunk of code that has a NAME.~
+b. A mathematical relationship involving variables.
+c. Something that people do.
+
+30. Suppose that a program has defined a function whose name is <code>write_to_file</code>.  Suppose further that this function takes a single string and writes the string to a file.  Which of the following is a correct notation for CALLING that function?
+a. <code>write_to_file 'Robots rule!'</code>
+b. <code>WRITE_TO_FILE('Robots rule!')</code>
+c. <code>write_to_file('Robots rule!')</code>~
+
+31. Suppose that a program has defined a function whose name is <code>insult</code>.  Suppose further that this function takes no argument and prints a randomly chosen insult on the console.  Which of the following is a correct notation for CALLING that function?
+a. <code>insult</code>
+b. <code>insult()</code>~
+ 
+D. Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.6-YourFirstPrograms/m2-hello_world/m2-hello_world.mp4" target=newtab><b>Your First Programs, Part 2: Hello World &mdash; YOUR first program</b></a>, doing the next set of questions while you do so.
+
+32. Each session, in class you should:
+a. Sleep.
+b. Sing a bawdy song.
+c. Dance a jig.
+d. Check out the project for the session and go through the modules whose name begins with an &ldquo;m&rdquo;, in the order that they are numbered.~
+
+33. Put a checkmark beside each of the following modules that is an EXAMPLE module.
+a. <code>m3e_loops.py</code>~
+b. <code>m1_intro.py</code>
+c. <code>m6_example1.py</code>
+d. <code>m6e_example2.py</code>~
+ 
+34. When you do an EXAMPLE module, you should:
+a. Study the module for at least 10 minutes.
+b. Skip the module and come back to it later as needed.
+c. Run the module (so you know what it does) and at least skim the code (so that you know what examples it has).~
+d. Send it to your grandmother.
+
+35. When you do a module that is NOT an example module, you should:
+a. Growl like a bear.
+b. Crow like a rooster.
+c. Send it to your uncle.
+d. Do whatever the TODOs in the module tell you to do.~
+   
+36. In this course, the instructions for what to do in class are:
+a. Handed out on paper at the beginning of class.
+b. In a file reachable from the session's Preparation page.
+c. Inside each of the non-example modules, at the TODOs in the modules.~
+d. Delivered by Martians.
+
+37. In this course, you turn in your in-class work by COMMITTING the modules that you modify.  You should commit (i.e,. turn in your work):
+a. Once in a blue moon.
+b. As often as you want, but at least as you complete each module and at the end of the session.~
+c. However many times your instructor tells you to.
+d. However many times your inner child tells you to.
+
+38. If you are fuzzy on ANY of the ideas in these videos at this point, you should:
+a. Not worry, because there will be lots of people in class who will help you with the modules during Session 1.~
+b. Drink a lot of coffee.
+c. Panic.
+d. Rob a bank.
+
+D. Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.6-YourFirstPrograms/m3-turtles/m3-turtles.mp4" target=newtab><b>Your First Programs, Part 3: Introduction to Objects, via Turtle Graphics</b></a>, doing the next set of questions while you do so.
+
+39. You should expect to master the material of this video:
+a. From the video alone.
+b. From the video PLUS the exercises you do in class (asking questions during class as needed).~
+
+40. In the following code<pre>p1 = rg.Point(3, 30)<br>p2 = rg.Point(30, 20)</pre>:
+a. No Point objects are constructed.
+b. One Point object is constructed.
+c. Two Point objects are constructed.~
+
+41. Which of the following makes the object whose name is <code>nadia</code> move forward 50 units:
+a. <code>nadia.forward(50)</code>~
+b. <code>forward(nadia, 50)</code>
+c. <code>forward(50)</code>
+d. <code>nadia.forward = 50</code>
+
+42. Which of the following makes the name <code>crow</code> have the value <code>'black'</code>.
+a. <code>'crow' = black</code>
+b. <code>black = 'crow'</code>
+c. <code>'black' = crow</code>
+d. <code>crow = 'black'</code>~
+
+43. If you have any troubles or get error messages when doing the <em>m3</em> exercise during Session 1, you should:
+a. Keep working on the problem by yourself until you fix the error.
+b. Be quick to ask for help.~
+c. Watch this video again.
+d. Go home.
+e. Scream.
+
+D. Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.5d-YourFirstProgram-Functions/YourFirstProgram-Functions.mp4" target=newtab><b>Your First Programs, Part 4: Functions</b></a>, doing the next set of questions while you do so.
+
+44. A <em>function</em> in Python is:
+a. A chunk of code that has a NAME.~
+b. The hottest video on YouTube.
+c. A strange animal.
+d. From Venus.
+
+45. Consider the following program. What does it print when it runs?<pre>def main():<br>    foo()<br>    foo()<br>def foo():<br>    print('hi')<br>main()</pre>
+a. <pre>hi<br>hi</pre>~
+b. <pre>foo<br>hi</pre>
+c. <pre>hi</pre>
+d. <pre>hi<br>foo</pre>
+
+46. This question is tricky and MUCH too difficult.  But we thought you might like to think about it.  Here is the question:  What happens when the following code runs?<pre>def main()<br>    print('ok')<br>    main()<br><br>main()</pre>
+a. Just select this answer to indicate that you thought about this question briefly.  (You get full credit just for selecting this answer.)~
+b. Do NOT select this answer!  (Moodle won't let me give just one choice...)

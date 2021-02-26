@@ -1,0 +1,300 @@
+D. Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/11.3-PatternsForIteratingThroughSequences/Video/PatternsForIteratingThroughSequences/PatternsForIteratingThroughSequences.mp4" target=newtab><b>Sequences</b></a>, doing the next set of questions while you do so.
+
+D. For the next set of questions, consider the following three function definitions:<pre>def foo1(seq):<br>    total = 0<br>    for k in range(len(seq) // 2):<br>        total = total + seq[1 + (2 * k)]<br>    return total<br><br><br>def foo2(seq):<br>    total = 0<br>    for k in range(1, len(seq), 2):<br>        total = total + seq[k]<br>    return total<br><br><br>def foo3(seq):<br>    total = 0<br>    m = 1<br>    for _ in range(len(seq) // 2):<br>        total = total + seq[m]<br>        m = m + 2<br>    return total<br></pre>
+    
+1. To what number does <code>foo1([3])</code> evaluate?
+a. 0~
+b. 1
+c. 2
+d. 3
+e. 4
+f. 5
+g. 6
+h. 7
+i. 8
+j. 9
+k. 10
+l. 11
+m. 12
+n. 13
+o. 14
+p. 15
+q. 16
+r. 17
+r. 18
+r. 19
+r. 20
+r. 24
+r. 33
+r. 38
+
+1. To what number does <code>foo1([3, 6])</code> evaluate?
+a. 0
+b. 1
+c. 2
+d. 3
+e. 4
+f. 5
+g. 6~
+h. 7
+i. 8
+j. 9
+k. 10
+l. 11
+m. 12
+n. 13
+o. 14
+p. 15
+q. 16
+r. 17
+r. 18
+r. 19
+r. 20
+r. 24
+r. 33
+r. 38
+
+1. To what number does <code>foo1([3, 6, 1, 4, 9, 5])</code> evaluate?
+a. 0
+b. 1
+c. 2
+d. 3
+e. 4
+f. 5
+g. 6
+h. 7
+i. 8
+j. 9
+k. 10
+l. 11
+m. 12
+n. 13
+o. 14
+p. 15~
+q. 16
+r. 17
+r. 18
+r. 19
+r. 20
+r. 24
+r. 33
+r. 38
+
+1. To what number does <code>foo2([3])</code> evaluate?
+a. 0~
+b. 1
+c. 2
+d. 3
+e. 4
+f. 5
+g. 6
+h. 7
+i. 8
+j. 9
+k. 10
+l. 11
+m. 12
+n. 13
+o. 14
+p. 15
+q. 16
+r. 17
+r. 18
+r. 19
+r. 20
+r. 24
+r. 33
+r. 38
+
+1. To what number does <code>foo2([3, 6])</code> evaluate?
+a. 0
+b. 1
+c. 2
+d. 3
+e. 4
+f. 5
+g. 6~
+h. 7
+i. 8
+j. 9
+k. 10
+l. 11
+m. 12
+n. 13
+o. 14
+p. 15
+q. 16
+r. 17
+r. 18
+r. 19
+r. 20
+r. 24
+r. 33
+r. 38
+
+1. To what number does <code>foo2([3, 6, 1, 4, 9, 5])</code> evaluate?
+a. 0
+b. 1
+c. 2
+d. 3
+e. 4
+f. 5
+g. 6
+h. 7
+i. 8
+j. 9
+k. 10
+l. 11
+m. 12
+n. 13
+o. 14
+p. 15~
+q. 16
+r. 17
+r. 18
+r. 19
+r. 20
+r. 24
+r. 33
+r. 38
+
+1. To what number does <code>foo3([3])</code> evaluate?
+a. 0~
+b. 1
+c. 2
+d. 3
+e. 4
+f. 5
+g. 6
+h. 7
+i. 8
+j. 9
+k. 10
+l. 11
+m. 12
+n. 13
+o. 14
+p. 15
+q. 16
+r. 17
+r. 18
+r. 19
+r. 20
+r. 24
+r. 33
+r. 38
+
+1. To what number does <code>foo3([3, 6])</code> evaluate?
+a. 0
+b. 1
+c. 2
+d. 3
+e. 4
+f. 5
+g. 6~
+h. 7
+i. 8
+j. 9
+k. 10
+l. 11
+m. 12
+n. 13
+o. 14
+p. 15
+q. 16
+r. 17
+r. 18
+r. 19
+r. 20
+r. 24
+r. 33
+r. 38
+
+1. To what number does <code>foo3([3, 6, 1, 4, 9, 5])</code> evaluate?
+a. 0
+b. 1
+c. 2
+d. 3
+e. 4
+f. 5
+g. 6
+h. 7
+i. 8
+j. 9
+k. 10
+l. 11
+m. 12
+n. 13
+o. 14
+p. 15~
+q. 16
+r. 17
+r. 18
+r. 19
+r. 20
+r. 24
+r. 33
+r. 38
+
+D. For the next set of questions, consider the following two attempts at a function that returns the first negative item in the sequence of numbers, or <code>None</code> if the sequence contains no negative numbers.  One is correct and the other is wrong.  <pre>def find1(numbers):<br>    for k in range(len(numbers)):<br>        if numbers[k] < 0:<br>            return numbers[k]<br>        else:<br>            return None<br><br><br>def find2(numbers):<br>    for k in range(len(numbers)):<br>        if numbers[k] < 0:<br>            return numbers[k]<br>    return None<br><br><br></pre>
+
+1. To what number does <code>find1([-3, 6, 1, 4, 9, 5])</code> evaluate?
+ANS. -3
+
+1. To what number does <code>find2([-3, 6, 1, 4, 9, 5])</code> evaluate?
+ANS. -3
+
+1. To what number does <code>find1([3, 6, 1, 4, 9, 5])</code> evaluate?
+ANS. None
+
+1. To what number does <code>find2([3, 6, 1, 4, 9, 5])</code> evaluate?
+ANS. None
+
+1. To what number does <code>find1([3, -6, 1, 4, 9, 5])</code> evaluate?
+ANS. None
+
+1. To what number does <code>find2([3, -6, 1, 4, 9, 5])</code> evaluate?
+ANS. -6
+
+1. Which attempt is correct?
+a. <code>find1</code>
+b. <code>find2</code>~
+
+D. For each of the following problems, indicate which pattern(s) is most suitable for a solution to the problem.
+
+1.  <pre>"""<br>What comes in:<br>  -- a sequence of numbers<br>What goes out: Returns the INDEX of the first negative number<br>  in the given sequence of numbers, or None if the sequence<br>  contains no negative numbers.<br>  Note: "first" negative number means the negative number<br>  whose index is smallest -- see the examples.<br>Side effects: None.<br>Examples: If the argument is:<br>  -- [4, 30, -19, 8, -3, -50, 100], this function returns 2<br>        since the first negative number is -19, which is at index 2<br><br>  -- [-8, 44, 33], this function returns 0<br>        since the first negative number is -8, which is at index 0<br><br>  -- [1, 29, 22, 8], this function returns None<br>        since the list contains no negative numbers<br>"""</pre>
+a. The FIND pattern~
+b. The "Looking two places in the sequence at once" pattern
+c. The "Looking at two sequences in parallel" pattern
+d. The MAX/MIN pattern
+
+1. <pre>    """<br>    What comes in:<br>      -- a non-empty sequence of strings<br>    What goes out: Returns the shortest string in the given sequence<br>    of strings.  If there is a tie for shortest string, returns the one<br>    (among the ties) whose index is smallest.<br>    Side effects: None.<br>    Examples:<br>      If the argument is:<br>        ['all', 'we',  'are saying', 'is', 'give', 'peace', 'a chance']<br>      then this function returns  'we'<br><br>      If the argument is:<br>        ['all we',  'are saying', 'is give', 'peace', 'a chance']<br>      then this function returns  'peace'<br><br>      If the argument is:<br>        ['all we are saying', 'is give', 'peace a chance']<br>      then this function returns  'is give'<br><br>      If the argument is ['abc'], then this function returns  'abc'.<br>    """</pre>
+a. The FIND pattern
+b. The "Looking two places in the sequence at once" pattern
+c. The "Looking at two sequences in parallel" pattern
+d. The MAX/MIN pattern~
+
+1. <pre><br>    """<br>    What comes in:<br>      -- a sequence of numbers<br>      -- a positive integer  n  that is less than or equal to<br>           the length of the given sequence<br>    What goes out:  INDEX of the largest number in the first n numbers<br>      of the given sequence of numbers.  If there is a tie for largest<br>      number, returns the smallest of the indices of the tied numbers.<br>    Side effects: None.<br>    Examples:<br>      If the first argument is:<br>         [90, 0, 100, 200, -5, 100, -10, 200, 15]<br>      and the second argument  n  is 3,<br>      then this function returns  2  (because 100, at index 2,<br>      is the largest of the first 3 numbers in the list).<br><br>      Another example: for the same list as above, but with n = 2,<br>      this function returns  0  (because 90, at index 0,<br>      is the largest of the first 2 numbers in the list).<br><br>      Yet another example:  For the same list as above, but with n = 9,<br>      this function returns  3  (because 200, at indices 3 and 7,<br>      is the largest of the first 9 numbers in the list,<br>      and we break the tie in favor of the smaller index).<br>    """</pre>
+a. The FIND pattern
+b. The "Looking two places in the sequence at once" pattern
+c. The "Looking at two sequences in parallel" pattern
+d. The MAX/MIN pattern~
+
+1. <pre>    """<br>    What comes in:<br>      -- a string s<br>    What goes out: Returns the number of times a letter is repeated<br>      twice-in-a-row in the given string s.<br>    Side effects: None.<br>    Examples:<br>      -- number_of_stutters('xhhbrrs')  returns 2<br>      -- number_of_stutters('xxxx')     returns 3<br>      -- number_of_stutters('xaxaxa')   returns 0<br>      -- number_of_stutters('xxx yyy xxxx')  returns 7<br>      -- number_of_stutters('xxxyyyxxxx')    returns 7<br>      -- number_of_stutters('')  returns 0<br>    """</pre>
+a. The FIND pattern
+b. The "Looking two places in the sequence at once" pattern~
+c. The "Looking at two sequences in parallel" pattern
+d. The MAX/MIN pattern
+
+1. <pre>    """<br>    What comes in:<br>      -- a string s that (in this simple version of the palindrome<br>           problem) contains only lower-case letters<br>           (no spaces, no punctuation, no upper-case characters)<br>    What goes out: Returns  True  if the given string s is a palindrome,<br>      i.e., reads the same backwards as forwards.<br>      Returns  False  if the given string s is not a palindrome.<br>    Side effects: None.<br>    Examples:<br>       abba  reads backwards as   abba   so it IS a palindrome<br>    but<br>       abbz  reads backwards as   zbba   so it is NOT a palindrome<br><br>    Here are two more examples:  (Note: I have put spaces into the<br>    strings for readability; the real problem is the string WITHOUT<br>    the spaces.)<br>       a b c d e x x e d c b a  reads backwards as<br>       a b c d e x x e d c b a<br>         so it IS a palindrome<br>     but<br>       a b c d e x y e d c b a  reads backwards as<br>       a b c d e y x e d c b a<br>         so it is NOT a palindrome<br>    """</pre>
+a. The FIND pattern~
+b. The "Looking two places in the sequence at once" pattern~
+c. The "Looking at two sequences in parallel" pattern
+d. The MAX/MIN pattern
+
+1. <pre>    """<br>    What comes in:<br>      -- two sequences that have the same length<br>    What goes out: Returns  the number of indices at which the two<br>      given sequences have the same item at that index.<br>    Side effects: None.<br>    Examples:<br>      If the sequences are:<br>          (11, 33, 83, 18, 30, 55)<br>          (99, 33, 83, 19, 30, 44)<br>      then this function returns  3<br>      since the two sequences have the same item at:<br>        -- index 1 (both are 33)<br>        -- index 2 (both are 83)<br>        -- index 4 (both are 30)<br><br>      Another example:  if the sequences are:<br>          'how are you today?'<br>          'HOW? r ex u tiday?'<br>      then this function returns  8  since the sequences are the same<br>      at indices 5 (both are 'r'), 10 (both are 'u'), 11 (both are ' '),<br>      12 (both are 't'), 14 (both are 'd'), 15 (both are 'a'),<br>      16 (both are 'y') and 17 (both are '?') -- 8 indices.<br>    """</pre>
+a. The FIND pattern
+b. The "Looking two places in the sequence at once" pattern
+c. The "Looking at two sequences in parallel" pattern~
+d. The MAX/MIN pattern
+

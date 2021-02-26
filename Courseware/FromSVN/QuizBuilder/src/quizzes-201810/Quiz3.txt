@@ -1,0 +1,306 @@
+D. Do this online reading: <a href="https://www.rose-hulman.edu/class/csse/csse120/201710/Sessions/Session03/04b-FunctionsWithParameters/Handouts/FunctionsWithParameters.pdf">Functions with Parameters and Returned Values</a>, doing the next set of questions while you do so.
+
+5. Consider the function call   <pre>round(3.14159, 2)</pre> which rounds 3.14159 to 2 decimal places. What are the <b>arguments</b> in that function call?
+a. <code> 3.14159 </code>
+b. <code> 2 </code>
+c. <code> 3.14 </code>
+d. <code> 3.14159 </code> and <code> 2 </code>~
+e. <code> round </code>
+
+6. Consider the function call   <pre>round(3.14159, 2)</pre> which rounds 3.14159 to 2 decimal places.  What is the <b>returned value</b> from that function call?
+a. <code> 3.14159 </code>
+b. <code> 2 </code>
+c. <code> 3.14 </code>~
+d. <code> 3.14159 </code> and <code> 2 </code>
+e. <code> round </code>
+
+6. Consider the function call   <pre>round(3.14159, 2)</pre> which rounds 3.14159 to 2 decimal places.  What is the <b>name</b> of the function being called?
+a. <code> 3.14159 </code>
+b. <code> 2 </code>
+c. <code> 3.14 </code>
+d. <code> 3.14159 </code> and <code> 2 </code>
+e. <code> round </code>~
+
+6. Does the following <b><em>define</em></b> or <b><em>call</em></b> the function <code>blah</code>? <pre>blah(x, 34, foo(100))</pre>
+a. define
+b. call~
+
+6. Does the following <b><em>define</em></b> or <b><em>call</em></b> the function <code>blah</code> <pre>def blah(a, b, c):</br>    print(10 * a, b + 4, c) </pre>
+a. define~
+b. call
+
+7.  As a user of a function (that is, as someone who will call the function), you don't need to know how the function is implemented; you just need to know the specification of the function.
+a. True~
+b. False
+
+D. For the next several questions, consider the <b><code>cube_volume</code></b> function defined as follows: <pre>def cube_volume(side_length):<br>    volume = side_length ** 3<br>    return volume<br></pre>
+
+8. What is the value of <b><code>cube_volume(3)</code></b>?
+a. 9
+b. 27~
+c. 81
+d. 256
+e. 512
+
+9. What is the value of <b><code>cube_volume(2)</code></b>?
+a. 4
+b. 8~
+c. 9
+d. 16
+e. 27
+
+10. What is the value of <b><code>cube_volume(cube_volume(2))</code></b>?
+a. 4
+b. 27
+c. 81
+d. 256
+e. 512~
+f. 729
+
+11. Provide an alternate implementation of the body of the <b><code>cube_volume</code></b> that does not use the exponent operator.
+M. Line 1 -> &nbsp;&nbsp;&nbsp;&nbsp; volume = side_length * side_length * side_length
+M. Line 2 -> &nbsp;&nbsp;&nbsp;&nbsp; return volume
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; volume = side_length * 3
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; volume = side_length ^ 3
+
+D. For the next several questions, consider the <b><code>mystery</code></b> function defined as follows: <pre>def mystery(x, y):<br>    result = (x + y) / (y - x)<br>    return result<br></pre>
+
+12. What is the value of <b><code>mystery(2, 3)</code></b>?
+ANS. 5
+
+13. What is the value of <b><code>mystery(3, 2)</code></b>?
+ANS. -5
+
+14. What is the value of <b><code>mystery(-1, 3)</code></b>?
+ANS. 0.5
+ANS. .5
+
+D. For the next several questions, consider the <b><code>box_string</code></b> function shown below.  This function takes a string as its argument and correctly displays that string &ldquo;in a box&rdquo;: <pre>def box_string(contents):<br>    n = len(contents)<br>    print('-' * (n + 2))<br>    print('!' + contents + '!')<br>    print('-' * (n + 2))<br></pre> For example, calling <b><code>box_string</code></b> with <b><code>'Hello Moon'</code></b> as its argument yields the following: <pre>------------<br/>!Hello Moon!<br/>------------</pre>
+
+27.  Consider the following (silly!) statement: <pre>print(box_string('Hello'))</pre> What, exactly, does the above statement cause to appear on the Console?
+M. Line 1 -> -------
+M. Line 2 -> !Hello!
+M. Line 3 -> -------
+M. Line 4 -> None
+M. -> !Hello Moon!
+M. -> ------------
+M. -> ------------
+M. -> (nothing appears on this line)
+
+28. How <b><em>should</em></b> the above statement been written, to be sensible?
+a. box_string('Hello')~
+b. print(box_string('Hello'))
+c. print(box_string('Hello')) - None
+d. print(box_string('Hello') - None)
+e. box_string('!Hello!')
+
+29. Write statements that would use <b><code>box_string</code></b> to produce on the Console the output shown below.<pre><br/>-------<br/>!Hello!<br/>-------<br/>------<br/>!Moon!<br/>------</pre>
+M. Line 1 -> box_string('Hello')
+M. Line 2 -> box_string('Moon')
+M. -> print(box_string('Hello'))
+M. -> print(box_string('Moon'))
+
+D. First, do this online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.6-VariableScope-Handout/NamespacesAndVariablesScope.pdf" target=newtab> Namespaces and Variables' Scope</a>.  Then, watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.4-NamespacesParametersReturns/Namespaces_Parameters_Returns.mp4" target=newtab><b>Thinking Like a Computer -- Namespaces, Parameters, and Returns</b></a>, doing the next set of questions while you do so.  (So don't start answering the questions until you are watching the video, since it clarifies ideas in the reading.)
+
+D. For the next several questions, you will probably want to use post-it cards (as in the video) and/or some written notes to help you solve them, and perhaps a calculator.
+
+16. What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    answer = mystery(a + 1)<br>    print(answer)<br><br>def mystery(x):<br>    y = x * x<br>    return y<br></pre>
+ANS. 25
+
+18. What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    print(mystery(a + 1))<br>   <br>def mystery(x):<br>    return x * x<br></pre>
+ANS. 25
+
+19. What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    print(mystery(a + 1))<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>
+ANS. 25
+
+20. What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    mystery(a + 1)<br>    print(a)<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>
+ANS. 4
+
+21. What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    b = mystery(a + 1)<br>    print(a + b)<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>
+ANS. 29
+
+22. What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    b = mystery(a + 1)<br>    print(a + b)<br>   <br>def mystery(x):<br>    a = 9<br>    return a * x<br></pre>
+ANS. 49
+
+23. What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    print(mystery(a + 1) + mystery(a + 1))<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>
+ANS. 50
+
+24. What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 2<br>    print(mystery(mystery(a + 1)))<br>   <br>def mystery(x):<br>    return x * x<br></pre>
+ANS. 81
+
+D. For each of the following code snippets: <ul><li>If the code is correct, state what gets printed when <b><code>main</code></b> runs.</li><li>If the code is wrong, explain why.</li></ul> For this and all subsequent problems, assume that <b>no global variables have been defined</b>. (If, as is likely, you don't know what a <em>global variable</em> is, no problem!)
+
+30. <pre>def main():<br>    x = foo()<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>
+a. Correct, prints the value of <b><code> x**3 </code></b>
+b. Correct, prints the value of <b><code> m**3 </code></b>
+c. Incorrect because the call to <b><code> foo </code></b> is missing a parameter~
+d. Incorrect because <b><code> m </code></b> in <b><code> foo </code></b> is undefined
+e. Incorrect because <b><code> x </code></b> is undefined
+f. Incorrect because the value of <b><code> m </code></b> can't be cubed
+
+31. <pre>def main():<br>    x = foo(m)<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>  
+a. Correct, prints the value of <b><code> x**3 </code></b>
+b. Correct, prints the value of <b><code> m**3 </code></b>
+c. Incorrect because the call to <b><code> foo </code></b> is missing an argument
+d. Incorrect because <b><code> m </code></b> in <b><code> foo </code></b> is undefined
+e. Incorrect because <b><code> m </code></b> in <b><code> main </code></b> is undefined~
+f. Incorrect because <b><code> x </code></b> is undefined
+g. Incorrect because the value of <b><code> m </code></b> can't be cubed
+
+32. <pre>def main():<br>    x = foo('help')<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>  
+a. Correct, prints <b><code> helphelphelp </code></b>
+a. Correct, prints <b><code> m**3  </code></b>
+c. Incorrect because the call to <b><code> foo </code></b> is missing an argument
+d. Incorrect because <b><code> m </code></b> in <b><code> foo </code></b> is undefined
+e. Incorrect because <b><code> x </code></b> is undefined
+f. Incorrect because the value of <b><code> m </code></b> can't be cubed~
+
+33. The code in the box below has syntax errors:  it causes big red X error message(s).  Check all lines that will have red X error message(s) beside them. <pre>def main():<br>    foo()<br>    print(n)<br>    print(m)<br><br>def foo():<br>    n = 3<br>    m = 1<br>    return m</pre>
+a. <code>def main(): </code>
+b. <code>&nbsp;&nbsp;&nbsp;&nbsp; foo() </code>
+c. <code>&nbsp;&nbsp;&nbsp;&nbsp; print(n) </code>~
+d. <code>&nbsp;&nbsp;&nbsp;&nbsp; print(m) </code>~
+e. <code>def foo(): </code>
+f. <code>&nbsp;&nbsp;&nbsp;&nbsp; n = 3 </code>
+g. <code>&nbsp;&nbsp;&nbsp;&nbsp;  m = 1 </code>
+h. <code>&nbsp;&nbsp;&nbsp;&nbsp; return m </code>
+
+37. What gets printed when <b><code>main</code></b>  is called in the program shown below? <pre>def main():<br>    a = 2<br>    b = 3<br><br>    foo1()<br>    print(a, b)<br><br>    foo2(a, b)<br>    print(a, b)<br><br>    foo3(a, b)<br>    print(a, b)<br><br>def foo1():<br>    a = 88<br>    b = 99<br><br>def foo2(a, b):<br>    a = 400<br>    b = 500<br><br>def foo3(x, y):<br>    x = 44<br>    y = 55</pre>
+M. Line 1 -> 2 3
+M. Line 2 -> 2 3
+M. Line 3 -> 2 3
+M. -> 88 99
+M. -> 400 500
+M. -> 44 55
+
+36. What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 2<br>    b = 3<br><br>    m = do_it(a, b)<br>    print(m)<br><br>    m = do_it(b, a)<br>    print(m)<br><br>    m = do_it(a, a)<br>    print(m)<br><br>    m = do_it(b, b)<br>    print(m)<br><br>    c = do_it(b, a)<br>    m = do_it(c, a)<br>    print(m)<br><br>    b = do_it(b, a)<br>    m = do_it(b, a)<br>    print(m)<br><br>def do_it(x, y):<br>    return x ** y</pre>
+M. Line 1 -> 8
+M. Line 2 -> 9
+M. Line 3 -> 4
+M. Line 4 -> 27
+M. Line 5 -> 81
+M. Line 6 -> 81
+
+D. Do this online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/201710/Sessions/Session03/03b-Counted%20Loops/Handouts/CountedLoops.pdf" target=newtab><b>Counted Loops</b></a>, doing the next set of questions while you do so.
+
+3. Trace the snippet of code shown below by hand (no fair typing it into a program, but you may want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  for k in range(4): <br>      print(k) </pre>
+a. <code>1 2</code> (all on separate lines)
+b. <code>1 2 3</code> (all on separate lines)
+c. <code>1 2 3 4</code> (all on separate lines)
+d. <code>0 1 2</code> (all on separate lines)
+e. <code>0 1 2 3</code> (all on separate lines)~
+f. <code>0 1 2 3 4</code> (all on separate lines)
+
+3. Trace the snippet of code shown below by hand (no fair typing it into a program, but you may want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  for k in range(3): <br>      print(k + 10) </pre>
+a. <code>1 2</code> (all on separate lines)
+b. <code>1 2 3</code> (all on separate lines)
+c. <code>1 2 3 4</code> (all on separate lines)
+d. <code>0 1</code> (all on separate lines)
+e. <code>0 1 2</code> (all on separate lines)
+f. <code>0 1 2 3</code> (all on separate lines)
+g. <code>10 11</code> (all on separate lines)
+h. <code>10 11 12</code> (all on separate lines)~
+i. <code>10 11 12 13</code> (all on separate lines)
+j. <code>11 12</code> (all on separate lines)
+k. <code>11 12 13</code> (all on separate lines)
+l. <code>11 12 13 14</code> (all on separate lines)
+
+
+1. Choose the correct lines to make a loop that prints the string <code>'funny'</code> 40,000 times.
+M. Line 1-> for k in range(40000):
+M. -> for k in range(40001):
+M. -> for k in range(n):
+M. Line 2-> &nbsp;&nbsp;&nbsp;&nbsp; print('funny')
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; return 'funny'
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; print 'funny'
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; print 'funny'
+
+2. Choose the correct lines to make a loop that prints the cubes of the numbers from 35 to <b><code>m</code></b>, inclusive (where <b><code>m</code></b> is some integer bigger than 35). For example, if <b><code>m</code></b> were 37, then this loop should print: <pre>  42875 <br>  46656 <br>  50653</pre> (The above numbers are 35 cubed, 36 cubed, and 37 cubed, respectively.)
+M. Line 1-> for k in range(m - 34):
+M. -> for k in range(0):
+M. -> for k in range(37):
+M. -> for k in range(m):
+M. -> for k in range(m - 33):
+M. -> for k in range(m - 35):
+M. -> for k in range(m - 36):
+M. Line 2->&nbsp;&nbsp;&nbsp;&nbsp; print((k + 35) ** 3)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; print(34 ** 3)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; print(35 ** 3)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; print((k + 34) ** 3)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; print(m ** 3)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; print(k ** 3)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; print((m + 34) ** 3)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; print((m + 35) ** 3)
+
+
+D. Watch <a href="https://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.2-TheAccumulatorPattern-Part1-Summing/TheAccumulatorPattern-Summing.mp4">Video: The Accumulator Pattern - Summing</a>, doing the next set of questions while you do so.
+
+3. Trace the snippet of code shown below by hand (no fair typing it into a program, but you will probably want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  total = 0 <br>  for k in range(4): <br>      total = total + k <br>      print(k, total) <br><br>  print('The sum is:') <br>  print(total)</pre>
+M. Line 1 ->0 &thinsp; 0
+M. Line 2 ->1 &thinsp; 1
+M. Line 3 ->2 &thinsp; 3
+M. Line 4 ->3 &thinsp; 6
+M. Line 5 ->The sum is:
+M. Line 6 ->6
+M. ->1 &thinsp; 0
+M. ->0 &thinsp; 1
+M. ->1 &thinsp; 2
+M. ->2 &thinsp; 2
+M. ->3 &thinsp; 3
+M. ->4 &thinsp; 4
+M. ->4 &thinsp; 6
+M. ->0
+M. ->1
+M. ->2
+M. ->3
+M. ->4
+M. ->5
+M. ->7
+M. ->8
+M. ->9
+M. ->10
+M. ->11
+M. ->12
+
+3. Trace the snippet of code shown below by hand (no fair typing it into a program, but you will definitely want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  total = 0 <br>  for k in range(5): <br>      total = total + (k + 10) <br>      print(k, total) <br><br>  print('The sum is:') <br>  print(total)</pre>
+M. Line 1 ->0 &thinsp; 10<
+M. Line 2 ->1 &thinsp; 21
+M. Line 3 ->2 &thinsp; 33
+M. Line 4 ->3 &thinsp; 46
+M. Line 5 ->4 &thinsp; 60
+M. Line 6 ->The sum is:
+M. Line 7 ->60
+M. ->1 &thinsp; 20
+M. ->1 &thinsp; 11
+M. ->2 &thinsp; 12
+M. ->3 &thinsp; 13
+M. ->4 &thinsp; 14
+M. ->5 &thinsp; 15
+M. ->5 &thinsp; 75
+M. ->10
+M. ->46
+M. ->75
+
+3. Trace the snippet of code shown below by hand (no fair typing it into a program, but you will probably want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  total = 5 <br>  for k in range(3): <br>      total = total * k <br><br>  print(total)</pre>
+a. 0~
+b. 1
+c. 3
+d. 6
+e. 24
+
+4. Write a snippet of code that calculates: <pre>math.sin(3) + math.sin(4) + math.sin(5) + ... + math.sin(500)</pre> Assume that there is already an <pre>import math</pre> that executed previously in the code.
+M. Line 1 -> total = 0
+M. -> total = 500
+M. -> k = 0
+M. -> k = 500
+M. Line 2 -> for k in range(498):
+M. -> for k in range(497):
+M. -> for k in range(499):
+M. -> for k in range(500):
+M. -> for k in range(3):
+M. Line 3 -> &nbsp;&nbsp;&nbsp;&nbsp; total = total + math.sin(k + 3)
+M. -> total = total + math.sin(k + 3)
+M. -> &nbsp;&nbsp;&nbsp;&nbsp; total = math.sin(k + 3)
+M. -> total = math.sin(k + 3)
+M. ->&nbsp;&nbsp;&nbsp;&nbsp; total = total + math.sin(k + 2)
+M. -> total = total + math.sin(k + 2)

@@ -1,0 +1,77 @@
+1. Suppose that <b>x</b> and <b>y</b> are variables whose values are numbers. Consider the following expression: <b>x < y</b>. The value of the expression might be:
+a. 1~
+b. 0~
+c. True~
+d. False~
+e. true
+f. false
+g. 'true'
+h. 'false'
+
+2. Suppose that <b>x</b> and <b>yx</b> are variables whose values are integers. Match the desired behavior to the correct boolean expression.
+M. True when both are zero -> <b>(x == 0) and (y == 0)</b>
+M. True when at least one is zero -> <b>(x == 0) or (y == 0)</b>
+M. True when exactly one is zero -> <b>(x == 0) != (y == 0)</b>
+M. True when neither of them is zero -> <b>(x != 0) and (y != 0)</b>
+M. -> <b>(x != 0) or (y != 0)</b>
+M. -> <b>(x = 0) and (y = 0)</b>
+
+3. If <b>frozen</b> is a variable whose value is a Boolean value, <b>not not frozen</b> is equivalent to <b>frozen</b>.
+a. True~
+b. False
+
+4. Why would you choose to use a boolean value rather than an integer (e.g., 0 or 1) or string (e.g., 'False' and 'True')?
+a. It makes it easier for others to understand your code.~
+b. Boolean operators can only be used on boolean values.
+c. A string or integer cannot be compared to a boolean value, so complicated expressions cannot be evaluated (e.g., <b>(x > y) and y > z</b> would not work if <b>x</b>, <b>y</b>, and <b>z</b> were not all boolean values).
+
+5. Suppose that <b>b = False</b> and <b>x = 3</b>. Match the statement to its value.
+M. <b>b and (x == 3)</b> -> False
+M. <b>b and (x == 4)</b> -> False
+M. <b>b or (x == 3)</b> -> True
+M. <b>b or (x == 4)</b> -> False
+M. <b>(not b) and (x == 3)</b> -> True
+M. <b>(not b) or (x == 3)</b> -> True
+M. <b>b and (x != 3)</b> -> False
+M. <b>b or (x != 3)</b> -> True
+M. <b>b and (x != 4)</b> -> False
+M. <b>b or (x != 4)</b> -> False
+M. <b>(not b) and (x != 3)</b> -> True
+M. <b>(not b) or (x != 3)</b> -> True
+
+6. Consider the statement shown. Choose an equivalent single-line statement.TODO
+
+7. What is the value of <b>(1 + 2) == 3</b>?
+a. True~
+b. False
+c. Difficult to say for sure
+
+7. What is the value of <b>(0.1 + 0.2) == 0.3</b>?
+a. True
+b. False~
+c. Difficult to say for sure
+
+7. What is the value of <b>(math.sin(math.pi)) == 0</b>?
+a. True
+b. False~
+c. Difficult to say for sure
+
+7. What is the value of <b>(1 / 10) + (9 / 10) == 1</b>?
+a. True~
+b. False
+c. Difficult to say for sure
+
+7. What is the value of <b>(3 // 1) == (9 // 3)</b>?
+a. True~
+b. False
+c. Difficult to say for sure
+
+7. What is the value of <b>x > y or x <= y</b>? Assume x and y are arbitrary integers.
+a. True~
+b. False
+c. Difficult to say for sure
+
+7. What is the value of <b>not (x > y and y > z) or x > z</b>? Assume x, y, and z are arbitrary integers.
+a. True
+b. False
+c. Difficult to say for sure~

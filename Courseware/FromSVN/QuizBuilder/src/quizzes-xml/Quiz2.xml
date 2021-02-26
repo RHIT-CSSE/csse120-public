@@ -1,0 +1,1539 @@
+<?xml version="1.0" ?>
+<quiz>
+<question type="category">
+<category>
+<text> $course/Quizzes-201730/$Quiz 2/</text>
+</category>
+</question>
+<question type="description">
+<name><text><![CDATA[001 <strong><em>After</em></strong> you do the exercises in the handout <em>Getting started in Python ...</em>, answer the following questions.  Except where noted, you are welcome to use the Pydev Console or Idle to help answer these questions.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[<strong><em>After</em></strong> you do the exercises in the handout <em>Getting started in Python ...</em>, answer the following questions.  Except where noted, you are welcome to use the Pydev Console or Idle to help answer these questions.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[002 If you struggle with any of the next set of questions, refer back to the exercises in the <em>Numbers and arithmetic. Operators and expressions. Parentheses and precedence</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If you struggle with any of the next set of questions, refer back to the exercises in the <em>Numbers and arithmetic. Operators and expressions. Parentheses and precedence</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[003 Write an expression that computes (i.e., evaluates to) the product of 8 and 3.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write an expression that computes (i.e., evaluates to) the product of 8 and 3.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[8 \* 3]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[8\*3]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[3\*8]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[3 \* 8]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[004 Write an expression that computes (i.e., evaluates to) the cube root of 3, that is, 3 raised to the 1/3 power.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write an expression that computes (i.e., evaluates to) the cube root of 3, that is, 3 raised to the 1/3 power.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[3 \*\* (1/3)]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[3\*\*(1/3)]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[3 \*\*(1/3)]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[3\*\* (1/3)]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[3 \*\* (1 / 3)]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[005 To what does the expression <code>9 - (7 + 3)</code> evaluate?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what does the expression <code>9 - (7 + 3)</code> evaluate?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[-1]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[006 To what does the expression <code>9 - 7 + 3</code> evaluate?  (Use the <em>Python Console</em> or <em>Idle</em> to find the answer to this question.  And <em>use parentheses</em> in the expressions that you write so that you do not have to remember how non-parenthesized expressions work.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what does the expression <code>9 - 7 + 3</code> evaluate?  (Use the <em>Python Console</em> or <em>Idle</em> to find the answer to this question.  And <em>use parentheses</em> in the expressions that you write so that you do not have to remember how non-parenthesized expressions work.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[5]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[007 If you struggle with any of the next set of questions, refer back to the exercises in the <em>Exceptions, run-time errors</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If you struggle with any of the next set of questions, refer back to the exercises in the <em>Exceptions, run-time errors</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="essay">
+<name><text><![CDATA[008 Write here two expressions that cause error messages when they are evaluated.  (Strive for examples that are different from those in the handout.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write here two expressions that cause error messages when they are evaluated.  (Strive for examples that are different from those in the handout.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[009 If you struggle with any of the next set of questions, refer back to the exercises in the <em>Objects and Types. Int, float, string</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If you struggle with any of the next set of questions, refer back to the exercises in the <em>Objects and Types. Int, float, string</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[010 Consider the statement <code>x = 54</code>. What is the <strong><em>type</em></strong> of the object to which the variable <code>x</code> refers?  REMINDER: The <code>type</code> function returns the <em>type</em> of its argument, so you can use it in the Python Console or Idle to find the answer to this quiz question.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the statement <code>x = 54</code>. What is the <strong><em>type</em></strong> of the object to which the variable <code>x</code> refers?  REMINDER: The <code>type</code> function returns the <em>type</em> of its argument, so you can use it in the Python Console or Idle to find the answer to this quiz question.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[int]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[integer]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Integer]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[011 Consider the statement <code>x = 54</code>. What is the <strong><em>value</em></strong> of the object to which the variable <code>x</code> refers?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the statement <code>x = 54</code>. What is the <strong><em>value</em></strong> of the object to which the variable <code>x</code> refers?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[54]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[012 Consider the statement <code>y = 3.713</code>. What is the <strong><em>type</em></strong> of the object to which the variable <code>y</code> refers?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the statement <code>y = 3.713</code>. What is the <strong><em>type</em></strong> of the object to which the variable <code>y</code> refers?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[float]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Float]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[013 Consider the statement <code>y = 3.713</code>. What is the <strong><em>value</em></strong> of the object to which the variable <code>y</code> refers?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the statement <code>y = 3.713</code>. What is the <strong><em>value</em></strong> of the object to which the variable <code>y</code> refers?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[3.713]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[014 Consider the statement <code>z = 'my best friend'</code>. What is the <strong><em>type</em></strong> of the object to which the variable <code>z</code> refers?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the statement <code>z = 'my best friend'</code>. What is the <strong><em>type</em></strong> of the object to which the variable <code>z</code> refers?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[str]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[string]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[String]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[015 Consider the statement <code>z = 'my best friend'</code>. What is the <strong><em>value</em></strong> of the object to which the variable <code>z</code> refers?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the statement <code>z = 'my best friend'</code>. What is the <strong><em>value</em></strong> of the object to which the variable <code>z</code> refers?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[my best friend]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA["my best friend"]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA['my best friend']]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[016 What does the expression <code>3 * (4 + 1)</code> evaluate to?  (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the expression <code>3 * (4 + 1)</code> evaluate to?  (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[15]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[017 What does the expression <code>3 * ('hi' + 'bye')</code> evaluate to? (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the expression <code>3 * ('hi' + 'bye')</code> evaluate to? (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[hibyehibyehibye]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA['hibyehibyehibye']]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[018 If you struggle with any of the next set of questions, refer back to the exercises in the <em>Variables and Assignment</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If you struggle with any of the next set of questions, refer back to the exercises in the <em>Variables and Assignment</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[019 Write a statement that assigns the variable <code>my_friend</code> the value <code>'Betty Bop'</code>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write a statement that assigns the variable <code>my_friend</code> the value <code>'Betty Bop'</code>.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[my_friend = 'Betty Bop']]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[my_friend= 'Betty Bop']]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[my_friend ='Betty Bop']]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[my_friend='Betty Bop']]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[020 Suppose that you run the following one-line program. What happens? (Try this out in the Python Console or Idle to learn the correct answer.) <pre>print('hello')</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Suppose that you run the following one-line program. What happens? (Try this out in the Python Console or Idle to learn the correct answer.) <pre>print('hello')</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>'hello'</code> appears on the Console]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>hello</code> appears on the Console]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>"hello"</code> appears on the Console]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[an error occurs]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[021 Suppose that you run the following one-line program. What happens? <pre>print(hello)</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Suppose that you run the following one-line program. What happens? <pre>print(hello)</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA['hello' appears on the screen]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[hello appears on the screen]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA["hello" appears on the screen]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[an error occurs]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[022 True or False: It is okay to use a variable before we give it an initial value.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: It is okay to use a variable before we give it an initial value.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[023 Bobby decided to use <code>int</code> as a variable name and created the following code: <pre>   int = 2.5<br>   print(int(int))<br></pre> What happens when Bobby runs his code?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Bobby decided to use <code>int</code> as a variable name and created the following code: <pre>   int = 2.5<br>   print(int(int))<br></pre> What happens when Bobby runs his code?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[An error occurs because <code>int</code> is no longer the name of a function but the name of a float.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2 is printed.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3 is printed.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[An error occurs because <code>int</code> cannot be used as a variable name.]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[024 If you struggle with any of the next set of questions, refer back to the exercises in the <em>Dynamically typed versus statically typed</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If you struggle with any of the next set of questions, refer back to the exercises in the <em>Dynamically typed versus statically typed</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[025 True or False: The same variable name can occur on both sides of the assignment operator (<code>=</code>).]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: The same variable name can occur on both sides of the assignment operator (<code>=</code>).]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[026 Consider the following code snippet: <pre>y = 5 <br>y = y + 100</pre> What is the value of <strong><code>y</code></strong> after the code snippet runs? (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following code snippet: <pre>y = 5 <br>y = y + 100</pre> What is the value of <strong><code>y</code></strong> after the code snippet runs? (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[105]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[027 Consider the following code snippet: <pre>y = 5 <br>y = y * 3<br>y = y + 1</pre> What is the value of <strong><code>y</code></strong> after the code snippet runs? (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following code snippet: <pre>y = 5 <br>y = y * 3<br>y = y + 1</pre> What is the value of <strong><code>y</code></strong> after the code snippet runs? (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[16]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[028 Consider the following code snippet: <pre>  x = 5<br>  x = x + 3<br>  x = x * 10<br></pre> What is the value of <strong><code>x</code></strong> after the code snippet runs? (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following code snippet: <pre>  x = 5<br>  x = x + 3<br>  x = x * 10<br></pre> What is the value of <strong><code>x</code></strong> after the code snippet runs? (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[80]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[029 Consider the following code snippet: <pre>  x = 5<br>  x = x * 10<br>  x = x + 3<br></pre> What is the value of <strong><code>x</code></strong> after the code snippet runs? (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following code snippet: <pre>  x = 5<br>  x = x * 10<br>  x = x + 3<br></pre> What is the value of <strong><code>x</code></strong> after the code snippet runs? (Figure this out by hand, then <em>check</em> your answer in the PyDev Console or Idle if you wish.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[53]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[030 If you struggle with any of the next set of questions, refer back to the exercises in the <em>The assignment operator is not symmetrict</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If you struggle with any of the next set of questions, refer back to the exercises in the <em>The assignment operator is not symmetrict</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[031 True or False: The expressions <code>a = b</code> and <code>b = a</code> accomplish the same thing.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: The expressions <code>a = b</code> and <code>b = a</code> accomplish the same thing.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[032 If you struggle with any of the next set of questions, refer back to the exercises in the <em>Calling functions</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If you struggle with any of the next set of questions, refer back to the exercises in the <em>Calling functions</em> section of the <em>Getting started in Python ...</em> handout.  Redo those exercises as needed.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[033 Assume that you have a variable <code>x</code> that has already been given a numeric value. Assume that the statement <code>import math</code> has already executed. Write a statement that sets the variable <code>y</code> to the sum of the sine of <code>x</code> and the cosine of <code>x</code>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Assume that you have a variable <code>x</code> that has already been given a numeric value. Assume that the statement <code>import math</code> has already executed. Write a statement that sets the variable <code>y</code> to the sum of the sine of <code>x</code> and the cosine of <code>x</code>.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[y = math.sin(x) + math.cos(x)]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[y = math.sin(x)+math.cos(x)]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[y=math.sin(x)+math.cos(x)]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[y = math.cos(x) + math.sin(x)]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[034 Write an expression that evaluates to <code>20!</code>, that is, to <code>20 factorial</code>.  Assume that the statement <code>import math</code> has already executed.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write an expression that evaluates to <code>20!</code>, that is, to <code>20 factorial</code>.  Assume that the statement <code>import math</code> has already executed.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[math.factorial(20)]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[035 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.5d-YourFirstProgram-Functions/YourFirstProgram-Functions.mp4" target=newtab><b>Your First Programs, Part 4: Functions</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.5d-YourFirstProgram-Functions/YourFirstProgram-Functions.mp4" target=newtab><b>Your First Programs, Part 4: Functions</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[036 What keyword marks the beginning of a <b>function definition</b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What keyword marks the beginning of a <b>function definition</b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[def]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[037 What notation marks the <b>body</b> of the function (that is, how can we tell when one function ends and another starts)?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What notation marks the <b>body</b> of the function (that is, how can we tell when one function ends and another starts)?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Curly braces ({})]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Colon (:)]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Indentation]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A new line or return]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[038 What is the name of the function that <b>prints</b> things (i.e., displays them on the console)?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the name of the function that <b>prints</b> things (i.e., displays them on the console)?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[print]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[print()]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[039 Consider the following code snippet: <pre>def foo():<br>    print('nice!')<br>    x = 5<br>    x = x * 10<br>    print(x)<br><br>def blah():<br>    print('ok')</pre>  How many functions does the snippet define?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following code snippet: <pre>def foo():<br>    print('nice!')<br>    x = 5<br>    x = x * 10<br>    print(x)<br><br>def blah():<br>    print('ok')</pre>  How many functions does the snippet define?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[None]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[More than 4]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[040 In the above code snippet, what is the <em>name</em> of the SECOND function defined?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In the above code snippet, what is the <em>name</em> of the SECOND function defined?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[blah]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[blah()]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[041 In the above code snippet, how many statements (lines) are in the body of the <em>foo</em> function?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In the above code snippet, how many statements (lines) are in the body of the <em>foo</em> function?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[None]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[More than 4]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[042 Consider the following code snippet: <pre>def main():<br>    blah()<br>    blah<br>    blah<br><br>def blah():<br>    print('one')<br>    print('two')<br><br>main()</pre>  How many lines does the above code snippet print on the Console when it runs?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following code snippet: <pre>def main():<br>    blah()<br>    blah<br>    blah<br><br>def blah():<br>    print('one')<br>    print('two')<br><br>main()</pre>  How many lines does the above code snippet print on the Console when it runs?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[None]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[More than 6]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[043 What does the above code snippet cause to appear on the Console?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the above code snippet cause to appear on the Console?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>one<br>two<br></code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>one<br>one<br>one<br>two<br>two<br>two<br></code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>one<br>two<br>one<br>two<br>one<br>two<br></code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[044 Consider the following code snippet: <pre>def main():<br>    blah()<br>    blah<br>    blah<br><br>def blah():<br>    print('one')<br>    print('two')<br><br>blah()</pre>  Note that it is the same as the previous example except for the last line of the snippet.  How many lines does the above code snippet print on the Console when it runs?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following code snippet: <pre>def main():<br>    blah()<br>    blah<br>    blah<br><br>def blah():<br>    print('one')<br>    print('two')<br><br>blah()</pre>  Note that it is the same as the previous example except for the last line of the snippet.  How many lines does the above code snippet print on the Console when it runs?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[None]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[More than 6]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[045 What does the above code snippet cause to appear on the Console?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the above code snippet cause to appear on the Console?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[<code>one<br>two<br></code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>one<br>one<br>one<br>two<br>two<br>two<br></code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>one<br>two<br>one<br>two<br>one<br>two<br></code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[None of the above.]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[046 Consider the following program for the next several questions: <br> <img src="http://www.rose-hulman.edu/class/csse/csse120/201630/Images/quizzes/quiz02-01.jpg">.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following program for the next several questions: <br> <img src="http://www.rose-hulman.edu/class/csse/csse120/201630/Images/quizzes/quiz02-01.jpg">.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[047 Check all the line numbers for lines that <em>call</em> a function.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Check all the line numbers for lines that <em>call</em> a function.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<single>false</single><answer fraction="0.0">
+<text><![CDATA[Line 1]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Line 2]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Line 3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Line 6]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Line 7]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Line 8]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Line 9]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Line 11]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Line 14]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Line 15]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Line 17]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[048 Check all the line numbers for lines that <em>begin</em> a <em>function definition</em>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Check all the line numbers for lines that <em>begin</em> a <em>function definition</em>.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<single>false</single><answer fraction="50.0">
+<text><![CDATA[Line 1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Line 2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Line 3]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Line 6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Line 7]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Line 8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Line 9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Line 11]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Line 14]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Line 15]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Line 17]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[049 What does the program print when it runs?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the program print when it runs?]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[This is printed first:]]></text>
+<answer>
+<text><![CDATA[go, robot, go!]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[This is printed next:]]></text>
+<answer>
+<text><![CDATA[go forward]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[This is printed next:]]></text>
+<answer>
+<text><![CDATA[go forward]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[This is printed next:]]></text>
+<answer>
+<text><![CDATA[stop, robot, stop!]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[This is printed next:]]></text>
+<answer>
+<text><![CDATA[go forward]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[" "]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[050 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/02.04-CallingFunctions/CallingFunctions.html" target=newtab><b>Calling Functions</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/02.04-CallingFunctions/CallingFunctions.html" target=newtab><b>Calling Functions</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[051 Consider the following function definition:  <img src="data:image/png;base64,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"/>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following function definition:  <img src="data:image/png;base64,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"/>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[052 What is the <strong><em>name</em></strong> of the function? HINT: There should be no parentheses in your answer.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the <strong><em>name</em></strong> of the function? HINT: There should be no parentheses in your answer.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[f_to_c]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[053 How many parameters does the function have?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[How many parameters does the function have?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[one]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[One]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[1]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[054 Why are functions <em>powerful?</em> (Choose all that apply.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Why are functions <em>powerful?</em> (Choose all that apply.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<single>false</single><answer fraction="0.0">
+<text><![CDATA[They do calculations.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[They can have comments.]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[They improve organization and make it easier to maintain the program.]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[They allow code re-use.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[055 Choose the statement that correctly calls the <b>f_to_c</b> function.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Choose the statement that correctly calls the <b>f_to_c</b> function.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<strong><code>f_to_c 5</code></strong>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<strong><code>f_to_c</code></strong>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<strong><code>def f_to_c(5)</code></strong>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<strong><code>f_to_c(5)</code></strong>]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[056 What steps occur when <p><b>c = f_to_c(10.5)</b></p> is called (where the <b>f_to_c</b> function is as defined above)?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What steps occur when <p><b>c = f_to_c(10.5)</b></p> is called (where the <b>f_to_c</b> function is as defined above)?]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Step 1]]></text>
+<answer>
+<text><![CDATA[Actual values are sent to function parameters]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Step 2]]></text>
+<answer>
+<text><![CDATA[Execution continues in the f_to_c function code]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Step 3]]></text>
+<answer>
+<text><![CDATA[The calculated value for celsius is returned]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Step 4]]></text>
+<answer>
+<text><![CDATA[The returned value is substituted where the function call occurred]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[None is returned]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[The value for celsius is printed]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[057 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/02.05-CodingToASpecification/CodingToASpecification.html" target=newtab><b>Coding to a Specification</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/02.05-CodingToASpecification/CodingToASpecification.html" target=newtab><b>Coding to a Specification</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[058 The specification of a component has 3 most universal parts. What are those 3 parts?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[The specification of a component has 3 most universal parts. What are those 3 parts?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[What goes into the component, what comes out of the component, and the side effects of the component.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[What goes into the component, what comes out of the component, and the purpose of the component.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The purpose of the component, the amount of time it will take to run, and the number of parameters it needs.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The name of the component, the parameters of the component, and what comes out of the component.]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[059 True or False: A specification states <b><em>how</em></b> the component works.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: A specification states <b><em>how</em></b> the component works.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[060 True or False: A specification states <b><em>what</em></b> the component does.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: A specification states <b><em>what</em></b> the component does.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[061 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/03.1-ObjectOrientedProgramming/ObjectOrientedProgramming.html" target=newtab><b>Object Oriented Programming</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/03.1-ObjectOrientedProgramming/ObjectOrientedProgramming.html" target=newtab><b>Object Oriented Programming</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[062 Four computer languages developed in the 1950s dominated early computing. One of them is <b>Lisp</b>. What is the name of another?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Four computer languages developed in the 1950s dominated early computing. One of them is <b>Lisp</b>. What is the name of another?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Procedural]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[C]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[ALGOL]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Assembly]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[063 This diagram <img src="data:image/png;base64,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"/> is part of a:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[This diagram <img src="data:image/png;base64,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"/> is part of a:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Poem called <i>Beowulf</i>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Rocket ship]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Garbage can]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Flowchart]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[064 <b>Procedural decomposition</b> is:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[<b>Procedural decomposition</b> is:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[The process by which leftovers become fertilizer for gardens.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[What happens to mummies when they are left out in the open air.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[How great ideas become hollow ones.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[The process of breaking a problem into a sequence of subproblems, with each subproblem given a procedure to solve it, and then breaking those subproblems into sub-subproblems, with each sub-subproblem given a procedure to solve it, and so forth until the problem is reduced to procedures of manageable size.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[065 The first object-oriented (OO) language was (in some historians' view) SIMULA, but the most influential of the early OO languages was:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[The first object-oriented (OO) language was (in some historians' view) SIMULA, but the most influential of the early OO languages was:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[Smalltalk]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Bigmouth]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Farsight]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Giggles]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[066 Most of the widely-used languages developed since 1990 have been <b>object oriented</b> languages.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Most of the widely-used languages developed since 1990 have been <b>object oriented</b> languages.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[067 The <b>procedural</b> programming paradigm focuses on:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[The <b>procedural</b> programming paradigm focuses on:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Nouns]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Verbs]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Adjectives]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[068 The <b>object-oriented</b> programming paradigm focuses on:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[The <b>object-oriented</b> programming paradigm focuses on:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[Nouns]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Verbs]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Adjectives]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[069 Today's software engineer typically uses both the procedural and object-oriented paradigms--there is a place for each.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Today's software engineer typically uses both the procedural and object-oriented paradigms--there is a place for each.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[070 True or False: Python supports both a procedural and an object-oriented notation.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: Python supports both a procedural and an object-oriented notation.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[071 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/03.2-UMLClassDiagrams/UMLClassDiagrams.html" target=newtab><b>Classes -- What objects know and can do</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/03.2-UMLClassDiagrams/UMLClassDiagrams.html" target=newtab><b>Classes -- What objects know and can do</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[072 In Python, every item of data is called an:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In Python, every item of data is called an:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[object]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Object]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[073 True or False: in Python, programmers can define their <em>own</em> classes.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: in Python, programmers can define their <em>own</em> classes.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="essay">
+<name><text><![CDATA[074 What 3 things does every class have?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What 3 things does every class have?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[]]></text>
+</answer>
+</question>
+<question type="essay">
+<name><text><![CDATA[075 List the names of several (at least two) <em>instance variables</em> that you would expect a <code>Circle</code> class to have.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[List the names of several (at least two) <em>instance variables</em> that you would expect a <code>Circle</code> class to have.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[]]></text>
+</answer>
+</question>
+<question type="essay">
+<name><text><![CDATA[076 List the names of several (at least two) <em>methods</em> that you would expect a <code>Person</code> class to have.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[List the names of several (at least two) <em>methods</em> that you would expect a <code>Person</code> class to have.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[077 True or False:  If <code>p1</code> and <code>p2</code> are both instances of a <code>Point</code> class, the <strong>names</strong> of the instance variables for <code>p1</code> are the same as the names of the instance variables for <code>p2</code>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False:  If <code>p1</code> and <code>p2</code> are both instances of a <code>Point</code> class, the <strong>names</strong> of the instance variables for <code>p1</code> are the same as the names of the instance variables for <code>p2</code>.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[078 True or False:  If <code>p1</code> and <code>p2</code> are both instances of a <code>Point</code> class, the <strong>values</strong> of the instance variables for <code>p1</code> are the same as the values of the instance variables for <code>p2</code>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False:  If <code>p1</code> and <code>p2</code> are both instances of a <code>Point</code> class, the <strong>values</strong> of the instance variables for <code>p1</code> are the same as the values of the instance variables for <code>p2</code>.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[079 The <strong><em>instance variables</em></strong> of a class:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[The <strong><em>instance variables</em></strong> of a class:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[describe the operations that instances of the class can do]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[are variables that are instances of the class]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[describe the data that instances of the class hold]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[080 The <strong><em>methods</em></strong> of a class:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[The <strong><em>methods</em></strong> of a class:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[describe the operations that instances of the class can do]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[describe the sub-classes of the class]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[describe the data that instances of the class hold]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[081 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/02.12-UsingObjects/UsingObjects.mp4" target=newtab><b>Objects and Classes--Using Objects</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/02.12-UsingObjects/UsingObjects.mp4" target=newtab><b>Objects and Classes--Using Objects</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[082 What class does the number 17 belong to?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What class does the number 17 belong to?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[int]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[integer]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Integer]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[083 True of False:  For any given class, the maximum number of instances of that class is 10.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True of False:  For any given class, the maximum number of instances of that class is 10.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[084 Each instance of a class has data stored with it in what's called the classes':]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Each instance of a class has data stored with it in what's called the classes':]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[instance variables]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[instance variable]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[085 Fill in the blank:  All instances of a class have the same set of  _______ that define what the instances can do.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Fill in the blank:  All instances of a class have the same set of  _______ that define what the instances can do.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[methods]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[method]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[086 Only one of the following choices might be a valid notation for <em>constructing</em> an instance of a <code>Dog</code> class as defined in the rosegraphics (abbreviated rg) module.  Which one?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Only one of the following choices might be a valid notation for <em>constructing</em> an instance of a <code>Dog</code> class as defined in the rosegraphics (abbreviated rg) module.  Which one?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>rg.Dog.dog</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>rg.Point.dog</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>rg.Dog</code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>rg.Dog('poodle')</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>rg.dog('poodle')</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>rg.Poodle()</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>rg.poodle()</code>]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[087 True or False:  After you have typed a few letters of the beginning of the name of a class in Eclipse, it usually pops up the full name, and you can then just press the Enter key to have Eclipse auto-fill that name for you.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False:  After you have typed a few letters of the beginning of the name of a class in Eclipse, it usually pops up the full name, and you can then just press the Enter key to have Eclipse auto-fill that name for you.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[088 To determine what arguments an instance of the Dog class needs for its constructor, you can: (check all that are correct)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To determine what arguments an instance of the Dog class needs for its constructor, you can: (check all that are correct)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<single>false</single><answer fraction="50.0">
+<text><![CDATA[Hover over the name <code>Dog</code> after you have typed it, and look at the pop-up help.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Google it.]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[Put the cursor inside the parentheses after typing <code>Dog()</code> and press the CTRL and Space keys.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[089 Which of the following constructs a Point object (as defined in the rosegraphics module) and gives the name <code>p1</code> to it.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which of the following constructs a Point object (as defined in the rosegraphics module) and gives the name <code>p1</code> to it.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[p1 = rg.Point(4, 100)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[p1 = rg(4, 100)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[p1 = (4, 100)]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[090 Consider the following code.  What does it print? <pre>  p2 = rg.Point(7, 3)<br>  p1 = rg.Point(100, 50)<br>  print((4 * p1.x) + p2.y<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following code.  What does it print? <pre>  p2 = rg.Point(7, 3)<br>  p1 = rg.Point(100, 50)<br>  print((4 * p1.x) + p2.y<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[403]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[091 What trick can we use in Eclipse to figure out what <b>instance variables</b> and <b>methods</b> an object has?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What trick can we use in Eclipse to figure out what <b>instance variables</b> and <b>methods</b> an object has?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[A hat trick.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[The DOT trick, which is: Type the object's name, followed by a DOT (i.e., PERIOD), pause, and look at the pop-up help that appears.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Google it.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[092 In the pop-up help that appears from the DOT trick, what letter indicates that the item being shown is a <strong><em>method</em></strong> (as opposed to, for example, an <em>instance variable</em>).]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In the pop-up help that appears from the DOT trick, what letter indicates that the item being shown is a <strong><em>method</em></strong> (as opposed to, for example, an <em>instance variable</em>).]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[M]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[C]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[No letter at all]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[093 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.3-ControlFlow/Control_Flow.mp4" target=newtab><b>Thinking Like a Computer -- Control Flow</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.3-ControlFlow/Control_Flow.mp4" target=newtab><b>Thinking Like a Computer -- Control Flow</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[094 What gets printed when <b><code>main</code></b> is called in the program shown below?  (Pay close attention to the order in which the statements are executed.)   <pre>def main():<br>    hello()<br>    goodbye()<br>    hello()<br>   <br>def hello():<br>    print('Hello!')<br>    return 'Hello!'<br><br>def goodbye():<br>    print('Ciao!')<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?  (Pay close attention to the order in which the statements are executed.)   <pre>def main():<br>    hello()<br>    goodbye()<br>    hello()<br>   <br>def hello():<br>    print('Hello!')<br>    return 'Hello!'<br><br>def goodbye():<br>    print('Ciao!')<br></pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[<pre>Hello!</pre>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[<pre>Ciao!</pre>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[<pre>Hello!</pre>]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[095 What gets printed when <b><code>main</code></b> is called in the program shown below?  (Hint: this code is very similar to the code in the previous problem, and this problem is a bit of a "trick" question.)   <pre>def main():<br>    hello()<br>    goodbye()<br>    hello()<br>   <br>def hello():<br>    print('Hello!')<br>    return 'Hello!'<br>    print('Hello Again!')<br>   <br>def goodbye():<br>    print('Ciao!')<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?  (Hint: this code is very similar to the code in the previous problem, and this problem is a bit of a "trick" question.)   <pre>def main():<br>    hello()<br>    goodbye()<br>    hello()<br>   <br>def hello():<br>    print('Hello!')<br>    return 'Hello!'<br>    print('Hello Again!')<br>   <br>def goodbye():<br>    print('Ciao!')<br></pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[<pre>Hello!</pre>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[<pre>Ciao!</pre>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[<pre>Hello!</pre>]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[<pre>Hello Again!</pre>]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[096 What gets printed when <b><code>main</code></b> is called in the program shown below? (You will probably want to use post-it cards (as in the video) or some written notes to help you solve this problem.)  <pre><br>def main():<br>    big()<br>    bigger()<br>    big()<br><br>def big():<br>    print('basketball')<br><br>def bigger():<br>    print('truck')<br>    big()</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below? (You will probably want to use post-it cards (as in the video) or some written notes to help you solve this problem.)  <pre><br>def main():<br>    big()<br>    bigger()<br>    big()<br><br>def big():<br>    print('basketball')<br><br>def bigger():<br>    print('truck')<br>    big()</pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[basketball]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[truck]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[basketball]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[basketball]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[097 What gets printed when <b><code>main</code></b> is called in the program shown below? (You will probably want to use post-it cards (as in the video) or some written notes to help you solve this problem.)  <pre><br>def main():<br>    big()<br>    bigger()<br>    biggest()<br>    big()<br><br>def big():<br>    print('basketball')<br><br>def bigger():<br>    print('truck')<br>    big()<br><br>def biggest():<br>    print('house')<br>    bigger()<br>    big()<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below? (You will probably want to use post-it cards (as in the video) or some written notes to help you solve this problem.)  <pre><br>def main():<br>    big()<br>    bigger()<br>    biggest()<br>    big()<br><br>def big():<br>    print('basketball')<br><br>def bigger():<br>    print('truck')<br>    big()<br><br>def biggest():<br>    print('house')<br>    bigger()<br>    big()<br></pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[basketball]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[truck]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[basketball]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[house]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[truck]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 6]]></text>
+<answer>
+<text><![CDATA[basketball]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 7]]></text>
+<answer>
+<text><![CDATA[basketball]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 8]]></text>
+<answer>
+<text><![CDATA[basketball]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+</quiz>

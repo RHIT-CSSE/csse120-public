@@ -1,0 +1,1094 @@
+<?xml version="1.0" ?>
+<quiz>
+<question type="category">
+<category>
+<text> $course/Quizzes-201730/$Quiz 12/</text>
+</category>
+</question>
+<question type="description">
+<name><text><![CDATA[001 Do the online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/11.1-OverloadingThePlusSymbol/Handouts/OverloadingThePlusSymbol.pdf" target=newtab><b>Overloading the plus operator</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Do the online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/11.1-OverloadingThePlusSymbol/Handouts/OverloadingThePlusSymbol.pdf" target=newtab><b>Overloading the plus operator</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[002 <code>11 + 22</code> evaluates to: (NOTE: write <code>error</code> if evaluating the expression generates an error.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[<code>11 + 22</code> evaluates to: (NOTE: write <code>error</code> if evaluating the expression generates an error.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[33]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[003 <code>'11' + '22'</code> evaluates to: (NOTE: write <code>error</code> if evaluating the expression generates an error.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[<code>'11' + '22'</code> evaluates to: (NOTE: write <code>error</code> if evaluating the expression generates an error.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA['1122']]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[1122]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA["1122"]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[004 <code>'11' + str(3 + 3) + '22'</code> evaluates to: (NOTE: write <code>error</code> if evaluating the expression generates an error.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[<code>'11' + str(3 + 3) + '22'</code> evaluates to: (NOTE: write <code>error</code> if evaluating the expression generates an error.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA['11622']]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA["11622"]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[11622]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[005 <code>'11' + 33</code> evaluates to: (NOTE: write <code>error</code> if evaluating the expression generates an error.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[<code>'11' + 33</code> evaluates to: (NOTE: write <code>error</code> if evaluating the expression generates an error.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[error]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[ERROR]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[006 What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(x, y, z)</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(x, y, z)</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>1, 2, 3</code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>1 2 3</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>6</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>123</code>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[007 What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(str(x) + str(y) + str(z))</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(str(x) + str(y) + str(z))</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>1, 2, 3</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>1 2 3</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>6</code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>123</code>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[008 What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(x + y + z)</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(x + y + z)</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>1, 2, 3</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>1 2 3</code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>6</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>123</code>]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[009 What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(str(x + y) + str(z))</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the following code snippet print: <pre> x = 1 <br> y = 2 <br> z = 3 <br> print(str(x + y) + str(z))</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[33]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[010 Implement a function named <code>print_equation</code> that given two numbers <code>x</code> and <code>y</code>, prints an equation for the sum of them.  For example, if <code>x</code> is <code>65</code> and <code>y</code> is <code>11</code>, the function would print <code>65+11=76</code>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Implement a function named <code>print_equation</code> that given two numbers <code>x</code> and <code>y</code>, prints an equation for the sum of them.  For example, if <code>x</code> is <code>65</code> and <code>y</code> is <code>11</code>, the function would print <code>65+11=76</code>.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[def print_equation(x, y):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(str(x) + "+" + str(y) + "=" + str(x+y))]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(x, y, x+y)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(x+++y+ = +x+y)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print("65+11=76")]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[011 Do the online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/11.2-AccumulatingSequences/Handouts/AccumulatingSequences.pdf" target=newtab><b>Accumulating Sequences</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Do the online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/11.2-AccumulatingSequences/Handouts/AccumulatingSequences.pdf" target=newtab><b>Accumulating Sequences</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[012 On a piece of paper (NOT here in Moodle), implement the following function, per its doc-string.  You do NOT have to be completely correct, just try to get the main idea correct, with guidance from the reading. After you have made a reasonable try, turn to the next page in this Moodle quiz for a solution.  <pre>def make_simple_list(m, n):<br>    """<br>    Returns the list [m, m+1, m+2, ... n],<br>    where m and n are the given arguments.<br>    For example, if m is 5 and n is 13,<br>    then this function returns:<br>        [5, 6, 7, 8, 9, 10, 11, 12, 13]<br>    """</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[On a piece of paper (NOT here in Moodle), implement the following function, per its doc-string.  You do NOT have to be completely correct, just try to get the main idea correct, with guidance from the reading. After you have made a reasonable try, turn to the next page in this Moodle quiz for a solution.  <pre>def make_simple_list(m, n):<br>    """<br>    Returns the list [m, m+1, m+2, ... n],<br>    where m and n are the given arguments.<br>    For example, if m is 5 and n is 13,<br>    then this function returns:<br>        [5, 6, 7, 8, 9, 10, 11, 12, 13]<br>    """</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[013 Here is a solution to the previous problem.  Compare your solution to it.  Bring any questions about this problem to class.<pre>def make_simple_list(m, n):<br>    """ Same specification as on the previous item. """<br>    seq = []<br>    for k in range(m, n + 1):<br>        seq = seq + [k]<br>    return seq<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Here is a solution to the previous problem.  Compare your solution to it.  Bring any questions about this problem to class.<pre>def make_simple_list(m, n):<br>    """ Same specification as on the previous item. """<br>    seq = []<br>    for k in range(m, n + 1):<br>        seq = seq + [k]<br>    return seq<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[014 Consider the following code.  What should the missing statement be (that is, the statement marked ???).<pre>def make_list(n):<br>    """<br>    Returns the list [1, 2, 3, ... n],<br>    where n is the given argument.<br>    For example, if n is 5,<br>    then this function returns:<br>        [1, 2, 3, 4, 5]<br>    """<br>    seq = []<br>    for k in range(n):<br>        ???<br>    return seq<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following code.  What should the missing statement be (that is, the statement marked ???).<pre>def make_list(n):<br>    """<br>    Returns the list [1, 2, 3, ... n],<br>    where n is the given argument.<br>    For example, if n is 5,<br>    then this function returns:<br>        [1, 2, 3, 4, 5]<br>    """<br>    seq = []<br>    for k in range(n):<br>        ???<br>    return seq<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>        seq = seq[k]</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>        seq = seq[k + 1 ]</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>        seq = seq + k</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>        seq = seq + k + 1</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>        seq = seq[k] + [k]</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>        seq[k] = seq[k] + [k]</code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>        seq = seq + [k + 1]</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>        seq = seq + seq[k]</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>        seq = seq + seq[k + 1]</code>]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[015 What does the following code snippet print: (Note: If your answer includes any commas, put a SINGLE SPACE after each comma, to help out the automated grading.  But no problem if you get the right answer except for spaces.) <pre> x = 0 <br> for k in range(5): <br>     x = x + (2 * k) <br> print(x) </pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the following code snippet print: (Note: If your answer includes any commas, put a SINGLE SPACE after each comma, to help out the automated grading.  But no problem if you get the right answer except for spaces.) <pre> x = 0 <br> for k in range(5): <br>     x = x + (2 * k) <br> print(x) </pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[20]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[016 What does the following code snippet print: (Note: If your answer includes any commas, put a SINGLE SPACE after each comma, to help out the automated grading.  But no problem if you get the right answer except for spaces.) <pre> x = [] <br> for k in range(5): <br>     x = x + [(2 * k)] <br> print(x) </pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the following code snippet print: (Note: If your answer includes any commas, put a SINGLE SPACE after each comma, to help out the automated grading.  But no problem if you get the right answer except for spaces.) <pre> x = [] <br> for k in range(5): <br>     x = x + [(2 * k)] <br> print(x) </pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[[0, 2, 4, 6, 8]]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[017 What does the following code snippet print: (Hint: ignore the comma in the code, but ask in class why it is necessary.) (Note: If your answer includes any commas, put a SINGLE SPACE after each comma, to help out the automated grading.  But no problem if you get the right answer except for spaces.) <pre> x = () <br> for k in range(5): <br>     x = x + ((2 * k),) <br> print(x) </pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the following code snippet print: (Hint: ignore the comma in the code, but ask in class why it is necessary.) (Note: If your answer includes any commas, put a SINGLE SPACE after each comma, to help out the automated grading.  But no problem if you get the right answer except for spaces.) <pre> x = () <br> for k in range(5): <br>     x = x + ((2 * k),) <br> print(x) </pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[(0, 2, 4, 6, 8)]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[018 What does the following code snippet print: (Note: If your answer includes any commas, put a SINGLE SPACE after each comma, to help out the automated grading.  But no problem if you get the right answer except for spaces.) <pre> x = '' <br> for k in range(5): <br>     x = x + str(2 * k) <br> print(x) </pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What does the following code snippet print: (Note: If your answer includes any commas, put a SINGLE SPACE after each comma, to help out the automated grading.  But no problem if you get the right answer except for spaces.) <pre> x = '' <br> for k in range(5): <br>     x = x + str(2 * k) <br> print(x) </pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[02468]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA['02468']]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA["02468"]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[019 In the above question, make sure that you understand why applying the built-in <code>str</code> function is necessary.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In the above question, make sure that you understand why applying the built-in <code>str</code> function is necessary.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[020 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/11.3-PatternsForIteratingThroughSequences/Video/PatternsForIteratingThroughSequences/PatternsForIteratingThroughSequences.mp4" target=newtab><b>Sequences</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/11.3-PatternsForIteratingThroughSequences/Video/PatternsForIteratingThroughSequences/PatternsForIteratingThroughSequences.mp4" target=newtab><b>Sequences</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[021 For the next set of questions, consider the following three function definitions:<pre>def foo1(seq):<br>    total = 0<br>    for k in range(len(seq) // 2):<br>        total = total + seq[1 + (2 * k)]<br>    return total<br><br><br>def foo2(seq):<br>    total = 0<br>    for k in range(1, len(seq), 2):<br>        total = total + seq[k]<br>    return total<br><br><br>def foo3(seq):<br>    total = 0<br>    m = 1<br>    for _ in range(len(seq) // 2):<br>        total = total + seq[m]<br>        m = m + 2<br>    return total<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For the next set of questions, consider the following three function definitions:<pre>def foo1(seq):<br>    total = 0<br>    for k in range(len(seq) // 2):<br>        total = total + seq[1 + (2 * k)]<br>    return total<br><br><br>def foo2(seq):<br>    total = 0<br>    for k in range(1, len(seq), 2):<br>        total = total + seq[k]<br>    return total<br><br><br>def foo3(seq):<br>    total = 0<br>    m = 1<br>    for _ in range(len(seq) // 2):<br>        total = total + seq[m]<br>        m = m + 2<br>    return total<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[022 To what number does <code>foo1([3])</code> evaluate?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what number does <code>foo1([3])</code> evaluate?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[7]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[10]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[13]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[14]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[15]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[16]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[17]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[18]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[19]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[20]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[24]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[38]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[023 To what number does <code>foo1([3, 6])</code> evaluate?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what number does <code>foo1([3, 6])</code> evaluate?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[7]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[10]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[13]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[14]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[15]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[16]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[17]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[18]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[19]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[20]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[24]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[38]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[024 To what number does <code>foo1([3, 6, 1, 4, 9, 5])</code> evaluate?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what number does <code>foo1([3, 6, 1, 4, 9, 5])</code> evaluate?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[7]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[10]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[13]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[14]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[15]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[16]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[17]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[18]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[19]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[20]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[24]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[38]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[025 To what number does <code>foo2([3])</code> evaluate?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what number does <code>foo2([3])</code> evaluate?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[7]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[10]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[13]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[14]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[15]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[16]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[17]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[18]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[19]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[20]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[24]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[38]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[026 To what number does <code>foo2([3, 6])</code> evaluate?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what number does <code>foo2([3, 6])</code> evaluate?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[7]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[10]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[13]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[14]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[15]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[16]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[17]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[18]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[19]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[20]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[24]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[38]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[027 To what number does <code>foo2([3, 6, 1, 4, 9, 5])</code> evaluate?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what number does <code>foo2([3, 6, 1, 4, 9, 5])</code> evaluate?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[7]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[10]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[13]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[14]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[15]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[16]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[17]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[18]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[19]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[20]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[24]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[38]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[028 To what number does <code>foo3([3])</code> evaluate?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what number does <code>foo3([3])</code> evaluate?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[7]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[10]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[13]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[14]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[15]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[16]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[17]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[18]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[19]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[20]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[24]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[38]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[029 To what number does <code>foo3([3, 6])</code> evaluate?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what number does <code>foo3([3, 6])</code> evaluate?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[7]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[10]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[13]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[14]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[15]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[16]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[17]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[18]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[19]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[20]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[24]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[38]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[030 To what number does <code>foo3([3, 6, 1, 4, 9, 5])</code> evaluate?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[To what number does <code>foo3([3, 6, 1, 4, 9, 5])</code> evaluate?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[2]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[5]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[7]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[10]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[11]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[12]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[13]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[14]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[15]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[16]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[17]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[18]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[19]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[20]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[24]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[33]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[38]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[031 For the next set of questions, consider the following two attempts at a function that <strong>returns the first negative item in the sequence of numbers, or <code>None</code> if the sequence contains no negative numbers.</strong>  One function is correct and the other is wrong.  <pre>def find1(numbers):<br>    for k in range(len(numbers)):<br>        if numbers[k] < 0:<br>            return numbers[k]<br>        else:<br>            return None<br><br><br>def find2(numbers):<br>    for k in range(len(numbers)):<br>        if numbers[k] < 0:<br>            return numbers[k]<br>    return None<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For the next set of questions, consider the following two attempts at a function that <strong>returns the first negative item in the sequence of numbers, or <code>None</code> if the sequence contains no negative numbers.</strong>  One function is correct and the other is wrong.  <pre>def find1(numbers):<br>    for k in range(len(numbers)):<br>        if numbers[k] < 0:<br>            return numbers[k]<br>        else:<br>            return None<br><br><br>def find2(numbers):<br>    for k in range(len(numbers)):<br>        if numbers[k] < 0:<br>            return numbers[k]<br>    return None<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[032 What gets returned by the function call <code>find1( [-3, 6, 1, 4, 9, 5] )</code>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets returned by the function call <code>find1( [-3, 6, 1, 4, 9, 5] )</code>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[-3]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[033 What gets returned by the function call <code>find2( [-3, 6, 1, 4, 9, 5] )</code>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets returned by the function call <code>find2( [-3, 6, 1, 4, 9, 5] )</code>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[-3]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[034 What gets returned by the function call <code>find1( [3, 6, 1, 4, 9, 5] )</code>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets returned by the function call <code>find1( [3, 6, 1, 4, 9, 5] )</code>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[None]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[035 What gets returned by the function call <code>find2( [3, 6, 1, 4, 9, 5] )</code>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets returned by the function call <code>find2( [3, 6, 1, 4, 9, 5] )</code>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[None]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[036 What gets returned by the function call <code>find1( [3, -6, 1, 4, 9, 5] )</code>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets returned by the function call <code>find1( [3, -6, 1, 4, 9, 5] )</code>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[None]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[037 What gets returned by the function call <code>find2( [3, -6, 1, 4, 9, 5] )</code>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets returned by the function call <code>find2( [3, -6, 1, 4, 9, 5] )</code>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[-6]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[038 Which attempt is correct?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which attempt is correct?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>find1</code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>find2</code>]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[039 IMPORTANT: Be sure that you understand the previous problem and its answer!  Bring questions to class!]]></text></name>
+<questiontext format="html">
+<text><![CDATA[IMPORTANT: Be sure that you understand the previous problem and its answer!  Bring questions to class!]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+</quiz>

@@ -1,0 +1,247 @@
+D. Watch the video:<a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.1-TheFlippedClassroom/TheFlippedClassroom.html" target=newtab><b> The Flipped Classroom</b></a>.
+
+1. CSSE 120 uses a <i>flipped learning</i> approach?
+a. True~
+b. False
+
+2. In a flipped classroom, the deep learning occurs:
+a. In the classroom, during lectures.
+b. In the classroom, doing exercises.~
+c. Outside the classroom, doing homework.
+d. Outside the classroom, watching videos.
+
+3. In CSSE120, before most sessions you will watch some short videos and/or do some reading from your textbook, plus do a short quiz.
+a. True~
+b. False
+
+4. You should do the quiz:
+a. Before you watch the associated videos and/or do the reading.
+b. While you are watching the associated videos and/or doing the reading.
+c. After you watch the associated videos and/or do the reading.
+d. Your choice-any of the answers are fine, although many students will do best answering questions while watching the videos and/or doing the reading.~
+
+5. What should you do if there are questions in the quiz whose answer you don't know?
+a. Weep and wail.
+b. Blame your professor.
+c. Leave the question(s) blank and ask about it at the beginning of class.~
+
+6. If you don't watch the video and do the quiz before class, should you come to class anyhow?
+a. Yes~
+b. No
+
+7. Is it appropriate to NOT do the video until class, and then ask your professor (or an assistant or classmate) for the answers to all the questions?
+a. Yes
+b. No~
+
+8. Before you begin the in-class exercises for a session, you must do the quiz (and hence its associated videos/reading) for that session, even if that means doing the quiz at the beginning of a session. That is, your quiz is your admission ticket for doing the in-class exercises.
+a. True~
+b. False
+
+D. Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.3-WhatIsSoftwareEngineering/WhatIsSoftwareEngineering.html" target=newtab><b>What is Software Engineering?</b></a>.
+
+9. What is the name of the programming language that we will use in this course?
+ANS. Python
+ANS. python
+
+10. The programming language for our course is mostly used to teach beginners how to program.
+a. True
+b. False~
+
+11. This course covers:
+a. All of software engineering.
+b. The subset of software engineering called software development.~
+
+12. Software engineers rarely interact with other people when doing their job well.
+a. True
+b. False~
+
+13. A typical software engineer spends most of her time typing lines in a program.
+a. True
+b. False~
+
+14. Men are usually better software engineers than women are.
+a. True
+b. False~
+
+15. Software engineering requires being a creative thinker.
+a. True~
+b. False
+
+D. Part 1 
+
+Comment
+String
+Function
+Call a function by:
+
+Which of the following are Python **comments** [Multi-checkboxes.]
+ - Authors: Dr. Jekyl and Mr. Hyde.
+ - 'Date written: March 5, 2016'
+ - print('This program prints "Hello, World"')
+ - # This program prints
+   #  Hello, World
+   # on the Console.
+ - # TODO: Write a program that makes people laugh.
+
+Which of the following are STRINGS?
+ - Once upon a time...
+ - "Once upon a time..."
+ - 'Once upon a time...'
+ - # Once upon a time...
+ - 'a'
+ - ""
+
+What appears on the console when the following statement runs?
+(If nothing, leave the answer box empty.)
+   # print('one')
+
+Ditto:
+   print('two')
+
+Ditto:
+   print(2 + 2)
+Ditto:
+   print('2 + 2')
+Ditto:
+   print(4, 9)
+Ditto:
+   print('4, 9')
+
+Suppose that a program has defined a function
+whose name is write_to_file that takes
+a single string and writes the string to a file.
+Which of the following is the correct notation
+for CALLING that function?  Multi-checkboxes.
+ - write_to_file('Robots rule!')
+ - write_to_file 'Robots rule!'
+ - Write_to_file('Robots rule!')
+
+Ditto, but:
+whose name is insult that takes no argument
+and prints a randomly chosen insult.
+ - insult
+ - insult()
+
+
+Part II
+
+Each session, in class you:
+ - Sleep.
+ - Sing a bawdy song.
+ - Dance a jig.
+ - Check out the project for the session and go through
+   the modules whose name begins with an "m",
+   in the order that they are numbered.
+
+Which of the following modules is an EXAMPLE module? mcheck
+ - m3e_loops.py
+ - m1_intro.py
+ - m6_example1.py
+ - m6e_example2.py
+ 
+ When you do an EXAMPLE module, you should:
+  - Study the module for at least 10 minutes.
+  - Skip the module and come back to it later as needed.
+  - Run the module (so you know what it does)
+    and at least skim the code (so that you know what examples it has).
+    
+ When you do a module that is NOT an example module, you should:
+   - Growl like a bear.
+   - Ctow like a rooster.
+   - Do whatever the TODOs in the module tell you to do.
+   
+ In this course, the instructions for what to do in class are:
+   - Handed out on paper at the beginning of class.
+   - In a file reachable from the session's Preparation page.
+   - In each non-example module itself, at the TODOs in the module.
+   
+ In this course, you turn in your in-class work by COMMITTING the
+ modules that you modify.  You should commit (i.e,. turn in your work)
+   = Once in a blue moon.
+   - As often as you want, but at least as you complete each module
+     and (if you are in the middle of a module) at the end of the session.
+     
+ Part III
+ 
+ Assuming that your Python setup includes a module whose name is
+ <em>random</em> (it does), the following statement in a module
+ allows that module to access all the things defined at the top level
+ inside the <em>random</em> module.
+   import random
+ True
+ False
+ 
+ When the code reaches the first statement in the following snippet
+ of code, in what order will the four statements be run?
+  = Top to bottom (that is, ...)
+  - The assignments (lines XX and XX) go first, then the other two statements.
+  - You can't tell from this snippet alone.
+ 
+  
+   bunny.hop(3)
+   alpha.go_first()
+   x = 3
+   nadia = rg.SimpleTurtle()
+ 
+ 
+ Which of the following makes the name crow have the value 'black'.
+  - crow = 'black'
+  - 'black' = crow
+  - black = 'crow'
+  - 'crow' = black
+  
+  To CONSTRUCT a SimpleTurtle, like this,
+    rg.SimpleTurtle()
+  and then to set that SimpleTurtle to a name, like this:
+    turtle1 = rg.SimpleTurtle()
+  does which of the following? cbox
+   - allocates space for an object that will have data
+     of the sort that SimpleTurtles can have
+   - makes  turtle1  refer to that space
+   
+   The statement
+      akil.left(90)
+   causes the program to do the following three things,
+   but NOT in the order listed here:
+   1. Do whatever the code in the left method says to do.
+   2. Goes to the code in the left method,
+   sending it the number 45 and the object to which the name akil refers.
+   3. Returns from the left method to the place where the left method
+      was called, and continues 
+   2. Sends the  the following in what order:
+   1. Goes to the LEFT method, sending it the number 90.
+   2. Does whatever the code in the LEFT method says to do.
+   to allocate space for an object
+  that will contain data.
+   Which of the following statements constructs a TurtleWindow?
+ 
+ Which CALLS a METHOD.
+ Which references the INSTANCE VARIABLE
+The following statement CALLs the   - go to the function, sending it the information
+  - True
+  - False
+  
+  
+ in the <em>random</em> module (assuming that there is such a module
+ in your Python system, as there is in fact)
+ 
+ Which of these is a METHOD, and which is an INSTANCE VARiBLE:
+ 
+ If you get an error messages in Session 1,
+ you should check for a simple typographical error (perhaps a misspelling)
+ and then:
+ 1. Keep working on the problem until you fix the error.
+ 2. Ask a knowledge classmate, your instructor, or a student assistant for help.
+ 3. Go home.
+ 4. Scream.
+ 
+ 
+ 
+ 
+  
+ 
+ 
+
+
+
+

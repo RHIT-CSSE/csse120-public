@@ -1,0 +1,1291 @@
+<?xml version="1.0" ?>
+<quiz>
+<question type="category">
+<category>
+<text> $course/Quizzes-201730/$Quiz 3/</text>
+</category>
+</question>
+<question type="description">
+<name><text><![CDATA[001 Do this online reading: <a href="https://www.rose-hulman.edu/class/csse/csse120/201710/Sessions/Session03/04b-FunctionsWithParameters/Handouts/FunctionsWithParameters.pdf">Functions with Parameters and Returned Values</a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Do this online reading: <a href="https://www.rose-hulman.edu/class/csse/csse120/201710/Sessions/Session03/04b-FunctionsWithParameters/Handouts/FunctionsWithParameters.pdf">Functions with Parameters and Returned Values</a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[002 Consider the function call   <pre>round(3.14159, 2)</pre> which rounds 3.14159 to 2 decimal places. What are the <b>arguments</b> in that function call?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the function call   <pre>round(3.14159, 2)</pre> which rounds 3.14159 to 2 decimal places. What are the <b>arguments</b> in that function call?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code> 3.14159 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code> 2 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code> 3.14 </code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code> 3.14159 </code> and <code> 2 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code> round </code>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[003 Consider the function call   <pre>round(3.14159, 2)</pre> which rounds 3.14159 to 2 decimal places.  What is the <b>returned value</b> from that function call?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the function call   <pre>round(3.14159, 2)</pre> which rounds 3.14159 to 2 decimal places.  What is the <b>returned value</b> from that function call?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code> 3.14159 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code> 2 </code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code> 3.14 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code> 3.14159 </code> and <code> 2 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code> round </code>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[004 Consider the function call   <pre>round(3.14159, 2)</pre> which rounds 3.14159 to 2 decimal places.  What is the <b>name</b> of the function being called?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the function call   <pre>round(3.14159, 2)</pre> which rounds 3.14159 to 2 decimal places.  What is the <b>name</b> of the function being called?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code> 3.14159 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code> 2 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code> 3.14 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code> 3.14159 </code> and <code> 2 </code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code> round </code>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[005 Does the following <b><em>define</em></b> or <b><em>call</em></b> the function <code>blah</code>? <pre>blah(x, 34, foo(100))</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Does the following <b><em>define</em></b> or <b><em>call</em></b> the function <code>blah</code>? <pre>blah(x, 34, foo(100))</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[define]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[call]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[006 Does the following <b><em>define</em></b> or <b><em>call</em></b> the function <code>blah</code> <pre>def blah(a, b, c):</br>    print(10 * a, b + 4, c) </pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Does the following <b><em>define</em></b> or <b><em>call</em></b> the function <code>blah</code> <pre>def blah(a, b, c):</br>    print(10 * a, b + 4, c) </pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[define]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[call]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[007 As a user of a function (that is, as someone who will call the function), you don't need to know how the function is implemented; you just need to know the specification of the function.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[As a user of a function (that is, as someone who will call the function), you don't need to know how the function is implemented; you just need to know the specification of the function.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[008 For the next several questions, consider the <b><code>cube_volume</code></b> function defined as follows: <pre>def cube_volume(side_length):<br>    volume = side_length ** 3<br>    return volume<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For the next several questions, consider the <b><code>cube_volume</code></b> function defined as follows: <pre>def cube_volume(side_length):<br>    volume = side_length ** 3<br>    return volume<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[009 What is the value of <b><code>cube_volume(3)</code></b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b><code>cube_volume(3)</code></b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[27]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[81]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[256]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[512]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[010 What is the value of <b><code>cube_volume(2)</code></b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b><code>cube_volume(2)</code></b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[8]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[9]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[16]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[27]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[011 What is the value of <b><code>cube_volume(cube_volume(2))</code></b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b><code>cube_volume(cube_volume(2))</code></b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[4]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[27]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[81]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[256]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[512]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[729]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[012 Provide an alternate implementation of the body of the <b><code>cube_volume</code></b> that does not use the exponent operator.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Provide an alternate implementation of the body of the <b><code>cube_volume</code></b> that does not use the exponent operator.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; volume = side_length * side_length * side_length]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; return volume]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; volume = side_length * 3]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; volume = side_length ^ 3]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[013 For the next several questions, consider the <b><code>mystery</code></b> function defined as follows: <pre>def mystery(x, y):<br>    result = (x + y) / (y - x)<br>    return result<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For the next several questions, consider the <b><code>mystery</code></b> function defined as follows: <pre>def mystery(x, y):<br>    result = (x + y) / (y - x)<br>    return result<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[014 What is the value of <b><code>mystery(2, 3)</code></b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b><code>mystery(2, 3)</code></b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[5]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[015 What is the value of <b><code>mystery(3, 2)</code></b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b><code>mystery(3, 2)</code></b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[-5]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[016 What is the value of <b><code>mystery(-1, 3)</code></b>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the value of <b><code>mystery(-1, 3)</code></b>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[0.5]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[.5]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[017 For the next several questions, consider the <b><code>box_string</code></b> function shown below.  This function takes a string as its argument and correctly displays that string &ldquo;in a box&rdquo;: <pre>def box_string(contents):<br>    n = len(contents)<br>    print('-' * (n + 2))<br>    print('!' + contents + '!')<br>    print('-' * (n + 2))<br></pre> For example, calling <b><code>box_string</code></b> with <b><code>'Hello Moon'</code></b> as its argument yields the following: <pre>------------<br/>!Hello Moon!<br/>------------</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For the next several questions, consider the <b><code>box_string</code></b> function shown below.  This function takes a string as its argument and correctly displays that string &ldquo;in a box&rdquo;: <pre>def box_string(contents):<br>    n = len(contents)<br>    print('-' * (n + 2))<br>    print('!' + contents + '!')<br>    print('-' * (n + 2))<br></pre> For example, calling <b><code>box_string</code></b> with <b><code>'Hello Moon'</code></b> as its argument yields the following: <pre>------------<br/>!Hello Moon!<br/>------------</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[018 Consider the following (silly!) statement: <pre>print(box_string('Hello'))</pre> What, exactly, does the above statement cause to appear on the Console?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following (silly!) statement: <pre>print(box_string('Hello'))</pre> What, exactly, does the above statement cause to appear on the Console?]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[-------]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[!Hello!]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[-------]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[None]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[!Hello Moon!]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[------------]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[------------]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[(nothing appears on this line)]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[019 How <b><em>should</em></b> the above statement been written, to be sensible?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[How <b><em>should</em></b> the above statement been written, to be sensible?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[box_string('Hello')]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[print(box_string('Hello'))]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[print(box_string('Hello')) - None]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[print(box_string('Hello') - None)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[box_string('!Hello!')]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[020 Write statements that would use <b><code>box_string</code></b> to produce on the Console the output shown below.<pre><br/>-------<br/>!Hello!<br/>-------<br/>------<br/>!Moon!<br/>------</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write statements that would use <b><code>box_string</code></b> to produce on the Console the output shown below.<pre><br/>-------<br/>!Hello!<br/>-------<br/>------<br/>!Moon!<br/>------</pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[box_string('Hello')]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[box_string('Moon')]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[print(box_string('Hello'))]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[print(box_string('Moon'))]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[021 First, do this online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.6-VariableScope-Handout/NamespacesAndVariablesScope.pdf" target=newtab> Namespaces and Variables' Scope</a>.  Then, watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.4-NamespacesParametersReturns/Namespaces_Parameters_Returns.mp4" target=newtab><b>Thinking Like a Computer -- Namespaces, Parameters, and Returns</b></a>, doing the next set of questions while you do so.  (So don't start answering the questions until you are watching the video, since it clarifies ideas in the reading.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[First, do this online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.6-VariableScope-Handout/NamespacesAndVariablesScope.pdf" target=newtab> Namespaces and Variables' Scope</a>.  Then, watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.4-NamespacesParametersReturns/Namespaces_Parameters_Returns.mp4" target=newtab><b>Thinking Like a Computer -- Namespaces, Parameters, and Returns</b></a>, doing the next set of questions while you do so.  (So don't start answering the questions until you are watching the video, since it clarifies ideas in the reading.)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[022 For the next several questions, you will probably want to use post-it cards (as in the video) and/or some written notes to help you solve them, and perhaps a calculator.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For the next several questions, you will probably want to use post-it cards (as in the video) and/or some written notes to help you solve them, and perhaps a calculator.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[023 What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    answer = mystery(a + 1)<br>    print(answer)<br><br>def mystery(x):<br>    y = x * x<br>    return y<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    answer = mystery(a + 1)<br>    print(answer)<br><br>def mystery(x):<br>    y = x * x<br>    return y<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[25]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[024 What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    print(mystery(a + 1))<br>   <br>def mystery(x):<br>    return x * x<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    print(mystery(a + 1))<br>   <br>def mystery(x):<br>    return x * x<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[25]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[025 What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    print(mystery(a + 1))<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    print(mystery(a + 1))<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[25]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[026 What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    mystery(a + 1)<br>    print(a)<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    mystery(a + 1)<br>    print(a)<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[4]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[027 What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    b = mystery(a + 1)<br>    print(a + b)<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    b = mystery(a + 1)<br>    print(a + b)<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[29]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[028 What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    b = mystery(a + 1)<br>    print(a + b)<br>   <br>def mystery(x):<br>    a = 9<br>    return a * x<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    b = mystery(a + 1)<br>    print(a + b)<br>   <br>def mystery(x):<br>    a = 9<br>    return a * x<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[49]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[029 What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    print(mystery(a + 1) + mystery(a + 1))<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 4<br>    print(mystery(a + 1) + mystery(a + 1))<br>   <br>def mystery(x):<br>    a = 9<br>    return x * x<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[50]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[030 What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 2<br>    print(mystery(mystery(a + 1)))<br>   <br>def mystery(x):<br>    return x * x<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 2<br>    print(mystery(mystery(a + 1)))<br>   <br>def mystery(x):<br>    return x * x<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[81]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[031 For each of the following code snippets: <ul><li>If the code is correct, state what gets printed when <b><code>main</code></b> runs.</li><li>If the code is wrong, explain why.</li></ul> For this and all subsequent problems, assume that <b>no global variables have been defined</b>. (If, as is likely, you don't know what a <em>global variable</em> is, no problem!)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[For each of the following code snippets: <ul><li>If the code is correct, state what gets printed when <b><code>main</code></b> runs.</li><li>If the code is wrong, explain why.</li></ul> For this and all subsequent problems, assume that <b>no global variables have been defined</b>. (If, as is likely, you don't know what a <em>global variable</em> is, no problem!)]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[032 <pre>def main():<br>    x = foo()<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[<pre>def main():<br>    x = foo()<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Correct, prints the value of <b><code> x**3 </code></b>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Correct, prints the value of <b><code> m**3 </code></b>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Incorrect because the call to <b><code> foo </code></b> is missing a parameter]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Incorrect because <b><code> m </code></b> in <b><code> foo </code></b> is undefined]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Incorrect because <b><code> x </code></b> is undefined]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Incorrect because the value of <b><code> m </code></b> can't be cubed]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[033 <pre>def main():<br>    x = foo(m)<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[<pre>def main():<br>    x = foo(m)<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Correct, prints the value of <b><code> x**3 </code></b>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Correct, prints the value of <b><code> m**3 </code></b>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Incorrect because the call to <b><code> foo </code></b> is missing an argument]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Incorrect because <b><code> m </code></b> in <b><code> foo </code></b> is undefined]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Incorrect because <b><code> m </code></b> in <b><code> main </code></b> is undefined]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Incorrect because <b><code> x </code></b> is undefined]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Incorrect because the value of <b><code> m </code></b> can't be cubed]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[034 <pre>def main():<br>    x = foo('help')<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[<pre>def main():<br>    x = foo('help')<br>    print(x)<br><br>def foo(m):<br>    return m ** 3<br></pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Correct, prints <b><code> helphelphelp </code></b>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Correct, prints <b><code> m**3  </code></b>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Incorrect because the call to <b><code> foo </code></b> is missing an argument]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Incorrect because <b><code> m </code></b> in <b><code> foo </code></b> is undefined]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Incorrect because <b><code> x </code></b> is undefined]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Incorrect because the value of <b><code> m </code></b> can't be cubed]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[035 The code in the box below has syntax errors:  it causes big red X error message(s).  Check all lines that will have red X error message(s) beside them. <pre>def main():<br>    foo()<br>    print(n)<br>    print(m)<br><br>def foo():<br>    n = 3<br>    m = 1<br>    return m</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[The code in the box below has syntax errors:  it causes big red X error message(s).  Check all lines that will have red X error message(s) beside them. <pre>def main():<br>    foo()<br>    print(n)<br>    print(m)<br><br>def foo():<br>    n = 3<br>    m = 1<br>    return m</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<single>false</single><answer fraction="0.0">
+<text><![CDATA[<code>def main(): </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>&nbsp;&nbsp;&nbsp;&nbsp; foo() </code>]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[<code>&nbsp;&nbsp;&nbsp;&nbsp; print(n) </code>]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[<code>&nbsp;&nbsp;&nbsp;&nbsp; print(m) </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>def foo(): </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>&nbsp;&nbsp;&nbsp;&nbsp; n = 3 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>&nbsp;&nbsp;&nbsp;&nbsp;  m = 1 </code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>&nbsp;&nbsp;&nbsp;&nbsp; return m </code>]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[036 What gets printed when <b><code>main</code></b>  is called in the program shown below? <pre>def main():<br>    a = 2<br>    b = 3<br><br>    foo1()<br>    print(a, b)<br><br>    foo2(a, b)<br>    print(a, b)<br><br>    foo3(a, b)<br>    print(a, b)<br><br>def foo1():<br>    a = 88<br>    b = 99<br><br>def foo2(a, b):<br>    a = 400<br>    b = 500<br><br>def foo3(x, y):<br>    x = 44<br>    y = 55</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b>  is called in the program shown below? <pre>def main():<br>    a = 2<br>    b = 3<br><br>    foo1()<br>    print(a, b)<br><br>    foo2(a, b)<br>    print(a, b)<br><br>    foo3(a, b)<br>    print(a, b)<br><br>def foo1():<br>    a = 88<br>    b = 99<br><br>def foo2(a, b):<br>    a = 400<br>    b = 500<br><br>def foo3(x, y):<br>    x = 44<br>    y = 55</pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[2 3]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[2 3]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[2 3]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[88 99]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[400 500]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[44 55]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[037 What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 2<br>    b = 3<br><br>    m = do_it(a, b)<br>    print(m)<br><br>    m = do_it(b, a)<br>    print(m)<br><br>    m = do_it(a, a)<br>    print(m)<br><br>    m = do_it(b, b)<br>    print(m)<br><br>    c = do_it(b, a)<br>    m = do_it(c, a)<br>    print(m)<br><br>    b = do_it(b, a)<br>    m = do_it(b, a)<br>    print(m)<br><br>def do_it(x, y):<br>    return x ** y</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What gets printed when <b><code>main</code></b> is called in the program shown below?<pre>def main():<br>    a = 2<br>    b = 3<br><br>    m = do_it(a, b)<br>    print(m)<br><br>    m = do_it(b, a)<br>    print(m)<br><br>    m = do_it(a, a)<br>    print(m)<br><br>    m = do_it(b, b)<br>    print(m)<br><br>    c = do_it(b, a)<br>    m = do_it(c, a)<br>    print(m)<br><br>    b = do_it(b, a)<br>    m = do_it(b, a)<br>    print(m)<br><br>def do_it(x, y):<br>    return x ** y</pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[8]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[9]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[4]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[27]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[81]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 6]]></text>
+<answer>
+<text><![CDATA[81]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[038 Do this online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/201710/Sessions/Session03/03b-Counted%20Loops/Handouts/CountedLoops.pdf" target=newtab><b>Counted Loops</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Do this online reading: <a href="http://www.rose-hulman.edu/class/csse/csse120/201710/Sessions/Session03/03b-Counted%20Loops/Handouts/CountedLoops.pdf" target=newtab><b>Counted Loops</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[039 Trace the snippet of code shown below by hand (no fair typing it into a program, but you may want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  for k in range(4): <br>      print(k) </pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Trace the snippet of code shown below by hand (no fair typing it into a program, but you may want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  for k in range(4): <br>      print(k) </pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>1 2</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>1 2 3</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>1 2 3 4</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>0 1 2</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>0 1 2 3</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>0 1 2 3 4</code> (all on separate lines)]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[040 Trace the snippet of code shown below by hand (no fair typing it into a program, but you may want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  for k in range(3): <br>      print(k + 10) </pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Trace the snippet of code shown below by hand (no fair typing it into a program, but you may want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  for k in range(3): <br>      print(k + 10) </pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>1 2</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>1 2 3</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>1 2 3 4</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>0 1</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>0 1 2</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>0 1 2 3</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>10 11</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>10 11 12</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>10 11 12 13</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>11 12</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>11 12 13</code> (all on separate lines)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>11 12 13 14</code> (all on separate lines)]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[041 Choose the correct lines to make a loop that prints the string <code>'funny'</code> 40,000 times.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Choose the correct lines to make a loop that prints the string <code>'funny'</code> 40,000 times.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[for k in range(40000):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(40001):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(n):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print('funny')]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; return 'funny']]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print 'funny']]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print 'funny']]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[042 Choose the correct lines to make a loop that prints the cubes of the numbers from 35 to <b><code>m</code></b>, inclusive (where <b><code>m</code></b> is some integer bigger than 35). For example, if <b><code>m</code></b> were 37, then this loop should print: <pre>  42875 <br>  46656 <br>  50653</pre> (The above numbers are 35 cubed, 36 cubed, and 37 cubed, respectively.)]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Choose the correct lines to make a loop that prints the cubes of the numbers from 35 to <b><code>m</code></b>, inclusive (where <b><code>m</code></b> is some integer bigger than 35). For example, if <b><code>m</code></b> were 37, then this loop should print: <pre>  42875 <br>  46656 <br>  50653</pre> (The above numbers are 35 cubed, 36 cubed, and 37 cubed, respectively.)]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[for k in range(m - 34):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(0):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(37):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(m):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(m - 33):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(m - 35):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(m - 36):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print((k + 35) ** 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print(34 ** 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print(35 ** 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print((k + 34) ** 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print(m ** 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print(k ** 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print((m + 34) ** 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; print((m + 35) ** 3)]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="description">
+<name><text><![CDATA[043 Watch <a href="https://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.2-TheAccumulatorPattern-Part1-Summing/TheAccumulatorPattern-Summing.mp4">Video: The Accumulator Pattern - Summing</a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch <a href="https://www.rose-hulman.edu/class/csse/csse120/VideoFiles/04.2-TheAccumulatorPattern-Part1-Summing/TheAccumulatorPattern-Summing.mp4">Video: The Accumulator Pattern - Summing</a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[044 Trace the snippet of code shown below by hand (no fair typing it into a program, but you will probably want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  total = 0 <br>  for k in range(4): <br>      total = total + k <br>      print(k, total) <br><br>  print('The sum is:') <br>  print(total)</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Trace the snippet of code shown below by hand (no fair typing it into a program, but you will probably want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  total = 0 <br>  for k in range(4): <br>      total = total + k <br>      print(k, total) <br><br>  print('The sum is:') <br>  print(total)</pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[0 &thinsp; 0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[1 &thinsp; 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[2 &thinsp; 3]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[3 &thinsp; 6]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[The sum is:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 6]]></text>
+<answer>
+<text><![CDATA[6]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[1 &thinsp; 0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[0 &thinsp; 1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[1 &thinsp; 2]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[2 &thinsp; 2]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[3 &thinsp; 3]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[4 &thinsp; 4]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[4 &thinsp; 6]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[1]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[2]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[3]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[4]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[5]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[7]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[8]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[9]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[10]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[11]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[12]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="matching">
+<name><text><![CDATA[045 Trace the snippet of code shown below by hand (no fair typing it into a program, but you will definitely want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  total = 0 <br>  for k in range(5): <br>      total = total + (k + 10) <br>      print(k, total) <br><br>  print('The sum is:') <br>  print(total)</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Trace the snippet of code shown below by hand (no fair typing it into a program, but you will definitely want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  total = 0 <br>  for k in range(5): <br>      total = total + (k + 10) <br>      print(k, total) <br><br>  print('The sum is:') <br>  print(total)</pre>]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[0 &thinsp; 10<]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[1 &thinsp; 21]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[2 &thinsp; 33]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 4]]></text>
+<answer>
+<text><![CDATA[3 &thinsp; 46]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 5]]></text>
+<answer>
+<text><![CDATA[4 &thinsp; 60]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 6]]></text>
+<answer>
+<text><![CDATA[The sum is:]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 7]]></text>
+<answer>
+<text><![CDATA[60]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[1 &thinsp; 20]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[1 &thinsp; 11]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[2 &thinsp; 12]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[3 &thinsp; 13]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[4 &thinsp; 14]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[5 &thinsp; 15]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[5 &thinsp; 75]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[10]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[46]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[75]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[046 Trace the snippet of code shown below by hand (no fair typing it into a program, but you will probably want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  total = 5 <br>  for k in range(3): <br>      total = total * k <br><br>  print(total)</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Trace the snippet of code shown below by hand (no fair typing it into a program, but you will probably want to use paper and pencil to help you keep track of things), and show what gets printed: <pre>  total = 5 <br>  for k in range(3): <br>      total = total * k <br><br>  print(total)</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[0]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[1]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[3]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[6]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[24]]></text>
+</answer>
+</question>
+<question type="matching">
+<name><text><![CDATA[047 Write a snippet of code that calculates: <pre>math.sin(3) + math.sin(4) + math.sin(5) + ... + math.sin(500)</pre> Assume that there is already an <pre>import math</pre> that executed previously in the code.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Write a snippet of code that calculates: <pre>math.sin(3) + math.sin(4) + math.sin(5) + ... + math.sin(500)</pre> Assume that there is already an <pre>import math</pre> that executed previously in the code.]]></text>
+</questiontext>
+<subquestion>
+<text><![CDATA[Line 1]]></text>
+<answer>
+<text><![CDATA[total = 0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[total = 500]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[k = 0]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[k = 500]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 2]]></text>
+<answer>
+<text><![CDATA[for k in range(498):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(497):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(499):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(500):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[for k in range(3):]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[Line 3]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; total = total + math.sin(k + 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[total = total + math.sin(k + 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; total = math.sin(k + 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[total = math.sin(k + 3)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp; total = total + math.sin(k + 2)]]></text>
+</answer>
+</subquestion>
+<subquestion>
+<text><![CDATA[]]></text>
+<answer>
+<text><![CDATA[total = total + math.sin(k + 2)]]></text>
+</answer>
+</subquestion>
+<shuffleanswers>false</shuffleanswers>
+</question>
+</quiz>

@@ -1,0 +1,768 @@
+<?xml version="1.0" ?>
+<quiz>
+<question type="category">
+<category>
+<text> $course/Quizzes-201630/$Quiz 1/</text>
+</category>
+</question>
+<question type="description">
+<name><text><![CDATA[001 Watch the video:<a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.1-TheFlippedClassroom/TheFlippedClassroom.html" target=newtab><b>The Flipped Classroom</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video:<a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.1-TheFlippedClassroom/TheFlippedClassroom.html" target=newtab><b>The Flipped Classroom</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[002 True or False: CSSE 120 uses a <i>flipped learning</i> approach.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: CSSE 120 uses a <i>flipped learning</i> approach.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[003 In a flipped classroom, the <em>deep</em> learning occurs:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In a flipped classroom, the <em>deep</em> learning occurs:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[In the classroom, during lectures.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[In the classroom, doing exercises.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Outside the classroom, doing homework.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Outside the classroom, watching videos.]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[004 True or False: In CSSE120, before most sessions you will watch some short videos and/or do some reading, plus do a short quiz to help you digest the main ideas from the videos/reading.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: In CSSE120, before most sessions you will watch some short videos and/or do some reading, plus do a short quiz to help you digest the main ideas from the videos/reading.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[005 You should do the quiz:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[You should do the quiz:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Before you watch the associated videos and/or do the reading.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[While you are watching the associated videos and/or doing the reading.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[After you watch the associated videos and/or do the reading.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Your choice &mdash; any of the answers are fine, although many students will do best answering questions <em>while</em> watching the videos and/or doing the reading.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[006 What should you do if there are questions in the quiz whose answer you don't know?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What should you do if there are questions in the quiz whose answer you don't know?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Weep and wail.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Blame your professor.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Leave the question(s) blank and ask about them at the beginning of class.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[007 If you don't watch the video and do the quiz before class, should you come to class anyhow?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If you don't watch the video and do the quiz before class, should you come to class anyhow?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[Yes]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[No]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[008 Is it appropriate to NOT do the video until class, and then ask your professor (or an assistant or classmate) for the answers to all the questions?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Is it appropriate to NOT do the video until class, and then ask your professor (or an assistant or classmate) for the answers to all the questions?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Yes]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[No]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[009 True or False: Before you begin the in-class exercises for a session, you must do the quiz (and hence its associated videos/reading) for that session, even if that means doing the quiz at the beginning of a session. That is, your quiz is your <em>admission ticket</em> for doing the in-class exercises.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: Before you begin the in-class exercises for a session, you must do the quiz (and hence its associated videos/reading) for that session, even if that means doing the quiz at the beginning of a session. That is, your quiz is your <em>admission ticket</em> for doing the in-class exercises.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[010 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.3-WhatIsSoftwareEngineering/WhatIsSoftwareEngineering.html" target=newtab><b>What is Software Engineering?</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.3-WhatIsSoftwareEngineering/WhatIsSoftwareEngineering.html" target=newtab><b>What is Software Engineering?</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[011 What is the name of the programming language that we will use in this course?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What is the name of the programming language that we will use in this course?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[Python]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[python]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[012 True or False: The programming language for our course is mostly used to teach beginners how to program.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: The programming language for our course is mostly used to teach beginners how to program.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[013 True or False: Many software engineers see themselves as an <em>artist</em> who creates beautiful artifacts, much as a painter or musician would.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: Many software engineers see themselves as an <em>artist</em> who creates beautiful artifacts, much as a painter or musician would.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[014 This course focuses on:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[This course focuses on:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[All of software engineering.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[The subset of software engineering called <em>software development.</em>]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[015 True or False:  Learning techniques that <em>scale up</em> to software development of real-world, large programs is an important goal of this course.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False:  Learning techniques that <em>scale up</em> to software development of real-world, large programs is an important goal of this course.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[016 True or False: Software engineers rarely interact with other people when doing their job well.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: Software engineers rarely interact with other people when doing their job well.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[017 A typical software engineer spends most of her time typing lines in a program.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[A typical software engineer spends most of her time typing lines in a program.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[018 Men are usually better software engineers than women are.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Men are usually better software engineers than women are.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[019 Software engineering requires being a creative thinker.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Software engineering requires being a creative thinker.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[020 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.6-YourFirstPrograms/m1e-comments_strings_print/m1e-comments_strings_print.html" target=newtab><b>Your First Programs, Part 1: Comments, Strings and the PRINT function</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.6-YourFirstPrograms/m1e-comments_strings_print/m1e-comments_strings_print.html" target=newtab><b>Your First Programs, Part 1: Comments, Strings and the PRINT function</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[021 You should expect to master the material of this video:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[You should expect to master the material of this video:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[From the video alone.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[From the video PLUS the exercises you do in class that reinforce the ideas of this video.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[022 Files with Python code are called:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Files with Python code are called:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Anacondas.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Trouble.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Packages.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Modules.]]></text>
+</answer>
+</question>
+<question type="truefalse">
+<name><text><![CDATA[023 True or False: In each class session, you work through the &ldquo;m&rdquo; files (that is, the ones whose names begin with &ldquo;m&rdquo;) in the order in which they are numbered.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[True or False: In each class session, you work through the &ldquo;m&rdquo; files (that is, the ones whose names begin with &ldquo;m&rdquo;) in the order in which they are numbered.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[true]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[false]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[024 Which of the following is a Python <em>comment</em>?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which of the following is a Python <em>comment</em>?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>Authors: Dr. Jekyl and Mr. Hyde.</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>'Date written: March 5, 2016'</code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code># TODO: Write a program that makes people laugh.</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>print('This program prints "Hello, World"')</code>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[025 Check each of the following that is a <em>string</em>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Check each of the following that is a <em>string</em>.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<single>false</single><answer fraction="50.0">
+<text><![CDATA[<code>"Once upon a time..."</code>]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[<code>'Once upon a time...'</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>Once upon a time...</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code># Once upon a time...</code>]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[026 What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>  print('one')</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>  print('one')</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[one]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[027 What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>#  print('one')</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>#  print('one')</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[nothing]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[nothing.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Nothing]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Nothing.]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[028 What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print(2 + 2)</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print(2 + 2)</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[4]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[029 What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print('2 + 2')</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print('2 + 2')</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[2 + 2]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[2  +  2]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[030 What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print(4, 9)</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print(4, 9)</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[4 9]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[4  9]]></text>
+</answer>
+</question>
+<question type="shortanswer">
+<name><text><![CDATA[031 What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print('4, 9')</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[What appears on the console when the following statement runs? (If nothing, write <em>nothing</em>.) <pre>   print('4, 9')</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[4, 9]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[4,9]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[4,  9]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[032 A <em>function</em> in Python is:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[A <em>function</em> in Python is:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[A chunk of code that has a NAME.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A mathematical relationship involving variables.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Something that people do.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[033 Suppose that a program has defined a function whose name is <code>write_to_file</code>.  Suppose further that this function takes a single string and writes the string to a file.  Which of the following is a correct notation for CALLING that function?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Suppose that a program has defined a function whose name is <code>write_to_file</code>.  Suppose further that this function takes a single string and writes the string to a file.  Which of the following is a correct notation for CALLING that function?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>write_to_file 'Robots rule!'</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>WRITE_TO_FILE('Robots rule!')</code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>write_to_file('Robots rule!')</code>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[034 Suppose that a program has defined a function whose name is <code>insult</code>.  Suppose further that this function takes no argument and prints a randomly chosen insult on the console.  Which of the following is a correct notation for CALLING that function?]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Suppose that a program has defined a function whose name is <code>insult</code>.  Suppose further that this function takes no argument and prints a randomly chosen insult on the console.  Which of the following is a correct notation for CALLING that function?]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>insult</code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>insult()</code>]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[035 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.6-YourFirstPrograms/m2-hello_world/m2-hello_world.html" target=newtab><b>Your First Programs, Part 2: Hello World &mdash; YOUR first program</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.6-YourFirstPrograms/m2-hello_world/m2-hello_world.html" target=newtab><b>Your First Programs, Part 2: Hello World &mdash; YOUR first program</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[036 Each session, in class you should:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Each session, in class you should:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Sleep.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Sing a bawdy song.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Dance a jig.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Check out the project for the session and go through the modules whose name begins with an &ldquo;m&rdquo;, in the order that they are numbered.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[037 Put a checkmark beside each of the following modules that is an EXAMPLE module.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Put a checkmark beside each of the following modules that is an EXAMPLE module.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<single>false</single><answer fraction="50.0">
+<text><![CDATA[<code>m3e_loops.py</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>m1_intro.py</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>m6_example1.py</code>]]></text>
+</answer>
+<answer fraction="50.0">
+<text><![CDATA[<code>m6e_example2.py</code>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[038 When you do an EXAMPLE module, you should:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[When you do an EXAMPLE module, you should:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Study the module for at least 10 minutes.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Skip the module and come back to it later as needed.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Run the module (so you know what it does) and at least skim the code (so that you know what examples it has).]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Send it to your grandmother.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[039 When you do a module that is NOT an example module, you should:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[When you do a module that is NOT an example module, you should:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Growl like a bear.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Crow like a rooster.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Send it to your uncle.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Do whatever the TODOs in the module tell you to do.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[040 In this course, the instructions for what to do in class are:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In this course, the instructions for what to do in class are:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Handed out on paper at the beginning of class.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[In a file reachable from the session's Preparation page.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Inside each of the non-example modules, at the TODOs in the modules.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Delivered by Martians.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[041 In this course, you turn in your in-class work by COMMITTING the modules that you modify.  You should commit (i.e,. turn in your work):]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In this course, you turn in your in-class work by COMMITTING the modules that you modify.  You should commit (i.e,. turn in your work):]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Once in a blue moon.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[As often as you want, but at least as you complete each module and at the end of the session.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[However many times your instructor tells you to.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[However many times your inner child tells you to.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[042 If you are fuzzy on ANY of the ideas in these videos at this point, you should:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If you are fuzzy on ANY of the ideas in these videos at this point, you should:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[Not worry, because there will be lots of people in class who will help you with the modules during Session 1.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Drink a lot of coffee.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Panic.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Rob a bank.]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[043 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.6-YourFirstPrograms/m3-turtles/m3-turtles.html" target=newtab><b>Your First Programs, Part 3: Introduction to Objects, via Turtle Graphics</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.6-YourFirstPrograms/m3-turtles/m3-turtles.html" target=newtab><b>Your First Programs, Part 3: Introduction to Objects, via Turtle Graphics</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[044 You should expect to master the material of this video:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[You should expect to master the material of this video:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[From the video alone.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[From the video PLUS the exercises you do in class (asking questions during class as needed).]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[045 In the following code<pre>p1 = rg.Point(3, 30)<br>p2 = rg.Point(30, 20)</pre>:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[In the following code<pre>p1 = rg.Point(3, 30)<br>p2 = rg.Point(30, 20)</pre>:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[No Point objects are constructed.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[One Point object is constructed.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Two Point objects are constructed.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[046 Which of the following makes the object whose name is <code>nadia</code> move forward 50 units:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which of the following makes the object whose name is <code>nadia</code> move forward 50 units:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[<code>nadia.forward(50)</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>forward(nadia, 50)</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>forward(50)</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>nadia.forward = 50</code>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[047 Which of the following makes the name <code>crow</code> have the value <code>'black'</code>.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Which of the following makes the name <code>crow</code> have the value <code>'black'</code>.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[<code>'crow' = black</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>black = 'crow'</code>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<code>'black' = crow</code>]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[<code>crow = 'black'</code>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[048 If you have any troubles or get error messages when doing the <em>m3</em> exercise during Session 1, you should:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[If you have any troubles or get error messages when doing the <em>m3</em> exercise during Session 1, you should:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="0.0">
+<text><![CDATA[Keep working on the problem by yourself until you fix the error.]]></text>
+</answer>
+<answer fraction="100.0">
+<text><![CDATA[Be quick to ask for help.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Watch this video again.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Go home.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Scream.]]></text>
+</answer>
+</question>
+<question type="description">
+<name><text><![CDATA[049 Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.5d-YourFirstProgram-Functions/YourFirstProgram-Functions.html" target=newtab><b>Your First Programs, Part 4: Functions</b></a>, doing the next set of questions while you do so.]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Watch the video: <a href="http://www.rose-hulman.edu/class/csse/csse120/VideoFiles/01.5d-YourFirstProgram-Functions/YourFirstProgram-Functions.html" target=newtab><b>Your First Programs, Part 4: Functions</b></a>, doing the next set of questions while you do so.]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[050 A <em>function</em> in Python is:]]></text></name>
+<questiontext format="html">
+<text><![CDATA[A <em>function</em> in Python is:]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[A chunk of code that has a NAME.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[The hottest video on YouTube.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[A strange animal.]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[From Venus.]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[051 Consider the following program. What does it print when it runs?<pre>def main():<br>    foo()<br>    foo()<br>def foo():<br>    print('hi')<br>main()</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[Consider the following program. What does it print when it runs?<pre>def main():<br>    foo()<br>    foo()<br>def foo():<br>    print('hi')<br>main()</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[<pre>hi<br>hi</pre>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<pre>foo<br>hi</pre>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<pre>hi</pre>]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[<pre>hi<br>foo</pre>]]></text>
+</answer>
+</question>
+<question type="multichoice">
+<name><text><![CDATA[052 This question is tricky and MUCH too difficult.  But we thought you might like to think about it.  Here is the question:  What happens when the following code runs?<pre>def main()<br>    print('ok')<br>    main()<br><br>main()</pre>]]></text></name>
+<questiontext format="html">
+<text><![CDATA[This question is tricky and MUCH too difficult.  But we thought you might like to think about it.  Here is the question:  What happens when the following code runs?<pre>def main()<br>    print('ok')<br>    main()<br><br>main()</pre>]]></text>
+</questiontext>
+<shuffleanswers>true</shuffleanswers>
+<answer fraction="100.0">
+<text><![CDATA[Just select this answer to indicate that you thought about this question briefly.  (You get full credit just for selecting this answer.)]]></text>
+</answer>
+<answer fraction="0.0">
+<text><![CDATA[Do NOT select this answer!  (Moodle won't let me give just one choice...)]]></text>
+</answer>
+</question>
+</quiz>
