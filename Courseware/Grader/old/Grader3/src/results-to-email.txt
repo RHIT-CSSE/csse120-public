@@ -1,0 +1,1223 @@
+
+agarwaa
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 3
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -2
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 73
+  Total (of 25) on the paper-and-pencil part of the test: 21
+  Total (of 100) on the test: 94
+
+anilkuap
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 6
+Points were deducted for the following reasons:
+Returns a boolean expression (i.e., is correct without using an IF..) [BONUS point] - Points deducted: 1
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 10
+Points were deducted for the following reasons:
+Number of lines is off by 1 or 2 - Points deducted: -2
+Right endpoints are vertical and very close to correct (but not quite correct, e.g. an off-by-one error) - Points deducted: -3
+Sum of errors (if any) on the lines - Points deducted: -5
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 71
+  Total (of 25) on the paper-and-pencil part of the test: 23
+  Total (of 100) on the test: 94
+
+cattanf
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 4
+Points were deducted for the following reasons:
+Fails to include a test other than ones that we supplied.  [A call to problem1a  whose expected result is either not shown or does not appear to have been computed by hand is NOT a test.] - Points deducted: -10
+Fails to include at least 4 additional tests (beyond the one that they devised).  These tests can be either ours, or tests of their own whose expected result could reasonably have been computed by hand).  [-1 for one missing test (presumably an oversight), -3 for each additional missing test.] - Points deducted: -1
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  why the "test" that you supplied is not really a test.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 3
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -2
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  any warning message
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 62
+  Total (of 25) on the paper-and-pencil part of the test: 21
+  Total (of 100) on the test: 83
+
+chiltobl
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 6
+Points were deducted for the following reasons:
+Returns a boolean expression (i.e., is correct without using an IF..) [BONUS point] - Points deducted: 1
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Right endpoints are vertical and very close to correct (but not quite correct, e.g. an off-by-one error) - Points deducted: -6
+Sum of errors (if any) on the lines - Points deducted: -6
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 70
+  Total (of 25) on the paper-and-pencil part of the test: 19
+  Total (of 100) on the test: 89
+
+dingk
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 75
+  Total (of 25) on the paper-and-pencil part of the test: 15
+  Total (of 100) on the test: 90
+
+fuz
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 75
+  Total (of 25) on the paper-and-pencil part of the test: 23
+  Total (of 100) on the test: 98
+
+godinezd
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  wildly unnecessary parentheses
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Way off - Points deducted: -5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  unwise to treat True as 1 and False as 0
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 12
+Points were deducted for the following reasons:
+Right endpoints are vertical and very close to correct (but not quite correct, e.g. an off-by-one error) - Points deducted: -3
+Sum of errors (if any) on the lines - Points deducted: -3
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  How best to handle time issues on future tests.
+See me re:  Thanks for the comment on problem 3.  It saved you 3 points (would have been -6 without the comment).
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 67
+  Total (of 25) on the paper-and-pencil part of the test: 9
+  Total (of 100) on the test: 76
+
+groenem
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 5
+Points were deducted for the following reasons:
+Fails to include a test other than ones that we supplied.  [A call to problem1a  whose expected result is either not shown or does not appear to have been computed by hand is NOT a test.] - Points deducted: -10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  why the "test" that you supplied is not really a test.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Range does not include 5**p, do you see why it works anyway?
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 8
+Points were deducted for the following reasons:
+Range is off by 1 - Points deducted: -2
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  why you should NOT test whether m <= n and you MUST NOT print anything
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Right endpoints are vertical but not very close to correct (i.e.,  - Points deducted: -6
+Sum of errors (if any) on the lines - Points deducted: -6
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+See me re:  Using underscore as a variable INSIDE the loop
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 57
+  Total (of 25) on the paper-and-pencil part of the test: 8
+  Total (of 100) on the test: 65
+
+heckenva
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 75
+  Total (of 25) on the paper-and-pencil part of the test: 22
+  Total (of 100) on the test: 97
+
+hughesmd
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 9
+Points were deducted for the following reasons:
+Right endpoints are vertical but not very close to correct (i.e.,  - Points deducted: -6
+Sum of errors (if any) on the lines - Points deducted: -6
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 69
+  Total (of 25) on the paper-and-pencil part of the test: 19
+  Total (of 100) on the test: 88
+
+johnpa
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+Don't put code ABOVE the green doc-string.  That will cause the DOT trick to fail sometimes.  Instead, just minimize the green doc-string.  See me for details.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Uses variable names that begin with an upper-case letter (bad) or use camelCase (violates style)
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 75
+  Total (of 25) on the paper-and-pencil part of the test: 21
+  Total (of 100) on the test: 96
+
+lamantmh
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+Your PyDev settings are not PyDev120 settings.  That is causing you to violate many of our code standards.  See me so that I can help you fix this (it's easy).
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 10
+Points were deducted for the following reasons:
+Top point is at the wrong place or does not appear - Points deducted: -1
+Bottom point is at the wrong place or does not appear - Points deducted: -1
+Right endpoints are vertical and very close to correct (but not quite correct, e.g. an off-by-one error) - Points deducted: -3
+Sum of errors (if any) on the lines - Points deducted: -3
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 70
+  Total (of 25) on the paper-and-pencil part of the test: 23
+  Total (of 100) on the test: 93
+
+lambrejt
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 75
+  Total (of 25) on the paper-and-pencil part of the test: 23
+  Total (of 100) on the test: 98
+
+leed4
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 12
+Points were deducted for the following reasons:
+Number of lines is off by 1 or 2 - Points deducted: -2
+Thicknesses are wrong [but only -1 for an off-by-one error] - Points deducted: -1
+Sum of errors (if any) on the lines - Points deducted: -3
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 72
+  Total (of 25) on the paper-and-pencil part of the test: 23
+  Total (of 100) on the test: 95
+
+lehrerne
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Uses variable names that begin with an upper-case letter (bad) or use camelCase (violates style)
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 75
+  Total (of 25) on the paper-and-pencil part of the test: 23
+  Total (of 100) on the test: 98
+
+liuz3
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me for why saying "approximately" is wrong here.
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 3
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -2
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 73
+  Total (of 25) on the paper-and-pencil part of the test: 25
+  Total (of 100) on the test: 98
+
+murrayjd
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 13
+Points were deducted for the following reasons:
+Number of lines is off by 1 or 2 - Points deducted: -2
+Sum of errors (if any) on the lines - Points deducted: -2
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 73
+  Total (of 25) on the paper-and-pencil part of the test: 24
+  Total (of 100) on the test: 97
+
+rameydra
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 75
+  Total (of 25) on the paper-and-pencil part of the test: 24
+  Total (of 100) on the test: 99
+
+rolfam
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 6
+Points were deducted for the following reasons:
+Returns a boolean expression (i.e., is correct without using an IF..) [BONUS point] - Points deducted: 1
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 76
+  Total (of 25) on the paper-and-pencil part of the test: 23
+  Total (of 100) on the test: 99
+
+schnieka
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Uses variable names that begin with an upper-case letter (bad) or use camelCase (violates style)
+See me re:  overuse of internal comments, and why that is bad
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 3
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -2
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  overuse of internal comments, and why that is bad
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 73
+  Total (of 25) on the paper-and-pencil part of the test: 25
+  Total (of 100) on the test: 98
+
+snyderdg
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 6
+Points were deducted for the following reasons:
+Returns a boolean expression (i.e., is correct without using an IF..) [BONUS point] - Points deducted: 1
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+Nice internal testing.  See me re leaving behind testing code (it is fine with me, but some would complain if in production code).
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 0
+Points were deducted for the following reasons:
+Fails to use the parameters (instead, uses a particular circle and rectangle) - Points deducted: -15
+Given circle appears but its fill color is wrong (should be the rectangle's outline color) - Points deducted: -4
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Wrong thickness (should be same as rectangle's outline thickness) - Points deducted: -2
+Sum of errors (if any) on the vertical line - Points deducted: -2
+Draws extra items - Points deducted: -4
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 10
+Points were deducted for the following reasons:
+Top point is at the wrong place or does not appear - Points deducted: -1
+Bottom point is at the wrong place or does not appear - Points deducted: -1
+Right endpoints are vertical and very close to correct (but not quite correct, e.g. an off-by-one error) - Points deducted: -3
+Sum of errors (if any) on the lines - Points deducted: -3
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 51
+  Total (of 25) on the paper-and-pencil part of the test: 13
+  Total (of 100) on the test: 64
+
+tuskanc1
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re: uses sum as a variable name
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 75
+  Total (of 25) on the paper-and-pencil part of the test: 23
+  Total (of 100) on the test: 98
+
+wangt6
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 4
+Points were deducted for the following reasons:
+Passes all the tests, but uses IF .. IF (instead of IF .. ELSE). - Points deducted: -1
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Your total = … does NOT belong inside the loop.  Do you see why you passed the tests anyway?
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 10
+Points were deducted for the following reasons:
+Top point is at the wrong place or does not appear - Points deducted: -1
+Bottom point is at the wrong place or does not appear - Points deducted: -1
+Right endpoints are vertical and very close to correct (but not quite correct, e.g. an off-by-one error) - Points deducted: -3
+Sum of errors (if any) on the lines - Points deducted: -3
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 69
+  Total (of 25) on the paper-and-pencil part of the test: 25
+  Total (of 100) on the test: 94
+
+wittayt
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Uses uninformative variable names (that is, names that fail to suggest their purpose).  (Note: loop variables that are single letters are fine.)
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 6
+Points were deducted for the following reasons:
+Returns a boolean expression (i.e., is correct without using an IF..) [BONUS point] - Points deducted: 1
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  When to render INSIDE the loop and when AFTER the loop.
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 76
+  Total (of 25) on the paper-and-pencil part of the test: 25
+  Total (of 100) on the test: 101
+
+wyattbc
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 6
+Points were deducted for the following reasons:
+Returns a boolean expression (i.e., is correct without using an IF..) [BONUS point] - Points deducted: 1
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  using line and lion as variable names is asking for trouble!
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 2
+Points were deducted for the following reasons:
+Way off - Points deducted: -13
+Sum of errors (if any) on the lines - Points deducted: -13
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 63
+  Total (of 25) on the paper-and-pencil part of the test: 11
+  Total (of 100) on the test: 74
+
+xuz5
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 14
+Points were deducted for the following reasons:
+All tests are weak tests.  [Our tests are NOT weak, so they cannot lose these points if they use our tests.] - Points deducted: -1
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  You used IS correctly.  Do you know when you must NOT use IS?
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 3
+Points were deducted for the following reasons:
+Fails to call problem1a - Points deducted: -2
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re:  Break long lines at commas
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 11
+Points were deducted for the following reasons:
+Top point is at the wrong place or does not appear - Points deducted: -1
+Bottom point is at the wrong place or does not appear - Points deducted: -1
+Number of lines is off by 1 or 2 - Points deducted: -2
+Sum of errors (if any) on the lines - Points deducted: -2
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 68
+  Total (of 25) on the paper-and-pencil part of the test: 14
+  Total (of 100) on the test: 82
+
+zhengy2
+Hi!  Here is your score on Test 1, along with comments on your work.
+Please examine the places below (if any) where there is either
+  -- a line that has an indication of points deducted (and why)
+  -- a line that begins with 'See me ...'
+The 'See me ...' lines are comments that are important for you to
+understand, even though no points were deducted for them on THIS test.
+
+The following lines are brief, hence somewhat cryptic.  Simply
+   ** BRING YOUR QUESTIONS TO CLASS. **
+
+Score and comments on problem: testProblem1a (points available: 15)
+Your score on this problem: 15
+
+Score and comments on problem: problem1a (points available: 10)
+Your score on this problem: 10
+Please note the following additional comments,
+discussing them with me in class (or after class) as needed:
+See me re: uses sum as a variable name
+
+Score and comments on problem: problem1b (points available: 5)
+Your score on this problem: 5
+
+Score and comments on problem: problem1c (points available: 10)
+Your score on this problem: 10
+
+Score and comments on problem: problem2 (points available: 20)
+Your score on this problem: 20
+Points were deducted for the following reasons:
+Sum of errors (if any) on the line from center to center - Points deducted: 0
+Sum of errors (if any) on the vertical line - Points deducted: 0
+
+Score and comments on problem: problem3 (points available: 15)
+Your score on this problem: 15
+Points were deducted for the following reasons:
+Sum of errors (if any) on the lines - Points deducted: 0
+
+Your total score on Test 1 is:
+  Total (of 75) on the on-the-computer part of the test: 75
+  Total (of 25) on the paper-and-pencil part of the test: 20
+  Total (of 100) on the test: 95
