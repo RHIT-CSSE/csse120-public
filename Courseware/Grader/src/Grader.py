@@ -25,15 +25,15 @@ class Grader:
                  tester: Tester = None,
                  recorder: Recorder = None):
         if not what_to_grade:
-            what_to_grade = StandardWhatToGrade()
+            what_to_grade = WhatToGrade()
         if not who_to_grade:
-            who_to_grade = StandardWhoToGrade()
+            who_to_grade = WhoToGrade()
         if not getter:
-            getter = StandardGetter(what_to_grade, who_to_grade)
+            getter = Getter(what_to_grade, who_to_grade)
         if not tester:
-            tester = StandardTester(what_to_grade, who_to_grade)
+            tester = Tester(what_to_grade, who_to_grade)
         if not recorder:
-            recorder = StandardRecorder(what_to_grade, who_to_grade)
+            recorder = Recorder(what_to_grade, who_to_grade)
 
         self.what_to_grade = what_to_grade
         self.who_to_grade = who_to_grade
