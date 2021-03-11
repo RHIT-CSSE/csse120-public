@@ -9,8 +9,8 @@ Concepts include:
 Also:
   -- ASSIGNING a VALUE to a NAME (aka VARIABLE).
 
-Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
-         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
          PUT_YOUR_NAME_HERE.
 """
 ###############################################################################
@@ -20,7 +20,7 @@ Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
 #   On Line 14 above, replace   PUT_YOUR_NAME_HERE   with your OWN name.
 #  _
 #   BTW, the top block of text above forms a multiple-line comment that is
-#   called a DOC-COMMENT.  It documents what this module does, in a way that
+#   called a DOC-STRING.  It documents what this module does, in a way that
 #   exterior programs can make sense of. It has no other effect on this program.
 ###############################################################################
 
