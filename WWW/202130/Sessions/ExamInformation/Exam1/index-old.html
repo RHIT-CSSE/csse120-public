@@ -1,0 +1,729 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:regular,italic,semibold,semibolditalic,bold,bolditalic,extrabold,extrabolditalic"
+      rel="stylesheet">
+  <link href="../../../styles/color_scheme.css" rel="stylesheet">
+  <link href="../../../styles/style.css" rel="stylesheet">
+  <link href="../../../styles/navigation_bar.css" rel="stylesheet">
+  <link href="../../../styles/session_page.css" rel="stylesheet">
+  <link href="../../../styles/exam_information_page.css" rel="stylesheet">
+
+  <title> Exams: Description and Rules </title>
+</head>
+
+<body>
+
+<!--__NAVIGATION_BAR__-->
+<nav>
+  <img alt="Ada Lovelace" class="left" height="186" src="../../../Images/AdaLovelace.jpg" width="186">
+  <div class="course">
+    <p class="course-number">CSSE 120</p>
+    <p class="course-name">Introduction to<br>Software Development</p>
+    <p class="course-term">Winter term, 2020-21 (aka 202120)</p>
+  </div>
+  <div class="links">
+    <a href="../../../Syllabus/Syllabus.pdf">SYLLABUS</a>
+    <a href="../../../Resources/CSSE120_Setup/SettingUpYourComputerForCSSE120.pdf">COMPUTER SETUP</a>
+    <a href="https://piazza.com/rose-hulman/winter2021/2021wcsse120ol1/home">PIAZZA (Q&A)</a>
+    <a href="https://docs.python.org/3/library/index.html">PYTHON STANDARD LIBRARY</a>
+    <a href="https://docs.python.org/3/reference/index.html">PYTHON LANGUAGE REFERENCE</a>
+    <a href="https://www.python.org/doc/">MORE PYTHON DOCUMENTATION</a>
+    <!--    <a href="../../Resources/Python/index.html">PYTHON</a>-->
+    <!--    <a href="../../Resources/Graphics/index.html">GRAPHICS</a>-->
+    <!--    <a href="../../Resources/Robotics/index.html">ROBOTICS</a>-->
+    <!--    <a href="../../CapstoneTeamProject-202020.pdf">CAPSTONE PROJECT</a>-->
+  </div>
+  <img alt="Two women coding together" class="right" height="186"
+       src="../../../Images/two-women-coding-together-cropped.png"
+       width="200">
+</nav>
+
+<!--TITLE:-->
+<div class="exam-information-page">
+  <div class="title">
+    <span class="prefix">Exam 1:</span>
+    <span class="distinguish-from-surrounding-padded">Admission Ticket,</span>
+    <span class="distinguish-from-surrounding-padded">Paper-and-Pencil part,</span> and
+    <span class="distinguish-from-surrounding-padded">On-the-Computer part</span>
+  </div>
+
+  <!--BEFORE THE EXAM:-->
+  <div class="part before-the-exam">
+    <div class="header before-the-exam-header"> Before the exam</div>
+    <div class="body">
+      <p>
+        If you have any questions or concerns about the following,
+        please contact your instructor <strong><em> BEFORE </em></strong> you begin the exam.
+      </p>
+      <p>
+        <span class="emphasis">STRUCTURE of the exam:</span>
+        Each exam in CSSE 120 has two parts:
+      </p>
+      <ul>
+        <li>
+          A so-called <span class="emphasis">&ldquo;Paper-and-Pencil&rdquo;</span> part.
+        </li>
+        <li>
+          An <span class="emphasis">&ldquo;On-the-Computer&rdquo;</span> part.
+        </li>
+      </ul>
+      <p>
+        Well <span class="emphasis">before</span> the exam, you should do the following:
+      </p>
+      <ol>
+        <li>
+          Complete all of Sessions 1 through 6, to your instructor's satisfaction.
+          If you have fallen behind, get your instructor's help to catch up!
+        </li>
+        <li>
+          <span class="critical">Read the descriptions and rules</span> for the
+          <a href="exam-details.html">Paper-and-Pencil</a> and
+          <a href="exam-details.html">On-the-Computer</a> parts of the exam.
+        </li>
+        <li>
+          Prepare a 1-page "Hint Sheet" for the Paper-and-Pencil part of the exam,
+          as described in the above <span class="emphasis">Rules for the Exam.</span>
+        </li>
+        <li>
+          Read this list of
+          <a href="Exam1_QuestionsStudentsFrequently.pdf">frequently asked questions (with answers)</a>
+          for Exam 1.
+          <ul>
+            <li>
+              It contains questions that students have, in the past,
+              wished they had understood answers to BEFORE taking Exam 1.
+            </li>
+            <li>
+              You may refer to this document while doing the On-the-Computer part of the exam.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <!--ADMISSION TICKET:-->
+  <div class="part admission-ticket">
+    <div class="header admission-ticket-header"> Admission Ticket</div>
+    <div class="body">
+      <p>
+        For each exam in CSSE 120,
+        <span class="emphasis">you MUST have completed all the practice problems,</span>
+        both paper-and-pencil and on-the-computer,
+        to your instructor's satisfaction,
+        <span class="critical">BEFORE you take the exam.</span>
+      </p>
+      <ul>
+        <li>
+          That is, completing those practice problems are your <span class="critical">Admission Ticket</span>
+          for taking the exam.
+        </li>
+      </ul>
+      <p>
+        <span class="emphasis">For Exam 1,</span> the practice problems are:
+      </p>
+      <ol>
+        <li>
+          The <span class="emphasis">05a-Debugging</span> project in PyCharm.
+        </li>
+        <li>
+          The <span class="emphasis">05b-Exam1Practice</span> project in PyCharm.
+        </li>
+        <li>
+          The <a href="../../ExamInformation/Exam1/Exam1_PracticeForPaperAndPencilProblems.pdf">
+          Paper-and-Pencil Practice Problems for Exam 1</a>,
+          including checking your answers via this
+          <a href="../../ExamInformation/Exam1/Exam1_SOLUTION_PracticeForPaperAndPencilProblems.pdf">
+            Answer Key</a> for those problems.
+          <ul>
+            <li>
+              The Answer Key is paginated in the same way that the questions are.
+            </li>
+            <li>
+              So, answer the questions on Page 1, then check your answers to Page 1. Likewise for pages 2 and following.
+            </li>
+            <li>
+              Of course, check the answers on a page <span class="critical">AFTER (!)</span> doing the
+              problems for that page. To do otherwise would only harm your learning.
+            </li>
+          </ul>
+        </li>
+      </ol>
+      <p>
+        You <span class="emphasis">demonstrate</span> that you have completed the practice problems by
+        submitting your solutions to Moodle in the usual way
+        (in Sessions 5 and 6, respectively).
+      </p>
+      <p>
+        <span class="emphasis">If the time for the exam arrives and you have NOT completed your Admission Ticket,</span>
+        ask your instructor what to do.
+      </p>
+    </div>
+  </div>
+
+  <!--  WHEN and WHERE is the exam? -->
+  <div class="part when-and-where">
+    <div class="header when-and-where-header"> When and Where is the Exam?</div>
+    <div class="body">
+      <p>
+        The exam is
+        <span class="emphasis">Wednesday</span> evening,
+        <span class="emphasis">December 16,</span> from <span class="emphasis">7 p.m. to 10 p.m.</span>
+      </p>
+      <ul>
+        <li> So NOT our regular class time.</li>
+        <li> There will be <span class="emphasis">NO REGULAR CLASS on the day of the exam.</span></li>
+        <li>
+          <p>
+            <span class="emphasis">If the above time will not work for you,</span>
+            contact David Mutchler and Sriram Mohan
+            <span class="emphasis">no later than Sunday, December 13</span>
+            to arrange an alternative time.
+          </p>
+          <p>
+            Valid reasons for asking for an alternative time include (but are not limited to):
+          </p>
+          <ul>
+            <li> You have a prior engagement/responsibility during the above time.</li>
+            <li>
+              Your time zone makes the above time in the middle of the night for you or crosses
+              a mealtime that you cannot rearrange.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        <span class="emphasis">Where:</span>
+        You may take the exam wherever you like that has adequate internet access.
+        We will be available during the exam to answer questions,
+        but we will not attempt to "watch" you or restrict you to an exam-based browser.
+        <span class="emphasis">You are on your honor to follow the rules for the exam.</span>
+      </p>
+    </div>
+
+    <!--  HOW TO TAKE THE EXM -->
+    <div class="header how-to-take-header"> How to GET, TAKE, and TURN IN the Exam</div>
+    <div class="body">
+
+    </div>
+  </div>
+
+</div>
+
+<!--  &lt;!&ndash;  PAPER-AND-PENCIL PART&ndash;&gt;-->
+<!--  <div class="paper-and-pencil part">-->
+<!--    <div class="header paper-and-pencil-header">-->
+<!--      Paper-and-Pencil part of Exam 1-->
+<!--    </div>-->
+<!--    <div class="body">-->
+<!--      <p>-->
+<!--        Follow this link for <span class="emphasis"> additional IMPORTANT information </span>-->
+<!--        about the-->
+<!--        <a class="strong-link" href="exam-details.html">Paper-and-Pencil part</a> of the exam.-->
+<!--      </p>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  &lt;!&ndash;  ON-THE-COMPUTER PART&ndash;&gt;-->
+<!--  <div class="on-the-computer part">-->
+<!--    <div class="header on-the-computer-header">-->
+<!--      On-the-Computer part of Exam 1-->
+<!--    </div>-->
+<!--    <div class="body">-->
+<!--      <p>-->
+<!--        Follow this link for <span class="emphasis"> additional IMPORTANT information </span>-->
+<!--        about the-->
+<!--        <a class="strong-link" href="exam-details.html">On-the-Computer part</a> of the exam.-->
+<!--      </p>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+<!--&lt;!&ndash;  WHEN is the exam? &ndash;&gt;-->
+<!--<div class="when-and-how part">-->
+<!--  <div class="header when-and-how-header">-->
+<!--    When is the exam, and how do I take it?-->
+<!--  </div>-->
+<!--  <div class="body">-->
+<!--    <p>-->
+<!--      The exam is <span class="emphasis">Wednesday evening, December 16, from 7 to 10 p.m.</span>-->
+<!--    </p>-->
+<!--    <ul>-->
+<!--      <li>-->
+<!--        All times are Terre Haute time, that is, Eastern Standard Time.-->
+<!--      </li>-->
+<!--      <li>-->
+<!--        If you are in a time zone that makes it impractical to take the exam at the above time,-->
+<!--        or if you have a prior engagement at the above time,-->
+<!--        contact David Mutchler to make arrangements to take the exam at an alternative time.-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--    <p>-->
+<!--      You may take the exam wherever you wish.-->
+<!--    </p>-->
+<!--    <p>-->
+<!--      The exam is not proctored. You are on your honor to follow the rules for the exam,-->
+<!--      as expressed below.-->
+<!--    </p>-->
+<!--    <p>-->
+<!--      <span class="critical">How do I take the exam remotely?</span>-->
+<!--    </p>-->
+<!--    <p>-->
+<!--      <span class="very_important_black">HOW you OBTAIN the exam:</span>-->
+<!--    </p>-->
+<!--    <ul>-->
+<!--      <li>-->
+<!--        <p>-->
+<!--          At the time that the exam is scheduled to start,-->
+<!--          we will make the exam available to you, in two places:-->
+<!--        </p>-->
+<!--        <ul>-->
+<!--          <li> In Moodle, in the section (topic) for Session 8,-->
+<!--            there will be a PDF named "Exam 1 - Paper and Pencil part".-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            In your repository in PyCharm, doing a VCS ~ Update will reveal-->
+<!--            a project (folder) named 08-Exam1-202120. It will contain-->
+<!--            modules with TODOs in them, just like you have been doing.-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--        <p>-->
+<!--          <span class="very_important_black">HOW you TAKE the exam:</span>-->
+<!--        </p>-->
+<!--        <ul>-->
+<!--          <li>-->
+<!--            For the Paper-and-Pencil part,-->
+<!--            you may do any of the following (your choice):-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                Print the PDF and write your answers on the printed paper.-->
+<!--                This is the simplest approach if you have a printer.-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                Read the PDF on your computer and put your answers-->
+<!--                into a file that you will turn in. The file that you-->
+<!--                turn in must be either a text file, a Microsoft Word document,-->
+<!--                or a PDF (your choice). You may use any tool-->
+<!--                you like to produce the file; e.g. Notepad, Microsoft Word,-->
+<!--                a PDF editor, or whatever you want.-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                Once you turn in the Paper-and-Pencil part of the exam (see below),-->
+<!--                you may begin work in PyCharm on the On-the-Computer part.-->
+<!--                You may not return to the Paper-and-Pencil part-->
+<!--                after you turn it in.-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            For the On-the-Computer part,-->
+<!--            you do your work in PyCharm just like you usually do.-->
+<!--          </li>-->
+
+<!--          <p>-->
+<!--            <span class="very_important_black">HOW you TURN IN the exam:</span>-->
+<!--          </p>-->
+<!--          <p>-->
+<!--            If you wrote your answers in a file,-->
+<!--            you will submit that file.-->
+<!--            It must be either a text document,-->
+<!--            a Microsoft Word document, or-->
+<!--            Turn in the Paper-and-Pencil part on Moodle-->
+<!--            in the same way you have turned in-->
+<!--            your Before-the-Session quizzes.-->
+<!--            That is, find the "quiz" for turning it in-->
+<!--            in the Session 8 section (topic),-->
+<!--            drag-and-drop-->
+<!--          </p>-->
+<!--          <li> For the Paper-and-Pencil part</li>-->
+<!--        </ul>-->
+
+
+<!--        print it and write your answers on the printed paper,-->
+<!--        or you may type your answers into a file.-->
+<!--        If you do the latter, you may use a text file or Microsoft Word-->
+<!--        or any tool/software from which you can produce a PDF.-->
+<!--      </li>-->
+<!--      <li>-->
+<!--        You must do the Paper-and-Pencil part first,-->
+<!--        turn it in, and then you may begin the On-the-Computer part (in PyCharm).-->
+<!--        See the RULES for what resources you may use for each part of the exam.-->
+<!--      </li>-->
+<!--    </ul>-->
+
+<!--    <p>-->
+<!--      <span class="very_important_black">HOW you TURN IN the exam:</span>-->
+<!--    </p>-->
+<!--    <li>-->
+<!--      A-->
+<!--    </li>-->
+<!--    <li> An item to use to turn in your On-the-Computer part of the exam.</li>-->
+<!--    </ul>-->
+<!--    <li> Put a new project into your repository named <em>07-Exam1-202030</em>.</li>-->
+<!--    </ul>-->
+<!--    </li>-->
+<!--    </ul>-->
+<!--    </li>-->
+<!--    <li>-->
+<!--      <p>-->
+<!--        <span class="very_important_black">HOW you TAKE the exam:</span>-->
+<!--      </p>-->
+<!--      <p>-->
+<!--        <span class="important">When you are ready to begin the exam:</span>-->
+<!--      </p>-->
+<!--      <ol type="a">-->
+<!--        <li> Get onto your computer, connected to the Internet. (If this is difficult for you, contact us.)</li>-->
+<!--        <li>-->
+<!--          Enter Moodle.-->
+<!--          Take the <span class="important">Paper-and-Pencil</span> part of the exam,-->
+<!--          following these <a href="paper_and_pencil_part.html">Rules for the Paper-and-Pencil part of the exam</a>.-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          Open PyCharm. Do <span class="important">VCS ~ Update</span>-->
+<!--          to obtain the exam (if it is not already present).-->
+<!--          Take the <span class="important">On-the-Computer</span> part of the exam,-->
+<!--          following these <a href="on_the_computer_part.html">Rules for the On-the-Computer part of the exam</a>.-->
+<!--          <ul>-->
+<!--            <li>-->
+<!--              Once you begin the On-the-Computer part of the exam,-->
+<!--              you may NOT return to the Paper-and-Pencil part of the exam.-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </li>-->
+<!--      </ol>-->
+<!--    </li>-->
+<!--    <li>-->
+<!--      <p>-->
+<!--        <span class="very_important_black">HOW you TURN IN the exam:</span>-->
+<!--      </p>-->
+<!--      <ul>-->
+<!--        <li>-->
+<!--          <p>-->
+<!--            Submit the <span class="important">Paper-and-Pencil</span>-->
+<!--            part of the exam when you are finished taking it, on Moodle.-->
+<!--          </p>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          Submit the <span class="important">On-the-Computer</span>-->
+<!--          part of the exam in the same way that you submit your other PyCharm projects:-->
+<!--          <ul>-->
+<!--            <li> First, do <span class="important">VCS ~ Commit</span> and select-->
+<!--              <span class="important">Commit-and-Push</span>, as-->
+<!--              usual.-->
+<!--              <ul>-->
+<!--                <li> Do this frequently &mdash; that way, if your computer dies you won't lose any work!</li>-->
+<!--                <li> Be sure to do a <span class="important">Commit-and-Push</span> at the end.</li>-->
+<!--                <li>-->
+<!--                  You can do <span class="important">VCS ~ Git ~ Push</span>-->
+<!--                  (way at the bottom of the pop-up menu) just to be sure that you pushed, if you like.-->
+<!--                </li>-->
+<!--              </ul>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              Second, turn in your code to Moodle, in the section (topic) for the Exam-->
+<!--              that is labelled <em>Turn in your Code from your PyCharm exam project here.</em>-->
+<!--              <ul>-->
+<!--                <li>-->
+<!--                  Selecting that item will bring up a place where you can drag and drop your modules into-->
+<!--                  Moodle.-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                  Drag and drop ALL the modules in the <span class="important">src</span>-->
+<!--                  folder for the session, but JUST those modules.-->
+<!--                </li>-->
+<!--                <li> Include the modules like rosegraphics.</li>-->
+<!--                <li>-->
+<!--                  Do NOT zip the folder &#45;&#45; just drag and drop the FILES in the-->
+<!--                  <span class="important">src</span> folder.-->
+<!--                </li>-->
+<!--              </ul>-->
+<!--              The <em>Turn in your Code from your PyCharm exam project here</em> item-->
+<!--              also asks you some self-reflection questions.-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--    </li>-->
+<!--    </ol>-->
+<!--  </div>-->
+
+
+<!--  </ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+
+<!--        <ol>-->
+<!--          <li>-->
+<!--            <span class="emphasis">When:</span>-->
+<!--            <span class="emphasis">Wednesday evening,</span> September 22, from 7:30 p.m. to 10 p.m.-->
+<!--            <ul>-->
+<!--              <li> So NOT our regular class day, NOT our regular class time.</li>-->
+<!--            </ul>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <span class="emphasis">Where:</span>-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                <span class="emphasis">Section 1 (Mutchler): Olin 257, EXCEPT</span>-->
+<!--                Lane Wagner, Kaileb White, and Gaven Williams are in Olin 169.-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                <span class="emphasis"> Section 2 (Mutchler): Olin 259</span>-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                <span class="emphasis"> Section 3 (Noureddine): Olin 267, EXCEPT</span>-->
+<!--                Keith Voltmer, Chase Wilkinson, and Thomas Yang are in Olin 169.-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                <span class="emphasis"> Section 4 (Ebrahimi): Olin 269 </span>-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            There is <span class="emphasis">NO REGULAR CLASS on Tuesday,</span> September 23.-->
+<!--          </li>-->
+<!--        </ol>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash;  PAPER-AND-PENCIL PART&ndash;&gt;-->
+<!--    <div class="paper-and-pencil part">-->
+<!--      <div class="header paper-and-pencil-header">-->
+<!--        Paper-and-Pencil part of Exam 1-->
+<!--      </div>-->
+<!--      <div class="body">-->
+<!--        <p>-->
+<!--          Follow this link for <span class="emphasis"> additional IMPORTANT information </span>-->
+<!--          about the-->
+<!--          <a class="strong-link" href="exam-details.html">Paper-and-Pencil part</a> of the exam.-->
+<!--        </p>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash;  ON-THE-COMPUTER PART&ndash;&gt;-->
+<!--    <div class="on-the-computer part">-->
+<!--      <div class="header on-the-computer-header">-->
+<!--        On-the-Computer part of Exam 1-->
+<!--      </div>-->
+<!--      <div class="body">-->
+<!--        <p>-->
+<!--          Follow this link for <span class="emphasis"> additional IMPORTANT information </span>-->
+<!--          about the-->
+<!--          <a class="strong-link" href="exam-details.html">On-the-Computer part</a> of the exam.-->
+<!--        </p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <li>-->
+<!--    <p>-->
+<!--      <span class="very_important_black">HOW you TAKE the exam:</span>-->
+<!--    </p>-->
+<!--    <p>-->
+<!--      <span class="important">When you are ready to begin the exam:</span>-->
+<!--    </p>-->
+<!--    <ol type="a">-->
+<!--      <li> Get onto your computer, connected to the Internet. (If this is difficult for you, contact us.)</li>-->
+<!--      <li>-->
+<!--        Enter Moodle.-->
+<!--        Take the <span class="important">Paper-and-Pencil</span> part of the exam,-->
+<!--        following these <a href="paper_and_pencil_part.html">Rules for the Paper-and-Pencil part of the exam</a>.-->
+<!--      </li>-->
+<!--      <li>-->
+<!--        Open PyCharm. Do <span class="important">VCS ~ Update</span>-->
+<!--        to obtain the exam (if it is not already present).-->
+<!--        Take the <span class="important">On-the-Computer</span> part of the exam,-->
+<!--        following these <a href="on_the_computer_part.html">Rules for the On-the-Computer part of the exam</a>.-->
+<!--        <ul>-->
+<!--          <li>-->
+<!--            Once you begin the On-the-Computer part of the exam,-->
+<!--            you may NOT return to the Paper-and-Pencil part of the exam.-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--      </li>-->
+<!--    </ol>-->
+<!--  </li>-->
+<!--  <li>-->
+<!--    <p>-->
+<!--      <span class="very_important_black">HOW you TURN IN the exam:</span>-->
+<!--    </p>-->
+<!--    <ul>-->
+<!--      <li>-->
+<!--        <p>-->
+<!--          Submit the <span class="important">Paper-and-Pencil</span>-->
+<!--          part of the exam when you are finished taking it, on Moodle.-->
+<!--        </p>-->
+<!--      </li>-->
+<!--      <li>-->
+<!--        Submit the <span class="important">On-the-Computer</span>-->
+<!--        part of the exam in the same way that you submit your other PyCharm projects:-->
+<!--        <ul>-->
+<!--          <li> First, do <span class="important">VCS ~ Commit</span> and select-->
+<!--            <span class="important">Commit-and-Push</span>, as-->
+<!--            usual.-->
+<!--            <ul>-->
+<!--              <li> Do this frequently &mdash; that way, if your computer dies you won't lose any work!</li>-->
+<!--              <li> Be sure to do a <span class="important">Commit-and-Push</span> at the end.</li>-->
+<!--              <li>-->
+<!--                You can do <span class="important">VCS ~ Git ~ Push</span>-->
+<!--                (way at the bottom of the pop-up menu) just to be sure that you pushed, if you like.-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            Second, turn in your code to Moodle, in the section (topic) for the Exam-->
+<!--            that is labelled <em>Turn in your Code from your PyCharm exam project here.</em>-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                Selecting that item will bring up a place where you can drag and drop your modules into-->
+<!--                Moodle.-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                Drag and drop ALL the modules in the <span class="important">src</span>-->
+<!--                folder for the session, but JUST those modules.-->
+<!--              </li>-->
+<!--              <li> Include the modules like rosegraphics.</li>-->
+<!--              <li>-->
+<!--                Do NOT zip the folder &#45;&#45; just drag and drop the FILES in the-->
+<!--                <span class="important">src</span> folder.-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--            The <em>Turn in your Code from your PyCharm exam project here</em> item-->
+<!--            also asks you some self-reflection questions.-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--      </li>-->
+
+<!--How to Get, Take, and Turn In the exam-->
+<!--  <div class="both-parts part">-->
+<!--    <div class="header both-parts-header">-->
+<!--      Two parts: <span class="distinguish-from-surrounding-padded">How to get the exam</span>-->
+<!--      and <span class="distinguish-from-surrounding-padded">How to turn it in</span>-->
+<!--    </div>-->
+<!--    <div>-->
+<!--      <p>-->
+<!--        <span class="emphasis">How to GET the Paper-and-Pencil part of the exam:</span>-->
+<!--      </p>-->
+<!--      <ol>-->
+<!--        <li>-->
+<!--          Go to the course's Moodle front page.-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          Open <span class="emphasis">Session 8.</span>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          Download or print (your choice) the <span class="emphasis">Exam 1 Paper-and-Pencil part</span> PDF.-->
+<!--        </li>-->
+
+<!--        <li>-->
+<!--          <p>-->
+<!--            <span class="emphasis">Time limit:</span>-->
+<!--            You have <span class="emphasis"> 2 hours </span> to complete the exam (both parts),-->
+<!--            plus a <span class="emphasis"> 1 hour grace period.</span>-->
+<!--            Hence, a total of 3 hours.-->
+<!--          </p>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <p>-->
+<!--            <span class="emphasis">Communication:</span>-->
+<!--            For both parts of the exam, you must not communicate with anyone except your instructors-->
+<!--            and their assistants, if any. In particular:-->
+<!--          </p>-->
+<!--          <p>-->
+<!--            DAVID MUTCHLER notes: I am in the process of updating this part of the instructions-->
+<!--            to reflect the fact that you will take the exam remotely this term.-->
+<!--            Final version will be up by Wednesday (Dec. 9) morning.-->
+<!--          </p>-->
+
+<!--          <ul>-->
+<!--            <li>-->
+<!--              <span class="critical">During</span> the exam,-->
+<!--              <span class="emphasis">-->
+<!--                you must not talk with anyone else or exchange information with them during the exam.-->
+<!--              </span>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <span class="critical">After</span> the exam,-->
+<!--              <span class="emphasis">you must not talk about the exam with anyone who has not yet taken it.</span>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <span class="critical">During</span> the exam,-->
+<!--              <em>do NOT use email, chat or the like.</em>-->
+<!--              Close any such applications before beginning the exam.-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <p>-->
+<!--            <span class="emphasis"> Questions during the exam:</span>-->
+<!--            Throughout the exam, if you have a-->
+<!--            <span class="emphasis">question about WHAT we are asking you to do,</span>-->
+<!--            e.g. if you do not understand the specification of a function that you are to implement,-->
+<!--            <span class="emphasis">ask ANY of the instructors</span>-->
+<!--            to explain WHAT you are to do for the problem.-->
+<!--            (If a student assistant is proctoring your room, ask them to get an instructor.)-->
+<!--            <span class="critical">We will fill in details re Teams here.</span>-->
+<!--          </p>-->
+<!--          <p>-->
+<!--            <span class="emphasis">You are on your own for solving the problems.</span>-->
+<!--            In particular-->
+<!--            <span class="critical">we will not answer any questions about error messages.</span>-->
+<!--          </p>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <span class="emphasis">You are welcome to leave the room</span>-->
+<!--          to use the restroom, stretch your legs,-->
+<!--          go outside to get a break from your mask, or whatever.-->
+<!--          You do not need to ask permission to do so.-->
+<!--          But remember: <span class="emphasis"> Do NOT talk to ANYONE about ANYTHING when you do so.</span>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <span class="emphasis">Assistive devices:</span>-->
+<!--          You may use any assistive devices you normally use for taking-->
+<!--          exams, including but not limited to the following:-->
+<!--          <ul>-->
+<!--            <li> Dictionaries and/or translators.</li>-->
+<!--            <li> Hearing, vision and hand-writing assistive devices.</li>-->
+<!--            <li> Devices to address dyslexia.</li>-->
+<!--            <li> A calculator (but only for computing numeric values (no programming).</li>-->
+<!--            <li> Blank paper and/or blank post-it notes. (We'll bring some.)</li>-->
+<!--            <li>-->
+<!--              If your proctor permits it, you may listen to quiet music using-->
+<!--              headphones to the extent that it does not disturb other students.-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <span class="emphasis">We want you to have a testing environment in which you are comfortable.</span>-->
+<!--          <ul>-->
+<!--            <li>-->
+<!--              Of course we will honor all accommodations (including extra time)-->
+<!--              for students that have obtained official letters stating so.-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              Additionally,-->
+<!--              if you need a quieter or more secluded place to take the exam, or-->
+<!--              if there are other accommodations that help you be more-->
+<!--              effective in demonstrating your knowledge/understanding via this-->
+<!--              exam, do not hesitate to discuss them in advance with your-->
+<!--              instructor.-->
+<!--            </li>-->
+<!--          </ul>-->
+<!--        </li>-->
+<!--      </ol>-->
+<!--    </div>-->
+<!--  </div>-->
+
+
+<!- The following provides space at the bottom to help ensure that students do not miss the last of the above items. -->
+<hr class="footer">
+
+</body>
+</html>
+

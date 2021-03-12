@@ -1,0 +1,33 @@
+/* Currently unused */
+
+/*
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-content: center;
+  grid-row-gap: 0;
+  grid-column-gap: 3px;
+  padding: 5px;
+}
+
+.session_spot {
+  grid-column: 1 / 2;
+  text-align: center;
+}
+
+.preparation_spot {
+  grid-column: 2 / 3;
+  text-align: center;
+}
+
+.in_class_spot {
+  grid-column: 3 / 4;
+  text-align: center;
+}
+
+.topic_spot {
+  grid-column: 1 / 3;
+  text-align: center;
+}
+*/

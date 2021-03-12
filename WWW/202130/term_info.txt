@@ -1,0 +1,6 @@
+first_day_of_term = 3/11/2021
+last_day_of_tenth_week = 5/21/2021
+days_of_week = Tuesday Wednesday Friday
+start_date_of_break = 4/15/2021
+end_date_of_break = 4/16/2021
+piazza_url = https://piazza.com/rose-hulman/spring2021/2021wcsse120ol1/home
