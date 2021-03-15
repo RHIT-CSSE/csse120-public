@@ -1,7 +1,19 @@
-a###############################################################################
-#
-# This file summarizes the differences between METHODS and FUNCTIONS.
-#
+"""
+Summarizes the differences between METHODS and FUNCTIONS.
+
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
+         PUT_YOUR_NAME_HERE.
+"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+###############################################################################
+
+###############################################################################
+# TODO: 2. READ the explanation below, asking questions
+#          about anything that is not 100% clear to you.
+#   Then mark this _TODO_ as DONE and commit-and-push your work.
+###############################################################################
+
+###############################################################################
 # Methods and functions are the SAME in that:
 #
 #   1. They give a NAME to a block of code.
@@ -32,5 +44,4 @@ a###############################################################################
 #        boris.forward(100)
 #      where   boris    is an instance of the SimpleTurtle class
 #      and     forward  is a method associated with the SimpleTurtle class.
-#
 ###############################################################################
