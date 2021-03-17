@@ -7,8 +7,8 @@ A subsequent module lets you practice the ACCUMULATOR pattern
 in another classic form:
    IN GRAPHICS:   x = x + pixels
 
-Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
-         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
