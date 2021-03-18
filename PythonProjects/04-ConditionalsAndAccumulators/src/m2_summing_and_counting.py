@@ -37,9 +37,14 @@ Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_sum_more_cosines()
-    run_test_count_sines_from()
-    run_test_count_sines_vs_cosines()
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
+
+    # run_test_sum_more_cosines()
+    # run_test_count_sines_from()
+    # run_test_count_sines_vs_cosines()
 
 
 def run_test_sum_more_cosines():

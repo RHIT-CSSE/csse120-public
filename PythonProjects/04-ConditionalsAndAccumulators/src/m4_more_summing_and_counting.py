@@ -44,10 +44,15 @@ import builtins  # Never necessary, but here for pedagogical reasons
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_sum_from()
-    run_test_factorial()
-    run_test_count_cosines_from()
-    run_test_sum_unit_fractions_from()
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
+
+    # run_test_sum_from()
+    # run_test_factorial()
+    # run_test_count_cosines_from()
+    # run_test_sum_unit_fractions_from()
 
 
 # -----------------------------------------------------------------------------

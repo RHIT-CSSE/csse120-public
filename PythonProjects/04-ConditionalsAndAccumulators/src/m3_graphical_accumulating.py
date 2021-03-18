@@ -40,8 +40,13 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_draw_parallel_lines()
-    run_test_draw_lines()
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
+
+    # run_test_draw_parallel_lines()
+    # run_test_draw_lines()
 
 
 def run_test_draw_parallel_lines():
