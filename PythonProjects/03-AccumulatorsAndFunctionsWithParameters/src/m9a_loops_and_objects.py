@@ -12,6 +12,7 @@ Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
 
 import rosegraphics as rg
 
+
 ###############################################################################
 # TODO: Read the following, then change its _TODO_ to DONE.
 #   Throughout these exercises, you must use  RANGE  statements.
@@ -53,10 +54,10 @@ def print_sequence1():
 
 def draw_circles1():
     """
-    -- Constructs an rg.RoseWindow whose width and height are both 800.
-    -- Constructs and draws 21 rg.Circle objects such that:
-         -- Each is centered at (400, 400)
-         -- They have radii:  0  10  20  30  40 ... 200, respectively.
+    -- Constructs an rg.RoseWindow whose width and height are both 400.
+    -- Constructs and draws 19 rg.Circle objects such that:
+         -- Each is centered at (200, 200)
+         -- They have radii:  10  20  30  40 ... 190, respectively.
     -- Waits for the user to press the mouse, then closes the window.
     See   CIRCLES.pdf  in this project for a picture of the correct drawing.
     """
