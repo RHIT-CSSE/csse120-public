@@ -39,7 +39,7 @@ def main():
 
     strings_2("OK xx xxxx Sirixxxsiri.")
     print("The above should have printed:")
-    print("OK Xx Sirix Sirisirisiri.")
+    print("Ok Xx Sirix Sirisirisiri.")
     print()
 
 
@@ -74,7 +74,7 @@ def strings_2(string):
       strings_2("do THIS in title mode!")  prints  Do This In Title Mode!
       strings_2("Hey xxx: who isxxx?")   prints   Hey Siri: Who Issiri?
       strings_2("OK xx xxxx Sirixxxsiri.")   prints
-          OK Xx Sirix Sirisirisiri.
+          Ok Xx Sirix Sirisirisiri.
     Type hints:
       :type string: str
     """
