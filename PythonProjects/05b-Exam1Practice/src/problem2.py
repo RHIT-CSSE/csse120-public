@@ -6,8 +6,6 @@ Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-import rosegraphics as rg
-
 ###############################################################################
 # Students:
 #
@@ -27,12 +25,18 @@ import rosegraphics as rg
 #    STOP working on that problem and ASK YOUR INSTRUCTOR FOR HELP
 #    on it, in class or via Piazza.
 ###############################################################################
+import rosegraphics as rg
 
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_problem2a()
-    run_test_problem2b()
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
+
+    # run_test_problem2a()
+    # run_test_problem2b()
 
 
 def run_test_problem2a():

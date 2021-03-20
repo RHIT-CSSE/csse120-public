@@ -19,9 +19,14 @@ import time
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_problem0a()
-    run_test_problem0b()
-    run_test_problem0c()
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
+
+    # run_test_problem0a()
+    # run_test_problem0b()
+    # run_test_problem0c()
 
 
 ###############################################################################

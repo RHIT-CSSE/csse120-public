@@ -25,16 +25,20 @@ Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
 #    STOP working on that problem and ASK YOUR INSTRUCTOR FOR HELP
 #    on it, in class or via Piazza.
 ###############################################################################
-
 import testing_helper
 import time
 
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_problem1a()
-    run_test_problem1b()
-    run_test_problem1c()
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
+
+    # run_test_problem1a()
+    # run_test_problem1b()
+    # run_test_problem1c()
 
 
 ###############################################################################
