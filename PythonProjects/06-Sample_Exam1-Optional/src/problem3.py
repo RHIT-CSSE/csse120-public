@@ -52,37 +52,6 @@ def sum_of_digits(number):
     return digit_sum
 
 
-def product_of_digits(number):
-    """
-    What comes in:  An integer.
-    What goes out:  Returns the sum of the digits in the given integer.
-    Side effects:   None.
-    Example:
-      If the integer is 83135,
-      this function returns (8 + 3 + 1 + 3 + 5), which is 20.
-    """
-    # -------------------------------------------------------------------------
-    # Students:
-    #   Do NOT touch the above  sum_of_digits function - it has no _TODO_.
-    #   Do NOT copy code from this function.
-    #
-    # Instead, ** CALL ** this function as needed in the problems below.
-    # -------------------------------------------------------------------------
-    if number < 0:
-        number = -number
-
-    digit_product = 1
-    while True:
-        if number == 0:
-            break
-        digit = number % 10
-        if digit != 0:
-            digit_product = digit_product * digit
-        number = number // 10
-
-    return digit_product
-
-
 def run_test_problem3a():
     """ Tests the   problem3a   function. """
     print()
