@@ -112,11 +112,11 @@ def run_test_problem1a():
     # -------------------------------------------------------------------------
     # TODO: 3. Implement this TEST function.
     #   It TESTS the  problem1a  function defined below.
-    #   Include at least **   4   ** tests (we wrote two for you).
+    #   Include at least **   4   ** tests (we wrote three for you).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      3
-    #    TIME ESTIMATE:   10 minutes.
+    #    TIME ESTIMATE:   5 minutes.
     # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
@@ -134,6 +134,15 @@ def run_test_problem1a():
     print_actual_result_of_test(expected, actual, test_results, precision=3)
 
     # Test 2:
+    expected = 1.135  # This is APPROXIMATELY the correct answer.
+    print_expected_result_of_test([1, -2], expected, test_results,
+                                  format_string)
+    actual = problem1a(1, -2)
+    print_actual_result_of_test(expected, actual, test_results, precision=3)
+
+    print_summary_of_test_results(test_results)
+
+    # Test 3:
     expected = 1.278  # This is APPROXIMATELY the correct answer.
     print_expected_result_of_test([30, 100], expected, test_results,
                                   format_string)
@@ -143,12 +152,12 @@ def run_test_problem1a():
     print_summary_of_test_results(test_results)
 
     # -------------------------------------------------------------------------
-    # TO DO: 2 (continued).
-    # Below this comment, add 2 more test cases of your own choosing.
+    # _TODO: 2 (continued).
+    # Below this comment, add 1 more test case of your own choosing.
     # You do NOT need to use the above form.  Instead, use the usual:
     #   expected = XXX
     #   actual = problem1a(YYY, YYY)
-    #   print('Test 1 expected:', expected)
+    #   print('Test 4 expected:', expected)
     #   print('       actual:  ', actual)
     # -------------------------------------------------------------------------
 
@@ -176,7 +185,7 @@ def problem1a(m, n):
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      5
-    #    TIME ESTIMATE:   10 minutes.
+    #    TIME ESTIMATE:   5 to 8 minutes.
     # -------------------------------------------------------------------------
 
 
@@ -185,21 +194,54 @@ def run_test_problem1b():
     # -------------------------------------------------------------------------
     # TODO: 5. Implement this TEST function.
     #   It TESTS the  problem1b  function defined below.
-    #   Include at least **   4   ** tests.  Use the usual form:
-    #  _
-    #   expected = XXX
-    #   actual = problem1b(YYY, YYY)
-    #   print('Test 1 expected:', expected)
-    #   print('       actual:  ', actual)
+    #   Include at least **   5   ** tests (we wrote three for you).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      3
-    #    TIME ESTIMATE:   15 minutes.
+    #    TIME ESTIMATE:   5 minutes.
     # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   problem1b   function:')
     print('--------------------------------------------------')
+
+    format_string = '    problem1b( {}, {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # Test 1:
+    expected = 5
+    print_expected_result_of_test([3, 5], expected, test_results,
+                                  format_string)
+    actual = problem1a(3, 5)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:
+    expected = 1  # This is APPROXIMATELY the correct answer.
+    print_expected_result_of_test([2, 1], expected, test_results,
+                                  format_string)
+    actual = problem1a(2, 1)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    print_summary_of_test_results(test_results)
+
+    # Test 3:
+    expected = 44  # This is APPROXIMATELY the correct answer.
+    print_expected_result_of_test([5, 40], expected, test_results,
+                                  format_string)
+    actual = problem1a(5, 40)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    print_summary_of_test_results(test_results)
+
+    # -------------------------------------------------------------------------
+    # _TODO_: 5 (continued).
+    # Below this comment, add 2 more test cases of your own choosing.
+    # You do NOT need to use the above form.  Instead, use the usual:
+    #   expected = XXX
+    #   actual = problem1b(YYY, YYY)
+    #   print('Test 4 expected:', expected)
+    #   print('       actual:  ', actual)
+    # -------------------------------------------------------------------------
 
 
 def problem1b(m, f):
@@ -228,7 +270,7 @@ def problem1b(m, f):
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      5
-    #    TIME ESTIMATE:   10 to 15 minutes.
+    #    TIME ESTIMATE:   5 to 10 minutes.
     # -------------------------------------------------------------------------
 
 
@@ -323,8 +365,8 @@ def problem1c(n):
     #    **  functions that are DEFINED ABOVE.
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      7
-    #    TIME ESTIMATE:   15 to 20 minutes.
+    #    DIFFICULTY:      6
+    #    TIME ESTIMATE:   7 to 12 minutes.
     # -------------------------------------------------------------------------
 
 
