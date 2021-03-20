@@ -109,10 +109,13 @@ def problem2a(circle, rectangle, window):
     # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
+    #  _
+    #  IMPORTANT: Drawing the line as an arrow is a BONUS point;
+    #             try briefly to do it, then find its answer on Piazza.
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      6
-    #    TIME ESTIMATE:   10 to 15 minutes.
+    #    TIME ESTIMATE:   10 to 15 minutes (not counting the time for arrow)
     # -------------------------------------------------------------------------
 
 
@@ -166,9 +169,9 @@ def problem2b(rect, n, delta, win):
             as the given rg.Rectangle, but their width
             and height are each   (2 * delta)   greater than
             the width and height of the previous rg.Rectangle.
-            That is, the distance from each line of each rg.Rectangle
-            to the corresponding line of the rg.Rectangle next to it
-            is delta.  (See problem2b_picture.)
+              -- That is, the distance from each line of each rg.Rectangle
+                 to the corresponding line of the rg.Rectangle next to it
+                 is delta.  (See problem2b_picture.)
       Must render but   ** NOT close **   the window.
 
     Type hints:
@@ -183,7 +186,7 @@ def problem2b(rect, n, delta, win):
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      7
-    #    TIME ESTIMATE:   15 to 25 minutes.
+    #    TIME ESTIMATE:   10 to 20 minutes.
     # -------------------------------------------------------------------------
 
 
