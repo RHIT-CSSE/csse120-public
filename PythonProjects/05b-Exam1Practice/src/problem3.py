@@ -40,44 +40,6 @@ def main():
     # run_test_problem3b()
 
 
-###############################################################################
-# TODO: 2.  READ the doc-string for the
-#              sum_of_digits
-#   function defined below.
-#   It is the same  sum_of_digits  function that you have seen before.
-#   After you UNDERSTAND the doc-string (JUST the doc-string, NOT the code),
-#   ASKING QUESTIONS AS NEEDED, change the above _TODO_ to DONE.
-###############################################################################
-
-def sum_of_digits(number):
-    """
-    What comes in:  An integer.
-    What goes out:  Returns the sum of the digits in the given integer.
-    Side effects:   None.
-    Example:
-      If the integer is 83135,
-      this function returns (8 + 3 + 1 + 3 + 5), which is 20.
-    """
-    # -------------------------------------------------------------------------
-    # Students:
-    #   Do NOT touch the above  sum_of_digits function - it has no _TODO_.
-    #   Do NOT copy code from this function.
-    #
-    # Instead, ** CALL ** this function as needed in the problems below.
-    # -------------------------------------------------------------------------
-    if number < 0:
-        number = -number
-
-    digit_sum = 0
-    while True:
-        if number == 0:
-            break
-        digit_sum = digit_sum + (number % 10)
-        number = number // 10
-
-    return digit_sum
-
-
 def run_test_problem3a():
     """ Tests the   problem3a   function. """
     print()
@@ -219,7 +181,7 @@ def problem3a(m, r):
            which is approximately 12.020144157845959
      """
     ###########################################################################
-    # TODO: 3. Implement and test this function.
+    # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -385,7 +347,7 @@ def problem3b(m, r, s):
            which is approximately 3.5863095238095237
      """
     ###########################################################################
-    # TODO: 4. Implement and test this function.
+    # TODO: 3. Implement and test this function.
     #          Tests have been written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
