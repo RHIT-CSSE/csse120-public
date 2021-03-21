@@ -108,6 +108,7 @@ def run_test_problem3a():
     # -------------------------------------------------------------------------
 
 
+# IMPORTANT: See the IMPORTANT note in the _TODO_ below.
 def problem3a(window, point, n):
     """
     See   problem3a_picture.pdf   in this project for pictures
@@ -143,6 +144,15 @@ def problem3a(window, point, n):
     # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
+    #  _
+    #  IMPORTANT: Implement a SMALL PORTION of this problem, then TEST it.
+    #    Once that portion is correct, implement another SMALL PORTION,
+    #    then test it.  And so forth.
+    #  _
+    #    For example, first get the lines to appear.
+    #    Then get their thicknesses correct, not worrying about the limit of 13.
+    #    Then enforce the limit of 13.
+    #    Then compute and return the sum of the thicknesses.
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      8
