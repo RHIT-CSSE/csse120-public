@@ -4,6 +4,7 @@ PRACTICE Exam 1, problem 0.
 These problems illustrate concepts that previous problems have not emphasized:
   -- determining whether a number is odd or even (Problem 0a)
   -- returning True or False (Problem 0a)
+  -- boolean operators (and, or, not) (Problem 0a)
   -- is_prime (Problem 0b)
   -- animation (Problem 0c)
 
@@ -118,9 +119,15 @@ def run_test_problem0a():
         print("Ask for help as needed.")
 
     # Test 2:
-    expected = True
+    expected = False
     print_expected_result_of_test([306], expected, test_results, format_string)
     actual = problem0a(306)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    expected = True
+    print_expected_result_of_test([247], expected, test_results, format_string)
+    actual = problem0a(247)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
     if actual == "True":
         print("Your function returned the STRING 'True',")
@@ -128,70 +135,94 @@ def run_test_problem0a():
         print("the built-in constant True.")
         print("Ask for help as needed.")
 
-    # Test 3:
+    # Test 4:
     expected = False
-    print_expected_result_of_test([246], expected, test_results, format_string)
-    actual = problem0a(246)  # Run the code to be tested
+    print_expected_result_of_test([803], expected, test_results,
+                                  format_string)
+    actual = problem0a(803)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
-    # Test 4:
+    # Test 5:
     expected = False
     print_expected_result_of_test([830931], expected, test_results,
                                   format_string)
     actual = problem0a(830931)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
-    # Test 5:
+    # Test 6:
     expected = True
     print_expected_result_of_test([730931], expected, test_results,
                                   format_string)
     actual = problem0a(730931)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
-    # Test 6:
+    # Test 7:
     expected = False
     print_expected_result_of_test([200], expected, test_results, format_string)
     actual = problem0a(200)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
-    # Test 7:
-    expected = True
-    print_expected_result_of_test([562], expected, test_results,
-                                  format_string)
-    actual = problem0a(562)  # Run the code to be tested
-    print_actual_result_of_test(expected, actual, test_results)
-
     # Test 8:
-    expected = True
-    print_expected_result_of_test([555], expected, test_results,
-                                  format_string)
-    actual = problem0a(555)  # Run the code to be tested
+    expected = False
+    print_expected_result_of_test([9020], expected, test_results, format_string)
+    actual = problem0a(9020)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 9:
     expected = False
-    print_expected_result_of_test([13], expected, test_results,
+    print_expected_result_of_test([9021], expected, test_results,
                                   format_string)
-    actual = problem0a(13)  # Run the code to be tested
+    actual = problem0a(9021)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 10:
+    expected = True
+    print_expected_result_of_test([9022], expected, test_results,
+                                  format_string)
+    actual = problem0a(9022)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 11:
+    expected = True
+    print_expected_result_of_test([441399999], expected, test_results,
+                                  format_string)
+    actual = problem0a(441399999)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 12:
+    expected = True
+    print_expected_result_of_test([1111111111111], expected, test_results,
+                                  format_string)
+    actual = problem0a(1111111111111)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 13:
+    expected = True
+    print_expected_result_of_test([69], expected, test_results,
+                                  format_string)
+    actual = problem0a(69)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     print_summary_of_test_results(test_results)
 
 
+# IMPORTANT:  See the IMPORTANT notes and HINTS below.
 def problem0a(n):
     """
     What comes in:  An integer.
     What goes out:
       -- Returns True if the sum of the digits in the given integer
-         is odd, else returns False.
+         is odd AND is greater than 11, else returns False.
     Side effects:   None.
     Examples:
       -- If the given integer is 83135, this function returns False,
            since (8 + 3 + 1 + 3 + 5) is 20, which is NOT odd.
-      -- If the given integer is 306, this function returns True,
-           since (3 + 0 + 6) is 9, which IS odd.
-      -- If the given integer is 246, this function returns False,
-           since (2 + 4 + 6) is 12, which is NOT odd.
+      -- If the given integer is 306, this function returns False,
+           since (3 + 0 + 6) is 9, which IS odd but is NOT greater than 11.
+      -- If the given integer is 247, this function returns True,
+           since (2 + 4 + 7) is 13, which IS odd and IS greater than 11.
+      -- If the given integer is 803, this function returns False,
+           since (8 + 0 + 3) is 11, which IS odd and but is NOT greater than 11.
     """
     # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
@@ -207,6 +238,8 @@ def problem0a(n):
     #        If that remainder is 1, the number is odd.
     #        Simply try a few examples to convince yourself of this.
     #        ASK FOR HELP if you do not understand this hint.
+    #   HINT:  To test whether both condition1 and condition2 are True,
+    #          use      condition1 and condition2   [and similarly for 'or']
     # -------------------------------------------------------------------------
 
 
@@ -239,14 +272,81 @@ def run_test_problem0b():
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 4:
+    expected = 4
+    print_expected_result_of_test([8], expected, test_results, format_string)
+    actual = problem0b(8)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    expected = 4
+    print_expected_result_of_test([7], expected, test_results, format_string)
+    actual = problem0b(7)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    expected = 3
+    print_expected_result_of_test([6], expected, test_results, format_string)
+    actual = problem0b(6)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
     expected = 168
     print_expected_result_of_test([997], expected, test_results, format_string)
     actual = problem0b(997)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
+    # Test 8:
+    expected = 168
+    print_expected_result_of_test([998], expected, test_results, format_string)
+    actual = problem0b(997)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 9:
+    expected = 168
+    print_expected_result_of_test([999], expected, test_results, format_string)
+    actual = problem0b(997)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 10:
+    expected = 170
+    print_expected_result_of_test([1018], expected, test_results, format_string)
+    actual = problem0b(1018)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 11:
+    expected = 171
+    print_expected_result_of_test([1019], expected, test_results, format_string)
+    actual = problem0b(1019)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 12:
+    expected = 171
+    print_expected_result_of_test([1020], expected, test_results, format_string)
+    actual = problem0b(1020)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 13:
+    expected = 172
+    print_expected_result_of_test([1021], expected, test_results, format_string)
+    actual = problem0b(1021)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 14:
+    expected = 172
+    print_expected_result_of_test([1022], expected, test_results, format_string)
+    actual = problem0b(1022)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 15:
+    expected = 172
+    print_expected_result_of_test([1023], expected, test_results, format_string)
+    actual = problem0b(1023)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
     print_summary_of_test_results(test_results)
 
 
+# IMPORTANT: See the IMPORTANT notes below.
 def problem0b(n):
     """
     What comes in:  An integer n >= 2.
@@ -270,7 +370,14 @@ def problem0b(n):
     #   IMPORTANT:
     #    **  For full credit you must appropriately
     #    **  use (call) the   is_prime   function that is DEFINED ABOVE.
-    # ------------------------------------------------------------------
+    #  _
+    #   IMPORTANT: In this and ALL problems through Exam 1, when using a RANGE
+    #     expression, you may use only its SINGLE-ARGUMENT form,
+    #     for pedagogical reasons.
+    #         range(m)         OK!
+    #         range(a, b)      NOT Ok!
+    #         range(m, n, -1)  NOT Ok!
+    # -------------------------------------------------------------------------
 
 
 def run_test_problem0c():
@@ -306,6 +413,7 @@ def run_test_problem0c():
     window2.close_on_mouse_click()
 
 
+# IMPORTANT:  See the HINT below.
 def problem0c(circle, n, window):
     """
     See   problem0c_picture.pdf   in this project for pictures
