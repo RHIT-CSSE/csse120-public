@@ -77,6 +77,7 @@ def run_test_problem2a():
     window.close_on_mouse_click()
 
 
+# IMPORTANT: See the IMPORTANT note in the _TODO_ below.
 def problem2a(circle, rectangle, window):
     """
     See   problem2a_picture.pdf   in this project for pictures
@@ -114,7 +115,7 @@ def problem2a(circle, rectangle, window):
     #             try briefly to do it, then find its answer on Piazza.
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      6
+    #    DIFFICULTY:      5                (not counting the arrow)
     #    TIME ESTIMATE:   10 to 15 minutes (not counting the time for arrow)
     # -------------------------------------------------------------------------
 
