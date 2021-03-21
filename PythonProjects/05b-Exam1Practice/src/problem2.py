@@ -186,7 +186,7 @@ def problem2b(rect, n, delta, win):
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      7
-    #    TIME ESTIMATE:   10 to 20 minutes.
+    #    TIME ESTIMATE:   10 to 15 minutes.
     # -------------------------------------------------------------------------
 
 
