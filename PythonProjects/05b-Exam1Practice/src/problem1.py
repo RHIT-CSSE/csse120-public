@@ -288,6 +288,7 @@ def run_test_problem1b():
     # -------------------------------------------------------------------------
 
 
+# IMPORTANT: See the IMPORTANT note in the _TODO_ below.
 def problem1b(m, f):
     """
     What comes in:  Positive integers m and f such that m >= 2.
@@ -382,6 +383,7 @@ def run_test_problem1c():
     print_summary_of_test_results(test_results)
 
 
+# IMPORTANT: See the IMPORTANT note in the _TODO_ below.
 def problem1c(n):
     """
     What comes in:  An integer n >= 2.
