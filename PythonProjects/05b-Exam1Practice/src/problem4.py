@@ -45,7 +45,7 @@ def test_factor_sum():
     #      for testing the   factor_sum   function defined below.
     #  _
     #    Use the usual format:
-    #      Test XXX:
+    #      # Test XXX:
     #      expected = XXX
     #      actual = XXX
     #      print()
