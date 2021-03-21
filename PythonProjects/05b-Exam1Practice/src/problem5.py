@@ -35,15 +35,15 @@ def main():
     print("as you implement the functions that they test.")
     print("-----------------------------------------------")
 
-    # run_test_problem3a()
-    # run_test_problem3b()
+    # run_test_problem5a()
+    # run_test_problem5b()
 
 
-def run_test_problem3a():
-    """ Tests the   problem3a   function. """
+def run_test_problem5a():
+    """ Tests the   problem5a   function. """
     # -------------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
-    #   It TESTS the  problem3a  function defined below.
+    #   It TESTS the  problem5a  function defined below.
     #   Include at least **   5   ** tests (we wrote four for you).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -57,7 +57,7 @@ def run_test_problem3a():
     # Test 1 (it is on window 1):
     point = rg.Point(30, 30)
     expected = 36
-    answer = problem3a(window1, point, 6)  # Run the code to be tested
+    answer = problem5a(window1, point, 6)  # Run the code to be tested
     print()
     print("Test 1 expected:", expected)
     print("       actual:  ", answer)
@@ -72,7 +72,7 @@ def run_test_problem3a():
     # Test 2 (it is on window 2):
     point = rg.Point(80, 10)
     expected = 75
-    answer = problem3a(window2, point, 9)  # Run the code to be tested
+    answer = problem5a(window2, point, 9)  # Run the code to be tested
     print()
     print("Test 2 expected:", expected)
     print("       actual:  ", answer)
@@ -80,7 +80,7 @@ def run_test_problem3a():
     # Test 3 (it is also on window 2):
     point = rg.Point(30, 50)
     expected = 9
-    answer = problem3a(window2, point, 3)  # Run the code to be tested
+    answer = problem5a(window2, point, 3)  # Run the code to be tested
     print()
     print("Test 3 expected:", expected)
     print("       actual:  ", answer)
@@ -94,7 +94,7 @@ def run_test_problem3a():
     # Test 4 (it is on window 3):
     point = rg.Point(30, 30)
     expected = 218
-    answer = problem3a(window3, point, 20)  # Run the code to be tested
+    answer = problem5a(window3, point, 20)  # Run the code to be tested
     print()
     print("Test 4 expected:", expected)
     print("       actual:  ", answer)
@@ -109,9 +109,9 @@ def run_test_problem3a():
 
 
 # IMPORTANT: See the IMPORTANT note in the _TODO_ below.
-def problem3a(window, point, n):
+def problem5a(window, point, n):
     """
-    See   problem3a_picture.pdf   in this project for pictures
+    See   problem5a_picture.pdf   in this project for pictures
     that may help you better understand the following specification:
 
     What comes in:
@@ -155,31 +155,32 @@ def problem3a(window, point, n):
     #    Then compute and return the sum of the thicknesses.
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      8
-    #    TIME ESTIMATE:   15 to 20 minutes.
+    #    DIFFICULTY:      7
+    #    TIME ESTIMATE:   15 to 25 minutes.
     # -------------------------------------------------------------------------
 
 
-def run_test_problem3b():
-    """ Tests the   problem3b   function. """
+def run_test_problem5b():
+    """ Tests the   problem5b   function. """
     # Test 1 is ALREADY DONE (here).
     expected = 158
-    answer = problem3b(4, rg.Point(100, 50))  # Run the code to be tested
+    answer = problem5b(4, rg.Point(100, 50))  # Run the code to be tested
     print()
     print("Test 1 expected:", expected)
     print("       actual:  ", answer)
 
     # Test 2 is ALREADY DONE (here).
     expected = 539
-    answer = problem3b(7, rg.Point(30, 30))  # Run the code to be tested
+    answer = problem5b(7, rg.Point(30, 30))  # Run the code to be tested
     print()
     print("Test 2 expected:", expected)
     print("       actual:  ", answer)
 
 
-def problem3b(m, point1):
+# IMPORTANT: See the IMPORTANT note in the _TODO_ below.
+def problem5b(m, point1):
     """
-    See   problem3b_picture.pdf   in this project for pictures
+    See   problem5b_picture.pdf   in this project for pictures
     that may help you better understand the following specification:
 
     What comes in:
@@ -193,7 +194,7 @@ def problem3b(m, point1):
          that is 400 wide by 650 tall.
       -- Draws, on the rg.RoseWindow,  m  SETS of lines, where:
           -- Each SET of lines is drawn
-                 *** by a call to ** problem3a **. ***
+                 *** by a call to ** problem5a **. ***
           -- The first set has 3 lines that start at point1
                (the given point).
           -- The second set has 5 lines that start 60 pixels
@@ -204,7 +205,7 @@ def problem3b(m, point1):
                directly below point1.
           -- etc until  m  SETS of lines are drawn (where m is given).
           -- Each set of lines should have widths (thicknesses)
-               per problem3a.
+               per problem5a.
       -- Waits for the user to click the mouse (and displays an
            appropriate message prompting the user to do so),
            then closes the window.
@@ -219,7 +220,7 @@ def problem3b(m, point1):
     #  ########################################################################
     #  IMPORTANT:
     #    **  For full credit you must appropriately use (call)
-    #    **  the   problem3a   function that you implemented above.
+    #    **  the   problem5a   function that you implemented above.
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      8
