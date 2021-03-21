@@ -112,7 +112,7 @@ def run_test_problem1a():
     # -------------------------------------------------------------------------
     # TODO: 3. Implement this TEST function.
     #   It TESTS the  problem1a  function defined below.
-    #   Include at least **   4   ** tests (we wrote three for you).
+    #   Include at least **   6   ** tests (we wrote five for you).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      3
@@ -127,27 +127,39 @@ def run_test_problem1a():
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
-    expected = -1.601  # This is APPROXIMATELY the correct answer.
+    expected = -1.601215  # This is APPROXIMATELY the correct answer.
     print_expected_result_of_test([3, 5], expected, test_results,
                                   format_string)
     actual = problem1a(3, 5)  # Run the code to be tested
-    print_actual_result_of_test(expected, actual, test_results, precision=3)
+    print_actual_result_of_test(expected, actual, test_results, precision=6)
 
     # Test 2:
-    expected = 1.135  # This is APPROXIMATELY the correct answer.
-    print_expected_result_of_test([1, -2], expected, test_results,
+    expected = 0.06332106  # This is APPROXIMATELY the correct answer.
+    print_expected_result_of_test([2, -3], expected, test_results,
                                   format_string)
-    actual = problem1a(1, -2)  # Run the code to be tested
-    print_actual_result_of_test(expected, actual, test_results, precision=3)
-
-    print_summary_of_test_results(test_results)
+    actual = problem1a(2, -3)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 3:
-    expected = 1.278  # This is APPROXIMATELY the correct answer.
+    expected = 1.32357900  # This is APPROXIMATELY the correct answer.
+    print_expected_result_of_test([30, 101], expected, test_results,
+                                  format_string)
+    actual = problem1a(30, 101)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results, precision=8)
+
+    # Test 4:
+    expected = 0.7311900132  # This is APPROXIMATELY the correct answer.
+    print_expected_result_of_test([9999, 9999], expected, test_results,
+                                  format_string)
+    actual = problem1a(9999, 9999)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results, precision=9)
+
+    # Test 5:
+    expected = 1.27818068564  # This is APPROXIMATELY the correct answer.
     print_expected_result_of_test([30, 100], expected, test_results,
                                   format_string)
     actual = problem1a(30, 100)  # Run the code to be tested
-    print_actual_result_of_test(expected, actual, test_results, precision=3)
+    print_actual_result_of_test(expected, actual, test_results, precision=11)
 
     print_summary_of_test_results(test_results)
 
@@ -155,9 +167,9 @@ def run_test_problem1a():
     # TODO: 3 (continued).
     #  Below this comment, add 1 more test case of your own choosing.
     #  You do NOT need to use the above form.  Instead, use the usual:
-    #     # Test 4
+    #     # Test NNN:
     #     expected = XXX
-    #     actual = problem1a(YYY, YYY)
+    #     actual = problem1a(YYY, ZZZ)
     #     print()
     #     print("Expected:", expected)
     #     print("Actual:  ", actual)
@@ -175,11 +187,11 @@ def problem1a(m, n):
     Examples:
       -- If m is 3 and n is 5, this function returns:
             sine(9) + sine(10) + sine(11) +  ...  + sine(24) + sine(25),
-         which is about -1.601.
-      -- If m is 1 and n is -2, this function returns:
-            sine(1) + sine(2) + sine(3) + sine(4),
-         which is about 1.135.
-      -- If m is 30 and n is 100, the correct answer is about 1.278.
+         which is about -1.601215.
+      -- If m is 2 and n is -3, this function returns:
+            sine(4) + sine(5) + sine(6) + sine(7) + sine(8) + sine(9),
+         which is about 0.06332106.
+      -- If m is 30 and n is 101, the correct answer is about 1.32357900.
     """
     # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
@@ -196,7 +208,7 @@ def run_test_problem1b():
     # -------------------------------------------------------------------------
     # TODO: 5. Implement this TEST function.
     #   It TESTS the  problem1b  function defined below.
-    #   Include at least **   5   ** tests (we wrote three for you).
+    #   Include at least **   9   ** tests (we wrote seven for you).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      3
@@ -214,23 +226,51 @@ def run_test_problem1b():
     expected = 5
     print_expected_result_of_test([3, 5], expected, test_results,
                                   format_string)
-    actual = problem1a(3, 5)  # Run the code to be tested
+    actual = problem1b(3, 5)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
-    expected = 1  # This is APPROXIMATELY the correct answer.
+    expected = 1
     print_expected_result_of_test([2, 1], expected, test_results,
                                   format_string)
-    actual = problem1a(2, 1)  # Run the code to be tested
+    actual = problem1b(2, 1)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     print_summary_of_test_results(test_results)
 
     # Test 3:
-    expected = 44  # This is APPROXIMATELY the correct answer.
+    expected = 44
     print_expected_result_of_test([5, 40], expected, test_results,
                                   format_string)
-    actual = problem1a(5, 40)  # Run the code to be tested
+    actual = problem1b(5, 40)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 4:
+    expected = 44
+    print_expected_result_of_test([5, 42], expected, test_results,
+                                  format_string)
+    actual = problem1b(5, 42)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    expected = 45
+    print_expected_result_of_test([5, 43], expected, test_results,
+                                  format_string)
+    actual = problem1b(5, 43)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    expected = 45
+    print_expected_result_of_test([5, 44], expected, test_results,
+                                  format_string)
+    actual = problem1b(5, 44)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    expected = 46
+    print_expected_result_of_test([5, 45], expected, test_results,
+                                  format_string)
+    actual = problem1b(5, 45)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     print_summary_of_test_results(test_results)
@@ -239,9 +279,9 @@ def run_test_problem1b():
     # TODO: 5 (continued).
     #  Below this comment, add 2 more test cases of your own choosing.
     #  You do NOT need to use the above form.  Instead, use the usual:
-    #     # Test 4
+    #     # Test NNN:
     #     expected = XXX
-    #     actual = problem1b(YYY, YYY)
+    #     actual = problem1b(YYY, ZZZ)
     #     print()
     #     print("Expected:", expected)
     #     print("Actual:  ", actual)
@@ -332,6 +372,13 @@ def run_test_problem1c():
     actual = problem1c(10008)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
+    # Test 8:
+    expected = 19200
+    print_expected_result_of_test([10009], expected, test_results,
+                                  format_string)
+    actual = problem1c(10009)  # Run the code to be tested
+    print_actual_result_of_test(expected, actual, test_results)
+
     print_summary_of_test_results(test_results)
 
 
@@ -369,8 +416,8 @@ def problem1c(n):
     #    **  functions that are DEFINED ABOVE.
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      6
-    #    TIME ESTIMATE:   7 to 12 minutes.
+    #    DIFFICULTY:      7
+    #    TIME ESTIMATE:   7 to 15 minutes.
     # -------------------------------------------------------------------------
 
 
