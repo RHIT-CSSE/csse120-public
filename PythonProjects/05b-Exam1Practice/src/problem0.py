@@ -206,7 +206,7 @@ def run_test_problem0a():
     print_summary_of_test_results(test_results)
 
 
-# IMPORTANT:  See the IMPORTANT notes and HINTS below.
+# IMPORTANT:  See the IMPORTANT notes and HINTS in the _TODO_ below.
 def problem0a(n):
     """
     What comes in:  An integer.
@@ -346,7 +346,7 @@ def run_test_problem0b():
     print_summary_of_test_results(test_results)
 
 
-# IMPORTANT: See the IMPORTANT notes below.
+# IMPORTANT: See the IMPORTANT notes in the _TODO_ below.
 def problem0b(n):
     """
     What comes in:  An integer n >= 2.
@@ -413,7 +413,7 @@ def run_test_problem0c():
     window2.close_on_mouse_click()
 
 
-# IMPORTANT:  See the HINT below.
+# IMPORTANT:  See the HINT in the _TODO_ below.
 def problem0c(circle, n, window):
     """
     See   problem0c_picture.pdf   in this project for pictures
