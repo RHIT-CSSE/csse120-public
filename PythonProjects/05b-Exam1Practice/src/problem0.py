@@ -122,7 +122,7 @@ def run_test_problem0a():
     print_expected_result_of_test([306], expected, test_results, format_string)
     actual = problem0a(306)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
-    if actual == 'True':
+    if actual == "True":
         print("Your function returned the STRING 'True',")
         print("which is WRONG.  It should have returned")
         print("the built-in constant True.")
@@ -344,7 +344,7 @@ def problem0c(circle, n, window):
 ###############################################################################
 
 def print_expected_result_of_test(arguments, expected,
-                                  test_results, format_string, suffix=''):
+                                  test_results, format_string, suffix=""):
     testing_helper.print_expected_result_of_test(arguments, expected,
                                                  test_results, format_string,
                                                  suffix)
@@ -379,8 +379,8 @@ else:
 try:
     main()
 except Exception:
-    print('ERROR - While running this test,', color='red')
-    print('your code raised the following exception:', color='red')
+    print("ERROR - While running this test,", color="red")
+    print("your code raised the following exception:", color="red")
     print()
     time.sleep(1)
     raise
