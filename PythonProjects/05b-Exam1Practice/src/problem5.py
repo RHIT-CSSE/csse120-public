@@ -35,8 +35,8 @@ def main():
     print("as you implement the functions that they test.")
     print("-----------------------------------------------")
 
-    # run_test_problem5a()
-    # run_test_problem5b()
+    run_test_problem5a()
+    run_test_problem5b()
 
 
 def run_test_problem5a():
@@ -50,6 +50,11 @@ def run_test_problem5a():
     #    DIFFICULTY:      4
     #    TIME ESTIMATE:   10 minutes.
     # -------------------------------------------------------------------------
+    print()
+    print("--------------------------------------------------")
+    print("Testing the   problem5a  function:")
+    print("--------------------------------------------------")
+
     # Window 1:
     title = "Problem 3a. Test 1: Start at (30, 30), 6 lines"
     window1 = rg.RoseWindow(350, 200, title)
@@ -162,6 +167,11 @@ def problem5a(window, point, n):
 
 def run_test_problem5b():
     """ Tests the   problem5b   function. """
+    print()
+    print("--------------------------------------------------")
+    print("Testing the   problem5b  function:")
+    print("--------------------------------------------------")
+
     # Test 1 is ALREADY DONE (here).
     expected = 158
     answer = problem5b(4, rg.Point(100, 50))  # Run the code to be tested
