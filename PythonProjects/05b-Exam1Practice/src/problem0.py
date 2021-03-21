@@ -98,11 +98,11 @@ def sum_of_digits(number):
 def run_test_problem0a():
     """ Tests the   problem0a   function. """
     print()
-    print('--------------------------------------------------')
-    print('Testing the   problem0a   function:')
-    print('--------------------------------------------------')
+    print("--------------------------------------------------")
+    print("Testing the   problem0a   function:")
+    print("--------------------------------------------------")
 
-    format_string = '    problem0a( {} )'
+    format_string = "    problem0a( {} )"
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
@@ -111,11 +111,11 @@ def run_test_problem0a():
                                   format_string)
     actual = problem0a(83135)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
-    if actual == 'False':
-        print('Your function returned the STRING "False",')
-        print('which is WRONG.  It should have returned')
-        print('the built-in constant False.')
-        print('Ask for help as needed.')
+    if actual == "False":
+        print("Your function returned the STRING 'False',")
+        print("which is WRONG.  It should have returned")
+        print("the built-in constant False.")
+        print("Ask for help as needed.")
 
     # Test 2:
     expected = True
@@ -123,10 +123,10 @@ def run_test_problem0a():
     actual = problem0a(306)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
     if actual == 'True':
-        print('Your function returned the STRING "True",')
-        print('which is WRONG.  It should have returned')
-        print('the built-in constant True.')
-        print('Ask for help as needed.')
+        print("Your function returned the STRING 'True',")
+        print("which is WRONG.  It should have returned")
+        print("the built-in constant True.")
+        print("Ask for help as needed.")
 
     # Test 3:
     expected = False
@@ -213,11 +213,11 @@ def problem0a(n):
 def run_test_problem0b():
     """ Tests the   problem0b   function. """
     print()
-    print('--------------------------------------------------')
-    print('Testing the   problem0b   function:')
-    print('--------------------------------------------------')
+    print("--------------------------------------------------")
+    print("Testing the   problem0b   function:")
+    print("--------------------------------------------------")
 
-    format_string = '    problem0b( {} )'
+    format_string = "    problem0b( {} )"
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
@@ -276,32 +276,32 @@ def problem0b(n):
 def run_test_problem0c():
     """ Tests the   problem0c  function. """
     print()
-    print('--------------------------------------------------')
-    print('Testing the  problem0c  function:')
-    print('  See the graphics windows that pop up.')
-    print('--------------------------------------------------')
+    print("--------------------------------------------------")
+    print("Testing the  problem0c  function:")
+    print("  See the graphics windows that pop up.")
+    print("--------------------------------------------------")
 
     # TWO tests on ONE window.
-    title = 'Tests 1 & 2 of problem0c: blue circle + 6 circles;'
-    title += ' then green circle + 3 circles'
+    title = "Tests 1 & 2 of problem0c: blue circle + 6 circles;"
+    title += " then green circle + 3 circles"
     window1 = rg.RoseWindow(650, 300, title)
 
     circle1 = rg.Circle(rg.Point(100, 50), 30)
-    circle1.fill_color = 'blue'
+    circle1.fill_color = "blue"
     problem0c(circle1, 6, window1)  # Run the code to be tested
     window1.continue_on_mouse_click()
 
     circle2 = rg.Circle(rg.Point(75, 200), 75)
-    circle2.fill_color = 'green'
+    circle2.fill_color = "green"
     problem0c(circle2, 3, window1)  # Run the code to be tested
     window1.close_on_mouse_click()
 
     # A third test on ANOTHER window.
-    title = 'Test 3 of problem0c:  red circle + 10 circles'
+    title = "Test 3 of problem0c:  red circle + 10 circles"
     window2 = rg.RoseWindow(600, 200, title)
 
     circle3 = rg.Circle(rg.Point(50, 50), 20)
-    circle3.fill_color = 'red'
+    circle3.fill_color = "red"
     problem0c(circle3, 10, window2)  # Run the code to be tested
     window2.close_on_mouse_click()
 

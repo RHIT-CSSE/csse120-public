@@ -49,8 +49,8 @@ def test_factor_sum():
     #      expected = XXX
     #      actual = XXX
     #      print()
-    #      print('Expected:', expected)
-    #      print('Actual:  ', actual)
+    #      print("Expected:", expected)
+    #      print("Actual:  ", actual)
     #  _
     #  IMPORTANT:
     #  The function that you are TESTING is PURPOSELY implemented INCORRECTLY
@@ -62,9 +62,9 @@ def test_factor_sum():
     #    TIME ESTIMATE:   10 minutes.
     ###########################################################################
     print()
-    print('---------------------------------------------------------')
-    print('Testing the   factor_sum   function:')
-    print('---------------------------------------------------------')
+    print("---------------------------------------------------------")
+    print("Testing the   factor_sum   function:")
+    print("---------------------------------------------------------")
 
     ###########################################################################
     # WRITE YOUR TESTS BELOW HERE:

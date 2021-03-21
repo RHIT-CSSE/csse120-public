@@ -51,7 +51,7 @@ def run_test_problem3a():
     #    TIME ESTIMATE:   10 minutes.
     # -------------------------------------------------------------------------
     # Window 1:
-    title = 'Problem 3a. Test 1: Start at (30, 30), 6 lines'
+    title = "Problem 3a. Test 1: Start at (30, 30), 6 lines"
     window1 = rg.RoseWindow(350, 200, title)
 
     # Test 1 (it is on window 1):
@@ -59,14 +59,14 @@ def run_test_problem3a():
     expected = 36
     answer = problem3a(window1, point, 6)  # Run the code to be tested
     print()
-    print('Test 1 expected:', expected)
-    print('       actual:  ', answer)
+    print("Test 1 expected:", expected)
+    print("       actual:  ", answer)
 
     window1.close_on_mouse_click()
 
     # Window 2:
-    title = 'Problem 3a.  Test 2: Start at (80, 10), 9 lines.'
-    title += '  Test 3: Start at (30, 50), 3 lines.'
+    title = "Problem 3a.  Test 2: Start at (80, 10), 9 lines."
+    title += "  Test 3: Start at (30, 50), 3 lines."
     window2 = rg.RoseWindow(550, 200, title)
 
     # Test 2 (it is on window 2):
@@ -74,21 +74,21 @@ def run_test_problem3a():
     expected = 75
     answer = problem3a(window2, point, 9)  # Run the code to be tested
     print()
-    print('Test 2 expected:', expected)
-    print('       actual:  ', answer)
+    print("Test 2 expected:", expected)
+    print("       actual:  ", answer)
 
     # Test 3 (it is also on window 2):
     point = rg.Point(30, 50)
     expected = 9
     answer = problem3a(window2, point, 3)  # Run the code to be tested
     print()
-    print('Test 3 expected:', expected)
-    print('       actual:  ', answer)
+    print("Test 3 expected:", expected)
+    print("       actual:  ", answer)
 
     window2.close_on_mouse_click()
 
     # Window 3:
-    title = 'Problem 3a. Test 4: Start at (30, 30), 20 lines'
+    title = "Problem 3a. Test 4: Start at (30, 30), 20 lines"
     window3 = rg.RoseWindow(450, 300, title)
 
     # Test 4 (it is on window 3):
@@ -96,8 +96,8 @@ def run_test_problem3a():
     expected = 218
     answer = problem3a(window3, point, 20)  # Run the code to be tested
     print()
-    print('Test 4 expected:', expected)
-    print('       actual:  ', answer)
+    print("Test 4 expected:", expected)
+    print("       actual:  ", answer)
 
     window3.close_on_mouse_click()
 
@@ -156,15 +156,15 @@ def run_test_problem3b():
     expected = 158
     answer = problem3b(4, rg.Point(100, 50))  # Run the code to be tested
     print()
-    print('Test 1 expected:', expected)
-    print('       actual:  ', answer)
+    print("Test 1 expected:", expected)
+    print("       actual:  ", answer)
 
     # Test 2 is ALREADY DONE (here).
     expected = 539
     answer = problem3b(7, rg.Point(30, 30))  # Run the code to be tested
     print()
-    print('Test 2 expected:', expected)
-    print('       actual:  ', answer)
+    print("Test 2 expected:", expected)
+    print("       actual:  ", answer)
 
 
 def problem3b(m, point1):

@@ -42,37 +42,37 @@ def main():
 def run_test_problem2a():
     """ Tests the   problem2a  function. """
     print()
-    print('--------------------------------------------------')
-    print('Testing the  problem2a  function:')
-    print('  See the graphics windows that pop up.')
-    print('--------------------------------------------------')
+    print("--------------------------------------------------")
+    print("Testing the  problem2a  function:")
+    print("  See the graphics windows that pop up.")
+    print("--------------------------------------------------")
 
     # TWO tests on ONE window.
-    title = 'Tests 1 & 2 of problem2a: '
-    title += 'red to blue, then blank to green'
+    title = "Tests 1 & 2 of problem2a: "
+    title += "red to blue, then blank to green"
     window = rg.RoseWindow(450, 250, title)
 
     circle = rg.Circle(rg.Point(100, 50), 30)
     rectangle = rg.Rectangle(rg.Point(100, 120), rg.Point(200, 170))
-    rectangle.outline_color = 'blue'
-    circle.fill_color = 'red'
+    rectangle.outline_color = "blue"
+    circle.fill_color = "red"
     problem2a(circle, rectangle, window)  # Run the code to be tested
     window.continue_on_mouse_click()
 
     circle = rg.Circle(rg.Point(300, 100), 50)
     rectangle = rg.Rectangle(rg.Point(300, 170), rg.Point(400, 120))
-    rectangle.outline_color = 'green'
+    rectangle.outline_color = "green"
     problem2a(circle, rectangle, window)  # Run the code to be tested
     window.close_on_mouse_click()
 
     # A third test on ANOTHER window.
-    title = 'Test 3 of problem2a: yellow to black'
+    title = "Test 3 of problem2a: yellow to black"
     window = rg.RoseWindow(400, 300, title)
 
     circle = rg.Circle(rg.Point(100, 50), 30)
     rectangle = rg.Rectangle(rg.Point(100, 100), rg.Point(50, 250))
-    rectangle.outline_color = 'black'
-    circle.fill_color = 'yellow'
+    rectangle.outline_color = "black"
+    circle.fill_color = "yellow"
     problem2a(circle, rectangle, window)  # Run the code to be tested
     window.close_on_mouse_click()
 
@@ -122,31 +122,31 @@ def problem2a(circle, rectangle, window):
 def run_test_problem2b():
     """ Tests the  problem2b   function. """
     print()
-    print('--------------------------------------------------')
-    print('Testing the   problem2b   function:')
-    print('  See the graphics windows that pop up.')
-    print('--------------------------------------------------')
+    print("--------------------------------------------------")
+    print("Testing the   problem2b   function:")
+    print("  See the graphics windows that pop up.")
+    print("--------------------------------------------------")
 
     # TWO tests on ONE window.
-    title = 'Tests 1 & 2 of problem2b: '
-    title += '6 on blue with delta=15, 3 on green with delta=50'
+    title = "Tests 1 & 2 of problem2b: "
+    title += "6 on blue with delta=15, 3 on green with delta=50"
     window = rg.RoseWindow(550, 450, title)
 
     rectangle = rg.Rectangle(rg.Point(100, 100), rg.Point(140, 120))
-    rectangle.fill_color = 'blue'
+    rectangle.fill_color = "blue"
     problem2b(rectangle, 6, 15, window)  # Run the code to be tested
     window.continue_on_mouse_click()
 
     rectangle = rg.Rectangle(rg.Point(400, 300), rg.Point(350, 200))
-    rectangle.fill_color = 'green'
+    rectangle.fill_color = "green"
     problem2b(rectangle, 3, 50, window)  # Run the code to be tested
     window.close_on_mouse_click()
 
-    title = 'Test 3 of problem2b: 10 on red with delta=12'
+    title = "Test 3 of problem2b: 10 on red with delta=12"
     window = rg.RoseWindow(400, 350, title)
 
     rectangle = rg.Rectangle(rg.Point(250, 150), rg.Point(200, 200))
-    rectangle.fill_color = 'red'
+    rectangle.fill_color = "red"
     problem2b(rectangle, 10, 12, window)  # Run the code to be tested
     window.close_on_mouse_click()
 

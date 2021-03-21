@@ -119,11 +119,11 @@ def run_test_problem1a():
     #    TIME ESTIMATE:   5 minutes.
     # -------------------------------------------------------------------------
     print()
-    print('--------------------------------------------------')
-    print('Testing the   problem1a   function:')
-    print('--------------------------------------------------')
+    print("--------------------------------------------------")
+    print("Testing the   problem1a   function:")
+    print("--------------------------------------------------")
 
-    format_string = '    problem1a( {}, {} )'
+    format_string = "    problem1a( {}, {} )"
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
@@ -157,8 +157,8 @@ def run_test_problem1a():
     # You do NOT need to use the above form.  Instead, use the usual:
     #   expected = XXX
     #   actual = problem1a(YYY, YYY)
-    #   print('Test 4 expected:', expected)
-    #   print('       actual:  ', actual)
+    #   print("Test 4 expected:", expected)
+    #   print("       actual:  ", actual)
     # -------------------------------------------------------------------------
 
 
@@ -201,11 +201,11 @@ def run_test_problem1b():
     #    TIME ESTIMATE:   5 minutes.
     # -------------------------------------------------------------------------
     print()
-    print('--------------------------------------------------')
-    print('Testing the   problem1b   function:')
-    print('--------------------------------------------------')
+    print("--------------------------------------------------")
+    print("Testing the   problem1b   function:")
+    print("--------------------------------------------------")
 
-    format_string = '    problem1b( {}, {} )'
+    format_string = "    problem1b( {}, {} )"
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
@@ -239,8 +239,8 @@ def run_test_problem1b():
     # You do NOT need to use the above form.  Instead, use the usual:
     #   expected = XXX
     #   actual = problem1b(YYY, YYY)
-    #   print('Test 4 expected:', expected)
-    #   print('       actual:  ', actual)
+    #   print("Test 4 expected:", expected)
+    #   print("       actual:  ", actual)
     # -------------------------------------------------------------------------
 
 
@@ -277,11 +277,11 @@ def problem1b(m, f):
 def run_test_problem1c():
     """ Tests the   problem1c   function. """
     print()
-    print('--------------------------------------------------')
-    print('Testing the   problem1c   function:')
-    print('--------------------------------------------------')
+    print("--------------------------------------------------")
+    print("Testing the   problem1c   function:")
+    print("--------------------------------------------------")
 
-    format_string = '    problem1c( {} )'
+    format_string = "    problem1c( {} )"
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
@@ -376,7 +376,7 @@ def problem1c(n):
 ###############################################################################
 
 def print_expected_result_of_test(arguments, expected,
-                                  test_results, format_string, suffix=''):
+                                  test_results, format_string, suffix=""):
     testing_helper.print_expected_result_of_test(arguments, expected,
                                                  test_results, format_string,
                                                  suffix)
@@ -411,8 +411,8 @@ else:
 try:
     main()
 except Exception:
-    print('ERROR - While running this test,', color='red')
-    print('your code raised the following exception:', color='red')
+    print("ERROR - While running this test,", color="red")
+    print("your code raised the following exception:", color="red")
     print()
     time.sleep(1)
     raise
