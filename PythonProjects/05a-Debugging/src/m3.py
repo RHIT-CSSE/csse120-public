@@ -4,8 +4,8 @@ This module lets you practice DEBUGGING when LOGIC ERRORS occur.
 That is, no run-time exception occurs, but the function simply
 does not do the right thing.
 
-Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
-         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -126,8 +126,7 @@ def broken_1(m):
         if is_prime(m):
             count = count + 1
 
-
-# -----------------------------------------------------------------------------
-# Calls  main  to start the ball rolling.
-# -----------------------------------------------------------------------------
+    # -----------------------------------------------------------------------------
+    # Calls  main  to start the ball rolling.
+    # -----------------------------------------------------------------------------
     main()
