@@ -72,7 +72,7 @@ def run_test_problem3a():
     # which is approximately 0.3457187393495064
     print_expected_result_of_test([6, 4], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(6, 4)
+    actual = problem3a(6, 4)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # Test 2:
@@ -80,7 +80,7 @@ def run_test_problem3a():
     # which is approximately 1.6111111111111112
     print_expected_result_of_test([3, 1], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(3, 1)
+    actual = problem3a(3, 1)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # Test 3:
@@ -88,7 +88,7 @@ def run_test_problem3a():
     # which is approximately 0.03011463844797178
     print_expected_result_of_test([2, 35], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(2, 35)
+    actual = problem3a(2, 35)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # Test 4:
@@ -96,14 +96,14 @@ def run_test_problem3a():
                (4 / (3.1 ** 4))  # which is approximately 12.020144157845959
     print_expected_result_of_test([4, 0.1], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(4, 0.1)
+    actual = problem3a(4, 0.1)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # Test 5:
     expected = 1 / 1  # which is 1
     print_expected_result_of_test([1, 1], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(1, 1)
+    actual = problem3a(1, 1)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # Test 6:
@@ -113,7 +113,7 @@ def run_test_problem3a():
     # which is approximately 0.2653695083904117
     print_expected_result_of_test([7, 5], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(7, 5)
+    actual = problem3a(7, 5)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # Test 7:
@@ -121,7 +121,7 @@ def run_test_problem3a():
     # which is approximately 0.7690972222222222
     print_expected_result_of_test([3, 2], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(3, 2)
+    actual = problem3a(3, 2)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # Test 8:
@@ -129,28 +129,28 @@ def run_test_problem3a():
     # which is approximately 1.6267361111111112
     print_expected_result_of_test([4, 1], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(4, 1)
+    actual = problem3a(4, 1)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # Test 9:
     expected = 22.213482474800703
     print_expected_result_of_test([13, 0.05], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(13, 0.05)
+    actual = problem3a(13, 0.05)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # Test 10:
     expected = 0.5961871168220374
     print_expected_result_of_test([3, 2.5], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(3, 2.5)
+    actual = problem3a(3, 2.5)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # Test 11:
     expected = 102.38398042755968
     print_expected_result_of_test([10, 0.01], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3a(10, 0.01)
+    actual = problem3a(10, 0.01)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=14)
 
     # SUMMARY of test results:
@@ -218,7 +218,7 @@ def run_test_problem3b():
     # which is approximately 2.655766455766456
     print_expected_result_of_test([6, 2, 5], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(6, 2, 5)
+    actual = problem3b(6, 2, 5)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 2:
@@ -226,14 +226,14 @@ def run_test_problem3b():
     # which is approximately 4.241666666666667
     print_expected_result_of_test([3, 10, 6], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(3, 10, 6)
+    actual = problem3b(3, 10, 6)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 3:
     expected = (20 / 4)  # which is 5
     print_expected_result_of_test([1, 20, 4], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(1, 20, 4)
+    actual = problem3b(1, 20, 4)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 4:
@@ -241,84 +241,84 @@ def run_test_problem3b():
     # which is approximately 3.5863095238095237
     print_expected_result_of_test([4, 10, 10], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(4, 10, 10)
+    actual = problem3b(4, 10, 10)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 5:
     expected = 19.37465007372624
     print_expected_result_of_test([30, 10, 11], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(30, 10, 11)
+    actual = problem3b(30, 10, 11)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 6:
     expected = 50.0
     print_expected_result_of_test([100, 4, 8], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(100, 4, 8)
+    actual = problem3b(100, 4, 8)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 7:
     expected = 49.5
     print_expected_result_of_test([99, 4, 8], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(99, 4, 8)
+    actual = problem3b(99, 4, 8)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 8:
     expected = 50.5
     print_expected_result_of_test([101, 4, 8], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(101, 4, 8)
+    actual = problem3b(101, 4, 8)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 9:
     expected = 53.15592858306353
     print_expected_result_of_test([101, 5, 7], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(101, 5, 7)
+    actual = problem3b(101, 5, 7)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 10:
     expected = 51.642171094650834
     print_expected_result_of_test([100, 1, 1], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(100, 1, 1)
+    actual = problem3b(100, 1, 1)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 11:
     expected = 52.14465865683989
     print_expected_result_of_test([101, 1, 1], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(101, 1, 1)
+    actual = problem3b(101, 1, 1)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 12:
     expected = 52.64712171102708
     print_expected_result_of_test([102, 1, 1], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(102, 1, 1)
+    actual = problem3b(102, 1, 1)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 13:
     expected = 487.5687456418132
     print_expected_result_of_test([1000, 6, 23], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(1000, 6, 23)
+    actual = problem3b(1000, 6, 23)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 14:
     expected = 1801.8405099999466
     print_expected_result_of_test([999, 600, 25], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(999, 600, 25)
+    actual = problem3b(999, 600, 25)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 15:
     expected = 7736.352797543001
     print_expected_result_of_test([2999, 10000, 2001], expected, test_results,
                                   format_string, suffix='  (approximately)')
-    actual = problem3b(2999, 10000, 2001)
+    actual = problem3b(2999, 10000, 2001)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # SUMMARY of test results:

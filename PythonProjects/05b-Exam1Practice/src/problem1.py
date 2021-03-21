@@ -130,14 +130,14 @@ def run_test_problem1a():
     expected = -1.601  # This is APPROXIMATELY the correct answer.
     print_expected_result_of_test([3, 5], expected, test_results,
                                   format_string)
-    actual = problem1a(3, 5)
+    actual = problem1a(3, 5)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=3)
 
     # Test 2:
     expected = 1.135  # This is APPROXIMATELY the correct answer.
     print_expected_result_of_test([1, -2], expected, test_results,
                                   format_string)
-    actual = problem1a(1, -2)
+    actual = problem1a(1, -2)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=3)
 
     print_summary_of_test_results(test_results)
@@ -146,7 +146,7 @@ def run_test_problem1a():
     expected = 1.278  # This is APPROXIMATELY the correct answer.
     print_expected_result_of_test([30, 100], expected, test_results,
                                   format_string)
-    actual = problem1a(30, 100)
+    actual = problem1a(30, 100)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=3)
 
     print_summary_of_test_results(test_results)
@@ -212,14 +212,14 @@ def run_test_problem1b():
     expected = 5
     print_expected_result_of_test([3, 5], expected, test_results,
                                   format_string)
-    actual = problem1a(3, 5)
+    actual = problem1a(3, 5)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
     expected = 1  # This is APPROXIMATELY the correct answer.
     print_expected_result_of_test([2, 1], expected, test_results,
                                   format_string)
-    actual = problem1a(2, 1)
+    actual = problem1a(2, 1)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     print_summary_of_test_results(test_results)
@@ -228,7 +228,7 @@ def run_test_problem1b():
     expected = 44  # This is APPROXIMATELY the correct answer.
     print_expected_result_of_test([5, 40], expected, test_results,
                                   format_string)
-    actual = problem1a(5, 40)
+    actual = problem1a(5, 40)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     print_summary_of_test_results(test_results)
@@ -287,45 +287,45 @@ def run_test_problem1c():
     # Test 1:
     expected = 3
     print_expected_result_of_test([10], expected, test_results, format_string)
-    actual = problem1c(10)
+    actual = problem1c(10)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
     expected = 6
     print_expected_result_of_test([11], expected, test_results, format_string)
-    actual = problem1c(11)
+    actual = problem1c(11)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 3:
     expected = 33
     print_expected_result_of_test([25], expected, test_results, format_string)
-    actual = problem1c(25)
+    actual = problem1c(25)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 4:
     expected = 2
     print_expected_result_of_test([2], expected, test_results, format_string)
-    actual = problem1c(2)
+    actual = problem1c(2)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 5:
     expected = 6
     print_expected_result_of_test([3], expected, test_results, format_string)
-    actual = problem1c(3)
+    actual = problem1c(3)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 6:
     expected = 19416
     print_expected_result_of_test([10007], expected, test_results,
                                   format_string)
-    actual = problem1c(10007)
+    actual = problem1c(10007)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 7:
     expected = 19416
     print_expected_result_of_test([10008], expected, test_results,
                                   format_string)
-    actual = problem1c(10008)
+    actual = problem1c(10008)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     print_summary_of_test_results(test_results)

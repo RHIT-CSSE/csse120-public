@@ -56,13 +56,13 @@ def run_test_problem2a():
     rectangle = rg.Rectangle(rg.Point(100, 120), rg.Point(200, 170))
     rectangle.outline_color = 'blue'
     circle.fill_color = 'red'
-    problem2a(circle, rectangle, window)
+    problem2a(circle, rectangle, window)  # Run the code to be tested
     window.continue_on_mouse_click()
 
     circle = rg.Circle(rg.Point(300, 100), 50)
     rectangle = rg.Rectangle(rg.Point(300, 170), rg.Point(400, 120))
     rectangle.outline_color = 'green'
-    problem2a(circle, rectangle, window)
+    problem2a(circle, rectangle, window)  # Run the code to be tested
     window.close_on_mouse_click()
 
     # A third test on ANOTHER window.
@@ -73,7 +73,7 @@ def run_test_problem2a():
     rectangle = rg.Rectangle(rg.Point(100, 100), rg.Point(50, 250))
     rectangle.outline_color = 'black'
     circle.fill_color = 'yellow'
-    problem2a(circle, rectangle, window)
+    problem2a(circle, rectangle, window)  # Run the code to be tested
     window.close_on_mouse_click()
 
 
@@ -134,12 +134,12 @@ def run_test_problem2b():
 
     rectangle = rg.Rectangle(rg.Point(100, 100), rg.Point(140, 120))
     rectangle.fill_color = 'blue'
-    problem2b(rectangle, 6, 15, window)
+    problem2b(rectangle, 6, 15, window)  # Run the code to be tested
     window.continue_on_mouse_click()
 
     rectangle = rg.Rectangle(rg.Point(400, 300), rg.Point(350, 200))
     rectangle.fill_color = 'green'
-    problem2b(rectangle, 3, 50, window)
+    problem2b(rectangle, 3, 50, window)  # Run the code to be tested
     window.close_on_mouse_click()
 
     title = 'Test 3 of problem2b: 10 on red with delta=12'
@@ -147,7 +147,7 @@ def run_test_problem2b():
 
     rectangle = rg.Rectangle(rg.Point(250, 150), rg.Point(200, 200))
     rectangle.fill_color = 'red'
-    problem2b(rectangle, 10, 12, window)
+    problem2b(rectangle, 10, 12, window)  # Run the code to be tested
     window.close_on_mouse_click()
 
 

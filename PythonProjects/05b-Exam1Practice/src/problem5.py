@@ -57,7 +57,7 @@ def run_test_problem3a():
     # Test 1 (it is on window 1):
     point = rg.Point(30, 30)
     expected = 36
-    answer = problem3a(window1, point, 6)
+    answer = problem3a(window1, point, 6)  # Run the code to be tested
     print()
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
@@ -72,7 +72,7 @@ def run_test_problem3a():
     # Test 2 (it is on window 2):
     point = rg.Point(80, 10)
     expected = 75
-    answer = problem3a(window2, point, 9)
+    answer = problem3a(window2, point, 9)  # Run the code to be tested
     print()
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
@@ -80,7 +80,7 @@ def run_test_problem3a():
     # Test 3 (it is also on window 2):
     point = rg.Point(30, 50)
     expected = 9
-    answer = problem3a(window2, point, 3)
+    answer = problem3a(window2, point, 3)  # Run the code to be tested
     print()
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
@@ -94,7 +94,7 @@ def run_test_problem3a():
     # Test 4 (it is on window 3):
     point = rg.Point(30, 30)
     expected = 218
-    answer = problem3a(window3, point, 20)
+    answer = problem3a(window3, point, 20)  # Run the code to be tested
     print()
     print('Test 4 expected:', expected)
     print('       actual:  ', answer)
@@ -154,14 +154,14 @@ def run_test_problem3b():
     """ Tests the   problem3b   function. """
     # Test 1 is ALREADY DONE (here).
     expected = 158
-    answer = problem3b(4, rg.Point(100, 50))
+    answer = problem3b(4, rg.Point(100, 50))  # Run the code to be tested
     print()
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
     # Test 2 is ALREADY DONE (here).
     expected = 539
-    answer = problem3b(7, rg.Point(30, 30))
+    answer = problem3b(7, rg.Point(30, 30))  # Run the code to be tested
     print()
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)

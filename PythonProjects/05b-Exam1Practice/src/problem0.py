@@ -109,7 +109,7 @@ def run_test_problem0a():
     expected = False
     print_expected_result_of_test([83135], expected, test_results,
                                   format_string)
-    actual = problem0a(83135)  # Run the code to test
+    actual = problem0a(83135)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
     if actual == 'False':
         print('Your function returned the STRING "False",')
@@ -120,7 +120,7 @@ def run_test_problem0a():
     # Test 2:
     expected = True
     print_expected_result_of_test([306], expected, test_results, format_string)
-    actual = problem0a(306)  # Run the code to test
+    actual = problem0a(306)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
     if actual == 'True':
         print('Your function returned the STRING "True",')
@@ -131,48 +131,48 @@ def run_test_problem0a():
     # Test 3:
     expected = False
     print_expected_result_of_test([246], expected, test_results, format_string)
-    actual = problem0a(246)  # Run the code to test
+    actual = problem0a(246)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 4:
     expected = False
     print_expected_result_of_test([830931], expected, test_results,
                                   format_string)
-    actual = problem0a(830931)  # Run the code to test
+    actual = problem0a(830931)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 5:
     expected = True
     print_expected_result_of_test([730931], expected, test_results,
                                   format_string)
-    actual = problem0a(730931)  # Run the code to test
+    actual = problem0a(730931)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 6:
     expected = False
     print_expected_result_of_test([200], expected, test_results, format_string)
-    actual = problem0a(200)  # Run the code to test
+    actual = problem0a(200)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 7:
     expected = True
     print_expected_result_of_test([562], expected, test_results,
                                   format_string)
-    actual = problem0a(562)  # Run the code to test
+    actual = problem0a(562)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 8:
     expected = True
     print_expected_result_of_test([555], expected, test_results,
                                   format_string)
-    actual = problem0a(555)  # Run the code to test
+    actual = problem0a(555)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 9:
     expected = False
     print_expected_result_of_test([13], expected, test_results,
                                   format_string)
-    actual = problem0a(13)  # Run the code to test
+    actual = problem0a(13)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     print_summary_of_test_results(test_results)
@@ -223,25 +223,25 @@ def run_test_problem0b():
     # Test 1:
     expected = 6
     print_expected_result_of_test([13], expected, test_results, format_string)
-    actual = problem0b(13)  # Run the code to test
+    actual = problem0b(13)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
     expected = 1
     print_expected_result_of_test([2], expected, test_results, format_string)
-    actual = problem0b(2)  # Run the code to test
+    actual = problem0b(2)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 3:
     expected = 46
     print_expected_result_of_test([200], expected, test_results, format_string)
-    actual = problem0b(200)  # Run the code to test
+    actual = problem0b(200)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 4:
     expected = 168
     print_expected_result_of_test([997], expected, test_results, format_string)
-    actual = problem0b(997)  # Run the code to test
+    actual = problem0b(997)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     print_summary_of_test_results(test_results)
@@ -288,12 +288,12 @@ def run_test_problem0c():
 
     circle1 = rg.Circle(rg.Point(100, 50), 30)
     circle1.fill_color = 'blue'
-    problem0c(circle1, 6, window1)
+    problem0c(circle1, 6, window1)  # Run the code to be tested
     window1.continue_on_mouse_click()
 
     circle2 = rg.Circle(rg.Point(75, 200), 75)
     circle2.fill_color = 'green'
-    problem0c(circle2, 3, window1)
+    problem0c(circle2, 3, window1)  # Run the code to be tested
     window1.close_on_mouse_click()
 
     # A third test on ANOTHER window.
@@ -302,7 +302,7 @@ def run_test_problem0c():
 
     circle3 = rg.Circle(rg.Point(50, 50), 20)
     circle3.fill_color = 'red'
-    problem0c(circle3, 10, window2)
+    problem0c(circle3, 10, window2)  # Run the code to be tested
     window2.close_on_mouse_click()
 
 
