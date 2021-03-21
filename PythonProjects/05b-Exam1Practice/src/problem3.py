@@ -322,7 +322,7 @@ def problem3b(m, r, s):
     #          Tests have been written for you (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      7
+    #    DIFFICULTY:      6
     #    TIME ESTIMATE:   7 to 12 minutes.
     ###########################################################################
 

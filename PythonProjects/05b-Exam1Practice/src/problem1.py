@@ -198,7 +198,7 @@ def problem1a(m, n):
     #   Note that you should write its TEST function first (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      5
+    #    DIFFICULTY:      4
     #    TIME ESTIMATE:   5 to 8 minutes.
     # -------------------------------------------------------------------------
 
