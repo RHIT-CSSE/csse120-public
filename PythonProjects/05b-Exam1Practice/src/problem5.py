@@ -1,5 +1,5 @@
 """
-PRACTICE Exam 1, problem 3.
+PRACTICE Exam 1, problem 5.
 
 Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
          Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
