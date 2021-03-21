@@ -45,12 +45,12 @@ def test_factor_sum():
     #      for testing the   factor_sum   function defined below.
     #  _
     #    Use the usual format:
-    #      # Test XXX:
-    #      expected = XXX
-    #      actual = XXX
-    #      print()
-    #      print("Expected:", expected)
-    #      print("Actual:  ", actual)
+    #     # Test NNN:
+    #     expected = XXX
+    #     actual = problem1b(YYY, ZZZ)
+    #     print()
+    #     print("Expected:", expected)
+    #     print("Actual:  ", actual)
     #  _
     #  IMPORTANT:
     #  The function that you are TESTING is PURPOSELY implemented INCORRECTLY
