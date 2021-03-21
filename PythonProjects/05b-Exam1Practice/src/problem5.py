@@ -48,7 +48,7 @@ def run_test_problem3a():
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      4
-    #    TIME ESTIMATE:   10 to 15 minutes.
+    #    TIME ESTIMATE:   10 minutes.
     # -------------------------------------------------------------------------
     # Window 1:
     title = 'Problem 3a. Test 1: Start at (30, 30), 6 lines'
@@ -102,7 +102,7 @@ def run_test_problem3a():
     window3.close_on_mouse_click()
 
     # -------------------------------------------------------------------------
-    # TODO: 2 (continued).
+    #  TODO: 2 (continued).
     #   Below this comment (or integrated with one of the above tests,
     #   your choice), add 1 more test case of your own choosing.
     # -------------------------------------------------------------------------
@@ -145,8 +145,8 @@ def problem3a(window, point, n):
     #   Note that you should write its TEST function first (above).
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      7 or 8
-    #    TIME ESTIMATE:   20 to 35 minutes.
+    #    DIFFICULTY:      8
+    #    TIME ESTIMATE:   15 to 20 minutes.
     # -------------------------------------------------------------------------
 
 
@@ -212,8 +212,8 @@ def problem3b(m, point1):
     #    **  the   problem3a   function that you implemented above.
     #  ------------------------------------------------------------------------
     #  DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      8 or 9
-    #    TIME ESTIMATE:   20 to 30 minutes.
+    #    DIFFICULTY:      8
+    #    TIME ESTIMATE:   10 to 15 minutes.
     # -------------------------------------------------------------------------
 
 
