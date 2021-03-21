@@ -152,13 +152,15 @@ def run_test_problem1a():
     print_summary_of_test_results(test_results)
 
     # -------------------------------------------------------------------------
-    # _TODO: 2 (continued).
-    # Below this comment, add 1 more test case of your own choosing.
-    # You do NOT need to use the above form.  Instead, use the usual:
-    #   expected = XXX
-    #   actual = problem1a(YYY, YYY)
-    #   print("Test 4 expected:", expected)
-    #   print("       actual:  ", actual)
+    # TODO: 3 (continued).
+    #  Below this comment, add 1 more test case of your own choosing.
+    #  You do NOT need to use the above form.  Instead, use the usual:
+    #     # Test 4
+    #     expected = XXX
+    #     actual = problem1a(YYY, YYY)
+    #     print()
+    #     print("Expected:", expected)
+    #     print("Actual:  ", actual)
     # -------------------------------------------------------------------------
 
 
@@ -234,13 +236,15 @@ def run_test_problem1b():
     print_summary_of_test_results(test_results)
 
     # -------------------------------------------------------------------------
-    # _TODO_: 5 (continued).
-    # Below this comment, add 2 more test cases of your own choosing.
-    # You do NOT need to use the above form.  Instead, use the usual:
-    #   expected = XXX
-    #   actual = problem1b(YYY, YYY)
-    #   print("Test 4 expected:", expected)
-    #   print("       actual:  ", actual)
+    # TODO: 5 (continued).
+    #  Below this comment, add 2 more test cases of your own choosing.
+    #  You do NOT need to use the above form.  Instead, use the usual:
+    #     # Test 4
+    #     expected = XXX
+    #     actual = problem1b(YYY, YYY)
+    #     print()
+    #     print("Expected:", expected)
+    #     print("Actual:  ", actual)
     # -------------------------------------------------------------------------
 
 
