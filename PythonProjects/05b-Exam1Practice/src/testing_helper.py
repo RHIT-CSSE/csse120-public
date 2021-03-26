@@ -8,7 +8,7 @@
 #     dablak  (https://stackoverflow.com/users/1329248/dablak)
 # That code appears at:
 #    http://xsnippet.org/359377/
-# and is referenced in dablak"s question at:
+# and is referenced in dablak's question at:
 #  https://stackoverflow.com/questions/20333674/pycharm-logging-output-colours.
 
 # As with all user content to StackOverflow, it is licensed (by dablak) under:
