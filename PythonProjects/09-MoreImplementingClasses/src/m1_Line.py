@@ -80,7 +80,7 @@ def main():
 ###############################################################################
 # The   Point   class (and its methods) begins here.
 ###############################################################################
-class Point(object):
+class Point:
     """ Represents a point in 2-dimensional space. """
 
     def __init__(self, x, y):
@@ -171,7 +171,7 @@ class Point(object):
 ###############################################################################
 # The   Line   class (and its methods) begins here.
 ###############################################################################
-class Line(object):
+class Line:
     """ Represents a line segment in 2-dimensional space. """
 
     def __init__(self, start, end):
