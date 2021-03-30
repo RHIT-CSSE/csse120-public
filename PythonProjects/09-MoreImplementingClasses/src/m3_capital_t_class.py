@@ -8,6 +8,7 @@ Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
 
 import rosegraphics as rg
 
+
 # -----------------------------------------------------------------------------
 # TODO: 2.
 #   Skim this module, noting:
@@ -262,6 +263,7 @@ class CapitalT(object):
         #        Your window should look exactly like the pictures in the PDF.
         # ---------------------------------------------------------------------
 
+    # See the IMPORTANT HINT in the TODO below!
     def move_by(self, dx, dy):
         """
         What comes in:
@@ -297,6 +299,9 @@ class CapitalT(object):
         #   ___
         #   Note: the 03d-move_by.pdf shows the different locations that
         #         the T moves through, but there is only one T at any moment.
+        #   _
+        #   IMPORTANT HINT:  rg.Rectangle objects have their OWN move_by method.
+        #   Using that makes the implementation of this method VERY short!!!
         # ---------------------------------------------------------------------
 
     def clone(self):
