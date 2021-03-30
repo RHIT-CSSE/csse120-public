@@ -36,7 +36,7 @@ def main():
 #   that has NO METHODS (yet); just the lines of code
 #   that start the definition of any class:
 #   _
-#      class NAME_OF_CLASS(object):
+#      class NAME_OF_CLASS:
 #          """ Brief description of what objects of the class 'are'."""
 #   _
 #   Run the program and correct any syntax (notational) errors.
