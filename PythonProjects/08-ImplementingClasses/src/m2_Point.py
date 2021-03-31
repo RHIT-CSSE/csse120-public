@@ -417,8 +417,10 @@ def run_test_move_to():
     # print('Expected for p2: Point(0, 222)')
     # print('Actual for p2:  ', p2)
     # if check_has_no_return is not None:
-    #     print('** FAILED: This method should NOT return an explicit')
-    #     print('** value; in fact, it returned:', check_has_no_return)
+    #     print('** FAILED: This method should NOT return an explicit',
+    #           color="red")
+    #     print('** value; in fact, it returned:', check_has_no_return,
+    #           color="red")
 
     # TODO: 6 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
 
@@ -515,8 +517,10 @@ def run_test_move_by():
     # print('Expected for p2: Point(150, 320)')
     # print('Actual for p2:  ', p2)
     # if check_has_no_return is not None:
-    #     print('** FAILED: This method should NOT return an explicit')
-    #     print('** value; in fact, it returned:', check_has_no_return)
+    #     print('** FAILED: This method should NOT return an explicit',
+    #           color="red")
+    #     print('** value; in fact, it returned:', check_has_no_return,
+    #           color="red")
 
     # TODO: 7 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
 
