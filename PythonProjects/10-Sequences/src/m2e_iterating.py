@@ -8,8 +8,8 @@ It shows two ways to do so:
   -- using RANGE
   -- using just IN (no RANGE)
 
-Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
-   Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays, and their colleagues.
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, and their colleagues.
 """
 
 import rosegraphics as rg

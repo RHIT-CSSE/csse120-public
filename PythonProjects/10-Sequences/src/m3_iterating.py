@@ -3,8 +3,8 @@ This module lets you practice the ITERATE-THROUGH-A-SEQUENCE pattern
 in its most classic form:
   -- Iterate all the way through the sequence, from beginning to end.
 
-Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
-         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 

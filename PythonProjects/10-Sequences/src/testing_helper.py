@@ -24,14 +24,14 @@ PRECISION = 3  # Round floats to 3 decimal places when comparing vs expected
 # Set  USE_COLORING  to False to use the "old" way of printing:
 USE_COLORING = True
 
-COLOR_CODES = {'black': 20,
-               'red': 31,
-               'green': 32,
-               'yellow': 33,
-               'blue': 34,
-               'magenta': 35,
-               'cyan': 36,
-               'white': 37
+COLOR_CODES = {"black": 20,
+               "red": 31,
+               "green": 32,
+               "yellow": 33,
+               "blue": 34,
+               "magenta": 35,
+               "cyan": 36,
+               "white": 37
                }
 
 
@@ -39,9 +39,9 @@ def print_expected_result_of_test(arguments, expected, test_results,
                                   format_string, suffix=""):
     test_number = test_results[0] + test_results[1] + 1
     print()
-    print('Test {}:'.format(test_number))
+    print("Test {}:".format(test_number))
 
-    print('  This test case calls:')
+    print("  This test case calls:")
     print(format_string.format(*arguments))
     print("  Expected:", expected, suffix)
 
@@ -62,13 +62,13 @@ def print_actual_result_of_test(expected, actual, test_results, precision=None):
             expected = round(expected, PRECISION)
             actual = round(actual, PRECISION)
         if expected == actual:
-            print_it("  PASSED the above test -- good!", color='blue')
+            print_it("  PASSED the above test -- good!", color="blue")
             test_results[0] = test_results[0] + 1
             return
         else:
-            print_it("  *** FAILED the above test. ***", color='red')
+            print_it("  *** FAILED the above test. ***", color="red")
     except Exception:
-        print_it("  *** FAILED the above test. ***", color='red')
+        print_it("  *** FAILED the above test. ***", color="red")
     test_results[1] = test_results[1] + 1
 
 
@@ -76,27 +76,27 @@ def print_summary_of_test_results(test_results):
     passed_tests = test_results[0]
     failed_tests = test_results[1]
     number_of_tests = failed_tests + passed_tests
-    message_for_passed = '\n*** PASSED all {} tests! Good! ***'
-    message_for_failed = '\n*** FAILED {} tests! ***'
+    message_for_passed = "\n*** PASSED all {} tests! Good! ***"
+    message_for_failed = "\n*** FAILED {} tests! ***"
     if passed_tests == number_of_tests:
         print_colored(message_for_passed.format(number_of_tests),
-                      color='blue')
+                      color="blue")
     else:
-        print_colored(message_for_failed.format(failed_tests), color='red')
+        print_colored(message_for_failed.format(failed_tests), color="red")
 
 
 # noinspection PyUnusedLocal
-def print_colored(*args, color='black', flush=True):
+def print_colored(*args, color="black", flush=True):
     text = ""
     for arg in args:
         text = text + " " + str(arg)
     text = text.replace(" ", "", 1) + "\n"
-    sys.stdout.write('\033[%sm%s\033[0m' % (COLOR_CODES[color], text))
+    sys.stdout.write("\033[%sm%s\033[0m" % (COLOR_CODES[color], text))
 
 
 def print_uncolored(*args, color=None, flush=True):
-    if color == 'red':
-        print(end='', flush=flush)
+    if color == "red":
+        print(end="", flush=flush)
         time.sleep(1)
         print(*args, file=sys.stderr, flush=flush)  # Stderr MIGHT be red
     else:

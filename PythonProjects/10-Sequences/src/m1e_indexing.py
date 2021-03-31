@@ -4,8 +4,8 @@ This module demonstrates INDEXING into a SEQUENCE:
   -- The 'len' function
   -- What goes wrong if the index is out of range
 
-Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
-   Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays, and their colleagues.
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, and their colleagues.
 """
 ###############################################################################
 # Students: Read and run this program.  There is nothing else
