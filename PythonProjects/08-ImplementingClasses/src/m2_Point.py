@@ -153,6 +153,8 @@ def run_test_init():
     # print('Expected for p2: 100 -40')
     # print('Actual for p2:  ', p2.x, p2.y)
 
+    # TODO: 3 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
+
 
 def run_test_repr():
     """
@@ -221,6 +223,8 @@ def run_test_repr():
     # print('Actual for p1:  ', p1)
     # print('Expected for p2: Point(100, -40)')
     # print('Actual for p2:  ', p2)
+
+    # TODO: 4 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
 
 
 def run_test_clone():
@@ -319,6 +323,8 @@ def run_test_clone():
     # print('Expected for p3: Point(777, 555)')
     # print('Actual for p3:  ', p3)
 
+    # TODO: 5 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
+
 
 def run_test_move_to():
     """
@@ -413,6 +419,8 @@ def run_test_move_to():
     # if check_has_no_return is not None:
     #     print('** FAILED: This method should NOT return an explicit')
     #     print('** value; in fact, it returned:', check_has_no_return)
+
+    # TODO: 6 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
 
 
 def run_test_move_by():
@@ -509,6 +517,8 @@ def run_test_move_by():
     # if check_has_no_return is not None:
     #     print('** FAILED: This method should NOT return an explicit')
     #     print('** value; in fact, it returned:', check_has_no_return)
+
+    # TODO: 7 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
 
 
 def run_test_get_number_of_moves_made():
@@ -641,6 +651,8 @@ def run_test_get_number_of_moves_made():
     # print('Expected for p2 moves made: 5')
     # print('Actual for p2 moves made:  ', p2.get_number_of_moves_made())
 
+    # TODO: 8 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
+
 
 def run_test_get_distance_from():
     """
@@ -745,6 +757,8 @@ def run_test_get_distance_from():
     # print('Expected p2 to p4: 9.0')
     # print('Actual   p2 to p4:', p2.get_distance_from(p4))
 
+    # TODO: 9 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
+
 
 def run_test_get_distance_from_start():
     """
@@ -832,6 +846,8 @@ def run_test_get_distance_from_start():
     # print('p2 from start to (1, 1), should be about 0.0')
     # print('Actually is:', p2.get_distance_from_start())
 
+    # TODO: 10 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
+
 
 def run_test_get_distance_traveled():
     """
@@ -913,6 +929,8 @@ def run_test_get_distance_traveled():
     # print('Actual:', p3.get_distance_traveled())
     # print('Expected p4 has now traveled 100.0')
     # print('Actual:', p4.get_distance_traveled())
+
+    # TODO: 11 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
 
 
 def run_test_closer_to():
@@ -998,6 +1016,8 @@ def run_test_closer_to():
     # print('Expected: False')
     # print('Actual:  ', p1.closer_to(p4, p5) is p5)
 
+    # TODO: 12 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
+
 
 def run_test_halfway_to():
     """
@@ -1079,6 +1099,8 @@ def run_test_halfway_to():
     # print()
     # print('Should be: Point(-10.0, 20.0)')
     # print('Actual is:', p3.halfway_to(p3))
+
+    # TODO: 13 (continued). Add YOUR test here. Be sure that you UNDERSTAND it.
 
 
 ###############################################################################
