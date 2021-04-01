@@ -4,8 +4,8 @@ PRACTICE Exam 3.
 This problem provides practice at:
   ***  MUTATING  and  RETURNING-NEW  LISTS.  ***
 
-Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
-         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -350,6 +350,7 @@ def zero_changer(tuple_of_lists):
     #    DIFFICULTY:      7
     #    TIME ESTIMATE:  10 to 15 minutes.
     # -------------------------------------------------------------------------
+
 
 ###############################################################################
 # Our tests use the following to print error messages in red.
