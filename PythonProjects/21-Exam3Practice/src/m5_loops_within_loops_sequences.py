@@ -40,6 +40,8 @@ def main():
     """ Calls the   TEST   functions in this module. """
     run_test_integers()
     run_test_big_letters()
+    run_test_problem2a()
+    run_test_problem2b()
 
 
 def run_test_integers():
@@ -226,7 +228,7 @@ def big_letters(sequence_of_sequences):
     Precondition:  the given argument is a sequence of sequences.
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # TODO: 4. Implement and test this function.
     #          Tests have been written for you (above).
     #  ########################################################################
     #  HINTS: The  type   function can be used to identify strings,
@@ -247,6 +249,325 @@ def big_letters(sequence_of_sequences):
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      7
     #    TIME ESTIMATE:  12 minutes.
+    # -------------------------------------------------------------------------
+
+
+def run_test_problem2a():
+    """ Tests the   problem2a   function. """
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   problem2a  function:')
+    print('--------------------------------------------------')
+
+    format_string = '    problem2a( {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # Test 1:
+    numbers = ([5, 1],
+               [0, 3, 4],
+               [6, 3])
+    expected = [5, 3, 4, 6]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = problem2a(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:
+    numbers = ([5, 1, 1, 1, 1],
+               [1, 4, 4, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5])
+    expected = [5, 4, 4, 6]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = problem2a(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    numbers = ([5, 1, 1, 1, 1],
+               [1, 6, 5, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5],
+               [5, 6, 7, 8, 9, 10, 11, 12])
+    expected = [5, 6, 5, 6, 5, 6, 7, 8, 9, 10, 11, 12]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = problem2a(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 4:
+    numbers = ([1, 2, 1, 1, 1],
+               [1, 6, 5, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5],
+               [5, 6, 7, 8, 9, 10, 11, 12])
+    expected = [1, 2, 6, 5, 6, 5, 6, 7, 8, 9, 10, 11, 12]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = problem2a(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    numbers = ([100, 200, 1, 1, 1],
+               [1, 6, 5, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5],
+               [5],
+               [5, 6, 7, 8, 9, 10, 11, 12])
+    expected = [100, 200, 6, 5, 6, 5]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = problem2a(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    numbers = ([100, 200, 99],
+               [300])
+    expected = [100, 200, 99, 300]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = problem2a(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    numbers = ([98, 200, 99],
+               [300])
+    expected = [98, 200, 99, 300]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = problem2a(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 8:
+    numbers = ([100, 200, 99],
+               [1, 3])
+    expected = [100, 200, 99, 3]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = problem2a(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # SUMMARY of test results:
+    print_summary_of_test_results(test_results)
+
+
+def problem2a(numbers):
+    """
+    What comes in:  A non-empty sequence of non-empty sequences
+      of positive integers.
+    What goes out:  Returns a list containing every number in the sub-sequences
+      that is bigger than the sum of its indices.
+      The numbers in the returned list should appear in the same order
+      that the numbers appear in the subsequences.
+    Examples:
+      Suppose that  numbers  is:
+          ([5, 1],
+           [0, 3, 4],
+           [6, 3])
+         Then: problem2a(numbers) examines:
+        -- 5: It is at numbers[0][0], so sum of indices is 0,
+              so PUT 5 into the list to return.
+        -- 1: It is at numbers[0][1], so sum of indices is 1,
+              so do NOT put 1 into the list to return.
+        -- 0: It is at numbers[1][0], so sum of indices is 1,
+              so do NOT put 0 into the list to return.
+        -- 3: It is at numbers[1][1], so sum of indices is 2,
+              so PUT 3 into the list to return.
+        -- 4: It is at numbers[1][2], so sum of indices is 3,
+              so PUT 4 into the list to return.
+        -- 6: It is at numbers[2][0], so sum of indices is 2,
+              so PUT 6 into the list to return.
+        -- 3: It is at numbers[2][1], so sum of indices is 3,
+              so do NOT put 3 into the list to return.
+        So on this example, problem2a returns [5, 3, 4, 6]
+
+      ** ASK YOUR INSTRUCTOR FOR HELP **
+      ** if this example and the above specification are not clear to you. **
+     """
+    ###########################################################################
+    # TODO: 5. Implement and test this function.
+    #          Tests have been written for you (above).
+    ###########################################################################
+    # -------------------------------------------------------------------------
+    # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
+    #    DIFFICULTY:      6
+    #    TIME ESTIMATE:  12 minutes.
+    # -------------------------------------------------------------------------
+
+
+def run_test_problem2b():
+    """ Tests the   problem2b   function. """
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   problem2b  function:')
+    print('--------------------------------------------------')
+
+    format_string = '    problem2b( {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # Test 1:
+    numbers = ([5, 1, 8, 3],
+               [0, -3, 7, 8, 1],
+               [6, 3, 5, 5, -10, 12])
+    expected = 5 + 8 + 7 + 8 + 6 + 5 + 5 + 12  # which is 56 (A = 17/4 = 4.25)
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:
+    numbers = ([5, 1, 1, 1, 1, 3],
+               [1, 4, 4, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 2, 1])
+    # so A = 12/6 = 2 and
+    expected = 5 + 3 + 4 + 4 + 6 + 3 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 3  # = 70
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    numbers = ([5, 1, 1, 1, 1],
+               [1, 6, 5, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5],
+               [5, 6, 7, 8, 9, 10, 11, 12])
+    expected = 151
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 4:
+    numbers = ([1, 2, 1, 1, 1],
+               [1, 6, 5, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5],
+               [5, 6, 7, 8, 9, 10, 11, 12])
+    expected = 148
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    numbers = ([100, 200, 1, 1, 1],
+               [1, 6, 5, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5],
+               [5],
+               [5, 6, 7, 8, 9, 10, 11, 12])
+    expected = 300
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    numbers = ([100, 200, 99],
+               [300])
+    expected = 500
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    numbers = ([98, 200, 99],
+               [300])
+    expected = 500
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 8:
+    numbers = ([100, 200, 99],
+               [50])
+    expected = 200
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 9:
+    numbers = ([-4],
+               [],
+               [],
+               [-3, 0, 1, 2, 3],
+               [-3.99],
+               [-4.0000000001])
+    expected = -0.99  # from -3 + 0 + 1 + 2 + 3 + (-3.99)
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string, suffix="(approximately)")
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results, precision=6)
+
+    # Test 10:
+    numbers = ([-99999999999],
+               [],
+               [])
+    expected = 0
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 11:
+    numbers = ([1, 4],
+               [3, 3, 3, 3],
+               [],
+               [2.49, 2.48, 2.49],
+               [])
+    expected = 4 + 3 + 3 + 3 + 3  # = 16
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 12:
+    numbers = ([1, -1],)
+    expected = 1
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = problem2b(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # SUMMARY of test results:
+    print_summary_of_test_results(test_results)
+
+
+def problem2b(numbers):
+    """
+    What comes in:  A non-empty sequence of sequences of numbers,
+      with the first sub-sequence being non-empty.
+    What goes out:  Returns the sum of all the numbers in the subsequences
+      that are bigger than A,
+      where A is the average of the numbers in the FIRST sub-sequence.
+    Side effects:  None.
+    Examples:
+      Suppose that  numbers  is:
+          ([5, 1, 8, 3],
+           [0, -3, 7, 8, 1],
+           [6, 3, 5, 5, -10, 12])
+      Then: the average of the numbers in the first sub-sequence is
+        (5 + 1 + 8 + 3) / 4, which is 17 / 4, which is 4.25, and so
+        problem2b(numbers)   returns   (5 + 8 + 7 + 8 + 6 + 5 + 5 + 12),
+        which is 56, since the numbers in that sum are the numbers
+        in the subsequences that are bigger than 4.25.
+      ** ASK YOUR INSTRUCTOR FOR HELP **
+      ** if this example and the above specification are not clear to you. **
+     """
+    ###########################################################################
+    # TODO: 6. Implement and test this function.
+    #          Tests have been written for you (above).
+    ###########################################################################
+    ###########################################################################
+    # -------------------------------------------------------------------------
+    # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
+    #    DIFFICULTY:      7
+    #    TIME ESTIMATE:  15 minutes.
     # -------------------------------------------------------------------------
 
 
