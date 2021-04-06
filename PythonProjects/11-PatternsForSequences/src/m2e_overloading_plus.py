@@ -6,9 +6,11 @@ This module demonstrates OVERLOADING the  +  symbol:
 
 This module also demonstrates the   STR   function.
 
-Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Mark Hays, and their colleagues.
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, and their colleagues.
 """
+
+
 # -----------------------------------------------------------------------------
 #  Students: Read and run this program.  There is nothing else
 #           for you to do in here.  Just use it as an example.
