@@ -5,8 +5,8 @@ This module lets you practice:
   -- DEFINING functions
   -- CALLING functions
 
-Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
-         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -119,7 +119,6 @@ def generate_points_on_circle(circle_for_points, number_of_points_to_generate):
     points = []
     degrees = 0
     for _ in range(number_of_points_to_generate):
-
         # ---------------------------------------------------------------------
         # Compute x and y of the point on the circumference of the
         # circle by using a polar representation.
