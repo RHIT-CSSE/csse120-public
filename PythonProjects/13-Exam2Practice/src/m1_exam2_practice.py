@@ -66,17 +66,17 @@ def main():
     print("as you implement the functions that they test.")
     print("-----------------------------------------------")
 
-    run_test_practice1a()
-    run_test_practice1b()
-    run_test_practice1c()
-    run_test_practice1d()
-    run_test_practice1e()
-    run_test_practice1f()
-    run_test_practice1g()
-    run_test_practice1h()
-    run_test_practice1i()
-    run_test_practice1j()
-    run_test_practice1k()
+    # run_test_practice1a()
+    # run_test_practice1b()
+    # run_test_practice1c()
+    # run_test_practice1d()
+    # run_test_practice1e()
+    # run_test_practice1f()
+    # run_test_practice1g()
+    # run_test_practice1h()
+    # run_test_practice1i()
+    # run_test_practice1j()
+    # run_test_practice1k()
 
 
 ###############################################################################
@@ -260,10 +260,6 @@ def practice1a(sequence, delta):
     #    DIFFICULTY:      3
     #    TIME ESTIMATE:   5 minutes.
     # -------------------------------------------------------------------------
-    result = []
-    for k in range(len(sequence)):
-        result = result + [sequence[k] + delta]  # or result.append(...)
-    return result
 
 
 def run_test_practice1b():
@@ -422,10 +418,6 @@ def practice1b(sequence):
     #    DIFFICULTY:      3
     #    TIME ESTIMATE:   5 minutes
     # -------------------------------------------------------------------------
-    for k in range(len(sequence)):
-        if sequence[k] == 0:
-            return k
-    return -1
 
 
 def run_test_practice1c():
@@ -660,11 +652,6 @@ def practice1c(integers, m):
     #    DIFFICULTY:      6
     #    TIME ESTIMATE:   10 minutes
     ###########################################################################
-    for k in range(len(integers)):
-        factorization = get_prime_factorization(integers[k])
-        if len(factorization) >= m:
-            return factorization
-    return []
 
 
 def run_test_practice1d():
@@ -865,11 +852,6 @@ def practice1d(circles):
     #    DIFFICULTY:      7
     #    TIME ESTIMATE:   10 minutes.
     # -------------------------------------------------------------------------
-    index_of_smallest = 0
-    for k in range(len(circles)):
-        if circles[k].radius < circles[index_of_smallest].radius:
-            index_of_smallest = k
-    return circles[index_of_smallest]
 
 
 def run_test_practice1e():
@@ -1004,11 +986,6 @@ def practice1e(sequence):
     #    DIFFICULTY:      5
     #    TIME ESTIMATE:   8 minutes.
     # -------------------------------------------------------------------------
-    result = []
-    for k in range(len(sequence)):
-        if sequence[k] == 0:
-            result = result + [k]  # Or, result.append(k)
-    return result
 
 
 def run_test_practice1f():
@@ -1144,10 +1121,6 @@ def practice1f(sequence1, sequence2):
     #    DIFFICULTY:      6
     #    TIME ESTIMATE:   8 minutes.
     # -------------------------------------------------------------------------
-    result = []
-    for k in range(len(sequence1)):
-        result = result + [sequence1[k], sequence2[k]]  # Or, result.append(...)
-    return result
 
 
 def run_test_practice1g():
@@ -1248,11 +1221,6 @@ def practice1g(sequence):
     #    DIFFICULTY:      5
     #    TIME ESTIMATE:   8 minutes.
     # -------------------------------------------------------------------------
-    result = []
-    for k in range(len(sequence) - 1):
-        if sequence[k] == sequence[k + 1]:
-            result = result + [k]
-    return result
 
 
 def run_test_practice1h():
@@ -1395,6 +1363,7 @@ def practice1h(numbers):
     # -------------------------------------------------------------------------
     # TODO: 12. Implement and test this function.
     #     The testing code is already written for you (above).
+    #  _
     #  IMPORTANT: You may NOT use the builtin   max   function
     #   in your solution to this problem.
     #  _
@@ -1414,17 +1383,6 @@ def practice1h(numbers):
     #    DIFFICULTY:      7
     #    TIME ESTIMATE:   15 minutes.
     # -------------------------------------------------------------------------
-    index_of_best = None
-    for k in range(1, len(numbers), 2):
-        if is_prime(numbers[k]):
-            index_of_best = k
-            break
-    if index_of_best is None:
-        return "bad"
-    for k in range(1, len(numbers), 2):
-        if is_prime(numbers[k]) and numbers[k] > numbers[index_of_best]:
-            index_of_best = k
-    return numbers[index_of_best]
 
 
 def run_test_practice1i():
@@ -1615,11 +1573,6 @@ def practice1i(sequence):
     #    DIFFICULTY:      5
     #    TIME ESTIMATE:   8 minutes.
     # -------------------------------------------------------------------------
-    last_item = sequence[len(sequence) - 1]
-    for k in range(len(sequence) - 1):
-        if sequence[k] == last_item:
-            return True
-    return False
 
 
 def run_test_practice1j():
@@ -1742,11 +1695,6 @@ def practice1j(strings):
     #    DIFFICULTY:      7
     #    TIME ESTIMATE:   10 minutes.
     # -------------------------------------------------------------------------
-    result = ""
-    for k in range(len(strings)):
-        if len(strings[k]) > 0:
-            result = result + strings[k][0]
-    return result
 
 
 def run_test_practice1k():
@@ -1975,10 +1923,6 @@ def practice1k(numbers, start):
     #    DIFFICULTY:      4
     #    TIME ESTIMATE:   5 minutes.
     # -------------------------------------------------------------------------
-    product = 1
-    for k in range(start, len(numbers), 3):
-        product = product * numbers[k]
-    return product
 
 
 ###############################################################################
