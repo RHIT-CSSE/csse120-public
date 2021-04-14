@@ -830,8 +830,16 @@ def run_test_shortest_string():
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 10:
-    expected = ""
-    sequence = ("a", "b", "")
+    expected = "bb"
+    sequence = ("00000", "aaa", "bb", "cccccc", "dddd", "eee")
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = shortest_string(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 11:
+    expected = "11"
+    sequence = ("00000", "aaa", "11", "cccccc", "dddd", "eee", "bb")
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
     actual = shortest_string(sequence)
