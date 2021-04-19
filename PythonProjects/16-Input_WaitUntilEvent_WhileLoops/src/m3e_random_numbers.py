@@ -1,8 +1,9 @@
 """
 Demonstrates how to generate random (actually, PSEUDO-random) numbers.
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Derek Whitley, and their colleagues.
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
+         PUT_YOUR_NAME_HERE.
 """
 
 ###############################################################################

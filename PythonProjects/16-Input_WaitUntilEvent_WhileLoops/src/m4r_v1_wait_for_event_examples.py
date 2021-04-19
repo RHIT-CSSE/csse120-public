@@ -11,8 +11,8 @@ the WHILE TRUE pattern:
 See the module that is the COMPANION to this one for the same examples,
 but using the ITCH pattern for WHILE loops.
 
-Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -233,7 +233,7 @@ def wait_for_small_enough_number(small_number=10, max_number=50, print_it=True):
         print("{} random integers between 1 and {} were generated".format(
             count, max_number))
         print()
-    
+
     return count
 
 
