@@ -2,8 +2,8 @@
 This project lets you practice NESTED LOOPS (i.e., loops within loops)
 in the context of SEQUENCES OF SUB-SEQUENCES.
 
-Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -13,8 +13,10 @@ import testing_helper
 
 def main():
     """ Calls the other functions to test them. """
-    print()
-    print("Un-comment and re-comment calls in MAIN one by one as you work.")
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
 
     # run_test_multiply_numbers()
     # run_test_print_characters()

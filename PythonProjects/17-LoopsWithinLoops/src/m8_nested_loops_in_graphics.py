@@ -2,8 +2,8 @@
 This project demonstrates NESTED LOOPS (i.e., loops within loops)
 in the context of TWO-DIMENSIONAL GRAPHICS.
 
-Authors: David Mutchler, Sana Ebrahimi, Mohammed Noureddine, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Mark Hays, their colleagues, and
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -12,8 +12,13 @@ import rosegraphics as rg
 
 def main():
     """ Calls the other functions to demonstrate them. """
-    run_test_draw_L()
-    run_test_draw_wall_on_right()
+
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
+    # run_test_draw_L()
+    # run_test_draw_wall_on_right()
 
 
 def run_test_draw_L():
