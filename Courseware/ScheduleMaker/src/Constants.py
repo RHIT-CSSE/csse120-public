@@ -5,10 +5,10 @@ Author: David Mutchler and his colleagues.
 
 import enum
 
-TERM = "202120"  # Winter, 2020-21
+TERM = "202130"  # Spring, 2020-21
 FOLDER_FOR_HOME_PAGE = "/Users/davidmutchler/csse120-public/WWW/{}".format(TERM)
 
-NUMBER_OF_SESSIONS = 6 # FIXME, temporary
+NUMBER_OF_SESSIONS = 30
 HOME_PAGE = "{}/index.html".format(FOLDER_FOR_HOME_PAGE)
 TERM_INFO_FILE = "{}/term_info.txt".format(FOLDER_FOR_HOME_PAGE)
 
