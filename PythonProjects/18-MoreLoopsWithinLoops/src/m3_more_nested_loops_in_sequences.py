@@ -16,9 +16,12 @@ def main():
     print()
     print("Un-comment and re-comment calls in MAIN one by one as you work.")
 
-    run_test_largest_number()
-    run_test_largest_negative_number()
-    run_test_first_is_elsewhere_too()
+    # run_test_largest_number()
+    # run_test_largest_negative_number()
+    # run_test_first_is_elsewhere_too()
+    # run_test_integers()
+    # run_test_big_letters()
+    # run_test_bigger_than_indices()
 
 
 def run_test_largest_number():
@@ -731,6 +734,348 @@ def first_is_elsewhere_too(seq_seq):
     #   in this problem, as doing so may defeat the goal of providing
     #   practice at loops within loops (within loops within ...)
     # -------------------------------------------------------------------------
+
+
+def run_test_integers():
+    """ Tests the    integers    function. """
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   integers   function:')
+    print('--------------------------------------------------')
+
+    format_string = '    integers( {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # -------------------------------------------------------------------------
+    # Test 1:
+    # -------------------------------------------------------------------------
+    sequence_of_sequences = [(3, 1, 4),
+                             (10, 'hi', 10),
+                             [1, 2.5, 3, 4],
+                             'hello',
+                             [],
+                             ['oops'],
+                             [[55], [44]],
+                             [30, -4]
+                             ]
+    expected = [3, 1, 4, 10, 10, 1, 3, 4, 30, -4]
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = integers(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # -------------------------------------------------------------------------
+    # Test 2:
+    # -------------------------------------------------------------------------
+    sequence_of_sequences = [(3, 1, 4, 'hmmm', [3, 1, 4], 55555555555),
+                             'this is a string',
+                             'ok',
+                             [],
+                             ['oops'],
+                             [[55], 5555, [44], 4444, (4, 5), 4, 5],
+                             (),
+                             [1, 2, 3, 4, 5, 1, 2, 3, 4, 5],
+                             [1000],
+                             (1, 2, 3, 4, 5, 1, 2, 3, 4, 5),
+                             (1000,)
+                             ]
+    expected = [3, 1, 4, 55555555555, 5555, 4444, 4, 5, 1, 2, 3, 4, 5,
+                1, 2, 3, 4, 5, 1000, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1000]
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = integers(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # SUMMARY of test results:
+    print_summary_of_test_results(test_results)
+
+
+# See the IMPORTANT HINT in the _TODO_ for the following problem.
+def integers(sequence_of_sequences):
+    """
+    Returns a new list that contains all the integers in the subsequences
+    of the given sequence, in the order that they appear in the subsequences.
+    For example, if the argument is:
+        [(3, 1, 4),
+         (10, 'hi', 10),
+         [1, 2.5, 3, 4],
+         'hello',
+         [],
+         ['oops'],
+         [[55], [44]],
+         [30, -4]
+        ]
+    then this function returns:
+        [3, 1, 4, 10, 10, 1, 3, 4, 30, -4]
+
+    See the IMPORTANT HINT in the _TODO_ for this problem.
+
+    Type hints:
+      :type sequence_of_sequences: (list|tuple) of (list|tuple|string)
+      :rtype: list of int
+    """
+    # -------------------------------------------------------------------------
+    # TODO: 7. Implement and test this function.
+    #          Tests have been written for you (above).
+    #  ########################################################################
+    #  HINT: The
+    #           type
+    #       function can be used to determine the type of
+    #       its argument (and hence to see if it is an integer).
+    #       For example, you can write expressions like:
+    #         -- if type(34) is int: ...
+    #         -- if type(4.6) is float: ...
+    #         -- if type('three') is str: ...
+    #         -- if type([1, 2, 3]) is list: ...
+    #       Note that the returned values do NOT have quotes.
+    #       Also, the   is   operator tests for equality (like ==)
+    #       but is more appropriate than == in this situation.
+    # -------------------------------------------------------------------------
+
+
+def run_test_big_letters():
+    """ Tests the    big_letters    function. """
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   big_letters   function:')
+    print('--------------------------------------------------')
+
+    format_string = '    big_letters( {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # -------------------------------------------------------------------------
+    # Test 1:
+    # -------------------------------------------------------------------------
+    sequence_of_sequences = [(3, 1, 4),  # not a string
+                             'wHAS what?',  # HAS
+                             ['oops'],  # not a string
+                             'oops',  #
+                             ['OOPS'],  # not a string
+                             '1 THIS !',  # THIS
+                             ]
+    expected = 'HASTHIS'
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = big_letters(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # -------------------------------------------------------------------------
+    # Test 2:
+    # -------------------------------------------------------------------------
+    sequence_of_sequences = [(3, 1, 4),  # not a string
+                             'Ok what is ThiSSS?',  # OTSSS
+                             (10, 'Ok what is ThiSSS?', 10),  # not a string
+                             [],  # not a string
+                             ['oops'],  # not a string
+                             'oops',  #
+                             ['OOPS'],  # not a string
+                             '1 OOPS !',  # OOPS
+                             'A',  # A
+                             'ooPS $$&*#%&&',  # PS
+                             'B',  # B
+                             'oOpS',  # OS
+                             'C',  # C
+                             'OoPs'  # OP
+                             'D',  # D
+                             'OOps'  # OO
+                             ]
+    expected = 'OTSSSOOPSAPSBOSCOPDOO'
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = big_letters(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # SUMMARY of test results:
+    print_summary_of_test_results(test_results)
+
+
+# See the IMPORTANT HINT in the _TODO_ for the following problem.
+def big_letters(sequence_of_sequences):
+    """
+    Returns a new STRING that contains all the upper-case letters
+    in the subsequences of the given sequence that are strings,
+    in the order that they appear in the subsequences.
+    For example, if the argument is:
+        [(3, 1, 4),                          # not a string
+        'Ok what is ThiSSS?',                # OTSSS
+        (10, 'Ok what is ThiSSS?', 10),      # not a string
+        [],                                  # not a string
+        ['oops'],                            # not a string
+        'oops',                              #
+        ['OOPS'],                            # not a string
+        '1 OOPS !',                          # OOPS
+        'A',                                 # A
+        'ooPS $$&*#%&&',                     # PS
+        'B',                                 # B
+        'oOpS',                              # OS
+        'C',                                 # C
+        'OoPs'                               # OP
+        'D',                                 # D
+        'OOps'                               # OO
+         ]
+    then this function returns:
+        'OTSSSOOPSAPSBOSCOPDOO'
+
+    See the IMPORTANT HINT in the _TODO_ for the following problem.
+    
+    Precondition:  the given argument is a sequence of sequences.
+    """
+    # -------------------------------------------------------------------------
+    # TODO: 8. Implement and test this function.
+    #          Tests have been written for you (above).
+    #  ########################################################################
+    #  HINTS: The  type   function can be used to identify strings,
+    #         per the HINT in the previous problem.
+    #  ALSO:
+    #   There is a STRING METHOD that determines whether or not
+    #   a string contains upper-case letters.  To find that method,
+    #   somewhere in this file type:
+    #           "".
+    #   and pause after the dot.
+    #   That will display ALL the STRING methods.
+    #  __
+    #   Look for a method whose name begins with
+    #           is
+    #   e.g. isalnum()  isdigit() ... [but find the one for upper-case letters]
+    ###########################################################################
+
+
+def run_test_bigger_than_indices():
+    """ Tests the   bigger_than_indices   function. """
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   bigger_than_indices  function:')
+    print('--------------------------------------------------')
+
+    format_string = '    bigger_than_indices( {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # Test 1:
+    numbers = ([5, 1],
+               [0, 3, 4],
+               [6, 3])
+    expected = [5, 3, 4, 6]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = bigger_than_indices(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:
+    numbers = ([5, 1, 1, 1, 1],
+               [1, 4, 4, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5])
+    expected = [5, 4, 4, 6]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = bigger_than_indices(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    numbers = ([5, 1, 1, 1, 1],
+               [1, 6, 5, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5],
+               [5, 6, 7, 8, 9, 10, 11, 12])
+    expected = [5, 6, 5, 6, 5, 6, 7, 8, 9, 10, 11, 12]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = bigger_than_indices(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 4:
+    numbers = ([1, 2, 1, 1, 1],
+               [1, 6, 5, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5],
+               [5, 6, 7, 8, 9, 10, 11, 12])
+    expected = [1, 2, 6, 5, 6, 5, 6, 7, 8, 9, 10, 11, 12]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = bigger_than_indices(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    numbers = ([100, 200, 1, 1, 1],
+               [1, 6, 5, 1, 1, 1, 1],
+               [6, 3, 2, 3, 4, 5, 6, 7, 8, 9],
+               [1, 2, 3, 4, 5],
+               [5],
+               [5, 6, 7, 8, 9, 10, 11, 12])
+    expected = [100, 200, 6, 5, 6, 5]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = bigger_than_indices(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    numbers = ([100, 200, 99],
+               [300])
+    expected = [100, 200, 99, 300]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = bigger_than_indices(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    numbers = ([98, 200, 99],
+               [300])
+    expected = [98, 200, 99, 300]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = bigger_than_indices(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 8:
+    numbers = ([100, 200, 99],
+               [1, 3])
+    expected = [100, 200, 99, 3]
+    print_expected_result_of_test([numbers],
+                                  expected, test_results, format_string)
+    actual = bigger_than_indices(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # SUMMARY of test results:
+    print_summary_of_test_results(test_results)
+
+
+def bigger_than_indices(numbers):
+    """
+    What comes in:  A non-empty sequence of non-empty sequences
+      of positive integers.
+    What goes out:  Returns a list containing every number in the sub-sequences
+      that is bigger than the sum of its indices.
+      The numbers in the returned list should appear in the same order
+      that the numbers appear in the subsequences.
+    Examples:
+      Suppose that  numbers  is:
+          ([5, 1],
+           [0, 3, 4],
+           [6, 3])
+         Then: bigger_than_indices(numbers) examines:
+        -- 5: It is at numbers[0][0], so sum of indices is 0,
+              so PUT 5 into the list to return.
+        -- 1: It is at numbers[0][1], so sum of indices is 1,
+              so do NOT put 1 into the list to return.
+        -- 0: It is at numbers[1][0], so sum of indices is 1,
+              so do NOT put 0 into the list to return.
+        -- 3: It is at numbers[1][1], so sum of indices is 2,
+              so PUT 3 into the list to return.
+        -- 4: It is at numbers[1][2], so sum of indices is 3,
+              so PUT 4 into the list to return.
+        -- 6: It is at numbers[2][0], so sum of indices is 2,
+              so PUT 6 into the list to return.
+        -- 3: It is at numbers[2][1], so sum of indices is 3,
+              so do NOT put 3 into the list to return.
+        So on this example, bigger_than_indices returns [5, 3, 4, 6]
+
+      ** ASK YOUR INSTRUCTOR FOR HELP **
+      ** if this example and the above specification are not clear to you. **
+     """
+    ###########################################################################
+    # TODO: 9. Implement and test this function.
+    #          Tests have been written for you (above).
+    ###########################################################################
 
 
 ###############################################################################
