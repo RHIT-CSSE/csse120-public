@@ -14,12 +14,13 @@ Example 2:
        show_balances   method, that steals the rest of her savings!
   -- So her money is now gone!
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Derek Whitley, and their colleagues.
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, and their colleagues.
 """
 
 import rosegraphics as rg
 import random
+
 
 # -----------------------------------------------------------------------------
 # Students: Read and run this program.

@@ -2,9 +2,11 @@
 This module demonstrates that  TUPLES  and  STRINGS  are IMMUTABLE:
   -- Attempts to mutate them cause run-time errors.
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Derek Whitley, and their colleagues.
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, and their colleagues.
 """
+
+
 # -----------------------------------------------------------------------------
 # Students: Read and run this program in the debugger to watch attempts
 #           to mutate a TUPLE and a STRING cause run-time errors.
