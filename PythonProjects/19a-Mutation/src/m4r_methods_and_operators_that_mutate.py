@@ -1,7 +1,9 @@
 """
 This module shows some common methods and operators that mutate lists:
-  -- append, 
+  -- append, insert, sort, remove
   -- the DEL operator
+  -- the IS vs == operators
+  
 
 Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
          Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
@@ -19,11 +21,13 @@ import testing_helper
 
 
 def main():
-    show_append()
-    show_insert()
-    show_sort()
-    show_remove()
-    show_del()
+    """ Run these one at a time to demonstrate the concepts. """
+    # show_append()
+    # show_insert()
+    # show_sort()
+    # show_remove()
+    # show_del()
+    # show_is_vs_equals()
 
 
 def show_append():
@@ -127,6 +131,26 @@ def show_del():
     print("  Attempting to delete an item at an")
     print("  index beyond the end of the list (crashes):")
     del example[10]
+
+
+def show_is_vs_equals():
+    # Show the difference between the IS and == operators
+    print()
+    print("Showing IS vs ==:")
+
+    example1 = [10, 3, 100, "hello"]
+    example2 = [10, 3, 100, "hello"]
+    example3 = example1
+    example4 = example1.copy()
+
+    print("Using IS: ", example1 is example2)
+    print("Using ==: ", example1 == example2)
+
+    print("Using IS again: ", example1 is example3)
+    print("Using == again: ", example1 == example3)
+
+    print("Using IS yet again: ", example1 is example4)
+    print("Using == yet again: ", example1 == example4)
 
 
 # -----------------------------------------------------------------------------
