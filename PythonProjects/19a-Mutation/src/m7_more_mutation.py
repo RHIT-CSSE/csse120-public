@@ -1,6 +1,6 @@
 """
 This module lets you practice   MUTATION   of objects
-by changing the values of instance variables.
+by RE-ASSIGNING instance variables of objects.
 
 Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
          Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and

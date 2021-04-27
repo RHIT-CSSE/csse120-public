@@ -1,6 +1,6 @@
 """
 This module lets you practice   MUTATION   of lists.
-In this module, you mutate by CHANGING elements of a list.
+You mutate by RE-ASSIGNING items INSIDE a list.
 
 Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
          Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
