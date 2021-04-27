@@ -1,7 +1,7 @@
 """
 This module shows some common methods and operators that mutate lists:
   -- append, insert, sort, remove
-  -- the DEL operator
+  -- the DEL and IS operators
   -- the IS vs == operators
   
 
@@ -28,6 +28,7 @@ def main():
     # show_remove()
     # show_del()
     # show_is_vs_equals()
+    # show_in()
 
 
 def show_append():
@@ -151,6 +152,20 @@ def show_is_vs_equals():
 
     print("Using IS yet again: ", example1 is example4)
     print("Using == yet again: ", example1 == example4)
+
+
+def show_in():
+    # Use the IN operator to determine whether a given item is in a list.
+    print()
+    print("Showing IN:")
+
+    example = [3, 1, 8, 3, 20, "hello", 2, 5, 7]
+    print("  The example list is:")
+    print("     ", example)
+
+    print("  Is 20 in the list?     ", 20 in example)
+    print("  Is 'hello' in the list?", 'hello' in example)
+    print("  Is 99 in the list?     ", 99 in example)
 
 
 # -----------------------------------------------------------------------------
