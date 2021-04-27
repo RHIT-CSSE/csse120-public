@@ -25,8 +25,8 @@ def main():
     print()
     print("Un-comment and re-comment calls in MAIN one by one as you work.")
 
-    run_test_MUTATE_replace_negatives_by_zeros()
-    run_test_RETURN_replace_negatives_by_zeros()
+    # run_test_MUTATE_replace_negatives_by_zeros()
+    # run_test_RETURN_replace_negatives_by_zeros()
 
 
 # -----------------------------------------------------------------------------
@@ -47,7 +47,7 @@ def MUTATE_replace_negatives_by_zeros(numbers):
     Precondition: The argument is a list of numbers.
     """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # TODO: 3. Implement and test this function.
     #   Some tests are already written for you (below).  Those tests use
     #   the same form as the tests that you saw in m3r_mutation_vs_copy_return.
     # -------------------------------------------------------------------------
@@ -66,7 +66,7 @@ def RETURN_replace_negatives_by_zeros(numbers):
     Precondition: The argument is a list of numbers.
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # TODO: 4. Implement and test this function.
     #   Some tests are already written for you (below).  Those tests use
     #   the same form as the tests that you saw in m3r_mutation_vs_copy_return.
     # -------------------------------------------------------------------------
@@ -188,10 +188,10 @@ def check_returned_value(actual_returned_value, correct_returned_value):
     else:
         print("  Your code FAILS this test", color="red")
         print("    because it returns the wrong value:", color="red")
-        print("      -- The correct returned value is:",
-              correct_returned_value)
-        print("      -- Your code returned this value:",
-              actual_returned_value)
+        print("      -- The correct returned value is:")
+        print("         ", correct_returned_value)
+        print("      -- Your code returned this value:")
+        print("         ", actual_returned_value)
 
         return False
 
@@ -207,10 +207,10 @@ def check_argument(actual_argument_value, correct_argument_value):
     else:
         print("  Your code FAILS this test because the argument", color="red")
         print("    has the wrong value after the function call:", color="red")
-        print("      -- The correct value after the function call is:",
-              correct_argument_value)
-        print("      -- Your actual value after the function call is:",
-              actual_argument_value)
+        print("      -- The correct value after the function call is:")
+        print("         ", correct_argument_value)
+        print("      -- Your actual value after the function call is:")
+        print("         ", actual_argument_value)
 
         return False
 

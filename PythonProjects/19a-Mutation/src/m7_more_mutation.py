@@ -11,8 +11,12 @@ import rosegraphics as rg
 
 
 def main():
-    run_test_RETURN_circle()
-    run_test_MUTATE_circle()
+    """ Calls the other functions to test them. """
+    print()
+    print("Un-comment and re-comment calls in MAIN one by one as you work.")
+
+    # run_test_RETURN_circle()
+    # run_test_MUTATE_circle()
 
 
 def run_test_RETURN_circle():
@@ -24,7 +28,7 @@ def run_test_RETURN_circle():
 
     print()
     print('See the graphics window for this test.')
-    print('If an error msg appears at any point,')
+    print('If an error message appears at any point,')
     print('then you have FAILED this test.')
 
     # -------------------------------------------------------------------------
