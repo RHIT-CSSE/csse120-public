@@ -9,10 +9,12 @@ Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
 
 
 # -----------------------------------------------------------------------------
-# Students: Read and run this program in the debugger to watch
-#           assignment and mutation in action.  This is a contrived
-#           example that we are using only to show the elements
-#           of mutation with simple code.
+# Students: You might like to run this program in the debugger as you read it,
+# stepping from line to line to watch assignment and mutation in action.
+#
+# This is a contrived example whose purpose is only to show
+# the concepts behind assignment and mutation, using simple code.
+# This module mutates LISTS; the next module mutates OBJECTS.
 # -----------------------------------------------------------------------------
 
 

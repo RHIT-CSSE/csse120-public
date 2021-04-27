@@ -7,11 +7,12 @@ Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
          Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, and their colleagues.
 """
 # -----------------------------------------------------------------------------
-# Students: Read and run this program in the debugger to watch
-#           assignment and mutation in action.  This is a contrived
-#           example that we are using only to show the elements
-#           of mutation with simple code.  It is the same example as
-#           the one in the previous module, but using OBJECTS this time.
+# Students: You might like to run this program in the debugger as you read it,
+# stepping from line to line to watch assignment and mutation in action.
+#
+# This is a contrived example whose purpose is only to show
+# the concepts behind assignment and mutation, using simple code.
+# It is the same as the previous example but mutating OBJECTS instead of LISTS.
 # -----------------------------------------------------------------------------
 
 import rosegraphics as rg
