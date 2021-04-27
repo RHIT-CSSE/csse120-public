@@ -23,10 +23,12 @@ import random
 
 
 # -----------------------------------------------------------------------------
-# Students: Read and run this program.
-#           Do you see how   MUTATION   made the nasty stuff possible?
-#           If objects were immutable, the  show_balances  method simply
-#           could NOT steal her money!
+# Students: Your instructor may ask you to read and run this program, or
+#   your instructor may use a different way to show why mutation is dangerous.
+#
+#   Do you see how   MUTATION   made the nasty stuff possible?
+#   If objects were immutable, the  show_balances  method simply
+#   could NOT steal her money!
 # -----------------------------------------------------------------------------
 
 
