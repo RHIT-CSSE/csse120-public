@@ -38,22 +38,37 @@ import testing_helper
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_doubler()
+    run_test_doubler_1()
+    run_test_doubler_2()
     run_test_zero_changer()
 
 
-def run_test_doubler():
-    """ Tests the    doubler    function. """
+def run_test_doubler_1():
+    """ Tests the    doubler_1    function. """
     # -------------------------------------------------------------------------
-    # TODO: 3. READ the tests that we supplied in this function, asking
-    #  questions as needed.  Once you UNDERSTAND the tests that we supplied,
-    #  ADD ANOTHER ** GOOD ** TEST of your own for the  doubler  function,
-    #  using the same style for testing as we did.
-    #  __
+    # TODO: 3.  Note that this is   run_test_doubler_1.
+    #           The   doubler_1  function is further down in this module.
+    #  _
+    #  (a) READ the SPECIFICATION of the  doubler_1  function further down
+    #        in this module.
+    #  _
+    #  (b) For each of the TESTS below (in THIS function, run_test_doubler_1):
+    #      1. READ the test.
+    #      2. BY HAND, compute how, if at all, the   doubler_1   function should
+    #         mutate its argument and what, if anything, it should return.
+    #         VERIFY that your by-hand computation agrees with the TEST.
+    #  _
+    #     These tests use the same form as the tests that you saw in
+    #     19-Mutation, module m3r_mutation_vs_copy_return.
+    #     ** ASK QUESTIONS if you do not understand this testing framework. **
+    #  _
+    #     Once you UNDERSTAND the tests that we supplied,
+    #  _
+    #  (c) In this function, ADD ANOTHER ** GOOD ** TEST of your own
+    #      for the  doubler_1  function,
+    #      using the same style for testing as we did.
+    #  _
     #   Try to choose a test that might expose errors in your code!
-    #  __
-    #   As usual, compute the EXPECTED result BY HAND
-    #   (not by running your program).
     # -------------------------------------------------------------------------
     # -------------------------------------------------------------------------
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -62,107 +77,80 @@ def run_test_doubler():
     # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
-    print('Testing the   doubler   function:')
+    print('Testing the   doubler_1   function:')
     print('--------------------------------------------------')
-
-    format_string = '    doubler( {} )'
-    test_results = [0, 0]  # Number of tests passed, failed.
 
     # -------------------------------------------------------------------------
     # Test 1:
     # -------------------------------------------------------------------------
-    seq_of_lists = ([10, 3, 101],
-                    [8, 0],
-                    [-20, 5, 1, 2, 3, 4, 5],
-                    [])
+    test_number = 1
+    original_argument = \
+        ([10, 3, 101],
+         [8, 0],
+         [-20, 5, 1, 2, 3, 4, 5],
+         [])
+    correct_argument_value_after_function_call = \
+        ([20, 6, 202],
+         [16, 0],
+         [-40, 10, 2, 4, 6, 8, 10],
+         [])
+    correct_returned_value = None
 
-    # After the function call,  seq_of_lists  should be mutated to:
-    expected_mutated = ([20, 6, 202],
-                        [16, 0],
-                        [-40, 10, 2, 4, 6, 8, 10],
-                        [])
-
-    print_function_call_of_test([seq_of_lists], test_results, format_string)
-
-    print()
-    print("For the MUTATION of the argument:")  # Testing MUTATION
-    print("  Expected:", expected_mutated)
-
-    actual = doubler(seq_of_lists)
-
-    print_actual_result_of_test(expected_mutated, seq_of_lists, test_results)
-
-    print()
-    print("For the RETURNED VALUE:")  # Nothing (i.e., None) should be returned
-    print("  Expected:", None)
-    print_actual_result_of_test(None, actual, test_results)
+    run_test(doubler_1,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
 
     # -------------------------------------------------------------------------
     # Test 2:
     # -------------------------------------------------------------------------
-    seq_of_lists = ([10], [200], [3], [4, 7], [], [9], [1, 0, 2], [1])
+    test_number = 2
+    original_argument = \
+        ([10], [200], [3], [4, 7], [], [9], [1, 0, 2], [1])
+    correct_argument_value_after_function_call = \
+        ([20], [400], [6], [8, 14], [], [18], [2, 0, 4], [2])
+    correct_returned_value = None
 
-    # After the function call,  seq_of_lists  should be mutated to:
-    expected_mutated = ([20], [400], [6], [8, 14], [], [18], [2, 0, 4], [2])
-
-    print_function_call_of_test([seq_of_lists], test_results, format_string)
-
-    print()
-    print("For the MUTATION of the argument:")  # Testing MUTATION
-    print("  Expected:", expected_mutated)
-
-    actual = doubler(seq_of_lists)
-
-    print_actual_result_of_test(expected_mutated, seq_of_lists, test_results)
-
-    print()
-    print("For the RETURNED VALUE:")  # Nothing (i.e., None) should be returned
-    print("  Expected:", None)
-    print_actual_result_of_test(None, actual, test_results)
+    run_test(doubler_1,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
 
     # -------------------------------------------------------------------------
     # Test 3:
     # -------------------------------------------------------------------------
-    seq_of_lists = [[], [1], [20, 2, 30, 4, 100, 8, 2, 2, 2], [], [300],
-                    [5, 5], [], [-10, 4]]
+    test_number = 3
+    original_argument = \
+        [[], [1], [20, 2, 30, 4, 100, 8, 2, 2, 2], [], [300], [5, 5], [],
+         [-10, 4]]
+    correct_argument_value_after_function_call = \
+        [[], [2], [40, 4, 60, 8, 200, 16, 4, 4, 4], [], [600], [10, 10], [],
+         [-20, 8]]
+    correct_returned_value = None
 
-    # After the function call,  seq_of_lists  should be mutated to:
-    expected_mutated = [[], [2], [40, 4, 60, 8, 200, 16, 4, 4, 4], [], [600],
-                        [10, 10], [], [-20, 8]]
-
-    print_function_call_of_test([seq_of_lists], test_results, format_string)
-
-    print()
-    print("For the MUTATION of the argument:")  # Testing MUTATION
-    print("  Expected:", expected_mutated)
-
-    actual = doubler(seq_of_lists)
-
-    print_actual_result_of_test(expected_mutated, seq_of_lists, test_results)
-
-    print()
-    print("For the RETURNED VALUE:")  # Nothing (i.e., None) should be returned
-    print("  Expected:", None)
-    print_actual_result_of_test(None, actual, test_results)
+    run_test(doubler_1,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
 
     # -------------------------------------------------------------------------
     # TODO: 3 (continued). Write at least ** 1 GOOD ** additional test for the
-    #    doubler  function, following the style we used for the above tests.
+    #    doubler_1  function, following the style we used for the above tests.
     #
     # Test 4:  (PUT YOUR TEST BELOW THIS)
     # -------------------------------------------------------------------------
 
-    # SUMMARY of test results:
-    print_summary_of_test_results(test_results)
 
-
-def doubler(seq_of_lists):
+def doubler_1(seq_of_lists):
     """
     What comes in:  A sequence of LISTs,
                     where the interior lists contain only integers.
-    What goes out:  Nothing (i.e., none)
+    What goes out:  Nothing (i.e., None is returned by default)
     Side effects:  MUTATES each number in each sub-list of the argument
-           by doubling each number in the sub-list
+           by doubling each number in the sub-list.
     Example:
       If the given sequence of lists is:
           ([10, 3, 101],
@@ -187,15 +175,190 @@ def doubler(seq_of_lists):
     #    DIFFICULTY:      4
     #    TIME ESTIMATE:   5 minutes.
     # -------------------------------------------------------------------------
+    for k in range(len(seq_of_lists)):
+        for j in range(len(seq_of_lists[k])):
+            seq_of_lists[k][j] = 2 * seq_of_lists[k][j]
+
+
+def run_test_doubler_2():
+    """ Tests the    doubler_2    function. """
+    # -------------------------------------------------------------------------
+    # TODO: 5.  Note that this is   run_test_doubler_2.
+    #           The   doubler_2  function is further down in this module.
+    #  _
+    #  (a) READ the SPECIFICATION of the  doubler_2  function further down
+    #        in this module.
+    #  _
+    #  (b) For each of the TESTS below (in THIS function, run_test_doubler_2):
+    #      1. READ the test.
+    #      2. BY HAND, compute how, if at all, the   doubler_2   function should
+    #         mutate its argument and what, if anything, it should return.
+    #         VERIFY that your by-hand computation agrees with the TEST.
+    #  _
+    #     These tests use the same form as the tests that you saw in
+    #     19-Mutation, module m3r_mutation_vs_copy_return.
+    #     ** ASK QUESTIONS if you do not understand this testing framework. **
+    #  _
+    #     Once you UNDERSTAND the tests that we supplied,
+    #  _
+    #  (c) In this function, ADD ANOTHER ** GOOD ** TEST of your own
+    #      for the  doubler_2  function,
+    #      using the same style for testing as we did.
+    #  _
+    #   Try to choose a test that might expose errors in your code!
+    # -------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
+    # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
+    #    DIFFICULTY:      3
+    #    TIME ESTIMATE:   < 10 minutes.
+    # -------------------------------------------------------------------------
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   doubler_2   function:')
+    print('--------------------------------------------------')
+
+    # -------------------------------------------------------------------------
+    # Test 1:
+    # -------------------------------------------------------------------------
+    test_number = 1
+    original_argument = \
+        ([10, 3, 101],
+         [8, 0],
+         [-20, 5, 1, 2, 3, 4, 5],
+         [])
+    correct_argument_value_after_function_call = \
+        ([10, 3, 101],
+         [8, 0],
+         [-20, 5, 1, 2, 3, 4, 5],
+         [])  # i.e., unchanged
+    correct_returned_value = \
+        ([20, 6, 202],
+         [16, 0],
+         [-40, 10, 2, 4, 6, 8, 10],
+         [])
+
+    run_test(doubler_2,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
+
+    # -------------------------------------------------------------------------
+    # Test 2:
+    # -------------------------------------------------------------------------
+    test_number = 2
+    original_argument = \
+        ([10], [200], [3], [4, 7], [], [9], [1, 0, 2], [1])
+    correct_argument_value_after_function_call = \
+        ([10], [200], [3], [4, 7], [], [9], [1, 0, 2], [1])  # i.e., unchanged
+    correct_returned_value = \
+        ([20], [400], [6], [8, 14], [], [18], [2, 0, 4], [2])
+
+    run_test(doubler_2,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
+
+    # -------------------------------------------------------------------------
+    # Test 3:
+    # -------------------------------------------------------------------------
+    test_number = 3
+    original_argument = \
+        ([], [1], [20, 2, 30, 4, 100, 8, 2, 2, 2], [], [300], [5, 5], [],
+         [-10, 4])
+    correct_argument_value_after_function_call = \
+        ([], [1], [20, 2, 30, 4, 100, 8, 2, 2, 2], [], [300], [5, 5], [],
+         [-10, 4])
+    correct_returned_value = \
+        ([], [2], [40, 4, 60, 8, 200, 16, 4, 4, 4], [], [600], [10, 10], [],
+         [-20, 8])
+
+    run_test(doubler_2,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
+
+    # -------------------------------------------------------------------------
+    # TODO: 5 (continued). Write at least ** 1 GOOD ** additional test for the
+    #    doubler_2  function, following the style we used for the above tests.
+    #
+    # Test 4:  (PUT YOUR TEST BELOW THIS)
+    # -------------------------------------------------------------------------
+
+
+# -----------------------------------------------------------------------------
+# See the IMPORTANT note and HINT in the _TODO_ for the following problem.
+# -----------------------------------------------------------------------------
+def doubler_2(seq_of_lists):
+    """
+    What comes in:  A TUPLE of LISTs,
+                    where the interior lists contain only integers.
+    What goes out:  Returns a TUPLE of LISTS, where each sublist has
+      the same numbers as the given sublists, but with each number doubled.
+    Side effects:  None.
+    Example:
+      If the given tuple of lists is:
+          ([10, 3, 101],
+           [8, 0],
+           [-20, 5, 1, 2, 3, 4, 5],
+           [])
+    then this method RETURNS a NEW tuple of sublists that is:
+          ([20, 6, 202],
+           [16, 0],
+           [-40, 10, 2, 4, 6, 8, 10],
+           [])
+    (and does NOT mutate the argument).
+    Type hints:
+      :type seq_of_lists: tuple[list]
+    """
+    # -------------------------------------------------------------------------
+    # TODO: 6. Implement and test this function.
+    #          Note that you should write its TEST function first (above).
+    #  IMPORTANT: You should use APPEND ** where appropriate ** in your code.
+    #  HINT: A tuple with ONE item in it is written as per this example: (9,)
+    #        Note the comma.
+    # -------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
+    # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
+    #    DIFFICULTY:      6
+    #    TIME ESTIMATE:   5 minutes.
+    # -------------------------------------------------------------------------
+    new = ()
+    for k in range(len(seq_of_lists)):
+        new = new + ([],)
+        for j in range(len(seq_of_lists[k])):
+            new[k].append(2 * seq_of_lists[k][j])
+    return new
 
 
 def run_test_zero_changer():
     """ Tests the    zero_changer    function. """
     # -------------------------------------------------------------------------
-    # TODO: 5. READ the tests that we supplied in this function, asking
-    #  questions as needed.  Once you UNDERSTAND the tests that we supplied,
-    #  ADD ANOTHER ** GOOD ** TEST of your own for the  zero_changer  function,
-    #  using the same style for testing as we did.
+    # TODO: 7.  Note that this is   run_test_zero_changer.
+    #           The   zero_changer  function is further down in this module.
+    #  _
+    #  (a) READ the SPECIFICATION of the  zero_changer  function further down
+    #        in this module.
+    #  _
+    #  (b) For each of the TESTS below (in THIS function, run_test_zero_changer)
+    #      1. READ the test.
+    #      2. BY HAND, compute how, if at all, the   zero_changer   function
+    #         should mutate its argument and what, if anything, it should
+    #         return. VERIFY that your by-hand computation agrees with the TEST.
+    #  _
+    #     These tests use the same form as the tests that you saw in
+    #     19-Mutation, module m3r_mutation_vs_copy_return.
+    #     ** ASK QUESTIONS if you do not understand this testing framework. **
+    #  _
+    #     Once you UNDERSTAND the tests that we supplied,
+    #  _
+    #  (c) In this function, ADD ANOTHER ** GOOD ** TEST of your own
+    #      for the  zero_changer  function,
+    #      using the same style for testing as we did.
+    #  _
+    #   Try to choose a test that might expose errors in your code!
     # -------------------------------------------------------------------------
     # -------------------------------------------------------------------------
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -207,102 +370,97 @@ def run_test_zero_changer():
     print('Testing the   zero_changer   function:')
     print('--------------------------------------------------')
 
-    format_string = '    zero_changer( {} )'
-    test_results = [0, 0]  # Number of tests passed, failed.
-
     # -------------------------------------------------------------------------
     # Test 1:
     # -------------------------------------------------------------------------
-    tuple_of_lists = (
-        [8, 4, 0, 9], [77, 0, 0, 11, 15, 0], [0, 0, 0], [4, 0, 4])
+    test_number = 1
+    original_argument = \
+        ([8, 4, 0, 9], [77, 0, 0, 11, 15, 0], [0, 0, 0], [4, 0, 4])
+    correct_argument_value_after_function_call = \
+        ([8, 4, 1, 9], [77, 2, 3, 11, 15, 4], [5, 6, 7], [4, 8, 4])
+    correct_returned_value = None
 
-    # After the function call,  tuple_of_lists  should be mutated to:
-    expected_mutated = (
-        [8, 4, 1, 9], [77, 2, 3, 11, 15, 4], [5, 6, 7], [4, 8, 4])
-
-    print_function_call_of_test([tuple_of_lists], test_results, format_string)
-
-    print()
-    print("For the MUTATION of the argument:")  # Testing MUTATION
-    print("  Expected:", expected_mutated)
-
-    actual = zero_changer(tuple_of_lists)
-
-    print_actual_result_of_test(expected_mutated, tuple_of_lists, test_results)
-
-    print()
-    print("For the RETURNED VALUE:")  # Nothing (i.e., None) should be returned
-    print("  Expected:", None)
-    print_actual_result_of_test(None, actual, test_results)
+    run_test(zero_changer,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
 
     # -------------------------------------------------------------------------
     # Test 2:
     # -------------------------------------------------------------------------
-    tuple_of_lists = ([0, 0, 0, 0, 0, 0, 0, 0, 0], [], [1, 2, 3], [0])
+    test_number = 2
+    original_argument = \
+        ([0, 0, 0, 0, 0, 0, 0, 0, 0], [], [1, 2, 3], [0])
+    correct_argument_value_after_function_call = \
+        ([1, 2, 3, 4, 5, 6, 7, 8, 9], [], [1, 2, 3], [10])
+    correct_returned_value = None
 
-    # After the function call,  tuple_of_lists  should be mutated to:
-    expected_mutated = ([1, 2, 3, 4, 5, 6, 7, 8, 9], [], [1, 2, 3], [10])
-
-    print_function_call_of_test([tuple_of_lists], test_results, format_string)
-
-    print()
-    print("For the MUTATION of the argument:")  # Testing MUTATION
-    print("  Expected:", expected_mutated)
-
-    actual = zero_changer(tuple_of_lists)
-
-    print_actual_result_of_test(expected_mutated, tuple_of_lists, test_results)
-
-    print()
-    print("For the RETURNED VALUE:")  # Nothing (i.e., None) should be returned
-    print("  Expected:", None)
-    print_actual_result_of_test(None, actual, test_results)
+    run_test(zero_changer,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
 
     # -------------------------------------------------------------------------
     # Test 3:
     # -------------------------------------------------------------------------
-    tuple_of_lists = ([], [], [1, 2, 3, 4, 5, 1, 2, 3, 4, 5], [-1], [-1, -2])
+    test_number = 3
+    original_argument = \
+        ([], [], [1, 2, 3, 4, 5, 1, 2, 3, 4, 5], [-1], [-1, -2])
+    correct_argument_value_after_function_call = \
+        ([], [], [1, 2, 3, 4, 5, 1, 2, 3, 4, 5], [-1], [-1, -2])
+    correct_returned_value = None
 
-    # After the function call,  tuple_of_lists  should be mutated to:
-    expected_mutated = ([], [], [1, 2, 3, 4, 5, 1, 2, 3, 4, 5], [-1], [-1, -2])
-
-    print_function_call_of_test([tuple_of_lists], test_results, format_string)
-
-    print()
-    print("For the MUTATION of the argument:")  # Testing MUTATION
-    print("  Expected:", expected_mutated)
-
-    actual = zero_changer(tuple_of_lists)
-
-    print_actual_result_of_test(expected_mutated, tuple_of_lists, test_results)
-
-    print()
-    print("For the RETURNED VALUE:")  # Nothing (i.e., None) should be returned
-    print("  Expected:", None)
-    print_actual_result_of_test(None, actual, test_results)
+    run_test(zero_changer,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
 
     # -------------------------------------------------------------------------
     # Test 4:
     # -------------------------------------------------------------------------
-    tuple_of_lists = ()
+    test_number = 4
+    original_argument = ()
+    correct_argument_value_after_function_call = ()
+    correct_returned_value = None
 
-    # After the function call,  tuple_of_lists  should be mutated to:
-    expected_mutated = ()
+    run_test(zero_changer,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
 
-    print_function_call_of_test([tuple_of_lists], test_results, format_string)
+    # -------------------------------------------------------------------------
+    # Test 5:
+    # -------------------------------------------------------------------------
+    test_number = 5
+    original_argument = ([0],)
+    correct_argument_value_after_function_call = ([1],)
+    correct_returned_value = None
 
-    print()
-    print("For the MUTATION of the argument:")  # Testing MUTATION
-    print("  Expected:", expected_mutated)
+    run_test(zero_changer,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
 
-    actual = zero_changer(tuple_of_lists)
+    # -------------------------------------------------------------------------
+    # Test 6:
+    # -------------------------------------------------------------------------
+    test_number = 6
+    original_argument = \
+        ([], [1, 0, 2], [0, 8, 0], [0], [1, 2])
+    correct_argument_value_after_function_call = \
+        ([], [1, 1, 2], [2, 8, 3], [4], [1, 2])
+    correct_returned_value = None
 
-    print_actual_result_of_test(expected_mutated, tuple_of_lists, test_results)
-
-    print()
-    print("For the RETURNED VALUE:")  # Nothing (i.e., None) should be returned
-    print("  Expected:", None)
-    print_actual_result_of_test(None, actual, test_results)
+    run_test(zero_changer,
+             original_argument,
+             test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call)
 
     # -------------------------------------------------------------------------
     # TODO: 5 (continued). Write at least ** 1 GOOD ** additional test for the
@@ -310,9 +468,6 @@ def run_test_zero_changer():
     #
     # Test 5:  (PUT YOUR TEST BELOW THIS)
     # -------------------------------------------------------------------------
-
-    # SUMMARY of test results:
-    print_summary_of_test_results(test_results)
 
 
 def zero_changer(tuple_of_lists):
@@ -350,6 +505,12 @@ def zero_changer(tuple_of_lists):
     #    DIFFICULTY:      7
     #    TIME ESTIMATE:  10 to 15 minutes.
     # -------------------------------------------------------------------------
+    count = 0
+    for k in range(len(tuple_of_lists)):
+        for j in range(len(tuple_of_lists[k])):
+            if tuple_of_lists[k][j] == 0:
+                count = count + 1
+                tuple_of_lists[k][j] = count
 
 
 ###############################################################################
@@ -357,13 +518,77 @@ def zero_changer(tuple_of_lists):
 # Do NOT change it.  You do NOT have to do anything with it.
 ###############################################################################
 
-def print_function_call_of_test(arguments, test_results, format_string):
-    testing_helper.print_function_call_of_test(arguments, test_results,
-                                               format_string)
+def run_test(function_to_test, argument, run_test_number,
+             correct_returned_value,
+             correct_argument_value_after_function_call):
+    """
+    Runs a test, by calling the given function on the given argument.
+    The function should return the given correct_returned_value.
+    After the function call, the argument should equal the given
+    correct_argument_value_after_function_call.
+    Prints messages to indicate whether the test passed or failed.
+    """
+    print()
+    print('Running TEST {}:'.format(run_test_number, run_test_number))
+    print_function_call_of_test(function_to_test, argument)
+    actual_returned_value = function_to_test(argument)
+
+    passed_check1 = check_returned_value(actual_returned_value,
+                                         correct_returned_value)
+    passed_check2 = check_argument(argument,
+                                   correct_argument_value_after_function_call)
+
+    if passed_check1 and passed_check2:
+        print('  Your code PASSES Test {}.'.format(run_test_number),
+              color="blue")
+
+
+def check_returned_value(actual_returned_value, correct_returned_value):
+    """
+    Checks whether the two given returned-values are equal.
+    If so, returns True.
+    If not, prints an appropriate message and returns False.
+    """
+    if actual_returned_value == correct_returned_value:
+        return True
+    else:
+        print("  Your code FAILS this test", color="red")
+        print("    because it returns the wrong value:", color="red")
+        print("      -- The correct returned value is:")
+        print("         ", correct_returned_value)
+        print("      -- Your code returned this value:")
+        print("         ", actual_returned_value)
+
+        return False
+
+
+def check_argument(actual_argument_value, correct_argument_value):
+    """
+    Checks whether the two given argument-values are equal.
+    If so, returns True.
+    If not, prints an appropriate message and returns False.
+    """
+    if actual_argument_value == correct_argument_value:
+        return True
+    else:
+        print("  Your code FAILS this test because the argument", color="red")
+        print("    has the wrong value after the function call:", color="red")
+        print("      -- The correct value after the function call is:")
+        print("         ", correct_argument_value)
+        print("      -- Your actual value after the function call is:")
+        print("         ", actual_argument_value)
+
+        return False
+
+
+def print_function_call_of_test(function_to_test, argument):
+    print("  This test case calls: {}".format(function_to_test.__name__))
+    print("  with argument:")
+    print(" ", argument)
 
 
 def print_expected_result_of_test(arguments, expected,
-                                  test_results, format_string, suffix=''):
+                                  test_results, format_string, suffix=""):
     testing_helper.print_expected_result_of_test(arguments, expected,
                                                  test_results, format_string,
                                                  suffix)
@@ -398,8 +623,8 @@ else:
 try:
     main()
 except Exception:
-    print('ERROR - While running this test,', color='red')
-    print('your code raised the following exception:', color='red')
+    print("ERROR - While running this test,", color="red")
+    print("your code raised the following exception:", color="red")
     print()
     time.sleep(1)
     raise
