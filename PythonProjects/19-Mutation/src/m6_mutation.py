@@ -164,7 +164,7 @@ def run_test(function_to_test, argument, run_test_number,
     """
     print()
     print('Running TEST {}:'.format(run_test_number, run_test_number))
-
+    print_function_call_of_test(function_to_test, argument)
     actual_returned_value = function_to_test(argument)
 
     passed_check1 = check_returned_value(actual_returned_value,
@@ -213,6 +213,12 @@ def check_argument(actual_argument_value, correct_argument_value):
         print("         ", actual_argument_value)
 
         return False
+
+
+def print_function_call_of_test(function_to_test, argument):
+    print("  This test case calls: {}".format(function_to_test.__name__))
+    print("  with argument:")
+    print(" ", argument)
 
 
 def print_expected_result_of_test(arguments, expected,
