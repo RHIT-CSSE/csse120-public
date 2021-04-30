@@ -32,11 +32,18 @@ The KEY IDEAS are:
      and the remaining arguments referring to the values in the parentheses.
   
   4. INSIDE a class definition, one uses exactly the SAME NOTATION as one uses
-     OUTSIDE a class definition.
-     Just remember that SELF refers to an instance of the class being defined. 
+     OUTSIDE a class definition.  For example, inside the Blah class,
+     one constructs a Blah object by:   b = Blah(...)
      
-Authors: David Mutchler, Sana Ebrahimi, Sriram Mohan, Mohammed Noureddine,
-         Vibha Alangar, Matt Boutell, Dave Fisher, their colleagues, and
+     Just remember that SELF refers to an instance of the class being defined. 
+
+  5. If an instance of the class needs to REMEMBER (store) information in
+     order for you to implement a method, add YOUR OWN instance variable
+     for that purpose to __init__.  Choose a meaningful name for it, then
+     use that instance variable as needed in other methods.
+     
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -217,7 +224,6 @@ class Line(object):
         end = repr(self.end).replace("Point", "")
         return "Line[{}, {}]".format(start, end)
 
-
     def __eq__(self, line2):
         """
         Defines == for Lines:  a == b   is equivalent to  a.__eq__(b).
@@ -257,7 +263,6 @@ class Line(object):
         """
         # TODO: 16.  What is SELF?  Implement the above spec.
         #  Geometry hint:  slope = dy / dx.  Guard against division by zero!
-
 
     def length(self):
         """
