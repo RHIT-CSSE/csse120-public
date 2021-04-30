@@ -131,6 +131,8 @@ class Point:
         # TODO: 8.  What are SELF and p2 here?  Implement the above spec.
         #   Geometry hint: Average the x-coordinates and average the
         #   y-coordinates to get the coordinates of the halfway-between Point.
+        #   (No subtraction!  Although there is a formula for halfway that
+        #   uses subtraction, the formula for the average is simpler!)
 
     def plus(self, p2):
         """
@@ -285,7 +287,8 @@ class Line(object):
         """
         # TODO: 18.  Do you see that you MUST introduce an instance variable
         #  to STORE with the Line the number of times clone has been called?
-        #  Once you do, change this _TODO_ to DONE.  Skip its implementation.
+        #  Implement the above spec.
+        #    (Hint:  add a new instance variable to __init__ and ...)
 
     def line_plus(self, other_line):
         """
@@ -327,8 +330,8 @@ class Line(object):
           -- self
         What goes out: returns a Point at the midpoint of this Line.
         """
-        # TODO: 21.  What is SELF?  other_line?  Implement this method.
-        #  Use methods from the Point class!
+        # TODO: 21.  What is SELF?  Implement this method.
+        #  Use a method from the Point class!
 
     def is_parallel(self, line2):
         """
@@ -341,7 +344,8 @@ class Line(object):
         Type hints:
           :type  line2: Line
         """
-        # TODO: 22.  What is SELF?  other_line?  Implement this method.
+        # TODO: 22.  What is SELF?  line2?  Implement this method.
+        #  IMPORTANT NOTE:
         #  Use the  slope  method, but round to 12 decimal places.
 
     def reset(self):
@@ -352,9 +356,10 @@ class Line(object):
           revert to what they were when this Line was constructed.
         """
         # TODO: 23.  Do you see that you MUST introduce an instance variable
-        #  to STORE the original  start  and  end  Point objects,
+        #  to STORE the original  start  and  end  Point objects
         #  and that you CANNOT use SELF for that purpose?
-        #  Once you do, change this _TODO_ to DONE.  Skip its implementation.
+        #  Implement the above spec.
+        #     (Hint:  add a new instance variable to __init__ and ...)
 
 
 ###############################################################################
