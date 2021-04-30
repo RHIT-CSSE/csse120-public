@@ -62,19 +62,19 @@ def run_test_shape():
 def shape(r):
     """
     Prints a shape with r rows that looks like this example where r=7:
-    +++++++!7654321
-     ++++++!654321-
-      +++++!54321--
-       ++++!4321---
-        +++!321----
-         ++!21-----
-          +!1------
+    1234567!7654321++
+     123456!654321-+
+      12345!54321--++
+       1234!4321---+
+        123!321----++
+         12!21-----+
+          1!1------++
 
     Another example, where r=4:
-    ++++!4321
-     +++!321-
-      ++!21--
-       +!1---
+    1234!4321++
+     123!321-+
+      12!21--++
+       `!1---+
 
     Preconditions:  r is a positive number.
     For purposes of "lining up", assume r is a single digit.
@@ -89,7 +89,7 @@ def shape(r):
     ###########################################################################
     # -------------------------------------------------------------------------
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      5
+    #    DIFFICULTY:      6
     #    TIME ESTIMATE:  15 minutes.
     # -------------------------------------------------------------------------
 
