@@ -40,8 +40,11 @@ import testing_helper
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_practice_problem3a()
-    run_test_practice_problem3b()
+    print()
+    print("Un-comment and re-comment calls in MAIN one by one as you work.")
+
+    # run_test_practice_problem3a()
+    # run_test_practice_problem3b()
 
 
 # -----------------------------------------------------------------------------

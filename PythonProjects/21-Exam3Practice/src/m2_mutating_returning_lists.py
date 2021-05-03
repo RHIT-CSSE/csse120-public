@@ -41,9 +41,9 @@ def main():
     print()
     print("Un-comment and re-comment calls in MAIN one by one as you work.")
 
-    run_test_doubler_1()
-    run_test_doubler_2()
-    run_test_zero_changer()
+    # run_test_doubler_1()
+    # run_test_doubler_2()
+    # run_test_zero_changer()
 
 
 def run_test_doubler_1():

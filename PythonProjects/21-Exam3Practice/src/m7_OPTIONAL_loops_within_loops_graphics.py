@@ -37,8 +37,11 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_hourglass()
-    run_test_many_hourglasses()
+    print()
+    print("Un-comment and re-comment calls in MAIN one by one as you work.")
+
+    # run_test_hourglass()
+    # run_test_many_hourglasses()
 
 
 def run_test_hourglass():

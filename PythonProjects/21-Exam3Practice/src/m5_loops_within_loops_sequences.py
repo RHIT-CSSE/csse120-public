@@ -38,10 +38,13 @@ import testing_helper
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_integers()
-    run_test_big_letters()
-    run_test_problem2a()
-    run_test_problem2b()
+    print()
+    print("Un-comment and re-comment calls in MAIN one by one as you work.")
+
+    # run_test_integers()
+    # run_test_big_letters()
+    # run_test_problem2a()
+    # run_test_problem2b()
 
 
 def run_test_integers():
