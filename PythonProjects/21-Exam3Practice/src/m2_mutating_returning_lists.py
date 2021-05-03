@@ -38,6 +38,9 @@ import testing_helper
 
 def main():
     """ Calls the   TEST   functions in this module. """
+    print()
+    print("Un-comment and re-comment calls in MAIN one by one as you work.")
+
     run_test_doubler_1()
     run_test_doubler_2()
     run_test_zero_changer()
@@ -175,9 +178,6 @@ def doubler_1(seq_of_lists):
     #    DIFFICULTY:      4
     #    TIME ESTIMATE:   5 minutes.
     # -------------------------------------------------------------------------
-    for k in range(len(seq_of_lists)):
-        for j in range(len(seq_of_lists[k])):
-            seq_of_lists[k][j] = 2 * seq_of_lists[k][j]
 
 
 def run_test_doubler_2():
@@ -325,12 +325,6 @@ def doubler_2(seq_of_lists):
     #    DIFFICULTY:      6
     #    TIME ESTIMATE:   5 minutes.
     # -------------------------------------------------------------------------
-    new = ()
-    for k in range(len(seq_of_lists)):
-        new = new + ([],)
-        for j in range(len(seq_of_lists[k])):
-            new[k].append(2 * seq_of_lists[k][j])
-    return new
 
 
 def run_test_zero_changer():
@@ -505,12 +499,6 @@ def zero_changer(tuple_of_lists):
     #    DIFFICULTY:      7
     #    TIME ESTIMATE:  10 to 15 minutes.
     # -------------------------------------------------------------------------
-    count = 0
-    for k in range(len(tuple_of_lists)):
-        for j in range(len(tuple_of_lists[k])):
-            if tuple_of_lists[k][j] == 0:
-                count = count + 1
-                tuple_of_lists[k][j] = count
 
 
 ###############################################################################
