@@ -41,62 +41,299 @@ def main():
     print()
     print("Un-comment and re-comment calls in MAIN one by one as you work.")
 
+    run_test_smallest_increase()
+    run_test_two_d_smallest_increase()
     run_test_sum_bigger_than_average()
 
-    # biggest diff from s[x] to s[x+1]:  one dim
-    #   then two dim
-    # find prime, looking only at last m outer, n inner.
-    # two 2-d lists.  List that is same as 2nd,
-    #   but contains only items
-    #   that are bigger than sum of all items in 1st one.
-    # list that is odd-indexed outer, even-indexed inner
+
+def run_test_smallest_increase():
+    """ Tests the   smallest_increase   function. """
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   smallest_increase  function:')
+    print('--------------------------------------------------')
+
+    format_string = '    smallest_increase( {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    # Test 1:
+    numbers = [10, 15, 3, 20, 22, 28, 20, 11]
+    expected = -12
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:
+    numbers = [-4, -10, 20, 5]
+    expected = -15
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    numbers = [2, 5, 10, 11, 35]
+    expected = 1
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 4:  Same as Test 1, but a tuple (which will reveal mutating in error)
+    numbers = (10, 15, 3, 20, 22, 28, 20, 11)
+    expected = -12
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    numbers = (30, 20, 25, 18, 20, 18, 30, 25)
+    expected = -10
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    numbers = (25, 30, 20, 25, 18, 20, 18, 30, 25)
+    expected = -10
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 7:
+    numbers = (25, 18, 30, 20, 18, 20, 18, 30, 25)
+    expected = -10
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 8:
+    numbers = (25, 18, 20, 18, 25, 30, 20, 30, 25)
+    expected = -10
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 9:
+    numbers = (25, 18, 20, 18, 30, 30, 20, 25)
+    expected = -10
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 10:
+    numbers = (25, 18, 20, 18, 30, 25, 30, 20)
+    expected = -10
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 11:
+    numbers = (25, 20)
+    expected = -5
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 12:
+    numbers = (20, 25)
+    expected = 5
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 13:
+    numbers = (30, 30)
+    expected = 0
+    print_expected_result_of_test([numbers], expected, test_results,
+                                  format_string)
+    actual = smallest_increase(numbers)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # SUMMARY of test results:
+    print_summary_of_test_results(test_results)
 
 
-def plus_minus_minus(sequence):
+def smallest_increase(numbers):
     """
     What comes in:  A sequence of numbers whose length is at least 2.
-    What goes out:
-     Returns the first number in the sequence,
-       minus the second number in the sequence,
-       minus the third number in the sequence,
-       plus  the fourth number in the sequence,
-       minus the fifth number in the sequence,
-       minus the sixth number in the sequence,
-       plus  the seventh number in the sequence,
-       minus the eighth number in the sequence,
-       minus the ninth number in the sequence,
-       etc.
+    What goes out:  The smallest "increase" from one number in the sequence
+      to the next number in the sequence, where the INCREASE from A to B
+      is (by definition) B - A.  Note that the "increase" can be negative;
+      for example, the "increase" from 10 to 2 is -8.  See examples.
     Side effects:  None.
     Examples:
-      biggest_diff_1( [5, 1, 2, 10, 3, 4, 5, 6, 1, 6, 3] )
-        returns  5 - 1 - 2 + 10 - 3 - 4 + 5 - 6 - 1 + 6 - 3, which is 6.
+        smallest_increase( [10, 15, 3, 20, 22, 28, 20, 11] )
+          examines the increases:
+            from 10 to 15 (increase is 15 - 10, which is 5)
+            from 15 to 3 (increase is 3 - 15, which is -12)
+            from 3 to 20 (increase is 20 - 3, which is 17)
+            from 20 to 22 (increase is 22 - 20, which is 2)
+            from 22 to 28 (increase is 28 - 22, which is 6)
+            from 28 to 20 (increase is 20 - 28, which is -8)
+            from 20 to 11 (increase is 11 - 20, which is -9)
+          and the smallest of those increases is -12,
+          so the function returns  -12  in this example.
 
-      biggest_diff_1( [14, 11, 10] )  returns 14 - 11 - 10, which is -7.
+        smallest_increase( [-4, -10, 20, 5] )
+          examines the increases:
+            from -4 to -10 (increase is -10 - (-4)), which is -6)
+            from -10 to 20 (increase is 20 - (-10), which is 30)
+            from 20 to 5 (increase is 5 - 20, which is -15)
+          and the smallest of those increases is -15,
+          so the function returns  -15  in this example.
 
-      biggest_diff_1( [14, 11] )  returns 14 - 11, which is 3.
+        smallest_increase( [2, 5, 10, 11, 35] )
+          examines the increases:
+            from 2 to 5 (increase is 5 - 2, which is 3)
+            from 5 to 10 (increase is 10 - 5, which is 5)
+            from 10 to 11 (increase is 11 - 10, which is 1)
+            from 11 to 35 (increase is 35 - 11, which is 24)
+          and the smallest of those increases is 1,
+          so the function returns  1  in this example.
 
       ** ASK YOUR INSTRUCTOR FOR HELP **
       ** if these examples and the above specification are not clear to you. **
+
     Type hints:
-      :type sequence: list[int] | tuple[int]
+      :type numbers: list[int] | tuple[int]
     """
     ###########################################################################
-    # TODO: 2. Implement and test this function.
+    # TODO: 3. Implement and test this function.
     #          Tests have been written for you (above).
     ###########################################################################
     ###########################################################################
     # -------------------------------------------------------------------------
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
-    #    DIFFICULTY:      5
+    #    DIFFICULTY:     5
     #    TIME ESTIMATE:  10 minutes.
     # -------------------------------------------------------------------------
-    total = 0
-    for k in range(len(sequence)):
-        if k % 3 == 0:
-            total = total + sequence[k]
-        else:
-            total = total - sequence[k]
-    return total
+
+
+def run_test_two_d_smallest_increase():
+    """ Tests the   two_d_smallest_increase   function. """
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   two_d_smallest_increase  function:')
+    print('--------------------------------------------------')
+
+    format_string = '    two_d_smallest_increase( {} )'
+    test_results = [0, 0]  # Number of tests passed, failed.
+
+    sequence_of_sequences = ([10, 15, 3, 20, 22, 28, 20, 11],
+                             [-4, -10, 20, 5],
+                             [2, 5, 10, 11, 35],
+                             [2, 5, 10, 11, 35])
+    expected = [-12, -15, 1, 1]
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = two_d_smallest_increase(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 2:  Same as previous test, but using tuples
+    sequence_of_sequences = ((10, 15, 3, 20, 22, 28, 20, 11),
+                             (-4, -10, 20, 5),
+                             (2, 5, 10, 11, 35),
+                             (2, 5, 10, 11, 35))
+    expected = [-12, -15, 1, 1]
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = two_d_smallest_increase(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    sequence_of_sequences = ((25, 18, 20, 18, 25, 30, 20, 30, 25),
+                             (2, 5, 10, 11, 35))
+    expected = [-10, 1]
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = two_d_smallest_increase(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 3:
+    sequence_of_sequences = ((25, 18, 20, 18, 25, 30, 20, 30, 25),
+                             (2, 5, 10, 11, 35))
+    expected = [-10, 1]
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = two_d_smallest_increase(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 4:
+    sequence_of_sequences = ((25, 18, 20, 18, 25, 30, 20, 30, 25),)
+    expected = [-10]
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = two_d_smallest_increase(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 5:
+    sequence_of_sequences = ((25, 35),)
+    expected = [10]
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = two_d_smallest_increase(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 6:
+    sequence_of_sequences = ((35, 25),)
+    expected = [-10]
+    print_expected_result_of_test([sequence_of_sequences], expected,
+                                  test_results, format_string)
+    actual = two_d_smallest_increase(sequence_of_sequences)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # SUMMARY of test results:
+    print_summary_of_test_results(test_results)
+
+
+def two_d_smallest_increase(sequence_of_subsequences):
+    """
+    What comes in:  A non-empty sequence of subsequences of numbers,
+      where each subsequence has length at least 2.
+    What goes out:
+      A list whose length is the same as the number of subsequences,
+      where the Jth item in the list is the smallest increase
+      in the Jth subsequence
+      (and "smallest increase" is defined as in the previous problem).
+    Side effects:  None.
+    Examples:
+        two_d_smallest_increase(
+          ( [10, 15, 3, 20, 22, 28, 20, 11],
+            [-4, -10, 20, 5],
+            [2, 5, 10, 11, 35],
+            [2, 5, 10, 11, 35] )
+        returns  [-12, , -15, 1, 1]
+        (Note that the subsequences here are the examples used in the previous
+        problem -- see that problems for why the smallest increases of the
+        four subsequences are -12, -15, 1 and 1, respectively.)
+
+      ** ASK YOUR INSTRUCTOR FOR HELP **
+      ** if these examples and the above specification are not clear to you. **
+
+    Type hints:
+      :type sequence_of_subsequences: tuple[list[int]] | tuple[tuple[int]]
+    """
+    ###########################################################################
+    # TODO: 4. Implement and test this function.
+    #          Tests have been written for you (above).
+    ###########################################################################
+    ###########################################################################
+    # -------------------------------------------------------------------------
+    # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
+    #    DIFFICULTY:     5
+    #    TIME ESTIMATE:  10 minutes.
+    # -------------------------------------------------------------------------
 
 
 def run_test_sum_bigger_than_average():
@@ -264,7 +501,7 @@ def sum_bigger_than_average(numbers):
       ** if this example and the above specification are not clear to you. **
      """
     ###########################################################################
-    # TODO: 6. Implement and test this function.
+    # TODO: 5. Implement and test this function.
     #          Tests have been written for you (above).
     ###########################################################################
     ###########################################################################
