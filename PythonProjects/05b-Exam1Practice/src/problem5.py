@@ -56,7 +56,7 @@ def run_test_problem5a():
     print("--------------------------------------------------")
 
     # Window 1:
-    title = "Problem 3a. Test 1: Start at (30, 30), 6 lines"
+    title = "Problem 5a. Test 1: Start at (30, 30), 6 lines"
     window1 = rg.RoseWindow(350, 200, title)
 
     # Test 1 (it is on window 1):
@@ -70,7 +70,7 @@ def run_test_problem5a():
     window1.close_on_mouse_click()
 
     # Window 2:
-    title = "Problem 3a.  Test 2: Start at (80, 10), 9 lines."
+    title = "Problem 5a.  Test 2: Start at (80, 10), 9 lines."
     title += "  Test 3: Start at (30, 50), 3 lines."
     window2 = rg.RoseWindow(550, 200, title)
 
@@ -93,7 +93,7 @@ def run_test_problem5a():
     window2.close_on_mouse_click()
 
     # Window 3:
-    title = "Problem 3a. Test 4: Start at (30, 30), 20 lines"
+    title = "Problem 5a. Test 4: Start at (30, 30), 20 lines"
     window3 = rg.RoseWindow(450, 300, title)
 
     # Test 4 (it is on window 3):
