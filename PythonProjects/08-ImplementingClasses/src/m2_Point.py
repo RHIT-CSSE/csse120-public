@@ -13,17 +13,22 @@ import time
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_init()
-    run_test_repr()
-    run_test_clone()
-    run_test_move_to()
-    run_test_move_by()
-    run_test_get_number_of_moves_made()
-    run_test_get_distance_from()
-    run_test_get_distance_from_start()
-    run_test_get_distance_traveled()
-    run_test_closer_to()
-    run_test_halfway_to()
+    print("-----------------------------------------------")
+    print("Un-comment each of the following TEST functions")
+    print("as you implement the functions that they test.")
+    print("-----------------------------------------------")
+
+    # run_test_init()
+    # run_test_repr()
+    # run_test_clone()
+    # run_test_move_to()
+    # run_test_move_by()
+    # run_test_get_number_of_moves_made()
+    # run_test_get_distance_from()
+    # run_test_get_distance_from_start()
+    # run_test_get_distance_traveled()
+    # run_test_closer_to()
+    # run_test_halfway_to()
 
 
 ###############################################################################
