@@ -9,8 +9,8 @@ are necessary in a class definition.
 
 Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
          Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
-         PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Bilbo.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
 """
@@ -38,9 +38,29 @@ Here are some examples that you can use for testing:
            Sarah says You make me happy.
            Elsa says I am unsure about rocks.
 """
+
+
 # TODO: 2. Implement the NameDropper class and add some code that tests it.
 ###############################################################################
+class NameDropper:
+    def __init__(self, name):
+        self.name = name
 
+    def transform(self, string):
+        return "{} says {}".format(self.name, string)
+
+
+def test_namedropper():
+    elsa = NameDropper("Elsa")
+    sarah = NameDropper("Sarah")
+    a = elsa.transform("Robots are fun.")
+    b = elsa.transform("Crayons are fun too.")
+    c = sarah.transform("You make me happy.")
+    d = elsa.transform("I am unsure about rocks.")
+    print(a, b, c, d, sep="\n")
+
+
+test_namedropper()
 
 ###############################################################################
 """
@@ -73,13 +93,34 @@ Here are some examples that you can use for testing:
            **aa**!!
            C*ts a*e n*tur*lly l*zy
 """
+
+
 # TODO: 3. Implement the Censor class and add some code that tests it.
 #       *** READ THIS HINT: ***
 #   HINT:  Throughout, use string methods to do all the heavy lifting.
 #   Type        "" then DOT           or, if you prefer,  "xxx" then DOT
 #   and PAUSE to let the DOT trick show you string methods.
 ###############################################################################
+class Censor:
+    def __init__(self, character_to_censor="e"):
+        self.character_to_censor = character_to_censor
 
+    def transform(self, string):
+        """ :type string: str """
+        return string.replace(self.character_to_censor, "*")
+
+
+def test_censor():
+    elsa = Censor("a")
+    sarah = Censor()
+    a = elsa.transform("Alice in Wonderland")
+    b = sarah.transform("Tweedledee and Tweedledum")
+    c = sarah.transform("eeaaee!!")
+    d = elsa.transform("Cats are naturally lazy")
+    print(a, b, c, d, sep="\n")
+
+
+test_censor()
 
 ###############################################################################
 """

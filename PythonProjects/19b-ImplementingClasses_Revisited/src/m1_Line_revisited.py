@@ -44,8 +44,8 @@ The KEY IDEAS are:
      
 Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
          Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
-         PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Groucho.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import math
 import m1t_test_Line as m1t
@@ -56,7 +56,7 @@ import m1t_test_Line as m1t
 #   Your instructor will lead you through this exercise.
 ###############################################################################
 # -----------------------------------------------------------------------------
-# TODO: 2.  Right-click on the  src  folder and
+# DONE: 2.  Right-click on the  src  folder and
 #               Mark Directory as ... Sources Root,
 #           if you have not already done so.
 # -----------------------------------------------------------------------------
@@ -69,13 +69,17 @@ class Point:
 
     def __init__(self, x, y):
         """ Sets instance variables  x  and  y  to the given coordinates. """
-        # TODO: 3. What is SELF here?
+        # DONE: 3. What is SELF here?
+        #   the Point being constructed
         #  Implement the above spec, using instance variables named x and y.
+        self.x = x
+        self.y = y
 
     def __repr__(self):
         """ Returns a fancy string representation of this Point. """
-        # TODO: 4. Read the above spec.  (Ignore the details of the code below.)
+        # DONE: 4. Read the above spec.  (Ignore the details of the code below.)
         #  What function that you use a LOT calls the __repr__ method?
+        #   print
         decimal_places = 2  # Use 2 places after the decimal point
 
         formats = []
@@ -99,22 +103,29 @@ class Point:
         Treats two numbers as "equal" if they are within 6 decimal
         places of each other for both x and y coordinates.
         """
-        # TODO: 5. Read the above spec.  What would go wrong if we did NOT
+        # DONE: 5. Read the above spec.  What would go wrong if we did NOT
         #  define __eq__ for a Point. That is, why would we WANT to define EQ?
+        #   Then two Points like   a = Point(10, 5) and b = Point(10, 5)
+        #   would NOT be treated as equal, that is,   a == b would be FALSE.
         return (round(self.x, 6) == round(p2.x, 6) and
                 round(self.y, 6) == round(p2.y, 6))
 
     def clone(self):
         """  Returns a new Point at the same (x, y) as this Point. """
         # TODO: 6.  What is SELF here?  Implement the above spec.
+        #    SELF is the Point being cloned, that is, the Point
+        #    in front of the dot in the caller, e.g.,   a.clone()
         #  Concepts illustrated:
         #    -- constructing an instance of a class and
         #    -- accessing instance variables
         #  Note: SAME NOTATION as when NOT inside a class definition!
+        return Point(self.x, self.y)
 
     def distance_from(self, p2):
         """ Returns the distance this Point is from the given Point. """
-        # TODO: 7.  What is SELF here?  What is p2 here?  Read the code below.
+        # DONE: 7.  What is SELF here?  What is p2 here?  Read the code below.
+        #   SELF is the Point in front of the dot in the caller, p2 is the Point
+        #   inside the parentheses:    a.distance_from(b)
         #  Which feels better: the multi-line solution or the one-line solution?
         #  Note (again): SAME NOTATION as when NOT inside a class definition!
 
@@ -129,10 +140,13 @@ class Point:
     def halfway_to(self, p2):
         """ Returns a new Point half-way between this Point and given Point. """
         # TODO: 8.  What are SELF and p2 here?  Implement the above spec.
+        #  SELF is the Point in front of the dot in the caller, p2 is the Point
+        #         #   inside the parentheses:    a.halfway_to(b)
         #   Geometry hint: Average the x-coordinates and average the
         #   y-coordinates to get the coordinates of the halfway-between Point.
         #   (No subtraction!  Although there is a formula for halfway that
         #   uses subtraction, the formula for the average is simpler!)
+        return Point((self.x + p2.x) / 2, (self.y + p2.y) / 2)
 
     def plus(self, p2):
         """
@@ -144,7 +158,8 @@ class Point:
             print(p3)
         would print:   Point(600, 33)
         """
-        # TODO: 9.  What are SELF and p2 here?  Implement the above spec.
+        # DONE: 9.  What are SELF and p2 here?  Implement the above spec.
+        return Point(self.x + p2.x, self.y + p2.y)
 
     def minus(self, p2):
         """
@@ -156,7 +171,8 @@ class Point:
             print(p3)
         would print:   Point(400, 7)
         """
-        # TODO: 10.  What are SELF and p2 here?  Implement the above spec.
+        # DONE: 10.  What are SELF and p2 here?  Implement the above spec.
+        return Point(self.x - p2.x, self.y - p2.y)
 
 
 def main():
@@ -213,15 +229,27 @@ class Line(object):
           :type start: Point
           :type end:   Point
         """
-        # TODO: 11.  What is SELF?  What TYPE of objects are start and end?
+        # DONE: 11.  What is SELF?  What TYPE of objects are start and end?
+        #  SELF is the LINE being constructed.  Start and end are Points.
         #  What does putting the "Type hints" accomplish?
         #  Implement the above spec.  Use the Point class  clone  method!
         #  Why is it wise to CLONE start and end?  (See to_clone_or_not.pdf)
+        self.start = start.clone()
+        self.end = end.clone()
+
+        self.number_of_times_cloned = 0
+        self.original_start = self.start.clone()
+        self.original_end = self.end.clone()
+
+        # In reset:
+        self.start = self.original_start
+        self.end = self.original_end
 
     def __repr__(self):
         """ Returns a string representation of this Line. """
         # TODO: 12. Read the above spec.
         #  What function that you use a LOT calls the __repr__ method?
+        #   PRINT
         start = repr(self.start).replace("Point", "")
         end = repr(self.end).replace("Point", "")
         return "Line[{}, {}]".format(start, end)
@@ -230,8 +258,9 @@ class Line(object):
         """
         Defines == for Lines:  a == b   is equivalent to  a.__eq__(b).
         """
-        # TODO: 13. Read the above spec.  Why would we WANT to define == ?
+        # DONE: 13. Read the above spec.  Why would we WANT to define == ?
         #  Then mark this _TODO_ as DONE.
+        #   What it means for two Lines to be "equal"
         return (self.start == line2.start) and (self.end == line2.end)
 
     def clone(self):
@@ -241,8 +270,12 @@ class Line(object):
         What goes out: Returns a new Line whose START is a clone of
           this Line's START and whose END is a clone of this Line's END.
         """
-        # TODO: 14.  What is SELF?  Implement the above spec.
+        # DONE: 14.  What is SELF?  Implement the above spec.
+        #   The Line being cloned, ie., the one in front of the dot
+        #   in    a.clone()
         #  Use the Point class  clone  method!
+        self.number_of_times_cloned = self.number_of_times_cloned + 1
+        return Line(self.start.clone(), self.end.clone())
 
     def reverse(self):
         """
@@ -254,6 +287,9 @@ class Line(object):
         """
         # TODO: 15.  What is SELF?  Implement the above spec.
         #  What is the SWAP pattern?  (Hint: temp variable, 3 lines, think Z.)
+        temp = self.start
+        self.start = self.end
+        self.end = temp
 
     def slope(self):
         """
@@ -263,8 +299,14 @@ class Line(object):
            math.inf
         if the line is vertical (i.e., has "infinite" slope).
         """
-        # TODO: 16.  What is SELF?  Implement the above spec.
+        # DONE: 16.  What is SELF?  Implement the above spec.
         #  Geometry hint:  slope = dy / dx.  Guard against division by zero!
+        dx = self.start.x - self.end.x
+        dy = self.start.y - self.end.y
+
+        if dx == 0:
+            return math.inf
+        return dy / dx
 
     def length(self):
         """
@@ -272,10 +314,12 @@ class Line(object):
           -- self
         What goes out: Returns the length of this Line.
         """
-        # TODO: 17.  What is SELF?  Implement the above spec.
+        # DONE: 17.  What is SELF?  Implement the above spec.
+        #   The Line whose length we want, ie, distance from
+        #   self.start to self.end.
         #  Geometry hint:  length of a line is the distance from its start
         #  point to its end point.  Use the Point class  distance_from   method!
-        #
+        return self.start.distance_from(self.end)
 
     def get_number_of_clones(self):
         """
@@ -289,6 +333,7 @@ class Line(object):
         #  to STORE with the Line the number of times clone has been called?
         #  Implement the above spec.
         #    (Hint:  add a new instance variable to __init__ and ...)
+        return self.number_of_times_cloned
 
     def line_plus(self, other_line):
         """
@@ -304,8 +349,10 @@ class Line(object):
         Type hints:
           :type  other_line: Line
         """
-        # TODO: 19.  What is SELF?  other_line?  Implement this method.
+        # DONE: 19.  What is SELF?  other_line?  Implement this method.
         #  Use methods from the Point class!
+        return Line(self.start.plus(other_line.start),
+                    self.end.plus(other_line.end))
 
     def line_minus(self, other_line):
         """
@@ -322,7 +369,11 @@ class Line(object):
           :type  other_line: Line
         """
         # TODO: 20.  What is SELF?  other_line?  Implement this method.
+        #   SELF is the Line in front of the dot.  Other_line is the Line
+        # inside the parentheses.    a.line_minus(b)
         #  Use methods from the Point class!
+        return Line(self.start.minus(other_line.start),
+                    self.end.minus(other_line.end))
 
     def midpoint(self):
         """
@@ -332,6 +383,7 @@ class Line(object):
         """
         # TODO: 21.  What is SELF?  Implement this method.
         #  Use a method from the Point class!
+        return self.start.halfway_to(self.end)
 
     def is_parallel(self, line2):
         """
@@ -347,6 +399,7 @@ class Line(object):
         # TODO: 22.  What is SELF?  line2?  Implement this method.
         #  IMPORTANT NOTE:
         #  Use the  slope  method, but round to 12 decimal places.
+        return round(self.slope(), 12) == round(line2.slope(), 12)
 
     def reset(self):
         """
@@ -360,6 +413,8 @@ class Line(object):
         #  and that you CANNOT use SELF for that purpose?
         #  Implement the above spec.
         #     (Hint:  add a new instance variable to __init__ and ...)
+        self.start = self.original_start
+        self.end = self.original_end
 
 
 ###############################################################################
