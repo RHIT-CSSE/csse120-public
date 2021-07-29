@@ -23,7 +23,7 @@ import testing_helper
 #  variables (but not necessarily all of the code) of the Point class,
 #  change the above _TODO_ to DONE.
 ###############################################################################
-class Point(object):
+class Point:
     """ Represents a point in 2-dimensional space. """
 
     def __init__(self, x, y):
@@ -102,7 +102,7 @@ def main():
 ###############################################################################
 # The   Triangle   class (and its methods) begins here.
 ###############################################################################
-class Triangle(object):
+class Triangle:
     """ Represents a triangle in 2-dimensional space. """
 
     # IMPORTANT: Be CERTAIN you understand the Example in the spec below.
