@@ -46,7 +46,7 @@ import testing_helper
 #  For full credit, you must use (call) these as appropriate in your code.
 #  After you UNDERSTAND the Point class, change the above _TODO_ to DONE.
 ###############################################################################
-class Point(object):
+class Point:
     """ Represents a point in 2-dimensional space. """
 
     def __init__(self, x, y):
@@ -134,7 +134,7 @@ def main():
 #    TIME ESTIMATE for implementing the ENTIRE class:   35 to 45 minutes.
 # -----------------------------------------------------------------------------
 
-class Blob(object):
+class Blob:
 
     def __init__(self, c, n):
         """
