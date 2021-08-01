@@ -74,7 +74,7 @@ def shape(r):
     1234!4321++
      123!321-+
       12!21--++
-       `!1---+
+       1!1---+
 
     Preconditions:  r is a positive number.
     For purposes of "lining up", assume r is a single digit.
