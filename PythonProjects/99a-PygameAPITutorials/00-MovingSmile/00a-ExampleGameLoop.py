@@ -6,6 +6,7 @@ pygame.display.set_caption("Hello World")
 screen = pygame.display.set_mode((640, 480))
 
 while True:
+
     for event in pygame.event.get():
         print(event)  # Used for an example here
         if event.type == pygame.QUIT:
