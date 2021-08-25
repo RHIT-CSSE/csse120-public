@@ -204,6 +204,6 @@ natasha.go_to(rg.Point(-100, 200))
 # -----------------------------------------------------------------------------
 # The next line keeps the window open until the user clicks in the window.
 # Throughout this exercise, this  close_on_mouse_click   line
-# should be the LAST line in the file.  DO NOT ADD CODE BELOW THIS LINE!
+# should be the LAST line in the module.  DO NOT ADD CODE BELOW THIS LINE!
 # -----------------------------------------------------------------------------
 window.close_on_mouse_click()

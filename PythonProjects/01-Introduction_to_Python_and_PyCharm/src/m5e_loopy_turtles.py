@@ -5,10 +5,9 @@ Demonstrates:
 via Turtle Graphics.
 
 Concepts include:
- * Using OBJECTS:
-   -- CONSTRUCT an INSTANCE of a CLASS (we call such instances OBJECTS).
-   -- Make an object  ** DO **  something by using a METHOD.
-   -- Reference an object's  ** DATA **  by using an INSTANCE VARIABLE.
+  -- CONSTRUCT an INSTANCE of a CLASS (we call such instances OBJECTS).
+  -- Make an object   ** DO **   something by using a METHOD.
+  -- Reference an object's   ** DATA **   by using an INSTANCE VARIABLE.
 
  * LOOPS:
    -- Using a FOR expression like this:
@@ -33,19 +32,38 @@ Concepts include:
         jill = "ran down the hill"
         size = size - 12
 
- * The DOT trick: If you type expressions like the following,
-     pausing after typing the DOT (period, full stop),
-     then the window that pops up give lots of clues for what you can do!
+ * The DOT trick: If you type an expression and then PAUSE  after typing
+     the DOT (period, full stop), then the window that pops up gives
+     lots of clues for what you can do!  For example:
         rg.
         rg.SimpleTurtle().
         rg.Pen().
         rg.PaintBucket().
 
-Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
-         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
-         PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
+         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
+         Amanda Stouder, Curt Clifton, Valerie Galluzzi, and their colleagues.
 """
 import rosegraphics as rg
+
+
+###############################################################################
+# TODO: 1.  This is an EXAMPLE module (m1e_..., note the e).
+#  For ALL example modules, throughout the course:
+#    a. RUN the example.
+#    b. READ the code (and accompanying comments), ASKING QUESTIONS
+#         about anything that is not clear to you.  In particular, be sure that
+#         you understand why the code produces the output/drawing that it does.
+#  _
+#  From here on, we will not put a _TODO_ in EXAMPLE modules,
+#  but we nonetheless expect you to DO them, per the above.
+#  _
+#  If you have not already done so, READ the doc-string that forms the
+#  first 46 lines of this module, noting the examples and discussion therein.
+#  _
+#  After you RUN this example, READ its code, and ASK QUESTIONS about anything
+#  that is not clear to you, change the above _TODO_ to DONE.
+###############################################################################
 
 ###############################################################################
 # One window, for two examples.
@@ -59,7 +77,7 @@ blue_turtle = rg.SimpleTurtle("turtle")
 blue_turtle.pen = rg.Pen("midnight blue", 3)
 blue_turtle.speed = 20  # Fast
 
-# The first square will be 300 x 300 pixels:
+# The first square will be 300 x 300 pixels, per the next line and line 87:
 size = 300
 
 # Do the indented code 6 times.  Each time draws a square.
@@ -82,8 +100,10 @@ for k in range(6):
 
 ###############################################################################
 # Example 2.  It shows how to speed up the animation.
+#   Run the example as it is, then in   window.tracer(10)   below,
+#   change the 10 to 100, run again, and observe the effect.
 ###############################################################################
-window.tracer(100)  # Bigger numbers make the animation run faster
+window.tracer(10)  # Bigger numbers make the animation run faster
 
 another_turtle = rg.SimpleTurtle("triangle")
 another_turtle.pen = rg.Pen("magenta", 1)
@@ -94,4 +114,9 @@ for k in range(500):
     another_turtle.left(91)
     another_turtle.forward(k)
 
+# -----------------------------------------------------------------------------
+# The next line keeps the window open until the user clicks in the window.
+# Whenever you are doing TurtleGraphics code, this  close_on_mouse_click   line
+# should be the LAST line in the module.  DO NOT ADD CODE BELOW THIS LINE!
+# -----------------------------------------------------------------------------
 window.close_on_mouse_click()
