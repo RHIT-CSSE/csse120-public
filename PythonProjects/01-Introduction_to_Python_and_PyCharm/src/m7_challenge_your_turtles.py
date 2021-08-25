@@ -1,13 +1,14 @@
 """
 Your chance to explore Loops and Turtles!
 
-Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
-         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
+Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
+         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
+         Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
          PUT_YOUR_NAME_HERE.
 """
 ###############################################################################
 # TODO: 1.
-#   On Line 6 above, replace  PUT_YOUR_NAME_HERE  with your own name.
+#   On Line 7 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ###############################################################################
 
 ###############################################################################
@@ -20,6 +21,9 @@ Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
 #     2. Each rg.SimpleTurtle object draws something
 #          (by moving, using its rg.Pen).  ANYTHING is fine!
 #     3. Each rg.SimpleTurtle moves inside a LOOP.
+#  _
+#   Don't forget that you need to import rosegraphics, construct a TurtleWindow
+#   and have it close_on_mouse_click, just as in all previous modules.
 #  _
 #   In this CHALLENGE problem, be creative!
 #   Strive for way-cool pictures!  Abstract pictures rule!
