@@ -10,15 +10,15 @@ Also:
   -- ASSIGNING a VALUE to a NAME (aka VARIABLE).
 
 Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
-         Dave Fisher, Matt Boutell, Mohammed Noureddine, Sriram Mohan,
-         Amanda Stouder, Valerie Galluzzi, Curt Clifton, their colleagues and
+         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
+         Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
          PUT_YOUR_NAME_HERE.
 """
 ###############################################################################
 # TODO: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #  _
-#   On Line 14 above, replace   PUT_YOUR_NAME_HERE   with your OWN name.
+#   On Line 15 above, replace   PUT_YOUR_NAME_HERE   with your OWN name.
 #  _
 #   BTW, the top block of text above forms a multiple-line string that is
 #   called a DOC-STRING.  It documents what this module does, in a way that
@@ -40,21 +40,22 @@ import rosegraphics as rg
 #   is no longer marked as an error.  You will do this "Mark Directory As" step
 #   in all projects that use rosegraphics, so get used to it. :)
 #  _
-#   Once  rosegraphics  in the  import  statement is no longer marked as error,
-#   change this _TODO_ to DONE and  ** continue to the next _TODO_ (below). **
+#   Once you have done the above, change this _TODO_ to DONE
+#   and  ** continue to the next _TODO_ (below). **
 ###############################################################################
 
 ###############################################################################
 # TODO: 3.
-#   Run this module.  A window will pop up and Turtles will move around.
+#   Run this module.  A window will pop up and Turtle objects will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
+#   (Click inside the window rather than use the X, for a more graceful exit.)
 #  _
 #   Then look at the code below.  Ask for help when you have questions about
 #   what the code is doing, or if you are just curious about any of the code.
 #   Be sure that you understand the notations for:
 #  _
-#     -- CONSTRUCTING an instance of a CLASS, e.g.
+#     -- CONSTRUCTING an INSTANCE of a CLASS, e.g.
 #           rg.SimpleTurtle()
 #  _
 #     -- ASSIGNING the resulting OBJECT (instance of a class) a NAME, e.g.
@@ -75,20 +76,21 @@ import rosegraphics as rg
 # The next few lines show how to:
 #   - CONSTRUCT (make and initialize) a   TurtleWindow   object for animation.
 # The definition of a  TurtleWindow is in
-# the   rg  (shorthand for rosegraphics) module.
+# the   rg   (shorthand for rosegraphics) module that is IMPORTED above.
 # -----------------------------------------------------------------------------
 window = rg.TurtleWindow()
 window.delay(20)  # Bigger numbers mean slower animation.
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
-#   - CONSTRUCT (make) a  SimpleTurtle  object and ASSIGN a NAME to the object.
+#   - CONSTRUCT (make and initialize) a  SimpleTurtle  object
+#     and ASSIGN a NAME to the object.
 # -----------------------------------------------------------------------------
 boris = rg.SimpleTurtle()
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
-#   - Ask the SimpleTurtle object to do things by applying METHODs to it.
+#   - Ask the SimpleTurtle object to do things by applying a METHOD to it.
 # The numbers in the parentheses are called ARGUMENTS.
 # -----------------------------------------------------------------------------
 boris.forward(100)
@@ -118,15 +120,22 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 # TODO: 4.
-#   Your instructor will explain the so-called "dot-trick".
-#   Try it out yourself by typing
+#   Your instructor will explain (live, or in a Follow-Me video)
+#   the so-called "dot-trick", which means to type an expression,
+#   then a DOT (period), then PAUSE.  Try it out yourself by typing
 #      natasha.
 #   somewhere below and then pausing after typing the dot.
 #   You will see options pop up for what natasha can do (methods, marked
 #   with an M on the pop-up) and what natasha knows (instance variables,
 #   aka fields, marked with a F on the pop-up).
 #  _
-#   Try out one of the methods!  (Any is fine.  Experiment!)
+#   Try out one of the methods!  Any is fine.  Experiment!
+#      -- But stop looking when the list starts showing names that begin
+#           with an UNDERSCORE (e.g. __init__), since those are "system" things
+#           not meant to be used directly.  More on them later in the course.
+#      -- Also notice that when you type the first few letters of a name
+#           (here, natasha), PyCharm offers to "autofill" the rest of the name
+#           for you -- just press the ENTER (RETURN) key to do so.  Try it out!
 #  _
 #      ** Be quick to ask for help as needed, as the so-called **
 #      ** "dot-trick" is more easily shown than explained. **
@@ -137,7 +146,7 @@ natasha.go_to(rg.Point(-100, 200))
 ###############################################################################
 # TODO: 5.
 #   Add a few more lines of your own code to make one of the existing
-#   SimpleTurtles move some more and/or have different characteristics.
+#   SimpleTurtle objects move some more and/or have different characteristics.
 #  _
 #      ** Nothing fancy is required. **
 #      ** A SUBSEQUENT exercise will let you show your creativity. **
@@ -156,10 +165,11 @@ natasha.go_to(rg.Point(-100, 200))
 #   characters, but they can have digits and underscores, e.g.
 #      this_1_has
 #  _
-#   STYLE RULE: Your names should always begin with a LOWER_CASE letter.
-#     So   mary   is OK   but   Mary   is NOT OK.
-#   Choose short-but-meaningful names.  Separate "words" in the name by
-#   underscores, like this:   my_turtle
+#   STYLE RULES (obey these rules!!!):
+#     1. Your names should always begin with a LOWER_CASE letter.
+#          So   mary   is OK   but   Mary   is NOT OK.
+#     2. Choose short-but-meaningful names.  Separate "words" in the name by
+#          underscores, like this:   my_turtle1
 #  _
 #   Then add more code that:
 #     -- Constructs a  Pen  object,
@@ -168,6 +178,8 @@ natasha.go_to(rg.Point(-100, 200))
 #  _
 #      ** Nothing fancy is required. **
 #      ** A SUBSEQUENT exercise will let you show your creativity. **
+#  _
+#      ** Do not hesitate to ask for help as needed! **
 #  _
 #   As always, test by running the module.
 ###############################################################################
@@ -178,16 +190,12 @@ natasha.go_to(rg.Point(-100, 200))
 #   Run one more time to be sure that all is still OK.
 #  _
 #   Then COMMIT-and-PUSH your work as before:
-#     1. Select    VCS    from the menu bar (above).
-#     2. Choose   Commit  from the pull-down menu that appears.
-#     3. In the  Commit Changes  window that pops up,
-#        press the   Commit and Push   button.
-#           (Note: If you see only a Commit button:
-#              - HOVER over the  Commit  button
-#                (in the lower-right corner of the window)
-#              - CLICK on  Commit and Push.)
-#           (Note: If it asks you to type a message for the Commit, do so,
-#                using   Done   or something like that for the message.)
+#     1. Select    Git     from the menu bar (above).
+#     2. Choose   Commit...   from the pull-down menu that appears.
+#     3. In the   "Commit to master"   window that pops up,
+#        press the   "Commit and Push..."   button.
+#            Note: If it asks you to "Specify commit message", do so
+#                  using   Done   or something like that for the message.
 #  _
 #   You can COMMIT-and-PUSH as often as you like.
 #   DO IT FREQUENTLY; AT LEAST once per module.
