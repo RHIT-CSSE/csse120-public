@@ -109,8 +109,8 @@ print(answer * 100)
 #   Then COMMIT-and-PUSH your work as before:
 #     1. Select    Git     from the menu bar (above).
 #     2. Choose   Commit...   from the pull-down menu that appears.
-#     3. In the   Commit to master   window that pops up,
-#        press the   Commit and Push...   button.
+#     3. In the   "Commit to master"   window that pops up,
+#        press the   "Commit and Push..."   button.
 #            Note: If it asks you to "Specify commit message", do so
 #                  using   Done   or something like that for the message.
 #  _
