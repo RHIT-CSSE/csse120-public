@@ -4,8 +4,10 @@ This module demonstrates simple loops of the form:
       ... k ...
 
 Authors: Many, many people over many, many years.
-         David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Amanda Stouder, Derek Whitley, and their colleagues wrote this version.
+         David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
+         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
+         Amanda Stouder, Curt Clifton, Valerie Galluzzi,
+         and their colleagues wrote this version.
 """
 # -----------------------------------------------------------------------------
 # Students: Read and run this program.
