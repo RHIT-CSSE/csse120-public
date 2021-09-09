@@ -1,17 +1,3 @@
-def cookie():
-    print("Who stole the cookie from the cookie jar?")
-    print("Not me!")
-    print("Then who?")
-    print("Who, me?")
-    print("Yes, you!")
-    print("Couldn't be!")
-    print("Then who?")
-    print()
-    cookie()
-
-cookie()
-
-
 """
 PRACTICE Exam 1, problem 0.
 
@@ -22,8 +8,9 @@ These problems illustrate concepts that previous problems have not emphasized:
   -- is_prime (Problem 0b)
   -- animation (Problem 0c)
 
-Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
-         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
+Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
+         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
+         Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
