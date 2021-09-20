@@ -1,0 +1,104 @@
+Students:  Here is how you do today's first exercise, in m1_Line.
+
+########################################################################
+
+WITH YOUR INSTRUCTOR:
+
+  1. Understand the Point class that we supplied.
+
+  2. Understand how this exercise works:
+     -- You will implement a ** Line ** class.
+     -- In doing so, you will (many times) use methods from the Point class.
+     -- Implement and test the methods of the Line class, one by one,
+          ** using the process described BELOW. **
+
+  3. Understand enough about the tests that WE supplied for you to
+       succeed in this project.
+       ** ALL FAILURES IN OUR TESTS ARE PRINTED IN   ** RED **.
+       ** ASK FOR HELP AS NEEDED if our testing code BREAKS
+           (because of an error in YOUR code).
+
+  4. Practice what you will do, by (with your instructor) implementing
+       and testing the   __init__   method of the Line class,
+         ** using the process described BELOW. **
+  
+  5. Do the remaining methods of the Line class, one by one,
+         ** using the process described BELOW. **
+ 
+########################################################################
+
+Here is the PROCESS you will use to implement and test
+each method   M   of the Line class.
+(For example, M might be the   reverse   method.)
+
+  a. READ method M's specification, including its Example.
+        ** ASK QUESTIONS AS NEEDED. **
+        ** Be sure you understand it, ESPECIALLY the Example.
+  
+  b. Implement and test method M.
+       The tests are already written (below).
+       They include the Example in method M's green doc-string.
+
+########################################################################
+Here is a BRIEF description of OUR tests, using the   reverse   method
+as an example.  ASK YOUR INSTRUCTOR FOR HELP as needed with OUR tests.
+
+    def run_test_reverse():
+        """ Tests the   reverse   method of the Line class. """
+        
+        m1t.run_test_reverse()  # This runs OUR tests.
+        
+        # --------------------------------------------------------------
+        # One ADDITIONAL test (or set of tests).
+        # --------------------------------------------------------------
+        p1 = Point(30, 17)
+        p2 = Point(50, 80)
+        line1 = Line(p1, p2)
+        line2 = line1.clone()
+    
+        print(line1)  # Should print: Line[(30, 17), (50, 80)]
+    
+        line1.reverse()
+        print(line1)  # Should print: Line[(50, 80), (30, 17)]
+        print(line1 == line2)  # Should print: False
+    
+        line1.reverse()
+        print(line1 == line2)  # Should now print: True
+    
+        print('The above should print:')
+        print('  Line[(30, 17), (50, 80)]')
+        print('  Line[(50, 80), (30, 17)')
+        print('  False')
+        print('  True')
+
+OUR tests are called by the statement:
+        m1t.run_test_reverse()  # This runs OUR tests.
+So OUR tests run first, THEN the test(s) that came from the Example
+in the method's specification.
+
+IMPORTANT: We supplied lots of tests.  They are all in the
+   m1t_test_Line   module. Some of the tests that we wrote may be
+   difficult for you to grasp.  Don't hesitate to ASK QUESTIONS
+   if you do not understand a test that your code is failing.
+
+Here is part of our tests of the   reverse   method, as an example:
+
+    line = m1.Line(m1.Point(12, 88),
+                   m1.Point(40, 33))
+    original_end = line.end
+    line.reverse()
+
+    expected = original_end
+    actual = line.start
+    evaluate_test(expected, actual, 'Testing START after 1st reverse:')
+
+The function
+    evaluate_test
+simply tests whether the   expected  and   actual   are equal
+to each other and prints relevant messages.
+
+Note: We wrote the  main  function in such a way that it will
+NOT call your  TEST  function until you write at least SOME
+code in the method to be tested.  So, you will not any output
+from a TEST function until you start implementing its method.
+########################################################################
