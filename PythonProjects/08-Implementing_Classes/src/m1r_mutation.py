@@ -16,6 +16,10 @@ Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
 ###############################################################################
 
 
+def doubler(my_list):
+
+    for k in range(len(my_list)):
+
 class Point(object):
     def __init__(self, x, y):
         self.x = x
