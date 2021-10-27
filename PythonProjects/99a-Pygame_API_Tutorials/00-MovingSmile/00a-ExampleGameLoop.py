@@ -14,5 +14,6 @@ while True:
         # Additional interactions
 
     # Draw things on the screen
+    screen.fill((0, 0, 0))  # black
 
     pygame.display.update()
