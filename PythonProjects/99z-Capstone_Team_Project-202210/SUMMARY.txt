@@ -1,0 +1,51 @@
+TODO: Complete the following after you have COMPLETED your project.
+
+1. You are required to make a video for your project, as described in detail at:
+     tinyurl.com/csse120-capstone-202210
+   Be sure that your video meets the requirements per the above link!
+   Be sure that your video is visible to your instructors!
+
+   What is the URL of your video?
+     [PUT YOUR ANSWER HERE, using as many lines as you need.]
+
+2. List the names of the team members for your project.
+
+     [PUT YOUR ANSWER HERE, using as many lines as you need.]
+
+3. Explain briefly what your project does and how it works.
+
+     [PUT YOUR ANSWER HERE, using as many lines as you need.]
+
+4. List the names of the classes in your project,
+   identifying who was the primary author(s) for each.
+
+     [PUT YOUR ANSWER HERE, using as many lines as you need.]
+
+5. List the essential features of your game, as written in your
+   Project Description, identifying who was the primary author(s) for each.
+   (For features that you did not implement, if any, indicate so.)
+
+     [PUT YOUR ANSWER HERE, using as many lines as you need.]
+
+6. List the additional features of your game that you implemented,
+   identifying who was the primary author(s) for each.
+
+     [PUT YOUR ANSWER HERE, using as many lines as you need.]
+
+7. List the external modules (libraries) that you used.
+     -- That is, list all the modules in IMPORT statements in your project.
+     -- But do NOT include here the modules that you listed in #3 above,
+          since they are INTERNAL to your project.
+
+     [PUT YOUR ANSWER HERE, using as many lines as you need.]
+
+8. List all media items (images, music, other graphics, etc)
+   that are not your own, and their sources (e.g. URLs).
+   [If you no longer know the source, indicate so.]
+
+     [PUT YOUR ANSWER HERE, using as many lines as you need.]
+
+9. [Optional] Add anything here that would help us assess your
+   project fairly, beyond what you already said/showed in your video.
+
+     [PUT YOUR ANSWER HERE, using as many lines as you need.]
