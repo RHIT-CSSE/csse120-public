@@ -1,0 +1,15 @@
+Replace the following 4 files in this folder
+by your OWN files for those documents.
+
+  1_Project_Proposal.pdf
+  2a_UML_Class_Diagram.uxf [if you used UMLetino]
+  2b_UML_Class_Diagram.pdf
+  3_Iterative_Enhancement_Plan.pdf
+
+Use the same names as the above, please.
+
+The Capstone Team Project is described at:
+   tinyurl.com/csse120-capstone-202210
+
+Follow the link to see the requirements
+for each of the above documents.
