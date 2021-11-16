@@ -5,8 +5,8 @@ Author: David Mutchler and his colleagues.
 
 import enum
 
-TERM = "202130"  # Spring, 2020-21
-FOLDER_FOR_HOME_PAGE = "/Users/davidmutchler/csse120-public/WWW/{}".format(TERM)
+TERM = "202220"  # Winter, 2021-22
+FOLDER_FOR_HOME_PAGE = "../../../WWW/{}".format(TERM)
 
 NUMBER_OF_SESSIONS = 30
 HOME_PAGE = "{}/index.html".format(FOLDER_FOR_HOME_PAGE)
