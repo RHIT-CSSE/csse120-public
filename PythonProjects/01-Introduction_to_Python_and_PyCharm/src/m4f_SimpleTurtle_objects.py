@@ -9,20 +9,22 @@ Concepts include:
 Also:
   -- ASSIGNING a VALUE to a NAME (aka VARIABLE).
 
-Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
-         Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
-         PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
+         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine, Amanda Stouder,
+         Valerie Galluzzi, their colleagues and
+         PUT_YOUR_NAME(S)_HERE.
 """
 ###############################################################################
 # TODO: 1.
-#   Yes, that means for YOU to DO things per the following instructions:
-#  _
-#   On Line 15 above, replace   PUT_YOUR_NAME_HERE   with your OWN name.
+#   Yes, that means for YOU to DO something per the following instruction:
+#      On Line 15 above, replace   PUT_YOUR_NAME(S)_HERE   with your OWN name.
 #  _
 #   BTW, the top block of text above forms a multiple-line string that is
 #   called a DOC-STRING.  It documents what this module does, in a way that
 #   exterior programs can make sense of. It has no other effect on this program.
+#  _
+#   Once you have done the above, change this _TODO_ to DONE
+#   and  ** continue to the next _TODO_ (below). **
 ###############################################################################
 
 import rosegraphics as rg
@@ -36,7 +38,7 @@ import rosegraphics as rg
 #     In the Project window (to the left), right click on the   src   folder,
 #     then select   Mark Directory As  ~  Sources Root.
 #  _
-#   You will see that  rosegraphics  in the  import  statement above (line 28)
+#   You will see that  rosegraphics  in the  import  statement above (line 27)
 #   is no longer marked as an error.  You will do this "Mark Directory As" step
 #   in all projects that use rosegraphics, so get used to it. :)
 #  _
@@ -49,14 +51,14 @@ import rosegraphics as rg
 #   Run this module.  A window will pop up and Turtle objects will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
-#   (Click inside the window rather than use the X, for a more graceful exit.)
+#   (Clicking inside the window rather than use the X yields a more graceful exit.)
 #  _
 #   Then look at the code below.  Ask for help when you have questions about
 #   what the code is doing, or if you are just curious about any of the code.
 #   Be sure that you understand the notations for:
 #  _
 #     -- CONSTRUCTING an INSTANCE of a CLASS, e.g.
-#           rg.SimpleTurtle()
+#           rg.SimpleTurtle()           [NOTE the PARENTHESES!]
 #  _
 #     -- ASSIGNING the resulting OBJECT (instance of a class) a NAME, e.g.
 #           natasha = rg.SimpleTurtle()
@@ -65,7 +67,7 @@ import rosegraphics as rg
 #           natasha.forward(100)
 #  _
 #     -- Accessing an INSTANCE VARIABLE of an object, e.g.
-#           natasha.speed = 10
+#           natasha.speed = 10           [NOTE the ABSENCE of PARENTHESES!]
 #           boris.speed = natasha.speed
 #  _
 #   After you are confident that you understand all the code below,

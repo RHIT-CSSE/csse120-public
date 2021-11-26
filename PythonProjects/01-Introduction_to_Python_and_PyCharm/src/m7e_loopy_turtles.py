@@ -40,9 +40,10 @@ Concepts include:
         rg.Pen().
         rg.PaintBucket().
 
-Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
-         Amanda Stouder, Curt Clifton, Valerie Galluzzi, and their colleagues.
+Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
+         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
+         Amanda Stouder, Valerie Galluzzi, Curt Clifton, their colleagues and
+         PUT_YOUR_NAME(S)_HERE.
 """
 import rosegraphics as rg
 

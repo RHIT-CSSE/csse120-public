@@ -90,19 +90,6 @@ print(answer * 100)
 
 ###############################################################################
 # TODO: 5.
-#   Immediately below this _TODO_,
-#   write code that computes and prints:
-#     1. the base-10 logarithm of 1,000,000    (which is 6, as you know)
-#     2. the base-2 logarithm of 1,000,000     (which is a bit less than 20)
-#     3. the base-3 logarithm of 1,000,000     (which is between 6 and 20)
-#   For all three, use the relevant function in the  math  module,
-#   and discover the name of that function by typing:
-#      math.l   (pausing after the "l" and noting what pops up)
-#   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
-###############################################################################
-
-###############################################################################
-# TODO: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #  _

@@ -77,7 +77,7 @@ print("Hello, World")
 # TODO: 5.
 #   Look at the list of files in the Project window (to the left).
 #   Note that this file:
-#      m2_todo_and_commit_push.py
+#      m2f_todo_and_commit_push.py
 #   is now displayed in BLUE (or the color you may have set for changed files).
 #  _
 #   The BLUE font color means that you have made changes to this file which
