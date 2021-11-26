@@ -90,7 +90,7 @@ print(answer * 100)
 
 ###############################################################################
 # TODO: 5.
-#   Ensure that no blue bars on the scrollbar-thing to the right remain.
+#   Ensure that no blue bars remain on the scrollbar-thing to the right.
 #   Run one more time to be sure that all is still OK.
 #  _
 #   Then COMMIT-and-PUSH your work as before:
