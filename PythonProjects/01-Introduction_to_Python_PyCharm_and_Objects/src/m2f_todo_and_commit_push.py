@@ -18,7 +18,8 @@ print("Hello, World")
 # TODO: 1.
 #   (Yes, that means for YOU to DO things per these instructions:)
 #  _
-#   Run this module by right clicking anywhere in this window
+#   Read the above comment if you have not already done so.
+#   Then run this module by right clicking anywhere in this window
 #   and selecting
 #        Run 'name of file'
 #   Or, use the Windows keyboard shortcut:  Control + Shift + Function-F10.
@@ -47,8 +48,8 @@ print("Hello, World")
 #   finished all the exercises in a module -- there will be no blue bars
 #   remaining on the scrollbar-like thing to the right.
 #  _
-#   You have now completed _TODO_ #2, so change its _TODO_ on line 32 to DONE.
-#   Do likewise for all forthcoming TODOs in this course as you encounter them.
+#   You have now completed _TODO_ #2, so change its _TODO_ on line 33 to DONE.
+#   Do likewise for all forthcoming TODOs in this course as you complete them.
 ###############################################################################
 
 ###############################################################################
@@ -67,10 +68,9 @@ print("Hello, World")
 #   Let the computer do the arithmetic for you (no calculators!).
 #   You do NOT need strings for this, so no quotation marks!
 #  _
-#   TEST your code by re-running this module, then asking someone
-#   whom you trust:
+#   TEST your code by re-running this module, to see:
 #      What number did your   print   display for this _TODO_?
-#   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
+#   (HINT: It is an INTERESTING number.)  Get help if your value appears wrong.
 ###############################################################################
 
 ###############################################################################
@@ -86,7 +86,7 @@ print("Hello, World")
 #   COMMIT and PUSH your work by:
 #     1. Select   Git      from the menu bar (above).
 #     2. Choose   Commit...   from the pull-down menu that appears.
-#     3a. In the   Commit to master   window that pops up:
+#     3a. In the   "Commit to master"   window that pops up:
 #           - Type a short message in the box where you can type,
 #                e.g. type:    Done.
 #  _
@@ -94,7 +94,7 @@ print("Hello, World")
 #           when you work with teammates later in the course). Subsequent
 #           commits will auto-apply whatever message you use this time.
 #  _
-#     3b: In that same   Commit to master   window that pops up:
+#     3b: In that same   "Commit to master"   window that pops up:
 #           - Press the   Commit and Push...   button.
 #  _
 #   COMMIT adds the changed work to the version control system on your COMPUTER.

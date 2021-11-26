@@ -48,7 +48,7 @@ print(answer * 100)
 #   To access things defined in an imported module, we use the DOT notation,
 #   like this:
 #       math.sin
-#   is how we refer to the sine function defined in the imported  math  module.
+#   to refer to the sine function defined in the imported  math  module.
 #  _
 #   After putting your  import math  statement at the beginning of this module,
 #   and keeping in mind how we use the DOT notation to refer to things defined
