@@ -7,7 +7,7 @@ Concepts include:
   -- Reference an object's   ** DATA **   by using an INSTANCE VARIABLE.
 
 Also:
-  -- ASSIGNING a VALUE to a NAME (aka VARIABLE).
+  -- ASSIGNING a NAME (aka VARIABLE) a VALUE.
 
 Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
          Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine, Amanda Stouder,
