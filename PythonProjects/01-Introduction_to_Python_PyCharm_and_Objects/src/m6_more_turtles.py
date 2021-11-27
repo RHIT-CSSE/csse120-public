@@ -17,7 +17,7 @@ Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
 ###############################################################################
 # TODO: 1.
 #   Yes, that means for YOU to DO something per the following instruction:
-#      On Line 15 above, replace   PUT_YOUR_NAME(S)_HERE   with your OWN name.
+#      On Line 15 above, replace  PUT_YOUR_NAME(S)_HERE  with your OWN name(s).
 #  _
 #   BTW, the top block of text above forms a multiple-line string that is
 #   called a DOC-STRING.  It documents what this module does, in a way that

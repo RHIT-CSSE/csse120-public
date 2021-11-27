@@ -8,7 +8,7 @@ Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
 """
 ###############################################################################
 # TODO: 1.
-#   On Line 7 above, replace  PUT_YOUR_NAME_HERE  with your own name.
+#   On Line 7 above, replace  PUT_YOUR_NAME(S)_HERE  with your own name(s).
 ###############################################################################
 
 ###############################################################################
@@ -22,11 +22,13 @@ Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
 #        2. Lift its pen UP
 #             (so that the next movements do NOT leave a "trail").
 #             HINT: Use the "dot trick" to figure out how to do this.
-#        3. Go to the Point at (100, -40).
-#             HINT: Use the "dot trick" to figure out how to do this.
+#        3. Go to the Point whose:
+#             -- x-coordinate is 4 raised to the math.pi power)
+#             -- y-coordinate is 100 times the sine of 0.3
+#             HINT: Use the "dot trick" to figure out how to go to a Point.
 #        4. Put its pen DOWN
 #             (so that the next movements will return to leaving a "trail").
-#        5. Have color "green" and thickness 10.
+#        5. Change its Pen's color to "green" and thickness 10.
 #        6. Go 150 pixels straight DOWN.
 #  _
 #   Don't forget to:
@@ -36,7 +38,7 @@ Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
 #         at the BEGINNING of your code.
 #     - Ask your  TurtleWindow to   close_on_mouse_click
 #          as the LAST line of your code.  (Again, parentheses needed!)
-#   See the beginning and end of   m5e_loopy_turtles   for an example.
+#   See the beginning and end of   m7e_loopy_turtles   for an example.
 #  _
 #   As always, test by running the module.
 ###############################################################################

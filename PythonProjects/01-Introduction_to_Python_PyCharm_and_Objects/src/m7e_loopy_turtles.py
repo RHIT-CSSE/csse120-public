@@ -24,13 +24,14 @@ Concepts include:
          etc
        then 40 the last time the body runs.
      Note how the BODY of the loop (the code that is repeated 41 times)
-     is INDENTED.
+     is INDENTED 4 spaces.
 
  * ASSIGNMENT and NAMES
   -- ASSIGNING a VALUE to a NAME (aka VARIABLE), as in these examples:
         jack = 45
         jill = "ran down the hill"
         size = size - 12
+        sponge_bob = rg.SimpleTurtle()
 
  * The DOT trick: If you type an expression and then PAUSE  after typing
      the DOT (period, full stop), then the window that pops up gives
@@ -42,8 +43,7 @@ Concepts include:
 
 Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
          Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Amanda Stouder,
-         Mohammed Noureddine, Valerie Galluzzi, their colleagues and
-         PUT_YOUR_NAME(S)_HERE.
+         Mohammed Noureddine, Valerie Galluzzi, and their colleagues.
 """
 import rosegraphics as rg
 
