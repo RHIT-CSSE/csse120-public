@@ -13,23 +13,32 @@ Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
 
 ###############################################################################
 # TODO: 2.
-#   Write code that accomplishes the following (and ONLY the following),
-#   in the order listed:
+#   Write code that accomplishes the following (and ONLY the following):
 #  _
-#    - Constructs a SimpleTurtle with a  "blue"  Pen.
-#    - Makes the SimpleTurtle:
+#    - Constructs a SimpleTurtle with a "blue", thickness 1 Pen.
+#    - Constructs a SimpleTurtle with shape "turtle" and a "red",
+#        thickness 5 Pen.
+#    - Makes the SimpleTurtle with a "blue" Pen:
 #        1. Go straight UP 200 pixels.
 #        2. Lift its pen UP
 #             (so that the next movements do NOT leave a "trail").
 #             HINT: Use the "dot trick" to figure out how to do this.
 #        3. Go to the Point whose:
-#             -- x-coordinate is 4 raised to the math.pi power)
-#             -- y-coordinate is 100 times the sine of 0.3
+#             -- x-coordinate is 35 times the sine of 0.75 (radians)
+#             -- y-coordinate is 4 raised to the math.pi power
 #             HINT: Use the "dot trick" to figure out how to go to a Point.
 #        4. Put its pen DOWN
 #             (so that the next movements will return to leaving a "trail").
-#        5. Change its Pen's color to "green" and thickness 10.
-#        6. Go 150 pixels straight DOWN.
+#        5. Change its Pen's color to "green" and thickness 20.
+#        6. Go down and to the left at a 45 degree angle, for 150 pixels.
+#    - Makes the SimpleTurtle with a "red" Pen, with shape "turtle".
+#        7. Go 50 times the cosine of 0.3 (radians) pixels straight to the LEFT.
+#        8. Then go 150 pixels straight DOWN.
+#    - Makes the SimpleTurtle with a Pen that was "blue" but is now "green"
+#        9. Continue forward (in the same direction that it has been going)
+#             75 more pixels.
+#  _
+#   See the  turtles.PDF  file for what the final result should look like.
 #  _
 #   Don't forget to:
 #     - Import rosegraphics
