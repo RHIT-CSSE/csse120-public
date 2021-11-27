@@ -47,7 +47,6 @@ Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
 """
 import rosegraphics as rg
 
-
 ###############################################################################
 # TODO: 1.  This is an EXAMPLE module (m1e_..., note the e).
 #  For ALL example modules, throughout the course:
@@ -83,7 +82,6 @@ size = 300
 
 # Do the indented code 6 times.  Each time draws a square.
 for k in range(6):
-
     # Draw a square of the given size:
     blue_turtle.draw_square(size)
 
