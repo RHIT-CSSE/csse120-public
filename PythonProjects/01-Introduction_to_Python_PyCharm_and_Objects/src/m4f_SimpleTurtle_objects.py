@@ -7,7 +7,8 @@ Concepts include:
   -- Reference an object's   ** DATA **   by using an INSTANCE VARIABLE.
 
 Also:
-  -- ASSIGNING a NAME (aka VARIABLE) a VALUE.
+  -- Making a NAME (aka VARIABLE) refer to an object, aka ASSIGNMENT,
+     that is, ASSIGNING the NAME a VALUE that is a reference to the OBJECT.
 
 Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
          Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine, Amanda Stouder,
@@ -53,15 +54,31 @@ import rosegraphics as rg
 #      ** click anywhere in the window to close the window **.
 #   (Clicking inside the window rather than use the X yields a more graceful exit.)
 #  _
-#   Then look at the code below.  Ask for help when you have questions about
-#   what the code is doing, or if you are just curious about any of the code.
-#   Be sure that you understand the notations for:
+#   Then look at the code below and determine which lines of code cause
+#   what visual effects when the code runs.
+#     ** ASK FOR HELP WHEN YOU HAVE QUESTIONS ABOUT WHAT THE CODE IS DOING, **
+#     **      or if you are just curious about any of the code.             **
+#  _
+#   Once you believe you understand what code causes what visual effects
+#   when the code runs, change this _TODO_ to DONE
+#   and  ** continue to the next _TODO_ (below). **
+###############################################################################
+
+###############################################################################
+# TODO: 4.
+#   Review the code below one more time to be SURE
+#   that you understand the notations for:
 #  _
 #     -- CONSTRUCTING an INSTANCE of a CLASS, e.g.
 #           rg.SimpleTurtle()           [NOTE the PARENTHESES!]
 #  _
-#     -- ASSIGNING the resulting OBJECT (instance of a class) a NAME, e.g.
+#     -- Making a NAME (aka VARIABLE) refer to the resulting OBJECT
+#        (that is, to the INSTANCE of the class), e.g.
 #           natasha = rg.SimpleTurtle()
+#  _
+#        We call this ASSIGNMENT, and we sometimes say:
+#           Assign the NAME a VALUE, where the VALUE is a REFERENCE
+#           to an OBJECT.
 #  _
 #     -- Applying a METHOD to an object to make the object DO something, e.g.
 #           natasha.forward(100)
@@ -86,7 +103,7 @@ window.delay(20)  # Bigger numbers mean slower animation.
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
 #   - CONSTRUCT (make and initialize) a  SimpleTurtle  object
-#     and ASSIGN a NAME to the object.
+#     and make a NAME REFER to the object by using ASSIGNMENT.
 # -----------------------------------------------------------------------------
 boris = rg.SimpleTurtle()
 
@@ -103,8 +120,9 @@ boris.forward(200)
 # The next few lines show how to:
 #   - Construct a second SimpleTurtle
 #       (using an optional argument that sets the shape displayed),
-#     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
-# _
+#   - set its  pen  and  speed  INSTANCE VARIABLES, and
+#   - ask it to do things.
+#
 # TIP:  to see what other strings you can use for the shape, hover over
 # the word   SimpleTurtle  in the first line of code below.  Doing so will
 # pop up some quick documentation about whatever you hover upon -- try it!
@@ -118,10 +136,11 @@ natasha.right(90)
 natasha.forward(125)
 
 natasha.speed = 1  # Now slower
+natasha.pen.thickness = 8  # and thinner.
 natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
-# TODO: 4.
+# TODO: 5.
 #   Your instructor will explain (live, or in a Follow-Me video)
 #   the so-called "dot-trick", which means to type an expression,
 #   then a DOT (period), then PAUSE.  Try it out yourself by typing
@@ -131,10 +150,12 @@ natasha.go_to(rg.Point(-100, 200))
 #   with an M on the pop-up) and what natasha knows (instance variables,
 #   aka fields, marked with a F on the pop-up).
 #  _
-#   Try out one of the methods!  Any is fine.  Experiment!
-#      -- But stop looking when the list starts showing names that begin
-#           with an UNDERSCORE (e.g. __init__), since those are "system" things
-#           not meant to be used directly.  More on them later in the course.
+#   Try out one of the methods!  Any is fine (but those with a visual
+#   effect will be most interesting).  Experiment!
+#      -- But stop looking when the "dot trick" list starts showing names
+#           that begin begin with an UNDERSCORE (e.g. __init__),
+#           since those are "system" things not meant to be used directly.
+#           More on them later in the course.
 #      -- Also notice that when you type the first few letters of a name
 #           (here, natasha), PyCharm offers to "autofill" the rest of the name
 #           for you -- just press the ENTER (RETURN) key to do so.  Try it out!
@@ -146,9 +167,9 @@ natasha.go_to(rg.Point(-100, 200))
 ###############################################################################
 
 ###############################################################################
-# TODO: 5.
+# TODO: 6.
 #   Add a few more lines of your own code to make one of the existing
-#   SimpleTurtle objects move some more and/or have different characteristics.
+#   SimpleTurtle objects move some more AND have different characteristics.
 #  _
 #      ** Nothing fancy is required. **
 #      ** A SUBSEQUENT exercise will let you show your creativity. **
@@ -157,7 +178,7 @@ natasha.go_to(rg.Point(-100, 200))
 ###############################################################################
 
 ###############################################################################
-# TODO: 6.
+# TODO: 7.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -187,7 +208,7 @@ natasha.go_to(rg.Point(-100, 200))
 ###############################################################################
 
 ###############################################################################
-# TODO: 7.
+# TODO: 8.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #  _
