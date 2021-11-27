@@ -3,7 +3,7 @@ print(answer * 100)
 
 ###############################################################################
 # TODO: 1.
-#      [Note: This is the same as what you saw in the Follow-Me m3f exercise.]
+#      [Note: You saw this same _TODO_ in the Follow-Me m3f exercise.]
 #   Read the 2 lines of code ABOVE this _TODO_.
 #   When the Python INTERPRETER runs, that is, when this program runs,
 #   it does the following with that code:
@@ -37,7 +37,7 @@ print(answer * 100)
 
 ###############################################################################
 # TODO: 2.
-#      [Note: This is the same as what you saw in the Follow-Me m3f exercise.]
+#      [Note: You saw this same _TODO_ in the Follow-Me m3f exercise.]
 #   Some things, like addition (+) and subtraction (-), are built into
 #   Python.  Others are defined in modules (aka libraries) that must be
 #   IMPORTED into your program for you to use them.  The trigonometric functions
@@ -50,7 +50,7 @@ print(answer * 100)
 #   To access things defined in an imported module, we use the DOT notation,
 #   like this:
 #       math.sin
-#   is how we refer to the sine function defined in the imported  math  module.
+#   to refer to the sine function defined in the imported  math  module.
 #  _
 #   After putting your  import math  statement at the beginning of this module,
 #   and keeping in mind how we use the DOT notation to refer to things defined
@@ -69,6 +69,7 @@ print(answer * 100)
 #               and pause after typing the "s" to see what pops up.
 #               Do you see what function to use for square roots?
 #               (If not, ask for help.)
+#   The result printed should be about 8.7221.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
@@ -80,10 +81,9 @@ print(answer * 100)
 #     -- 3. Raises that result to the 3.03165 power and stores it in a variable.
 #             Hint: use the   **   operator for raising to a power.
 #     -- 4. Prints that result (it should be about 1.234567).
-#     -- 5. Rounds that result to 7 decimal places and stores it in a variable.
+#     -- 5. Rounds that result to 6 decimal places and stores it in a variable.
 #            -- Hint: Here is an example of using the ROUND function
-#               to round math.pi to 5 decimal places:
-#                  print(round(math.pi, 5))
+#               to round math.pi to 5 decimal places:   round(math.pi, 5)
 #     -- 6. Prints that result (it should be exactly 1.2343567).
 #  _
 #   Use as few or as many intermediate names as you feel appropriate.
@@ -94,7 +94,7 @@ print(answer * 100)
 # TODO: 4.
 #   Immediately below this _TODO_, write code that repeats the previous _TODO_
 #   (ending up with the result 1.234567) but USING ONLY *ONE* VARIABLE
-#   in your entire solution.  Hint. RE-use that single variable 5 or 6 times!
+#   in your entire solution.  Hint. RE-use that single variable multiple times!
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
@@ -108,8 +108,7 @@ print(answer * 100)
 
 ###############################################################################
 # TODO: 6.
-#   Immediately below this _TODO_,
-#   write code that computes and prints:
+#   Immediately below this _TODO_, write code that computes and prints:
 #     1. the base-10 logarithm of 1,000,000    (which is 6, as you know)
 #     2. the base-2 logarithm of 1,000,000     (which is a bit less than 20)
 #     3. the base-3 logarithm of 1,000,000     (which is between 6 and 20)
@@ -119,9 +118,21 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
-###############################################################################
+#############################################################################
 # TODO: 7.
-#   Ensure that no blue bars on the scrollbar-thing to the right remain.
+#   Immediately below this _TODO_, write code that computes and prints:
+#     1. The cosine of 90.
+#     2. The cosine of math.pi / 2.
+#   Run your code (fix errors as needed).
+#   Then decide, from what gets printed, whether the trigonometric functions
+#   in the   math  module use degrees or radians.
+#     ** As always, ASK QUESTIONS AS NEEDED! **
+#   Then change the above _TODO_ to DONE.
+###############################################################################
+
+###############################################################################
+# TODO: 8.
+#   Ensure that no blue bars remain on the scrollbar-thing to the right.
 #   Run one more time to be sure that all is still OK.
 #  _
 #   Then COMMIT-and-PUSH your work as before:
