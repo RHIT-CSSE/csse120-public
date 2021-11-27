@@ -45,7 +45,6 @@ from tkinter import font as tkinter_font
 import time
 import turtle
 
-
 # ----------------------------------------------------------------------
 # All the windows that are constructed during a run share the single
 #    _master_Tk   (a tkinter.Tk object)
@@ -109,9 +108,9 @@ class RoseWindow(object):
           :type canvas_color: Color
           :type make_initial_canvas: bool
         """
-#         check_types([(width, (int, float)),
-#                      (height, (int, float)),
-#                      (title, (Color, str)
+        #         check_types([(width, (int, float)),
+        #                      (height, (int, float)),
+        #                      (title, (Color, str)
 
         # --------------------------------------------------------------
         # The _master_Tk controls the mainloop for ALL the RoseWindows.
@@ -281,12 +280,12 @@ class RoseWindow(object):
     def _on_key_press(self, event):
         self.keyboard._update(event)
 
-#      def add_canvas(self, width=None, height=None, background_color=0):
-# FIXME: Set defaults based on the main canvas.
-#         new_canvas = RoseCanvas(self, background_color="white")
-#         self.widgets.append(new_canvas)
-#
-#         _root.update()
+    #      def add_canvas(self, width=None, height=None, background_color=0):
+    # FIXME: Set defaults based on the main canvas.
+    #         new_canvas = RoseCanvas(self, background_color="white")
+    #         self.widgets.append(new_canvas)
+    #
+    #         _root.update()
 
     def __serialize_shapes(self):
         """
@@ -328,12 +327,11 @@ class RoseCanvas(RoseWidget):
         #        so that modifying it changes the tkinter canvas.
         #        Ditto width and height.
 
-
-#         if background_color == 0:
-#             index = RoseCanvas.count % len(defaults["colors"])
-#             self.background_color = defaults["colors"][index]
-#         else:
-#             self.background_color = background_color
+        #         if background_color == 0:
+        #             index = RoseCanvas.count % len(defaults["colors"])
+        #             self.background_color = defaults["colors"][index]
+        #         else:
+        #             self.background_color = background_color
 
         tk_canvas = tkinter.Canvas(window.toplevel,
                                    width=width, height=height,
@@ -424,7 +422,7 @@ class Keyboard(object):
         pass
 
 
-class __FreezeClass__ (type):
+class __FreezeClass__(type):
     """Prevents class variable assignment."""
 
     def __setattr__(self, name, _ignored):  # last parameter is the value
@@ -466,7 +464,7 @@ class _Shape(object, metaclass=__FreezeClass__):
         are equal to each other.
         """
         # check before we go deleting keys that may or may not exist
-        if(not isinstance(other, self.__class__)):
+        if (not isinstance(other, self.__class__)):
             return False
         self_dict = self.__dict__.copy()
         other_dict = other.__dict__.copy()
@@ -585,10 +583,10 @@ class _ShapeWithText(object):
     # FIXME: Add more to the above docstring.
     defaults = {"font_family": "helvetica",
                 "font_size": 14,
-                "weight":  "normal",
-                "slant":  "roman",
-                "underline":  0,
-                "overstrike":  0,
+                "weight": "normal",
+                "slant": "roman",
+                "underline": 0,
+                "overstrike": 0,
                 "justify": tkinter.CENTER,
                 "text_box_width": None,
                 "text_color": "black",
@@ -1544,18 +1542,19 @@ class Text(_ShapeWithCenter, _ShapeWithText):
     # FIXME: Have repr include characteristics??
     # FIXME: Do a clone?
 
-#     def clone(self):
-#         return Square(self.center, self.length_of_each_side)
+    #     def clone(self):
+    #         return Square(self.center, self.length_of_each_side)
 
-#     def get_bounding_box(self):
-#         return Rectangle(self.center,
-#                          2 * self.length_of_each_side,
-#                          2 * self.length_of_each_side)
+    #     def get_bounding_box(self):
+    #         return Rectangle(self.center,
+    #                          2 * self.length_of_each_side,
+    #                          2 * self.length_of_each_side)
 
-# FIXME: Implement bounding_box using the tkinter function for it.
+    # FIXME: Implement bounding_box using the tkinter function for it.
 
     def _get_coordinates_for_drawing(self):
         return [self.center.x, self.center.y]
+
 
 # Mark: Window/RoseWindow naming collision is causing mass confusion.
 # class Window(_Shape):
