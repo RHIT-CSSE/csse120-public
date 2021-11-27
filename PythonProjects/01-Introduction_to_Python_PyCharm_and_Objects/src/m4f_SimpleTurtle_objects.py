@@ -11,8 +11,8 @@ Also:
      that is, ASSIGNING the NAME a VALUE that is a reference to the OBJECT.
 
 Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
-         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine, Amanda Stouder,
-         Valerie Galluzzi, their colleagues and
+         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Amanda Stouder,
+         Mohammed Noureddine, Valerie Galluzzi, their colleagues and
          PUT_YOUR_NAME(S)_HERE.
 """
 ###############################################################################

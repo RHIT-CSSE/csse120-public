@@ -2,8 +2,8 @@
 An exercise that summarizes what you have learned in this Session.
 
 Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
-         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
-         Amanda Stouder, Valerie Galluzzi, Curt Clifton, their colleagues and
+         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Amanda Stouder,
+         Mohammed Noureddine, Valerie Galluzzi, their colleagues and
          PUT_YOUR_NAME(S)_HERE.
 """
 ###############################################################################
