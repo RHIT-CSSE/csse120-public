@@ -4,4 +4,5 @@ print("  1. Right-click in this window and")
 print("  2. Select:    Run 'test_my_setup'")
 
 print()
-print("If this message shows up in a window, your Python setup is OK.")
+print("If this message shows up in a window,")
+print("your Python setup is OK.")
