@@ -14,12 +14,6 @@ Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
 #   ** ASK QUESTIONS IF ANY OF IT IS MYSTERIOUS TO YOU. **
 #   Once you understand the code completely, then change the _TODO_ to DONE.
 ###############################################################################
-
-
-def doubler(my_list):
-
-    for k in range(len(my_list)):
-
 class Point(object):
     def __init__(self, x, y):
         self.x = x
