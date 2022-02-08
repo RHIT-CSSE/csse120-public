@@ -1,7 +1,7 @@
 TODO: Complete the following after you have COMPLETED your project.
 
 1. You are required to make a video for your project, as described in detail at:
-     tinyurl.com/csse120-capstone-202210
+     https://docs.google.com/document/d/15nZyu2Os2bToFMwbYdgima1adQoceYNwaOq3NDDiVBM/edit?usp=sharing
    Be sure that your video meets the requirements per the above link!
    Be sure that your video is visible to your instructors!
 

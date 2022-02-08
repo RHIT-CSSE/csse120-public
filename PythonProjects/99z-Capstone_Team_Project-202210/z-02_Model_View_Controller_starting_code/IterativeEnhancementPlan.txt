@@ -1,0 +1,97 @@
+Stages:
+  A team-of-one could work through these stages in the order listed.
+  Note how it hits all the key ideas as early as reasonable (by Stage 5).
+
+  A team-of-three might do something like:
+    -- Team-program Stages 0 and 1.
+    -- Pair-program Stage 2, while the other team member implements Stage 6.
+    --
+
+0. Running the program displays a blank screen.
+   Pressing the X exits the program.
+
+1. The program implements a Model-View-Controller architecture,
+     with bare-bones files main, Game (the Model), View and Controller.
+     Running the program still displays a blank screen, but all events
+     are printed and X still exits the program.
+
+2. The Fighter appears, centered horizontally and near the bottom of the screen.
+   Sub-stages:
+   (a) The Game's  draw_everything calls the Fighter's  draw  method,
+         which PRINTS "draw fighter", temporarily.
+   (b) The Fighter itself shows up on the screen as specified.
+
+3. Fighter moves left/right at 5 pixels per game loop cycle whenever
+     the left/right arrow key is in the PRESSED state, but restricted so that
+     the Fighter does not go more than 1/2 of the Fighter's width off the
+     left or right edges of the screen.
+   Sub-stages:
+   (a) Left/right keys PRINT "left", "right".
+   (b) Left/right keys make the Fighter move left/right.
+   (c) Fighter does not go off the screen, per specification.
+
+4. When the Space bar is pressed, the Fighter fires a Missile,
+     which causes a "pew" sound.
+     -- HOLDING the Space bar down does NOT generate additional Missile objects.
+     -- Each Missile appears on the Screen centered at the Fighter horizontally,
+        with the top of the Missile at the same y-position as the Fighter.
+     -- Missiles are filled red lines, 4 pixels wide and 8 pixels tall.
+     -- The Game will need to store the Missile objects; use a Missiles class.
+   Sub-stages:
+   (a) Space bar PRINTS "fire" when pressed.
+   (b) Drawing a Missile PRINTS the Missile object's x, y, color, width, height.
+   (c) Missile appears per the specification when the Space bar is pressed.
+         (To test multiple Missiles, move the Fighter while firing.)
+   (d) Firing makes the required sound.
+
+5. Missiles move.  Sub-stages:
+   (a) At each cycle of the game loop, each Missile moves up 5 pixels.
+         Intermediate test: PRINTS "move up".
+   (b) A Missile is removed from the Missiles object
+         when the Missile reaches the top of the screen.
+         Test this by printing the Missiles list and being sure that it
+         goes back to the empty list after the last missile reaches the top.
+
+6. A single Enemy appears, somewhere near the top of the screen.
+   Sub-stages:
+   (a) The Game's  draw  method calls
+         the Enemy's  draw  method, which PRINTS "enemy draw", temporarily.
+   (b) The Enemy itself shows up on the screen as specified.
+
+7. An array of Enemies appear, centered horizontally, near the top of the
+   screen, in 5 rows of 8 Enemy objects per row.
+     -- The Game will need to store the Enemy objects; use a Enemies class.
+
+8. Enemies move.  Sub-stages:
+   (a) At each cycle of the game loop, each Enemy moves sideways
+         at a given speed, and when it gets 100 units from where it starts,
+         it reverses direction and moves down at a given speed.
+   (b) An Enemy is removed from the Enemies object
+         when the Enemy goes below the bottom of the screen.
+         Test this by printing the length of the Enemies list and being sure
+         that it reduces as Enemies go below the bottom of the screen.
+
+9. Missiles touching enemies cause the missiles and enemies to explode
+   (i.e. be removed from their lists) and an "explosion" sound occurs.
+   If multiple missiles are touching the same enemy, the explosion sound
+   happens only once.  Sub-stages:
+   (a) At each cycle of the game loop, each Missile touching an Enemy
+         is removed from the list of Missile objects in the Missiles object.
+   (b) When a Missile is touching an Enemy, the Enemy is marked as
+         "has_exploded".  Any Enemy that is changes its "has_exploded"
+         from False to True causes an "explosion" sound.
+
+10. If an Enemy touches the Fighter, the Fighter explodes (disappears, with
+    an "explosion" sound), the game loop stops, the gameover.png image
+    appears at (170, 200), and a "you lose" sound is played.
+
+11. If the Fighter destroys all the Enemies in the enemy fleet,
+    a "you win" sound is played, then the game starts again with
+    one more row in the Enemy fleet than the round just completed.
+
+12. A ScoreBoard shows the score -- 100 points for each Enemy
+    that the player hits with a Missile.  ScoreBoard is in upper-left corner.
+
+13. Reorganized all media files into an "assets" folder.
+      Note: This is more naturally done as part of Stage 0,
+      but is delayed here for pedagogical reasons.

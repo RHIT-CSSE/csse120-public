@@ -1,0 +1,16 @@
+Put your
+  Project_Proposal.pdf
+  UML_Class_Diagram.uxf
+  UML_Class_Diagram.png
+  Iterative_Enhancement_Plan.pdf
+into this folder.
+
+Use the same names as the above, please,
+or at least something similar to those names.
+
+The Capstone Team Project is described at:
+   https://docs.google.com/document/d/15nZyu2Os2bToFMwbYdgima1adQoceYNwaOq3NDDiVBM/edit?usp=sharing
+
+
+Follow the link to see the requirements
+for each of the above documents.

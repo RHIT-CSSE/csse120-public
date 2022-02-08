@@ -1,0 +1,69 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>30</x><y>268</y><w>300</w><h>100</h></coordinates><panel_attributes>Controller
+bg=red
+-
+
+-
+get_and_handle_events()
+exit_if_time_to_quit(events)
+key_was_pressed_on_this_cycle(key, events) -&gt; bool
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>320</x><y>28</y><w>350</w><h>160</h></coordinates><panel_attributes>main
+--
+bg=orange
+halign=left
+Initializes PyGame.
+
+Implements a Model-View-Controller (MVC) architecture:
+1. Constructs the Game, View and Controller.
+2. Enters the game loop, which repeatedly:
+  -- Asks the Controller object to get and respond to events.
+  -- Asks the Game object to run one cycle.
+  -- Asks the View object to draw everything.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>810</x><y>28</y><w>220</w><h>120</h></coordinates><panel_attributes>View
+bg=red
+-
+
+-
+draw_everything()
+  -- Draws the background.
+  -- Asks the Game object to ask the
+     Game things to draw themselves.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>238</y><w>380</w><h>130</h></coordinates><panel_attributes>Game
+bg=red
+-
+
+-
+run_one_cycle()
+  -- tells the Game to do whatever actions need to happen
+     (independently of user input) during this cycle of the game loop
+draw_game()
+  -- tells the Game objects  to draw themselves
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>830</x><y>238</y><w>230</w><h>80</h></coordinates><panel_attributes>screen
+--
+bg=yellow
+The pygame.Surface object returned
+by pygame.display.set_model().</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>178</y><w>140</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+constructs
+m1=1
+</panel_attributes><additional_attributes>110;60;110;40;10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>178</y><w>160</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+constructs
+m1=1</panel_attributes><additional_attributes>10;90;10;50;80;50;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>58</y><w>170</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+constructs
+m1=1</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>950</x><y>135</y><w>40</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>12;120;10;13</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>178</y><w>340</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+m2=constructs
+m1=1
+m2pos=10,-12
+</panel_attributes><additional_attributes>310;60;310;30;10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>135</y><w>150</w><h>120</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;100;10;40;130;40;130;13</additional_attributes></element><element><id>UMLNote</id><coordinates><x>20</x><y>28</y><w>240</w><h>60</h></coordinates><panel_attributes>Model-View-Controller
+(MVC) architecture.
+PUT THE NAME OF YOUR GAME HERE.
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>40</x><y>108</y><w>60</w><h>110</h></coordinates><panel_attributes>Player 1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>168</y><w>90</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+arrow keys</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>UMLActor</id><coordinates><x>130</x><y>108</y><w>60</w><h>110</h></coordinates><panel_attributes>Player 2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>168</y><w>80</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+wasd keys</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>258</y><w>90</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m2=1
+m2pos=10,0
+</panel_attributes><additional_attributes>70;20;10;20</additional_attributes></element><element><id>UMLNote</id><coordinates><x>190</x><y>108</y><w>120</w><h>70</h></coordinates><panel_attributes>Here are examples
+of how your Player(s)
+interaction(s) might
+be represented.
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>295</y><w>90</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+
+
+</panel_attributes><additional_attributes>70;23;10;23</additional_attributes></element></diagram>
