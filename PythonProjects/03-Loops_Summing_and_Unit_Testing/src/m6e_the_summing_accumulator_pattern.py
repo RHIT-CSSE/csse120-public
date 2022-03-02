@@ -62,6 +62,21 @@ def sum_squares(n):
     for k in range(n):
         total = total + ((k + 1) ** 2)
 
+    k = 0
+    total = total + ((k + 1) ** 2)
+    k = 1
+    total = total + ((k + 1) ** 2)
+    k = 2
+    total = ...
+    k = 3
+    total = ...
+    k = 4
+    total = ...
+
+    1, 2, 3, 4, 5,   sequence
+    1 + 4 + 9 + 16 + 25   sum
+
+
     return total
 
 

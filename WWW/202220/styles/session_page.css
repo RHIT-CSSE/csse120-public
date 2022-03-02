@@ -5,7 +5,7 @@ div.session-page {
 /* HEADER (just below its Navigation Bar) */
 div.session-page > div.session-header {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   padding: 1rem;
 }
@@ -17,26 +17,32 @@ div.session-page > div.session-header > span.session-number {
 
 div.session-page > div.session-body {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 40% auto auto;
 }
 
-div.session-page > div.session-body > div.preparation {
+div.session-page > div.session-body > div.videos-reading {
   grid-column: 1;
+  grid-row: 1 / span 2;
 }
 
-div.session-page > div.session-body > div.start-the-session-quiz {
+div.session-page > div.session-body > div.preparation-summary-quiz {
   grid-column: 2;
 }
 
-div.session-page > div.session-body > div.start-the-session-follow-me {
+div.session-page > div.session-body > div.get-starting-code {
   grid-column: 3;
 }
 
-div.session-page > div.session-body > div.preparation, div.start-the-session-quiz, div.start-the-session-follow-me {
+div.session-page > div.session-body > div.follow-me {
+  grid-column: 4;
+  /*grid-row: 1 / span 2;*/
+}
+
+div.session-page > div.session-body > div.videos-reading, div.preparation-summary-quiz, div.get-starting-code, div.follow-me {
   border: 2px solid black;
 }
 
-div.session-page > div.session-body > div.preparation > div.preparation-header, div.start-the-session-quiz-header, div.start-the-session-follow-me-header {
+div.session-page > div.session-body div.videos-reading-header, div.preparation-summary-quiz-header, div.get-starting-code-header, div.follow-me-header  {
   text-align: center;
   font-size: 1.5rem;
   font-weight: bolder;
@@ -44,7 +50,7 @@ div.session-page > div.session-body > div.preparation > div.preparation-header, 
   padding-bottom: .5rem;
 }
 
-div.session-page > div.session-body > div.preparation > div.preparation-body, div.start-the-session-quiz-body, div.start-the-session-follow-me-body {
+div.session-page > div.session-body  div.body {
   padding: .5rem;
 }
 

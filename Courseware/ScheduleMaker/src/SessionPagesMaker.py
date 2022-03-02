@@ -166,15 +166,15 @@ class SessionPage:
             SESSIONS_FOLDER, self.session_number_string)
         self.filename = "{}/index.html".format(self.session_folder)
 
-        processed_lines = []
-        for filename in (SESSION_VIDEOS_READING_FILENAME,
-                         SESSION_QUIZ_FILENAME,
-                         SESSION_FOLLOW_ME_FILENAME):
-            full_filename = "{}/{}".format(self.session_folder, filename)
-            with open(full_filename, "r") as file_handle:
-                lines = file_handle.readlines()
-            processed_lines.append(
-                self.strip_comments(self.handle_line_continuations(lines)))
+        processed_lines = [[], [], []]
+        # for filename in (SESSION_VIDEOS_READING_FILENAME,
+        #                  SESSION_QUIZ_FILENAME,
+        #                  SESSION_FOLLOW_ME_FILENAME):
+        #     full_filename = "{}/{}".format(self.session_folder, filename)
+        #     with open(full_filename, "r") as file_handle:
+        #         lines = file_handle.readlines()
+        #     processed_lines.append(
+        #         self.strip_comments(self.handle_line_continuations(lines)))
 
         self.videos_reading_data = "".join(processed_lines[0])
         self.quiz_data = "".join(processed_lines[1])

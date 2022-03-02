@@ -8,7 +8,7 @@ fi
 
 cd ${TERM}
 
-# Next need to make index.html and term_info.txt, made via ScheduleMaker.
+# Next need to make index2.html and term_info.txt, made via ScheduleMaker.
 # Perhaps stop this script until you have done so.
 # exit 1
 
