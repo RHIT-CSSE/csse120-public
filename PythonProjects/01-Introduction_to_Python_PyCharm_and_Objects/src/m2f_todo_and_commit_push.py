@@ -4,7 +4,7 @@
 #   When the Python interpreter RUNS (i.e. EXECUTES) a program, it ignores
 #   everything from a  #  (hash) mark to the end of the line with the  #  mark.
 #
-#   We call files that have Python code in them MODULES.
+#   Files with Python code are called MODULES.
 #   Line 15 of this module (look at it now) prints (displays) the STRING
 #      Hello, World
 #   on the Run window.
@@ -40,7 +40,7 @@ print("Hello, World")
 #     b. When you have completed a _TODO_, you should change the word
 #          _TODO_      (ignore the underscores on this line)
 #        to
-#          DONE
+#          DONE        (or some such word)
 #        Try it now on line 18 above, and note that its blue bar on the
 #        scrollbar-like thing to the right goes away soon thereafter.
 #  _
@@ -91,11 +91,12 @@ print("Hello, World")
 #                e.g. type:    Done.
 #  _
 #           It does not matter what message you put (but it WILL matter
-#           when you work with teammates later in the course). Subsequent
+#           when you work with teammates later in the course).  Subsequent
 #           commits will auto-apply whatever message you use this time.
 #  _
 #     3b: In that same   "Commit to master"   window that pops up:
 #           - Press the   Commit and Push...   button.
+#               (If an additional window pops up, select "Push".)
 #  _
 #   COMMIT adds the changed work to the version control system on your COMPUTER.
 #   PUSH adds the changed work to your repository in the "cloud".
