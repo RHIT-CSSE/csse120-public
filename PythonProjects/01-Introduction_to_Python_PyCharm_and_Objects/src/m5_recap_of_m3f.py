@@ -26,7 +26,7 @@ print(answer * 100)
 #               (i.e., the object 32).
 #          b. Multiplies that object (32) by 100
 #               (hence computing the object that is the integer 3,200).
-#          c. Prints (that is, displays on the Run/Console window)
+#          c. Prints (that is, displays on the Run window)
 #             the newly-computed object.  (It prints WITHOUT the comma.)
 #  _
 #   Make sure that you understand that those two lines accomplish the above,
@@ -144,5 +144,5 @@ print(answer * 100)
 #                  using   Done   or something like that for the message.
 #  _
 #   You can COMMIT-and-PUSH as often as you like.
-#   DO IT FREQUENTLY; AT LEAST once per module.
+#   DO IT FREQUENTLY - AT LEAST once per module.
 ###############################################################################

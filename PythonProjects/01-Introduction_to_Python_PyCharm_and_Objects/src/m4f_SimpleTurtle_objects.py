@@ -8,21 +8,23 @@ Concepts include:
 
 Also:
   -- Making a NAME (aka VARIABLE) refer to an object, aka ASSIGNMENT,
-     that is, ASSIGNING the NAME a VALUE that is a reference to the OBJECT.
+     that is, ASSIGNING the NAME a VALUE that is a reference to the OBJECT,
+     as in    x = math.sqrt(3.14)     and     p = Point(50, 22)
 
-Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
-         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Amanda Stouder,
-         Mohammed Noureddine, Valerie Galluzzi, their colleagues and
+Authors: David Mutchler, Rachel Krohn, Dave Henthorn, Scott McClellan,
+   Yiji Zhang, Mark Hays, Vibha Alangar, Matt Boutell, Dave Fisher,
+   Sriram Mohan, Amanda Stouder, Mohammed Noureddine, Steve Chenoweth,
+   Valerie Galluzzi, Curt Clifton, their colleagues and
          PUT_YOUR_NAME(S)_HERE.
 """
 ###############################################################################
 # TODO: 1.
 #   Yes, that means for YOU to DO something per the following instruction:
-#      On Line 15 above, replace   PUT_YOUR_NAME(S)_HERE   with your OWN name.
+#      On Line 18 above, replace   PUT_YOUR_NAME(S)_HERE   with your OWN name.
 #  _
 #   BTW, the top block of text above forms a multiple-line string that is
 #   called a DOC-STRING.  It documents what this module does, in a way that
-#   exterior programs can make sense of. It has no other effect on this program.
+#   other programs can make sense of.  It has no other effect on this program.
 #  _
 #   Once you have done the above, change this _TODO_ to DONE
 #   and  ** continue to the next _TODO_ (below). **
@@ -39,7 +41,7 @@ import rosegraphics as rg
 #     In the Project window (to the left), right click on the   src   folder,
 #     then select   Mark Directory As  ~  Sources Root.
 #  _
-#   You will see that  rosegraphics  in the  import  statement above (line 27)
+#   You will see that  rosegraphics  in the  import  statement above (line 33)
 #   is no longer marked as an error.  You will do this "Mark Directory As" step
 #   in all projects that use rosegraphics, so get used to it. :)
 #  _
@@ -52,14 +54,13 @@ import rosegraphics as rg
 #   Run this module.  A window will pop up and Turtle objects will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
-#   (Clicking inside the window rather than use the X yields a more graceful exit.)
 #  _
 #   Then look at the code below and determine which lines of code cause
 #   what visual effects when the code runs.
 #     ** ASK FOR HELP WHEN YOU HAVE QUESTIONS ABOUT WHAT THE CODE IS DOING, **
-#     **      or if you are just curious about any of the code.             **
+#     **      or if you just are curious about any of the code.             **
 #  _
-#   Once you believe you understand what code causes what visual effects
+#   Once you believe you understand which code causes what visual effects
 #   when the code runs, change this _TODO_ to DONE
 #   and  ** continue to the next _TODO_ (below). **
 ###############################################################################
@@ -75,7 +76,6 @@ import rosegraphics as rg
 #     -- Making a NAME (aka VARIABLE) refer to the resulting OBJECT
 #        (that is, to the INSTANCE of the class), e.g.
 #           natasha = rg.SimpleTurtle()
-#  _
 #        We call this ASSIGNMENT, and we sometimes say:
 #           Assign the NAME a VALUE, where the VALUE is a REFERENCE
 #           to an OBJECT.
@@ -86,6 +86,7 @@ import rosegraphics as rg
 #     -- Accessing an INSTANCE VARIABLE of an object, e.g.
 #           natasha.speed = 10           [NOTE the ABSENCE of PARENTHESES!]
 #           boris.speed = natasha.speed
+#        to access/set DATA associated with the object.
 #  _
 #   After you are confident that you understand all the code below,
 #   change this _TODO_ to DONE and  ** continue to the next _TODO_ (below). **
@@ -127,7 +128,7 @@ boris.forward(200)
 # the word   SimpleTurtle  in the first line of code below.  Doing so will
 # pop up some quick documentation about whatever you hover upon -- try it!
 # -----------------------------------------------------------------------------
-natasha = rg.SimpleTurtle("turtle")
+natasha = rg.SimpleTurtle(shape="turtle")
 natasha.pen = rg.Pen("red", 30)  # Second argument is the thickness of the Pen
 natasha.speed = 5  # Bigger means faster, max is usually about 10
 
@@ -221,7 +222,7 @@ natasha.go_to(rg.Point(-100, 200))
 #                  using   Done   or something like that for the message.
 #  _
 #   You can COMMIT-and-PUSH as often as you like.
-#   DO IT FREQUENTLY; AT LEAST once per module.
+#   DO IT FREQUENTLY - AT LEAST once per module.
 ###############################################################################
 
 # -----------------------------------------------------------------------------

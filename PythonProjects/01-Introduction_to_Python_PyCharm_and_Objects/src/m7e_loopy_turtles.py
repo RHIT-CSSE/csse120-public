@@ -33,7 +33,7 @@ Concepts include:
         size = size - 12
         sponge_bob = rg.SimpleTurtle()
 
- * The DOT trick: If you type an expression and then PAUSE  after typing
+ * The DOT trick: If you type an expression and then PAUSE after typing
      the DOT (period, full stop), then the window that pops up gives
      lots of clues for what you can do!  For example:
         rg.

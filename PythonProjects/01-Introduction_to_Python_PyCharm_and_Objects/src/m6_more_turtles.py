@@ -7,17 +7,20 @@ Concepts include:
   -- Reference an object's   ** DATA **   by using an INSTANCE VARIABLE.
 
 Also:
-  -- ASSIGNING a NAME (aka VARIABLE) a VALUE, as in  x = math.sqrt(3.14).
+  -- Making a NAME (aka VARIABLE) refer to an object, aka ASSIGNMENT,
+     that is, ASSIGNING the NAME a VALUE that is a reference to the OBJECT,
+     as in    x = math.sqrt(3.14)     and     p = Point(50, 22)
 
-Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
-         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Amanda Stouder,
-         Mohammed Noureddine, Valerie Galluzzi, their colleagues and
+Authors: David Mutchler, Rachel Krohn, Dave Henthorn, Scott McClellan,
+   Yiji Zhang, Mark Hays, Vibha Alangar, Matt Boutell, Dave Fisher,
+   Sriram Mohan, Amanda Stouder, Mohammed Noureddine, Steve Chenoweth,
+   Valerie Galluzzi, Curt Clifton, their colleagues and
          PUT_YOUR_NAME(S)_HERE.
 """
 ###############################################################################
 # TODO: 1.
 #   Yes, that means for YOU to DO something per the following instruction:
-#      On Line 15 above, replace  PUT_YOUR_NAME(S)_HERE  with your OWN name(s).
+#      On Line 18 above, replace  PUT_YOUR_NAME(S)_HERE  with your OWN name(s).
 #  _
 #   BTW, the top block of text above forms a multiple-line string that is
 #   called a DOC-STRING.  It documents what this module does, in a way that
@@ -214,7 +217,7 @@ natasha.go_to(rg.Point(-100, 200))
 #                  using   Done   or something like that for the message.
 #  _
 #   You can COMMIT-and-PUSH as often as you like.
-#   DO IT FREQUENTLY; AT LEAST once per module.
+#   DO IT FREQUENTLY - AT LEAST once per module.
 ###############################################################################
 
 # -----------------------------------------------------------------------------

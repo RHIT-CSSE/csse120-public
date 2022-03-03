@@ -67,6 +67,9 @@ print(answer * 100)
 #               and pause after typing the "s" to see what pops up.
 #               Do you see what function to use for square roots?
 #               (If not, ask for help.)
+#   Typing the DOT (and perhaps a letter or two) and then PAUSING to see
+#   what pops up is called the DOT TRICK.
+#  _
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
