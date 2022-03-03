@@ -41,9 +41,11 @@ Concepts include:
         rg.Pen().
         rg.PaintBucket().
 
-Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
-         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Amanda Stouder,
-         Mohammed Noureddine, Valerie Galluzzi, and their colleagues.
+Authors: David Mutchler, Rachel Krohn, Dave Henthorn, Scott McClellan,
+   Yiji Zhang, Mark Hays, Vibha Alangar, Matt Boutell, Dave Fisher,
+   Sriram Mohan, Amanda Stouder, Mohammed Noureddine, Steve Chenoweth,
+   Valerie Galluzzi, Curt Clifton, their colleagues and
+         PUT_YOUR_NAME(S)_HERE.
 """
 import rosegraphics as rg
 
@@ -59,7 +61,7 @@ import rosegraphics as rg
 #  but we nonetheless expect you to DO them, per the above.
 #  _
 #  If you have not already done so, READ the doc-string that forms the
-#  first 46 lines of this module, noting the examples and discussion therein.
+#  first 49 lines of this module, noting the examples and discussion therein.
 #  _
 #  After you RUN this example, READ its code, and ASK QUESTIONS about anything
 #  that is not clear to you, change the above _TODO_ to DONE.
@@ -77,7 +79,7 @@ blue_turtle = rg.SimpleTurtle("turtle")
 blue_turtle.pen = rg.Pen("midnight blue", 3)
 blue_turtle.speed = 20  # Fast
 
-# The first square will be 300 x 300 pixels, per the next line and line 87:
+# The first square will be 300 x 300 pixels, per the next line and line 88:
 size = 300
 
 # Do the indented code 6 times.  Each time draws a square.
@@ -108,7 +110,7 @@ another_turtle = rg.SimpleTurtle("triangle")
 another_turtle.pen = rg.Pen("magenta", 1)
 another_turtle.backward(50)
 
-# The name k takes on the values 0, 1, 2, ... 499 as the loop runs
+# The name k takes on the values 0, 1, 2, ... 499 as the loop runs 500 times.
 for k in range(500):
     another_turtle.left(91)
     another_turtle.forward(k)

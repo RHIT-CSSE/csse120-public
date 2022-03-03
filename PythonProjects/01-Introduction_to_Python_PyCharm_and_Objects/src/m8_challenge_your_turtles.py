@@ -1,9 +1,10 @@
 """
 Your chance to explore Loops and Turtles!
 
-Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
-         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Amanda Stouder,
-         Mohammed Noureddine, Valerie Galluzzi, their colleagues and
+Authors: David Mutchler, Rachel Krohn, Dave Henthorn, Scott McClellan,
+   Yiji Zhang, Mark Hays, Vibha Alangar, Matt Boutell, Dave Fisher,
+   Sriram Mohan, Amanda Stouder, Mohammed Noureddine, Steve Chenoweth,
+   Valerie Galluzzi, Curt Clifton, their colleagues and
          PUT_YOUR_NAME(S)_HERE.
 """
 ###############################################################################

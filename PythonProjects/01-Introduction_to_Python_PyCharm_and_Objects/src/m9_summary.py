@@ -1,9 +1,10 @@
 """
 An exercise that summarizes what you have learned in this Session.
 
-Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
-         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Amanda Stouder,
-         Mohammed Noureddine, Valerie Galluzzi, their colleagues and
+Authors: David Mutchler, Rachel Krohn, Dave Henthorn, Scott McClellan,
+   Yiji Zhang, Mark Hays, Vibha Alangar, Matt Boutell, Dave Fisher,
+   Sriram Mohan, Amanda Stouder, Mohammed Noureddine, Steve Chenoweth,
+   Valerie Galluzzi, Curt Clifton, their colleagues and
          PUT_YOUR_NAME(S)_HERE.
 """
 ###############################################################################
@@ -15,10 +16,12 @@ Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
 # TODO: 2.
 #   Write code that accomplishes the following (and ONLY the following):
 #  _
-#    - Constructs a SimpleTurtle with a "blue", thickness 1 Pen.
-#    - Constructs a SimpleTurtle with shape "turtle" and a "red",
-#        thickness 5 Pen.
-#    - Makes the SimpleTurtle with a "blue" Pen:
+#    a. Imports rosegraphics as rg.
+#    b. Constructs a TurtleWindow.
+#    c. Constructs a SimpleTurtle with a "blue", thickness 1 Pen.
+#    d. Constructs a SimpleTurtle with shape "turtle"
+#        and a "red", thickness 5 Pen.
+#    e. Makes the SimpleTurtle with a "blue" Pen:
 #        1. Go straight UP 200 pixels.
 #        2. Lift its pen UP
 #             (so that the next movements do NOT leave a "trail").
