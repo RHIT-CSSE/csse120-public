@@ -34,12 +34,13 @@ Authors: David Mutchler, Rachel Krohn, Dave Henthorn, Scott McClellan,
 #             (so that the next movements will return to leaving a "trail").
 #        5. Change its Pen's color to "green" and thickness 20.
 #        6. Go down and to the left at a 45 degree angle, for 150 pixels.
-#    - Makes the SimpleTurtle with a "red" Pen, with shape "turtle".
-#        7. Go 50 times the cosine of 0.3 (radians) pixels straight to the LEFT.
-#        8. Then go 150 pixels straight DOWN.
-#    - Makes the SimpleTurtle with a Pen that was "blue" but is now "green"
-#        9. Continue forward (in the same direction that it has been going)
+#    f. Makes the SimpleTurtle with a "red" Pen, with shape "turtle":
+#        1. Go 50 times the cosine of 0.3 (radians) pixels straight to the LEFT.
+#        2. Then go 150 pixels straight DOWN.
+#    g. Makes the SimpleTurtle with a Pen that was "blue" but is now "green":
+#        1. Continue forward (in the same direction that it has been going)
 #             75 more pixels.
+#    h. Asks your TurtleWindow to wait for a mouse click.
 #  _
 #   See the  turtles.pdf  file for what the final result should look like.
 #  _
