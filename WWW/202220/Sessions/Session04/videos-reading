@@ -1,0 +1,61 @@
+OTHER
+Preparation from Session 3
+If you skipped any of the <a href="../Session03/index.html">Preparation from Session 3</a>,
+go back and do it now (before you do this Preparation).
+---
+READING
+Conditionals: IF and IF-ELSE and IF-ELIF-ELIF...ELSE statements
+../../../VideoFiles/04.1-Conditionals/Conditionals.pdf
+<span class="emphasis">
+This and all the succeeding items in this Videos/Reading section
+have a quiz associated with them on Moodle.
+</span>
+
+The above PDF was constructed from portions of
+<a href="http://openbookproject.net/thinkcs/python/english3e/conditionals.html">
+<span class="emphasis">Chapter 5. Conditionals,</span></a>
+which itself is part of
+<a href="http://openbookproject.net/thinkcs/python/english3e/">
+<em>How to Think Like a Computer Scientist: Learning with Python 3</em></a>
+by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers.
+
+The book is a nice online resource, as are the other books from
+the <a href="http://www.openbookproject.net/">Open Book Project</a>.
+---
+VIDEO
+The Accumulator Pattern (revisited)
+../../../VideoFiles/06.1-TheAccumulatorPattern-Part2/TheAccumulatorPattern.mp4
+9:36
+This video extends the accumulator pattern from the <em>summing</em> pattern that
+you have seen previously
+to include the <em>counting</em> and <em>in-graphics</em> accumulator patterns.
+
+The video uses a graphics system call Zellegraphics that preceded
+RoseGraphics, so you will see <em>zg</em> instead of <em>rg</em>
+and other such small changes from what we use now.
+---
+VIDEO
+First Do a Concrete Example By Hand
+../../../VideoFiles/04.7-FirstDoAConcreteExampleByHand/FirstDoAConcreteExampleByHand.mp4
+10:39
+In almost ANY non-trivial software development coding problem,
+you simply MUST <span class="emphasis">do a concrete example by hand,</span>
+as shown in this video.
+
+Note: The video uses the following example: Given a line, draw a diamond from the line.
+The video <em>should</em> have said that the given line is the
+<span class="emphasis">upper-left</span> line of the diamond.
+Instead, the video wrongly spoke of "positive slope".
+---
+OTHER
+Optional
+You might find it helpful to review previous videos, especially the ones on:
+<ul>
+  <li>
+    <a href="../../../VideoFiles/04.3-ControlFlow/Control_Flow.mp4">
+    Thinking Like a Computer: Control Flow </a>, and
+  </li>
+  <li>
+  <a href="../../../VideoFiles/04.4-NamespacesParametersReturns/Namespaces_Parameters_Returns.mp4">
+  Thinking Like a Computer: Namespaces, Parameters, and Returns</a>.
+</ul>

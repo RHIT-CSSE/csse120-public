@@ -1,0 +1,78 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>570</x><y>50</y><w>100</w><h>30</h></coordinates><panel_attributes>Enemy
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>150</y><w>160</w><h>130</h></coordinates><panel_attributes>Fighter
+-
+position: Point
+image
+-
+shoot()
+move()
+die()
+draw()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>60</y><w>100</w><h>30</h></coordinates><panel_attributes>Missile
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>690</x><y>50</y><w>300</w><h>100</h></coordinates><panel_attributes>Note..
+bg=blue
+Using a Model View Controller (MVC) architecture
+Controller deals with the interface with the human
+Viewer displays a view of the Model.
+Model is the game-specific.
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>160</y><w>170</w><h>110</h></coordinates><panel_attributes>Game
+(this is my Model class)
+-
+
+-
+run_one_cycle()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>820</x><y>190</y><w>120</w><h>90</h></coordinates><panel_attributes>Controller
+-
+
+-
+get_events()
+handle_events()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>930</x><y>430</y><w>350</w><h>420</h></coordinates><panel_attributes>main()
+--
+bg=orange
+import pygame
+import sys
+
+pygame.init()
+pygame.display.set_caption("XXX")
+screen = pygame.display.set_mode((640, 480))
+clock = pygame.time.Clock()
+game = Game()
+controller_and_viewer = ControllerAndViewer()
+
+while True:
+    clock.tick(1)
+    events = pygame.event.get()
+    pressed_keys = pygame.key.get_pressed()
+    print("{:2} {:2} {}".format(pressed_keys[pygame.K_UP],
+                                pressed_keys[pygame.K_LEFT], events))
+    for event in pygame.event.get():
+        print(event)  # Used for an example here
+        if event.type == pygame.QUIT:
+            sys.exit()
+        # Additional interactions
+
+    # Draw things on the screen
+    pygame.display.update()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>260</y><w>120</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
+constructs</panel_attributes><additional_attributes>10;10;80;100</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>270</y><w>170</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
+constructs</panel_attributes><additional_attributes>150;10;10;90</additional_attributes></element><element><id>UMLNote</id><coordinates><x>460</x><y>360</y><w>220</w><h>200</h></coordinates><panel_attributes>main()
+bg=orange
+
+Initialize things:
+  - pygame
+  - caption
+  - screen
+  - clock
+[The above as in all our PyGame examples]
+
+Construct a Game (for the Model).
+Construct a Controller.
+Construct a Viewer
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>890</x><y>310</y><w>120</w><h>70</h></coordinates><panel_attributes>Viewer
+-
+
+-
+draw_everything()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>340</y><w>240</w><h>60</h></coordinates><panel_attributes>lt=&lt;.
+constructs</panel_attributes><additional_attributes>220;10;10;40</additional_attributes></element></diagram>
