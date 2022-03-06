@@ -41,7 +41,7 @@ Authors: David Mutchler, Rachel Krohn, Dave Henthorn, Scott McClellan,
 #        9. Continue forward (in the same direction that it has been going)
 #             75 more pixels.
 #  _
-#   See the  turtles.PDF  file for what the final result should look like.
+#   See the  turtles.pdf  file for what the final result should look like.
 #  _
 #   Don't forget to:
 #     - Import rosegraphics
