@@ -102,7 +102,7 @@ print(answer * 100)
 # TODO: 5.
 #   Immediately below this _TODO_, write code that makes the variable defined
 #   in the preceding _TODO_ increase by 1 (so printing that variable should
-#   then yield 2.34567).
+#   then yield 2.234567).
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
