@@ -122,7 +122,7 @@ print(answer * 100)
 # TODO: 7.
 #   Immediately below this _TODO_, write code that computes and prints:
 #     1. The cosine of 90.
-#     2. The cosine of math.pi / 2.
+#     2. The cosine of (math.pi / 2).
 #   Run your code (fix errors as needed).
 #   Then decide, from what gets printed, whether the trigonometric functions
 #   in the   math  module use degrees or radians.
