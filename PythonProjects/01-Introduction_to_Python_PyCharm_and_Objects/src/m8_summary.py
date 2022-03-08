@@ -36,7 +36,7 @@ Authors: David Mutchler, Rachel Krohn, Dave Henthorn, Scott McClellan,
 #        6. Go down and to the left at a 45 degree angle, for 150 pixels.
 #    f. Makes the SimpleTurtle with a "red" Pen, with shape "turtle":
 #        1. Go 50 times the cosine of 0.3 (radians) pixels straight to the LEFT.
-#        2. Then go 150 pixels straight DOWN.
+#        2. Then go 150 pixels straight UP.
 #    g. Makes the SimpleTurtle with a Pen that was "blue" but is now "green":
 #        1. Continue forward (in the same direction that it has been going)
 #             75 more pixels.
