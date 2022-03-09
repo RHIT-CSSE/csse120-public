@@ -9,13 +9,6 @@ Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-###############################################################################
-# TODO: 2.
-#   READ the file   m6r_methods_vs_functions.py   in this project,
-#   ASKING QUESTIONS as needed to understand its contents.
-#   After you have done so, mark this _TODO_ as DONE
-#   and continue to the next _TODO_.
-###############################################################################
 import rosegraphics as rg
 
 
@@ -97,7 +90,7 @@ def draw_many_squares(my_turtle, number_of_squares, size, twist):
         my_turtle.left(twist)
 
 ###############################################################################
-# TODO: 3.
+# TODO: 2.
 #   There are four FUNCTIONS defined ABOVE this:
 #     main
 #     run_example
@@ -134,7 +127,7 @@ def try_methods():
       -- backward  100 units
     """
     ###########################################################################
-    # TODO: 4. Implement and test this function, per its doc-string above.
+    # TODO: 3. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     ###########################################################################
 
@@ -150,7 +143,7 @@ def try_functions():
      -- One jumps to (-50, 50), then moves (while drawing) to (100, 100)
     """
     ###########################################################################
-    # TODO: 5. Implement and test this function, per its doc-string above.
+    # TODO: 4. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     #  _
     #    NOTE: This function requires
@@ -196,7 +189,7 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     ###########################################################################
-    # TODO: 6. Implement and test this function, per its doc-string above.
+    # TODO: 5. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     #  _
     #   NOTE: This function should ** CALL ** the
