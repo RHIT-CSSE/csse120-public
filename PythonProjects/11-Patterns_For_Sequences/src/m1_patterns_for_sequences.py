@@ -16,10 +16,11 @@ Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-import testing_helper
-import time
-import sys
 import random
+import sys
+import time
+
+import testing_helper
 
 
 def main():
@@ -185,17 +186,19 @@ def find_best_item(integers):
            (Break ties in favor of the smallest-index item.)
     Side effects:   None.
     Examples:
-      -- find_best_item( [74, 102, 901, 98, 11, 22, 773] )  returns  98
+      -- find_best_item( [74, 102, 901, 85, 11, 771, 79, 111] )  returns  79
            because the:
-             -- sum-of-digits of 75   is 11 (74, at index 0, is best so far,
+             -- sum-of-digits of 74   is 11 (74, at index 0, is best so far,
                                              with 11 as its sum-of-digits)
              -- sum-of-digits of 102  is 3  (NOT bigger than 11)
              -- sum-of-digits of 901  is 10 (NOT bigger than 11)
-             -- sum-of-digits of 98   is 17 (98, at index 3, is best so far,,
-                                             with 17 as its sum-of-digits)
-             -- sum-of-digits of 11   is 2  (NOT bigger than 17)
-             -- sum-of-digits of 22   is 4  (NOT bigger than 17)
-             -- sum-of-digits of 773  is 17  (TIED, but NOT bigger than 17)
+             -- sum-of-digits of 85   is 15 (85, at index 3, is best so far,
+                                             with 15 as its sum-of-digits)
+             -- sum-of-digits of 11   is 2  (NOT bigger than 15)
+             -- sum-of-digits of 771  is 15  (TIED, but NOT bigger than 15)
+             -- sum-of-digits of 79   is 16 (79, at index 6, is best so far,
+                                             with 16 as its sum-of-digits)
+             -- sum-of-digits of 111  is 3  (NOT bigger than 16)
     """
     # -------------------------------------------------------------------------
     # TODO: 7. Implement and test this function.
@@ -220,6 +223,7 @@ def find_best_item(integers):
 #       INDEX_2 is another function of k that gives the OTHER
 #             of the "two places at each iteration" to examine.
 #  Typically, INDEX_1 or INDEX_2 (but not both) is simply k.
+#  Often, BLAH covers less than the entire sequence.
 #  _
 #  EXAMPLE:
 #     Given a sequence of numbers,
@@ -232,6 +236,7 @@ def find_best_item(integers):
 #             count = count + 1
 #     return count
 #  _
+#  Note the RANGE expression in the above.
 #  After you are SURE that you understand the above, mark this _TODO_ as DONE.
 # ----------------------------------------------------------------------------
 def two_places_at_each_iteration(numbers):
@@ -265,7 +270,7 @@ def two_places_at_each_iteration(numbers):
 #  (or that you just want to do the length of sequence_1).
 #  _
 #  EXAMPLE:
-#     Given two sequences of numbers,
+#     Given two sequences of numbers, of equal length,
 #     return the number of places where the item in the first sequence
 #     is greater than the same-index item in the second sequence.
 #  _
@@ -517,8 +522,8 @@ def run_test_find_best_item():
     test_results = [0, 0]  # Number of tests passed, failed.
 
     # Test 1:
-    sequence = [74, 102, 901, 98, 11, 22, 773]
-    expected = 98
+    sequence = [74, 102, 901, 85, 11, 771, 79, 111]
+    expected = 79
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
     actual = find_best_item(sequence)
@@ -684,7 +689,6 @@ def run_test_two_places_at_each_iteration():
                                   format_string)
     actual = two_places_at_each_iteration(sequence)
     print_actual_result_of_test(expected, actual, test_results)
-    print_summary_of_test_results(test_results)
 
     # Test 6:
     sequence = [-100, -50, -34, -2, 0, 0, 0, -1, 1, 3, 3, -100000]
@@ -693,7 +697,6 @@ def run_test_two_places_at_each_iteration():
                                   format_string)
     actual = two_places_at_each_iteration(sequence)
     print_actual_result_of_test(expected, actual, test_results)
-    print_summary_of_test_results(test_results)
 
     # Test 7:
     sequence = [1, 1, 1, 2, 2, 3, 100000]
@@ -702,11 +705,18 @@ def run_test_two_places_at_each_iteration():
                                   format_string)
     actual = two_places_at_each_iteration(sequence)
     print_actual_result_of_test(expected, actual, test_results)
-    print_summary_of_test_results(test_results)
 
     # Test 8:
     sequence = [-100001, -100000]
     expected = True
+    print_expected_result_of_test([sequence], expected, test_results,
+                                  format_string)
+    actual = two_places_at_each_iteration(sequence)
+    print_actual_result_of_test(expected, actual, test_results)
+
+    # Test 9:
+    sequence = [-100001, -100002]
+    expected = False
     print_expected_result_of_test([sequence], expected, test_results,
                                   format_string)
     actual = two_places_at_each_iteration(sequence)
