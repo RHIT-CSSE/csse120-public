@@ -88,13 +88,6 @@ def sum_of_digits(number):
       If the integer is 83135,
       this function returns (8 + 3 + 1 + 3 + 5), which is 20.
     """
-    # -------------------------------------------------------------------------
-    # Students:
-    #   Do NOT touch the above  sum_of_digits function - it has no _TODO_.
-    #   Do NOT copy code from this function.
-    #
-    # Instead, ** CALL ** this function as needed in the problems below.
-    # -------------------------------------------------------------------------
     if number < 0:
         number = -number
 
@@ -106,6 +99,13 @@ def sum_of_digits(number):
         number = number // 10
 
     return digit_sum
+    # -------------------------------------------------------------------------
+    # Students:
+    #   Do NOT touch the above  sum_of_digits function - it has no _TODO_.
+    #   Do NOT copy code from this function.
+    #
+    # Instead, ** CALL ** this function as needed in the problems below.
+    # -------------------------------------------------------------------------
 
 
 def run_test_problem1a():
