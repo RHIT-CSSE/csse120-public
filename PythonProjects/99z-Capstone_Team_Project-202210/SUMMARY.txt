@@ -1,7 +1,8 @@
 TODO: Complete the following after you have COMPLETED your project.
 
-1. You are required to make a video for your project, as described in detail at:
-     https://docs.google.com/document/d/15nZyu2Os2bToFMwbYdgima1adQoceYNwaOq3NDDiVBM/edit?usp=sharing
+1. You are required to make a video for your project, as described in detail
+     on pages 6 and 7 of:
+     https://docs.google.com/document/d/1wHc4XGjLGZOu8NDDJamC9ZzEFXk8QyaxUtlpAu4BMaI/edit?usp=sharing
    Be sure that your video meets the requirements per the above link!
    Be sure that your video is visible to your instructors!
 
@@ -34,7 +35,7 @@ TODO: Complete the following after you have COMPLETED your project.
 
 7. List the external modules (libraries) that you used.
      -- That is, list all the modules in IMPORT statements in your project.
-     -- But do NOT include here the modules that you listed in #3 above,
+     -- But do NOT include here the modules that you listed in #4 above,
           since they are INTERNAL to your project.
 
      [PUT YOUR ANSWER HERE, using as many lines as you need.]
