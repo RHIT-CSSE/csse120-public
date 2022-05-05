@@ -1,1 +1,3 @@
 Put your project's code (PYTHON files) in this folder.
+We have supplied starting code that forms the basis for
+a Model-View-Controller (MVC) architecture.  Build upon it.

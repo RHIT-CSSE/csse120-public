@@ -1,1 +1,3 @@
 Put your project's DATA files in this folder.
+In the   src   folder, refer to them as in this example:
+   my_data = open("../data/file_in_this_data_folder", "r")
