@@ -1,8 +1,16 @@
+"""
+The  Controller  file for the Model-View-Controller architecture for our game.
+It is called repeatedly by the main game loop.
+At each call, it gets and handles whatever event(s) occurred,
+typically by asking the various objects of the Game to do things.
+
+Team members:
+"""
+# TODO: Put the names of your entire team in the above doc-string.
+
 import pygame
 import sys
 from Game import Game
-
-# TODO: Put your names here (entire team)
 
 
 class Controller:

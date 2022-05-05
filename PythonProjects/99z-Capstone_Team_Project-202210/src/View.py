@@ -1,7 +1,14 @@
+"""
+The  View  file for the Model-View-Controller architecture for our game.
+It is called repeatedly by the main game loop.
+At each call, it displays a view of the game,
+typically by asking the various objects of the Game to draw themselves.
+
+Team members:
+"""
+
 import pygame
 from Game import Game
-
-# TODO: Put your names here (entire team)
 
 
 class View:
