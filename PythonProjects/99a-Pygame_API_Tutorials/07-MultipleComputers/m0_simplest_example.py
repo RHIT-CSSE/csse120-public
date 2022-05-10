@@ -53,7 +53,7 @@ def main(who_am_i):
     # -------------------------------------------------------------------------
     # See Note 2 below.
     # -------------------------------------------------------------------------
-    unique_id = "csse120-david-mutchler-example-0"
+    unique_id = "/david"  # "csse120-david-mutchler-example-0"
     sender = mq.Sender(who_am_i)
     controller = Controller(name_of_friend)
     receiver = mq.Receiver(controller)
@@ -71,6 +71,7 @@ def main(who_am_i):
     while True:
         message = input()
         sender.send_message(message)
+        time.sleep(1)
 
 
 # -----------------------------------------------------------------------------

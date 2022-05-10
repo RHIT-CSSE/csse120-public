@@ -81,7 +81,7 @@ class RoseWindow(object):
     """
 
     def __init__(self, width=400, height=300, title="Rose Graphics",
-                 color="black", canvas_color=None,
+                 color="black", canvas_color="white",
                  make_initial_canvas=True):
         """
 

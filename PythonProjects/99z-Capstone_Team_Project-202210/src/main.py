@@ -2,7 +2,8 @@
 The  main  file for the Model-View-Controller architecture for our game.  It:
    1. Initializes pygame, the screen and a Clock.
    2. Constructs a Game (model), View and Controller.
-   3. Runs the game loop.
+   3. Runs the game loop, repeatedly (per the frame rate):
+   .
 
 Team members:
 """
@@ -12,8 +13,6 @@ import pygame
 from Game import Game
 from Controller import Controller
 from View import View
-
-
 
 
 def main():
