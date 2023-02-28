@@ -1,0 +1,119 @@
+/* For an SESSION page. */
+div.session-page {
+}
+
+/* HEADER (just below its Navigation Bar) */
+div.session-page > div.session-header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+div.session-page > div.session-header > span.session-number {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+div.session-page > div.session-body {
+  display: grid;
+  grid-template-columns: 40% auto auto;
+}
+
+div.session-page > div.session-body > div.videos-reading {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+div.session-page > div.session-body > div.preparation-summary-quiz {
+  grid-column: 2;
+}
+
+div.session-page > div.session-body > div.get-starting-code {
+  grid-column: 3;
+}
+
+div.session-page > div.session-body > div.follow-me {
+  grid-column: 4;
+  /*grid-row: 1 / span 2;*/
+}
+
+div.session-page > div.session-body > div.videos-reading, div.preparation-summary-quiz, div.get-starting-code, div.follow-me {
+  border: 2px solid black;
+}
+
+div.session-page > div.session-body div.videos-reading-header, div.preparation-summary-quiz-header, div.get-starting-code-header, div.follow-me-header  {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+div.session-page > div.session-body  div.body {
+  padding: .5rem;
+}
+
+div.session-page p {
+  margin: 0 0 0 0;
+  padding: .25rem .15rem 0 .15rem;
+}
+
+div.session-page  p.title-for-list {
+  margin: 0 0 0 0;
+  padding: 1.25rem .15rem 0 .15rem;
+}
+
+div.session-page ul {
+  margin: 0 0 0 2rem;
+  padding: 0;
+}
+
+div.session-page ol {
+  margin: 0 0 0 1.5rem;
+  padding: 0;
+}
+
+div.session-page ul li {
+  margin: 0;
+  padding: .25rem 0 0 0;
+}
+
+div.session-page ol li {
+  margin: 0;
+  padding: .5rem 0 0 .15rem;
+}
+
+div.session-page span.video-title {
+  font-weight: bold;
+}
+
+div.session-page span.reading-title {
+  font-weight: bold;
+}
+
+span.other-item-title {
+  font-weight: bold;
+}
+
+/*div.session-page ol > li {*/
+/*  margin: 0;*/
+/*  padding: .25rem 0 0 0;*/
+/*}*/
+
+
+/*  NO LONGER USED:
+section.quiz, section.videos {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+section.quiz h2, section.videos h2 {
+  color: red;
+  text-align: left;
+  margin-bottom: 0;
+  border-top: 2px solid #111111;
+  border-bottom: 2px solid #111111;
+  */

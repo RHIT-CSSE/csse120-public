@@ -1,0 +1,48 @@
+READING
+<span class="optional">[OPTIONAL]</span> RANGE expressions
+../../../VideoFiles/08.1-RangeExpressions/RangeExpressions.pdf
+<span class="optional">Optional:</span>
+If you think that it would be helpful to you,
+review this document that you read in a previous Preparation.
+
+It extends the 1-argument form that you know to the 2 and
+3-argument forms.
+
+There is no Moodle quiz associated with this item.
+---
+VIDEO
+<span class="optional">[OPTIONAL]</span> Iterating Through a Sequence
+https://youtu.be/KVRMHskYu18
+11:35
+<span class="optional">Optional:</span>
+If you think that it would be helpful to you,
+review this video that introduces iterating through a sequence.
+
+There is no Moodle quiz associated with this item.
+---
+VIDEO
+Patterns for Iterating Through Sequences
+../../../VideoFiles/11.3-PatternsForIteratingThroughSequences/Video/PatternsForIteratingThroughSequences/PatternsForIteratingThroughSequences.mp4
+15:21
+In the previous session you watched this video
+<span class="emphasis">through the 11:30 mark.</span>
+Briefly <span class="emphasis">review that part of the video,</span> as needed.
+
+Then,
+<span class="critical">watch the remainder of the video</span>
+and do the associated <span class="critical">Moodle quiz.</span>
+<ul>
+  <li>
+  The Moodle quiz purposefully repeats questions that you saw in a previous quiz.
+  It has new questions as well.
+  </li>
+</ul>
+
+<span class="emphasis">Be sure to understand:</span>
+<ul>
+  <li> The <span class="technical-term"> 3 basic ways to iterate through a loop </span> </li>
+  <li> The <span class="technical-term"> FIND </span> pattern </li>
+  <li> The <span class="technical-term"> TWO-PLACES-AT-ONCE </span> pattern </li>
+  <li> The <span class="technical-term"> PARALLEL SEQUENCES </span> pattern </li>
+  <li> The <span class="technical-term"> MAX/MIN </span> pattern </li>
+</ul>
