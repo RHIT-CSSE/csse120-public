@@ -1,0 +1,726 @@
+Session 1
+
+VIDEO
+The Flipped Classroom and How CSSE 120 works
+https://youtu.be/rtDYAN-lShY
+4:43
+This video has an associated quiz in Moodle.
+The previous video explained how you locate and answer the Moodle quizzes.
+# This video explains and motivates flipping the classroom;
+# the previous video shows the mechanics.
+---
+VIDEO
+How CSSE 120 Works
+https://youtu.be/f5325UJmkE4
+12:15
+This video has an associated quiz in Moodle.
+The video will explain how you locate and take the quiz.
+---
+OTHER
+CSSE 120 Computer Setup
+Do these
+<a href="../../Resources/CSSE120_Setup/SettingUpYourComputerForCSSE120.pdf">
+instructions for setting up your computer for CSSE 120</a>,
+if you have not already done so.
+
+There is NO MOODLE QUIZ associated with this item.
+# <p>
+# <strong> Someday, make a video version </strong>
+# to use instead of this, with the written instructions also available to students.
+# </p>
+---
+VIDEO
+Software Engineering, Software Development, and Programming Languages
+https://youtu.be/BAvF-YAOoqQ
+3:44
+This video has an associated quiz in Moodle.
+The first video above explained how you locate and answer the Moodle quizzes.
+---
+# VIDEO
+# Syllabus
+# https://youtu.be/XXX
+# X:XX
+# <p>
+# <strong> TODO: Make this video,</strong>
+# or just point to the document.
+# Indicate that it can safely be deferred to Preparation for Session 2 or 3.
+# </strong>
+---
+# VIDEO
+# Adjustments for the Covid-19 Pandemic
+# https://youtu.be/XXX
+# X:XX
+# NO QUIZ
+# <p>
+# <strong> TODO: Make this video. </strong>
+# Actually, a short document is probably good enough.
+# </p>
+OTHER
+Preparation from Session 1
+If you skipped any of the <a href="../Session01/index.html">Preparation from Session 1</a>,
+go back and do it now (before you do this Preparation).
+---
+VIDEO
+Getting started in Python - Numbers, Arithmetic Operators, \
+Expressions, Objects, Types, Names, and Assignment (whew!)
+https://youtu.be/iExTqLdVBVE
+49:42
+This video <span class="emphasis">and all the other videos in this section</span>
+have an associated quiz in Moodle.
+
+While you watch this video, you will complete the
+<span class="emphasis">m1_expressions</span> module of the
+<span class="emphasis">02-ObjectsFunctionsAndMethods</span> project
+in PyCharm.  Watch the beginning of the video for details.
+
+This video introduces a lot of ideas, almost all of which will be so natural
+to you that you hardly need to be told it.  As you watch the video and do
+the accompanying work in PyCharm, <span class="emphasis">make notes to yourself</span>
+on things that you think you might not remember until you have practiced them more.
+Over the next few sessions, you will get LOTS of practice on ALL of the ideas
+in this video.
+
+In making this video, we spoke and typed slowly, so that you could keep up with the video.
+For some of you, it may be TOO slow; if so, watch it at 1.5 (or even double) speed,
+using the settings that YouTube provides in most browsers.
+---
+VIDEO
+Introduction to Functions
+https://youtu.be/ANMJaAOrIHs
+10:51
+This video refers to exercises that you will see in Session 2
+(the video falsely claims that you saw them in Session 1).
+---
+VIDEO
+Calling Functions with Arguments
+https://youtu.be/cWeaYTMQXEE
+3:44
+The preceding video explained how a program's <span class="emphasis">flow of CONTROL</span>
+changes when a <span class="emphasis">function call</span> occurs.
+
+This video explains the <span class="emphasis">flow of INFORMATION</span>
+that occurs during a <span class="emphasis">function call.</span>
+---
+VIDEO
+Object Oriented Programming (OOP)
+https://youtu.be/uZEhumLGhzs
+7:47
+This video explains the <em>concept</em>
+of <span class="technical-name">Object Oriented Programming,</span>
+contrasting it with <span class="technical-name">Procedural Programming.</span>
+---
+VIDEO
+Classes &mdash; what objects <span class="emphasis">know</span> \
+(in <span class="technical-name">instance variables</span>) \
+and what they can <span class="emphasis">do</span> \
+(via <span class="technical-name">methods</span>); UML Class Diagrams
+https://youtu.be/PpER4ObybBI
+7:49
+The previous video introduced the <em>concept</em>
+of Object Oriented Programming (OOP).
+
+This video explains the <em>programming constructs</em>
+that embody OOP:
+<span class="technical-name">classes,</span>
+<span class="technical-name">objects,</span>
+<span class="technical-name">methods,</span> and
+<span class="technical-name">instance variables.</span>
+---
+VIDEO
+Objects and Classes; Using Objects
+https://youtu.be/ZpvzmheXD50
+20:00
+This video extends the concepts from the previous videos to show how a software developer
+<span class="emphasis">uses objects</span> to be more productive.
+---
+VIDEO
+Thinking Like a Computer: Control Flow
+https://youtu.be/605QWg-3t_U
+3:04
+Developed and narrated by Valerie Galluzzi.
+
+<a href="../../../VideoFiles/04.3-ControlFlow/Control_Flow.py">Code</a>
+associated with the video (for your reference).
+OTHER
+Preparation from Session 2
+If you skipped any of the <a href="../Session02/index.html">Preparation from Session 2</a>,
+go back and do it now (before you do this Preparation).
+---
+VIDEO
+Coding to a Specification
+https://youtu.be/y9JSDnRnyoA
+4:23
+You will apply the ideas of this video in all subsequent
+exercises in this class (and beyond).
+---
+READING
+Functions with Parameters and Returned Values
+FunctionsWithParameters.pdf
+Read this important explanation carefully!
+
+It reinforces what you saw previously in a video on functions.
+
+BRING your QUESTIONS about it to class.
+---
+READING
+Scope and Namespaces
+NamespacesAndVariablesScope.pdf
+Don't worry if some of its ideas are confusing to you. The
+NEXT item (a video) should clear up your confusion.
+---
+VIDEO
+Thinking Like a Computer: Namespaces, Parameters, and Returns
+https://youtu.be/hCIkYpUzpUA
+5:22
+Developed and narrated by Valerie Galluzzi.
+
+<a href="../../../VideoFiles/04.4-NamespacesParametersReturns/Namespaces_Parameters_Returns.py">Code</a>
+(from the video, for your reference)
+
+The contents of this video are <span class="emphasis">critical</span> to your
+success in this course.
+Be sure that all of this video is crystal clear to you, and if not,
+** BRING YOUR QUESTIONS ABOUT IT TO CLASS. **
+---
+READING
+Counted Loops (using FOR loops with RANGE expressions)
+CountedLoops.pdf
+Read this important explanation carefully!
+
+Study the examples in it.
+BRING your QUESTIONS about it to class.
+---
+VIDEO
+The Accumulator Pattern: Summing
+https://youtu.be/Ms4kt7xp4IA
+7:32 minutes
+---
+READING
+What is Unit Testing?
+WhatisUnitTesting.pdf
+The Moodle quiz on this item also covers the next item.
+So just continue to the next item to continue that Moodle quiz
+when you get to questions that you think the next video will address.
+
+This excellent explanation is taken from
+<a href="http://softwaretestingfundamentals.com/unit-testing/">Unit Testing chapter</a>
+of <a href="http://softwaretestingfundamentals.com/">Software Testing Fundamentals</a>.
+---
+READING
+Why Do Unit Testing?
+WhyDoUnitTesting.pdf
+The Moodle quiz on this item is combined with the Moodle quiz on the previous item.
+That is, the Moodle quiz covers <span class="emphasis">both</span>
+the previous item (<em>What is Unit Testing?</em>)
+<span class="emphasis">and</span> this item (<em>Why Do Unit Testing?</em>).
+
+This reading is from a
+<a href="http://stackoverflow.com/questions/1383/what-is-unit-testing/">question on StackOverflow</a>.
+
+Stack Overflow is a TERRIFIC resource for all sorts of questions about software development and more.
+You can almost always trust its answers, or at least let them point you the right direction.
+---
+READING
+Test-First Programming
+http://www.extremeprogramming.org/rules/testfirst.html
+Follow the above link to <span class="emphasis">read the page at the link,</span>
+but you do not have to follow the links on that page to other pages.
+
+OPTIONAL reading: Test-First Programming was first popularized as part of
+<a href="http://www.extremeprogramming.org">Extreme Programming</a>,
+from which the above is taken.
+
+OPTIONAL reading:
+Test-First Programming (a subset of Test-Driven Programming, TDD)
+is widely used in Agile Software Development Processes,
+as described at length in this <span class="optional">optional</span>
+<a href="https://www.agilealliance.org/agile101/">Agile 101</a> article.
+OTHER
+Preparation from Session 3
+If you skipped any of the <a href="../Session03/index.html">Preparation from Session 3</a>,
+go back and do it now (before you do this Preparation).
+---
+READING
+Conditionals: IF and IF-ELSE and IF-ELIF-ELIF...ELSE statements
+../../../VideoFiles/04.1-Conditionals/Conditionals.pdf
+<span class="emphasis">
+This and all the succeeding items in this Videos/Reading section
+have a quiz associated with them on Moodle.
+</span>
+
+The above PDF was constructed from portions of
+<a href="http://openbookproject.net/thinkcs/python/english3e/conditionals.html">
+<span class="emphasis">Chapter 5. Conditionals,</span></a>
+which itself is part of
+<a href="http://openbookproject.net/thinkcs/python/english3e/">
+<em>How to Think Like a Computer Scientist: Learning with Python 3</em></a>
+by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers.
+
+The book is a nice online resource, as are the other books from
+the <a href="http://www.openbookproject.net/">Open Book Project</a>.
+---
+VIDEO
+The Accumulator Pattern (revisited)
+../../../VideoFiles/06.1-TheAccumulatorPattern-Part2/TheAccumulatorPattern.mp4
+9:36
+This video extends the accumulator pattern from the <em>summing</em> pattern that
+you have seen previously
+to include the <em>counting</em> and <em>in-graphics</em> accumulator patterns.
+
+The video uses a graphics system call Zellegraphics that preceded
+RoseGraphics, so you will see <em>zg</em> instead of <em>rg</em>
+and other such small changes from what we use now.
+---
+VIDEO
+First Do a Concrete Example By Hand
+../../../VideoFiles/04.7-FirstDoAConcreteExampleByHand/FirstDoAConcreteExampleByHand.mp4
+10:39
+In almost ANY non-trivial software development coding problem,
+you simply MUST <span class="emphasis">do a concrete example by hand,</span>
+as shown in this video.
+
+Note: The video uses the following example: Given a line, draw a diamond from the line.
+The video <em>should</em> have said that the given line is the
+<span class="emphasis">upper-left</span> line of the diamond.
+Instead, the video wrongly spoke of "positive slope".
+---
+OTHER
+Optional
+You might find it helpful to review previous videos, especially the ones on:
+<ul>
+  <li>
+    <a href="../../../VideoFiles/04.3-ControlFlow/Control_Flow.mp4">
+    Thinking Like a Computer: Control Flow </a>, and
+  </li>
+  <li>
+  <a href="../../../VideoFiles/04.4-NamespacesParametersReturns/Namespaces_Parameters_Returns.mp4">
+  Thinking Like a Computer: Namespaces, Parameters, and Returns</a>.
+</ul>VIDEO
+Debugging:  Good Practices to minimize the need for debugging
+../../../VideoFiles/13.1-Debugging/GoodPractices/GoodPractices.mp4
+12:07
+Being more adept at
+<span class="technical-name">debugging</span>
+(i.e., fixing errors in your programs) will be important for Exam 1 and beyond.
+The above video contains examples from topics that we have not yet discussed,
+but the debugging concepts apply to the work that you have done already.
+Focus on the <span class="emphasis">debugging concepts</span>
+and not on the specifics of the examples.
+
+For reference, here is an OPTIONAL
+<a href="../../../VideoFiles/13.1-Debugging/GoodPractices/GoodPractices.pptx">
+PowerPoint slide version of the Good Practices video</a>.
+If you choose to view these slides, download and run this PowerPoint as a Slide Show,
+since it has animations.
+
+<span class="emphasis">
+This and all remaining items in this Videos/Reading section
+have a quiz associated with them on Moodle.
+</span>
+---
+READING
+Debugging: What to do when you get a run-time exception (error)
+../../../VideoFiles/13.1-Debugging/WhenYouGetARunTimeError/WhenYouGetARunTimeError.pptx
+<span class="emphasis">Download</span> this PowerPoint presentation
+and <span class="emphasis">run it as Slide Show</span>
+since it has animations.
+---
+READING
+Debugging: What to do when a test fails
+../../../VideoFiles/13.1-Debugging/WhenATestFails/WhenATestFails.pptx
+<span class="emphasis">Download</span> this PowerPoint presentation
+and <span class="emphasis">run it as Slide Show</span>
+since it has animations.
+
+This PowerPoint presentation uses an example that is well beyond what you have seen so far;
+no worries, just concentrate on the <span class="emphasis">debugging principles</span>
+that it demonstrates.OTHER
+Well before Exam 1, read the
+<a href="../ExamInformation/Exam1/index.html">information and resources for Exam 1.</a>
+OTHER
+Exam 1 information and Resources
+If you have not already done so, read the
+<a href="../ExamInformation/Exam1/index.html">information and resources for Exam 1.</a>
+---
+OTHER
+Admission Ticket
+Complete your Exam 1 <span class="critical">Admission Ticket</span>
+as described at the above link.
+
+You may NOT take Exam 1 if you have not completed its Admission Ticket.
+---
+OTHER
+Hint Sheet
+Prepare your Exam 1 <span class="critical">Hint Sheet</span>
+as described at the above link.
+---
+OTHER
+Sample Exam
+Optionally, review the sample Exam 1.
+
+The <span class="emphasis">Paper-and-Pencil sample exam</span>
+is reachable from the above link,
+by following the link therein to more information about
+the Practice-and-Paper part of the exam.
+<ul>
+  <li>
+    For your convenience, here is a direct link to the
+    <a href="../ExamInformation/Exam1/Exam1_Paper_and_Pencil_SAMPLE_EXAM.pdf">
+    Sample exam for the Exam 1 Paper-and-Pencil part.</a>
+  </li>
+</ul>
+
+The <span class="emphasis">On-the-Computer sample exam</span>
+is in your PyCharm project 06-Sample_Exam1-Optional.
+READING
+Range expressions
+../../../VideoFiles/08.1-RangeExpressions/RangeExpressions.pdf
+This document on Python's RANGE expression extends the 1-argument form that you know to the 2 and
+3-argument forms.
+
+As you read the document, do its associated quiz on Moodle.
+---
+VIDEO
+Box-and-Pointer Diagrams
+https://youtu.be/OD3Kr_E6YQY
+9:22
+
+As you watch the video, do its associated quiz on Moodle.
+
+Optional reading:
+This handout on
+<a href="../../../VideoFiles/12.2-BoxAndPointerDiagrams/Handouts/BoxAndPointerDiagrams.pdf">Box-and-Pointer diagrams</a>
+covers the same material as the video, plus a little more.
+---
+VIDEO
+What is a CLASS -- the concept
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Concepts/Classes-Concepts.mp4
+7:44
+This video reviews the <span class="emphasis">concepts</span>
+of a <span class="technical-term">object</span>
+and
+<span class="technical-term">class</span>.
+
+As you watch the above video,
+answer <span class="emphasis">questions 1 to 9</span> of this
+<a href="Quiz/Quiz-Session08.pdf">Quiz for the Session 8 videos on CLASSES</a>.
+<ul>
+  <li>
+    It says that it is for Session 8,
+    but it is really for Session 9.
+  </li>
+</ul>
+
+You do not have to print the quiz (unless you want to).
+Just hand-write your answers on paper or type your answers into a file, whichever is easier for you.
+
+It is likely that you will not know the answers to all of the questions in the above quiz.
+That is OK &mdash; just do what you can and BRING YOUR QUESTIONS TO CLASS.
+---
+VIDEO
+What is a CLASS -- the notation
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Notation/Classes-Notation.mp4
+6:56
+This video reviews the <span class="technical-term">notation of a class</span>,
+as well as the concepts.
+It is important preparation for the next video.
+
+As you watch the above video,
+answer <span class="emphasis">questions 10 to 15</span> of the above
+<a href="Quiz/Quiz-Session08.pdf">Quiz for the Session 8 videos on CLASSES</a>.
+<ul>
+  <li> Mysteriously, there is no question 12.</li>
+  <li> If question 14 does not make sense to you, no worries, just skip it. </li>
+</ul>
+---
+VIDEO
+What is a CLASS -- the implementation
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Implementing/Classes-Implementing.mp4
+11:43
+This is the new stuff (but the previous videos are super-important
+preparation without which this video will make no sense).
+
+It shows all the basics of how to implement a class,
+using a Point class as an example.
+
+As you watch the above video,
+answer <span class="emphasis">questions 16 to 22</span> of the above
+<a href="Quiz/Quiz-Session08.pdf">Quiz for the Session 8 videos on CLASSES</a>.
+
+Reminder: It is likely that you will not know the answers to all of the questions in the above quiz.
+That is OK &mdash; just do what you can and BRING YOUR QUESTIONS TO CLASS.
+READING
+Slides on Implementing Classes
+../../../VideoFiles/10.1-ImplementingClasses-KeyConcepts/ImplementingClasses-KeyConcepts.pdf
+There are TWO Moodle quizzes associated with this item.
+
+Try to make sense of these slides,
+but don't worry if you don't understand all of them
+(they really need a video to accompany them).
+
+Just <span class="emphasis">bring your questions about them to class</span>.
+---
+VIDEO
+What is a CLASS -- the concept
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Concepts/Classes-Concepts.mp4
+7:44
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
+
+This video reviews the <span class="emphasis">concepts</span>
+of a <span class="technical-term">object</span>
+and
+<span class="technical-term">class</span>.
+
+There are no Moodle quizzes associated with this and the remaining items
+in this Videos/Reading section.
+---
+VIDEO
+What is a CLASS -- the notation
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Notation/Classes-Notation.mp4
+6:56
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
+
+This video reviews the <span class="technical-term">notation of a class</span>,
+as well as the concepts.
+It is important preparation for the next video.
+---
+VIDEO
+What is a CLASS -- the implementation
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Implementing/Classes-Implementing.mp4
+11:43
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
+
+This video shows all the basics of how to implement a class,
+using a Point class as an example.
+---
+READING
+Exercise on Box-and-Pointer Diagrams
+./box_and_pointer_exercise.html
+Work this IMPORTANT exercise carefully.  It will take you about 45 minutes.
+
+If there is anything in the exercise that you do not COMPLETELY understand,
+<span class="emphasis">bring your questions to class.</span>
+VIDEO
+Sequences
+https://youtu.be/kCZMydx1OfM
+8:43
+Do the Moodle quiz as you watch this video.
+---
+VIDEO
+The Last Item in a Sequence
+https://youtu.be/Z_ieQp5xRzY
+3:20
+Do the Moodle quiz as you watch this video.
+---
+READING
+RANGE expressions
+../../../VideoFiles/08.1-RangeExpressions/RangeExpressions.pdf
+Briefly review this document that you read in a previous Preparation.
+
+It extends the 1-argument form that you know to the 2 and
+3-argument forms.
+
+There is a SINGLE Moodle quiz that is associated with BOTH
+this reading AND the next video.
+---
+VIDEO
+Iterating Through a Sequence
+https://youtu.be/KVRMHskYu18
+11:35
+There is a SINGLE Moodle quiz that is associated with BOTH
+the above reading AND this video.
+---
+READING
+Worms, Python and Ethics
+Reading.pdf
+Read this fascinating and important excerpt from a textbook by Horstmann and Necaise.
+
+Do the Moodle quiz as or after you complete this short reading.
+---
+VIDEO
+Code Review
+../../../VideoFiles/03.4-Code Review/CodeReview.mp4
+6:45
+Download this <span class="emphasis">code inspection checklist</span>
+as a <a href="./code_inspection.xlsx">Microsoft Excel Spreadsheet</a> or
+as a <a href="./code_inspection.pdf">PDF</a> (same document in two forms, your choice).
+
+Use the downloaded checklist to help improve Mark's code as you watch the above video
+that shows Valerie doing a <span class="technical-term">code review</span> of Mark's code.
+
+There is no Moodle quiz associated with this item.
+
+Throughout the rest of the course,
+you will frequently <span class="emphasis">review classmates' code</span>
+and <span class="emphasis">have your code reviewed</span>.
+READING
+Overloading the Plus Symbol
+../../../VideoFiles/11.1-OverloadingThePlusSymbol/Handouts/OverloadingThePlusSymbol.pdf
+Do the Moodle quiz as you do this reading.
+Use that quiz to be sure that you understand the ideas
+in this reading.
+---
+READING
+Accumulating Sequences
+../../../VideoFiles/11.2-AccumulatingSequences/Handouts/AccumulatingSequences.pdf
+Do the Moodle quiz as you do this reading.
+Use that quiz to be sure that you understand the ideas
+in this reading.
+---
+VIDEO
+Patterns for Iterating Through Sequences
+../../../VideoFiles/11.3-PatternsForIteratingThroughSequences/Video/PatternsForIteratingThroughSequences/PatternsForIteratingThroughSequences.mp4
+15:21
+Watch this video <span class="emphasis">through the 11:30 mark.</span>
+We will cover the remainder of the video in a subsequent session.
+
+Do the Moodle quiz as you watch this video.
+
+Be sure to understand:
+<ul>
+  <li> The 3 basic ways to iterate through a loop </li>
+  <li> The FIND pattern </li>
+  <li> The TWO-PLACES-AT-ONCE pattern </li>
+</ul>READING
+<span class="optional">[OPTIONAL]</span> RANGE expressions
+../../../VideoFiles/08.1-RangeExpressions/RangeExpressions.pdf
+<span class="optional">Optional:</span>
+If you think that it would be helpful to you,
+review this document that you read in a previous Preparation.
+
+It extends the 1-argument form that you know to the 2 and
+3-argument forms.
+
+There is no Moodle quiz associated with this item.
+---
+VIDEO
+<span class="optional">[OPTIONAL]</span> Iterating Through a Sequence
+https://youtu.be/KVRMHskYu18
+11:35
+<span class="optional">Optional:</span>
+If you think that it would be helpful to you,
+review this video that introduces iterating through a sequence.
+
+There is no Moodle quiz associated with this item.
+---
+VIDEO
+Patterns for Iterating Through Sequences
+../../../VideoFiles/11.3-PatternsForIteratingThroughSequences/Video/PatternsForIteratingThroughSequences/PatternsForIteratingThroughSequences.mp4
+15:21
+In the previous session you watched this video
+<span class="emphasis">through the 11:30 mark.</span>
+Briefly <span class="emphasis">review that part of the video,</span> as needed.
+
+Then,
+<span class="critical">watch the remainder of the video</span>
+and do the associated <span class="critical">Moodle quiz.</span>
+<ul>
+  <li>
+  The Moodle quiz purposefully repeats questions that you saw in a previous quiz.
+  It has new questions as well.
+  </li>
+</ul>
+
+<span class="emphasis">Be sure to understand:</span>
+<ul>
+  <li> The <span class="technical-term"> 3 basic ways to iterate through a loop </span> </li>
+  <li> The <span class="technical-term"> FIND </span> pattern </li>
+  <li> The <span class="technical-term"> TWO-PLACES-AT-ONCE </span> pattern </li>
+  <li> The <span class="technical-term"> PARALLEL SEQUENCES </span> pattern </li>
+  <li> The <span class="technical-term"> MAX/MIN </span> pattern </li>
+</ul>
+OTHER
+This is a catch-up session with no new material.
+
+There are no Moodle quizzes for this session.OTHER
+Exam 1 information and Resources
+If you have not already done so, read the
+<a href="../ExamInformation/Exam2/index.html">information and resources for Exam 1.</a>
+---
+OTHER
+Admission Ticket
+Complete your Exam 2 <span class="critical">Admission Ticket</span>
+as described at the above link.
+
+You may NOT take Exam 2 if you have not completed its Admission Ticket.
+---
+OTHER
+Hint Sheet
+Prepare your Exam 2 <span class="critical">Hint Sheet</span>
+as described at the above link.
+---
+OTHER
+Sample Exam
+Optionally, review the sample Exam 2.
+
+The <span class="emphasis">Paper-and-Pencil sample exam</span>
+is reachable from the above link,
+by following the link therein to more information about
+the Practice-and-Paper part of the exam.
+<ul>
+  <li>
+    For your convenience, here is a direct link to the
+    <a href="../ExamInformation/Exam2/Exam2_Paper_and_Pencil_SAMPLE_EXAM.pdf">
+    Sample exam for the Exam 2 Paper-and-Pencil part.</a>
+  </li>
+</ul>
+
+The <span class="emphasis">On-the-Computer sample exam</span>
+is in your PyCharm project 06-Sample_Exam1-Optional.
+VIDEO
+The <span class="distinguish-from-surrounding-padded">Wait Until Event Pattern;</span>  WHILE Loops
+https://youtu.be/VDjCvOqZ5iY
+7:34 minutes
+Note: WHILE loops are traditionally introduced in the form:
+<blockquote>
+  <code><strong><big>
+          while <em>some-condition</em>: <br>
+          &nbsp; &nbsp; <em>do-stuff</em>
+  </big></strong></code>
+</blockquote>
+
+We will instead use the less common form:
+<blockquote>
+  <code><strong><big>
+          while True: <br>
+          &nbsp; &nbsp; <em>do-stuff-here-if-you-want</em> <br>
+          &nbsp; &nbsp; if <em>some-condition</em>: <br>
+          &nbsp; &nbsp; &nbsp; &nbsp; break <br>
+          &nbsp; &nbsp; <em>do-stuff-here-if-you-want</em>
+  </big></strong></code>
+</blockquote>
+See the video for details.
+
+Do the Moodle quiz as you do this reading.VIDEO
+Loops within Loops (aka Nested Loops) &mdash; How they work
+../../../VideoFiles/16.0-LoopsWithinLoops-HowTheyWork/LoopsWithinLoops-HowTheyWork.mp4
+6:21
+There is a SINGLE Moodle quiz that covers BOTH of the videos for this Session.
+The quiz indicates when it switches from the first video to the second
+---
+VIDEO
+A Technique for Solving Print-On-Console Loop-Within-Loop Problems
+../../../VideoFiles/15.1-PrintingLoopsWithinLoopsTechnique/15.1-PrintingLoopsWithinLoopsTechnique.mp4
+8:20VIDEO
+Loops within Loops (aka Nested Loops) &mdash; How they work
+../../../VideoFiles/16.0-LoopsWithinLoops-HowTheyWork/LoopsWithinLoops-HowTheyWork.mp4
+6:21
+There is a SINGLE Moodle quiz that covers BOTH of the videos for this Session.
+The quiz indicates when it switches from the first video to the second
+---
+VIDEO
+A Technique for Solving Print-On-Console Loop-Within-Loop Problems
+../../../VideoFiles/15.1-PrintingLoopsWithinLoopsTechnique/15.1-PrintingLoopsWithinLoopsTechnique.mp4
+8:20VIDEO
+How to determine the structure of nested loops
+../../../VideoFiles/15.3-LoopStructures/LoopStructures.mp4
+11:21
+There is no Moodle quiz associated with this video.
+---
+OTHER
+Optional review:
+If you are struggling with the Session18_LoopsWithinLoops project,
+consider watching some of the videos from the Preparation for that project (perhaps for a second time).

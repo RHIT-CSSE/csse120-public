@@ -1,0 +1,103 @@
+﻿html {
+  font-size: 87.5%; /* 14px in most browsers */
+}
+
+body {
+  font-family: 'Open Sans', verdana, sans-serif;
+  line-height: 1.35;
+  margin: 3px;
+}
+
+div.newspaper {
+  column-count: 2;
+}
+
+div.newspaper3 {
+  column-count: 3;
+}
+
+p,
+ul,
+ol {
+  margin-top: .5rem;
+}
+
+ul > li {
+  padding-left: .35em;
+  margin-top: .3rem;
+  margin-left: .5rem;
+}
+ol > li {
+  padding-left: .35rem;
+  margin-top: .3rem;
+  margin-left: .25rem;
+}
+
+hr.footer {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+span.emphasis {
+  font-weight: bold;
+  font-style: italic;
+}
+
+span.distinguish-from-surrounding {
+  font-style: italic;
+}
+
+span.distinguish-from-surrounding-padded {
+  font-style: italic;
+  padding: 1rem;
+}
+
+span.critical {
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+
+span.optional {
+  font-weight: bold;
+  font-style: italic;
+  color: darkgreen;
+}
+
+span.technical-name,
+span.technical-term {  /* synonyms */
+  font-weight: bold;
+  font-style: italic;
+  color: #0000ff;
+}
+
+span.name-of-something {
+  font-style: italic;
+}
+
+ol ol {
+  list-style-type: lower-alpha;
+}
+
+a.video-link {
+  /*font-size: 1.2rem; */
+  padding-left: .5rem;
+  padding-right: .25rem;
+}
+
+a.video-link-text {
+}
+
+a.reading-link {
+  font-size: 1.2rem;
+  padding-left: .5rem;
+  padding-right: .25rem;
+}
+
+a.reading-link-text {
+}
+
+a.strong-link {
+  font-weight: bolder;
+  font-style: italic;
+}
