@@ -1,35 +1,54 @@
-OTHER
-Exam 1 information and Resources
-If you have not already done so, read the
-<a href="../ExamInformation/Exam1/index.html">information and resources for Exam 1.</a>
----
-OTHER
-Admission Ticket
-Complete your Exam 1 <span class="critical">Admission Ticket</span>
-as described at the above link.
+READING
+Slides on Implementing Classes
+../../../VideoFiles/10.1-ImplementingClasses-KeyConcepts/ImplementingClasses-KeyConcepts.pdf
+There are TWO Moodle quizzes associated with this item.
 
-You may NOT take Exam 1 if you have not completed its Admission Ticket.
----
-OTHER
-Hint Sheet
-Prepare your Exam 1 <span class="critical">Hint Sheet</span>
-as described at the above link.
----
-OTHER
-Sample Exam
-Optionally, review the sample Exam 1.
+Try to make sense of these slides,
+but don't worry if you don't understand all of them
+(they really need a video to accompany them).
 
-The <span class="emphasis">Paper-and-Pencil sample exam</span>
-is reachable from the above link,
-by following the link therein to more information about
-the Practice-and-Paper part of the exam.
-<ul>
-  <li>
-    For your convenience, here is a direct link to the
-    <a href="../ExamInformation/Exam1/Exam1_Paper_and_Pencil_SAMPLE_EXAM.pdf">
-    Sample exam for the Exam 1 Paper-and-Pencil part.</a>
-  </li>
-</ul>
+Just <span class="emphasis">bring your questions about them to class</span>.
+---
+VIDEO
+What is a CLASS -- the concept
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Concepts/Classes-Concepts.mp4
+7:44
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
 
-The <span class="emphasis">On-the-Computer sample exam</span>
-is in your PyCharm project 06-Sample_Exam1-Optional.
+This video reviews the <span class="emphasis">concepts</span>
+of a <span class="technical-term">object</span>
+and
+<span class="technical-term">class</span>.
+
+There are no Moodle quizzes associated with this and the remaining items
+in this Videos/Reading section.
+---
+VIDEO
+What is a CLASS -- the notation
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Notation/Classes-Notation.mp4
+6:56
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
+
+This video reviews the <span class="technical-term">notation of a class</span>,
+as well as the concepts.
+It is important preparation for the next video.
+---
+VIDEO
+What is a CLASS -- the implementation
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Implementing/Classes-Implementing.mp4
+11:43
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
+
+This video shows all the basics of how to implement a class,
+using a Point class as an example.
+---
+READING
+Exercise on Box-and-Pointer Diagrams
+./box_and_pointer_exercise.html
+Work this IMPORTANT exercise carefully.  It will take you about 45 minutes.
+
+If there is anything in the exercise that you do not COMPLETELY understand,
+<span class="emphasis">bring your questions to class.</span>
