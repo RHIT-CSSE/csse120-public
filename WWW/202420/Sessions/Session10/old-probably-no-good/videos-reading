@@ -1,0 +1,29 @@
+READING
+Overloading the Plus Symbol
+../../../VideoFiles/11.1-OverloadingThePlusSymbol/Handouts/OverloadingThePlusSymbol.pdf
+Do the Moodle quiz as you do this reading.
+Use that quiz to be sure that you understand the ideas
+in this reading.
+---
+READING
+Accumulating Sequences
+../../../VideoFiles/11.2-AccumulatingSequences/Handouts/AccumulatingSequences.pdf
+Do the Moodle quiz as you do this reading.
+Use that quiz to be sure that you understand the ideas
+in this reading.
+---
+VIDEO
+Patterns for Iterating Through Sequences
+../../../VideoFiles/11.3-PatternsForIteratingThroughSequences/Video/PatternsForIteratingThroughSequences/PatternsForIteratingThroughSequences.mp4
+15:21
+Watch this video <span class="emphasis">through the 11:30 mark.</span>
+We will cover the remainder of the video in a subsequent session.
+
+Do the Moodle quiz as you watch this video.
+
+Be sure to understand:
+<ul>
+  <li> The 3 basic ways to iterate through a loop </li>
+  <li> The FIND pattern </li>
+  <li> The TWO-PLACES-AT-ONCE pattern </li>
+</ul>

@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,italic,semibold,semibolditalic,bold,bolditalic,extrabold,extrabolditalic"
+          rel="stylesheet">
+    <link href="../../styles/color_scheme.css" rel="stylesheet">
+    <link href="../../styles/style.css" rel="stylesheet">
+    <link href="../../styles/navigation_bar.css" rel="stylesheet">
+    <link href="../../styles/session_page.css" rel="stylesheet">
+
+    <title> CSSE 120: Session 4 </title>
+</head>
+
+<body>
+
+<nav>
+    <img alt="Ada Lovelace" class="left" height="186" src="../../Images/AdaLovelace.jpg" width="186">
+    <div class="course">
+        <p class="course-number">CSSE 120</p>
+        <p class="course-name">Introduction to<br>Software Development</p>
+    <p class="course-term">Fall term, 2023-24 (aka 202410)</p>
+    </div>
+    <div class="links">
+        <a href="../../Syllabus/Syllabus.pdf">SYLLABUS</a>
+        <a href="../../Resources/CSSE120_Setup/CSSE120_Computer_Setup.pdf">COMPUTER SETUP</a>
+        <a href="https://piazza.com/rose-hulman/fall2023/csse120/home">PIAZZA (Q&A)</a>
+        <a href="https://docs.python.org/3/library/index.html">PYTHON STANDARD LIBRARY</a>
+        <a href="https://docs.python.org/3/reference/index.html">PYTHON LANGUAGE REFERENCE</a>
+        <a href="https://www.python.org/doc/">MORE PYTHON DOCUMENTATION</a>
+        <!--    <a href="../../Resources/Python/index2.html">PYTHON</a>-->
+        <!--    <a href="../../Resources/Graphics/index2.html">GRAPHICS</a>-->
+        <!--    <a href="../../Resources/Robotics/index2.html">ROBOTICS</a>-->
+        <!--    <a href="../../CapstoneTeamProject-202310.pdf">CAPSTONE PROJECT</a>-->
+    </div>
+    <img alt="Two women coding together" class="right" height="186"
+         src="../../Images/two-women-coding-together-cropped.png"
+         width="200">
+</nav>
+
+<div class="session-page">
+    <div class="session-header">
+        Session
+        <span class="session-number">4</span>
+        Preparation
+    </div>
+    <div class="session-body">
+        <div class="videos-reading">
+            <div class="videos-reading-header">
+                1. Videos/Reading with Quizzes in Moodle
+            </div>
+            <div class="body">
+                <p class="title-for-list">
+                    Do all the items on this Preparation page
+                    <span class="emphasis">BEFORE this session's scheduled class time.</span>
+                </p>
+                <!--        <p>-->
+                <!--          Read as needed the-->
+                <!--          <a href="../standard_instructions_for_preparation">Standard Instructions for a Session-->
+                <!--            Preparation</a>,-->
+                <!--          then do the following activities:-->
+                <!--        </p>-->
+                <ol class="activities">
+                    <li>
+                        <span class="reading-title"> Conditionals: IF and IF-ELSE and IF-ELIF-ELIF...ELSE statements: </span>
+                        <a href="../../../VideoFiles/04.1-Conditionals/Conditionals.pdf" target="_blank">Reading</a>.
+                        <ul class="reading-note">
+                            <li>
+                                The above PDF was constructed from portions of
+                                <a href="http://openbookproject.net/thinkcs/python/english3e/conditionals.html"
+                                   target="_blank">
+                                    <span class="emphasis">Chapter 5. Conditionals,</span></a>
+                                which itself is part of
+                                <a href="http://openbookproject.net/thinkcs/python/english3e/">
+                                    <em>How to Think Like a Computer Scientist: Learning with Python 3</em></a>
+                                by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers.
+                            </li>
+                            <li>
+                                The book is a nice online resource, as are the other books from
+                                the <a href="http://www.openbookproject.net/">Open Book Project</a>.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="video-title"> The Accumulator Pattern (revisited): </span>
+                        <a href="../../../VideoFiles/06.1-TheAccumulatorPattern-Part2/TheAccumulatorPattern.mp4"
+                           target="_blank">Video</a>
+                        <span class="video-length">[9:36]</span>
+                        <ul class="video-note">
+                            <li>
+                                This video extends the accumulator pattern from the <em>summing</em> pattern that
+                                you have seen previously
+                                to include the <em>counting</em> and <em>in-graphics</em> accumulator patterns.
+                            </li>
+                            <li>
+                                The video uses a graphics system call Zellegraphics that preceded
+                                RoseGraphics, so you will see <em>zg</em> instead of <em>rg</em>
+                                and other such small changes from what we use now.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="video-title"> First Do a Concrete Example By Hand: </span>
+                        <a href="../../../VideoFiles/04.7-FirstDoAConcreteExampleByHand/FirstDoAConcreteExampleByHand.mp4"
+                           target="_blank">Video</a>
+                        <span class="video-length">[10:39]</span>
+                        <ul class="video-note">
+                            <li>
+                                In almost ANY non-trivial software development coding problem,
+                                you simply MUST <span class="emphasis">do a concrete example by hand,</span>
+                                as shown in this video.
+                            </li>
+                            <li>
+                                Note: The video uses the following example: Given a line, draw a diamond from the line.
+                                The video <em>should</em> have said that the given line is the
+                                <span class="emphasis">upper-left</span> line of the diamond.
+                                Instead, the video wrongly spoke of "positive slope".
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="optional"> [Optional] </span>
+                                You might find it helpful to review previous videos, especially the ones on:
+                                <ul>
+                                    <li>
+                                        <a href="../../../VideoFiles/04.3-ControlFlow/Control_Flow.mp4" target="_blank">
+                                            Thinking Like a Computer: Control Flow </a>, and
+                                    </li>
+                                    <li>
+                                        <a href="../../../VideoFiles/04.4-NamespacesParametersReturns/Namespaces_Parameters_Returns.mp4"
+                                           target="_blank">
+                                            Thinking Like a Computer: Namespaces, Parameters, and Returns</a>.
+                                </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="preparation-summary-quiz">
+            <div class="preparation-summary-quiz-header">
+                2. Preparation-Summary Quiz
+            </div>
+            <div class="body">
+                <p>
+                    <span class="emphasis">AFTER</span>
+                    doing all the Videos / Reading to the left,
+                    along with their associated quizzes in Moodle:
+                </p>
+                <ul>
+                    <li>
+                        Do the <a class="quiz-link" href="../../Quizzes/Preparation-Summary%20Quiz-04.pdf">Preparation-Summary
+                        Quiz</a>.
+                    </li>
+                    <li>
+                        Turn in your answers via Moodle.
+                    </li>
+                    <li>
+                        Check your own answers by using either or both of:
+                        <ul>
+                            <li>
+                                <a class="quiz-link" href="">Video of the solution</a>
+                                [Sorry, no video solutions for this quiz]
+                            </li>
+                            <li>
+                                <a class="quiz-link"
+                                   href="../../Quizzes/Preparation-Summary%20Quiz-04%20-%20SOLUTION.pdf">Written
+                                    answer key</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="get-starting-code">
+            <div class="get-starting-code-header">
+                3. Get the starting code
+            </div>
+            <div class="body">
+                <p>
+                    Clone the following into PyCharm,
+                    using the standard <a href="../../Resources/CSSE120_Setup/Instructions_for_GitHub_Classroom.pdf">instructions
+                    for getting the Starting Code</a>.
+                </p>
+                <ul>
+                    <li>
+                        <a class="link" href="https://classroom.github.com/a/9aWgTMoq">Starting code for Session 4</a>
+                    </li>
+                </ul>
+                <p style="margin-top: 1rem">
+                    Additionally, if doing pair programming,
+                    use the standard
+                    <a href="../../Resources/CSSE120_Setup/InstructionsForPairProgrammingInGithubClassoom.pdf">instructions for forming a Team project</a>
+                    on this:
+                </p>
+                <ul>
+                    <li>
+                        <a class="link" href="https://classroom.github.com/a/LNRGLRaT">Starting code for pair programming Session 4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="follow-me">
+            <div class="follow-me-header">
+                4. Follow-Me Videos
+            </div>
+            <div class="body">
+                <p>
+                    <span class="emphasis">AFTER</span>
+                    completing the items to the left,
+                    do these Follow-Me videos/activities:
+                </p>
+                <p class="title-for-list">
+                    <span class="emphasis">Follow-Me videos:</span>
+                </p>
+                <ol class="activities">
+                    <li>
+                        <span class="video-title"> An introduction to Session 4: </span>
+                        <a class="video-link"
+                           href="https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=619010b2-3cf9-4ca7-9b65-ab87017c92e6"><span
+                                class="video-link-text">Video</span></a>
+                        <span class="video-length">[4:51]</span>
+                    </li>
+                    <li>
+                        <span class="video-title"> For m1r_accumulator_examples, Part 1: </span>
+                        <a class="video-link"
+                           href="https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=29c83f05-1470-4f34-a4f1-ab88000653ae"><span
+                                class="video-link-text">Video</span></a>
+                        <span class="video-length">[5:16]</span>
+                    </li>
+                    <li>
+                        <span class="video-title"> For m1r_accumulator_examples, Part 2: </span>
+                        <a class="video-link"
+                           href="https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aecd1883-807a-4441-8ab3-ab8701805633"><span
+                                class="video-link-text">Video</span></a>
+                        <span class="video-length">[11:07]</span>
+                    </li>
+                    <li>
+                        <span class="video-title"> For m1r_accumulator_examples, Part 3: </span>
+                        <a class="video-link"
+                           href="https://rose-hulman.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aa95429c-9fa1-49b2-8e4c-ab8701838733"><span
+                                class="video-link-text">Video</span></a>
+                        <span class="video-length">[7:53]</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!- The following provides space at the bottom to help ensure that students do not miss the last of the above items.
+-->
+<hr class="footer">
+
+</body>
+</html>

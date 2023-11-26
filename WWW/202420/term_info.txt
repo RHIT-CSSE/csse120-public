@@ -1,0 +1,6 @@
+first_day_of_term = 11/29/2021
+last_day_of_tenth_week = 2/18/2022
+days_of_week = Tuesday Wednesday Friday
+start_date_of_break = 12/20/2021
+end_date_of_break = 12/31/2021
+piazza_url = https://piazza.com/rose-hulman/winter2022/csse120/home

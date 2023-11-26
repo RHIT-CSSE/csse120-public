@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,italic,semibold,semibolditalic,bold,bolditalic,extrabold,extrabolditalic"
+        rel="stylesheet">
+  <link href="../../styles/color_scheme.css" rel="stylesheet">
+  <link href="../../styles/style.css" rel="stylesheet">
+  <link href="../../styles/navigation_bar.css" rel="stylesheet">
+  <link href="../../styles/session_page.css" rel="stylesheet">
+
+  <title> CSSE 120: Session 16 </title>
+</head>
+
+<body>
+
+<nav>
+  <img alt="Ada Lovelace" class="left" height="186" src="../../Images/AdaLovelace.jpg" width="186">
+  <div class="course">
+    <p class="course-number">CSSE 120</p>
+    <p class="course-name">Introduction to<br>Software Development</p>
+    <p class="course-term">Fall term, 2023-24 (aka 202410)</p>
+    </div>
+    <div class="links">
+        <a href="../../Syllabus/Syllabus.pdf">SYLLABUS</a>
+        <a href="../../Resources/CSSE120_Setup/CSSE120_Computer_Setup.pdf">COMPUTER SETUP</a>
+        <a href="https://piazza.com/rose-hulman/fall2023/csse120/home">PIAZZA (Q&A)</a>
+    <a href="https://docs.python.org/3/library/index.html">PYTHON STANDARD LIBRARY</a>
+    <a href="https://docs.python.org/3/reference/index.html">PYTHON LANGUAGE REFERENCE</a>
+    <a href="https://www.python.org/doc/">MORE PYTHON DOCUMENTATION</a>
+    <!--    <a href="../../Resources/Python/index2.html">PYTHON</a>-->
+    <!--    <a href="../../Resources/Graphics/index2.html">GRAPHICS</a>-->
+    <!--    <a href="../../Resources/Robotics/index2.html">ROBOTICS</a>-->
+    <!--    <a href="../../CapstoneTeamProject-202310.pdf">CAPSTONE PROJECT</a>-->
+  </div>
+  <img alt="Two women coding together" class="right" height="186"
+       src="../../Images/two-women-coding-together-cropped.png"
+       width="200">
+</nav>
+
+<div class="session-page">
+  <div class="session-header">
+    Session
+    <span class="session-number">16</span>
+    Preparation
+  </div>
+  <div class="session-body">
+    <div class="videos-reading">
+      <div class="videos-reading-header">
+        1. Videos/Reading with Quizzes in Moodle
+      </div>
+      <div class="body">
+        <p class="title-for-list">
+          Do all the items on this Preparation page
+          <span class="emphasis">BEFORE this session's scheduled class time.</span>
+        </p>
+        <!--        <p>-->
+        <!--          Read as needed the-->
+        <!--          <a href="../standard_instructions_for_preparation">Standard Instructions for a Session-->
+        <!--            Preparation</a>,-->
+        <!--          then do the following activities:-->
+        <!--        </p>-->
+        <ol class="activities">
+          <li>
+            <span class="video-title"> Loops within Loops (aka Nested Loops) &mdash; How they work: </span>
+            <a class="video-link" href="../../../VideoFiles/16.0-LoopsWithinLoops-HowTheyWork/LoopsWithinLoops-HowTheyWork.mp4"><span class="video-link-text">Video</span></a>
+            <span class="video-length">[6:21]</span>
+            <ul class="video-note">
+              <li>
+                There is a SINGLE Moodle quiz that covers BOTH of the videos for this Session.
+                The quiz indicates when it switches from the first video to the second.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="video-title"> A Technique for Solving Print-On-Console Loop-Within-Loop Problems: </span>
+            <a class="video-link" href="../../../VideoFiles/15.1-PrintingLoopsWithinLoopsTechnique/15.1-PrintingLoopsWithinLoopsTechnique.mp4"><span class="video-link-text">Video</span></a>
+            <span class="video-length">[8:20]</span>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="preparation-summary-quiz">
+      <div class="preparation-summary-quiz-header">
+        2. Preparation-Summary Quiz
+      </div>
+      <div class="body">
+        <p>
+          <span class="emphasis">AFTER</span>
+          doing all the Videos / Reading to the left,
+          along with their associated quizzes in Moodle:
+        </p>
+        <ul>
+          <li>
+            Do the <a class="quiz-link" href="../../Quizzes/Preparation-Summary%20Quiz-17.pdf">Preparation-Summary
+            Quiz</a>.
+          </li>
+          <li>
+            Turn in your answers via Moodle.
+          </li>
+          <li>
+            Check your own answers by using either or both of:
+            <p class="title-for-list">
+              <span class="emphasis">Videos with solutions to the Start-the-Session Quiz:</span>
+            </p>
+            <ol class="activities">
+              <p>
+                There are no videos with solutions for this quiz, but:
+              </p>
+              <ul class="reading-note">
+                    <li>
+                      <span class="very_important_emphasis">Check your answers carefully via the written answers below!</span>
+                      They are KEY exercises that are directly relevant to what you are about to do.
+                    </li>
+                    <li>
+                      Even if you got problem 4 right, carefully
+                      <span class="important">read the</span> <span class="important_emphasis">explanation</span>
+                      <span class="important">of the solution to problem 4.</span>
+                    </li>
+              </ul>
+            </ol>
+            <p class="title-for-list">
+              Here is a written
+              <a href="../../Quizzes/Preparation-Summary%20Quiz-17%20-%20SOLUTION.pdf">Answer Key</a> to the above Start-the-Session Quiz.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="get-starting-code">
+      <div class="get-starting-code-header">
+        3. Get the starting code
+      </div>
+      <div class="body">
+        <p>
+          Clone the following into PyCharm,
+          using the standard <a href="../../Resources/CSSE120_Setup/Instructions_for_GitHub_Classroom.pdf">instructions
+          for getting the Starting Code</a>.
+        </p>
+        <ul>
+          <li>
+            <a class="link" href="https://classroom.github.com/a/A3zEIfcx">Starting code for Session 16</a>
+          </li>
+        </ul>
+<!--        <p style="margin-top: 1rem">-->
+<!--        Additionally, if you are pair programming, use the-->
+<!--        <a href="../../Resources/CSSE120_Setup/InstructionsForPairProgrammingInGithubClassoom.pdf">-->
+<!--          standard instructions for forming a Team project</a> on this:-->
+<!--        </p>-->
+<!--        <ul>-->
+<!--          <li>-->
+<!--            <a class="link" href="https://classroom.github.com/a/AVWGgJ_P">Starting code for pair programming Session 17</a>-->
+<!--          </li>-->
+<!--        </ul>-->
+      </div>
+    </div>
+    <div class="follow-me">
+      <div class="follow-me-header">
+        4. Follow-Me Videos
+      </div>
+      <div class="body">
+        <p>
+          <span class="emphasis">AFTER</span>
+          completing the items to the left,
+          do these Follow-Me videos/activities:
+        </p>
+        <p class="title-for-list">
+          <span class="emphasis">Follow-Me videos:</span>
+        </p>
+        <ol class="activities">
+          <li>
+            <span class="other-item-title"> There is no follow-me video for m1r_nested_loops_in_printing module: </span>
+            <ul class="reading-note">
+              <li>
+                but you must complete that module BEFORE continuing to the videos below
+                (else the next video won't make sense).
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="video-title"> For the m3_nested_loops_in_printing module: </span>
+            <a class="video-link" href="../../../VideoFiles/15.0-LoopsExample/nested_loops_printing.mp4"><span class="video-link-text">Video</span></a>
+            <span class="video-length">[7:11]</span>
+            <ul class="video-note">
+              <li>
+                Sorry about the poor quality of the video, but I think that it will do.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="video-title"> For the m7r_nested_loops_in_graphic module: </span>
+            <a class="video-link" href="../../../VideoFiles/15.0-LoopsExample/nested_loops_graphics.mp4"><span class="video-link-text">Video</span></a>
+            <span class="video-length">[4:16]</span>
+            <ul class="video-note">
+              <li>
+                Watch this video WHEN YOU DO THE m7r module (not before that).
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!- The following provides space at the bottom to help ensure that students do not miss the last of the above items.
+-->
+<hr class="footer">
+
+</body>
+</html>
