@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:regular,italic,semibold,semibolditalic,bold,bolditalic,extrabold,extrabolditalic"
+            rel="stylesheet">
+    <link href="../../styles/color_scheme.css" rel="stylesheet">
+    <link href="../../styles/style.css" rel="stylesheet">
+    <link href="../../styles/navigation_bar.css" rel="stylesheet">
+    <link href="../../styles/session_page.css" rel="stylesheet">
+    <link href="../../styles/exam_information_page.css" rel="stylesheet">
+
+    <title> Exam 1: What to expect</title>
+</head>
+
+<body>
+
+<!-- NAVIGATION_BAR -->
+<nav>
+    <img alt="Ada Lovelace" class="left" height="186" src="../../Images/AdaLovelace.jpg" width="186">
+    <div class="course">
+        <p class="course-number">CSSE 120</p>
+        <p class="course-name">Introduction to<br>Software Development</p>
+        <p class="course-term">Spring term, 2020-21 (aka 202130)</p>
+    </div>
+    <div class="links">
+        <a href="../../Syllabus/Syllabus-202130.pdf">SYLLABUS</a>
+        <a href="../../Resources/CSSE120_Setup/SettingUpYourComputerForCSSE120.pdf">COMPUTER SETUP</a>
+        <a href="https://piazza.com/rose-hulman/spring2021/csse120">PIAZZA (Q&A)</a>
+        <a href="https://docs.python.org/3/library/index.html">PYTHON STANDARD LIBRARY</a>
+        <a href="https://docs.python.org/3/reference/index.html">PYTHON LANGUAGE REFERENCE</a>
+        <a href="https://www.python.org/doc/">MORE PYTHON DOCUMENTATION</a>
+        <!--    <a href="../../Resources/Python/index2.html">PYTHON</a>-->
+        <!--    <a href="../../Resources/Graphics/index2.html">GRAPHICS</a>-->
+        <!--    <a href="../../Resources/Robotics/index2.html">ROBOTICS</a>-->
+        <!--    <a href="../../CapstoneTeamProject-202020.pdf">CAPSTONE PROJECT</a>-->
+    </div>
+    <img alt="Two women coding together" class="right" height="186"
+         src="../../Images/two-women-coding-together-cropped.png"
+         width="200">
+</nav>
+
+<!-- TITLE :-->
+<div class="exam-information-page">
+    <div class="parts">
+        <div class="title">
+            <span class="prefix">Exam 1: What to expect</span>
+        </div>
+
+        <div class="body">
+            <p>
+                Each exam in CSSE 120 has two parts:
+            </p>
+            <ol>
+                <li>
+                    A <span class="emphasis">&ldquo;Paper-and-Pencil&rdquo;</span> part.
+                    <ul>
+                        <li>
+                            These are written questions that you answer by writing
+                            (not by coding in PyCharm).
+                        </li>
+                        <li>
+                            Typical questions include tracing snippets of code
+                            and writing implementations of short functions.
+                        </li>
+                        <li>
+                            You may use a 1-page &ldquo;Hint Sheet&rdquo;
+                            that you prepare before taking the exam.
+                        </li>
+                        <li>
+                            For this part,
+                            you may use your computer only when the exam is online,
+                            and then only for the mechanics of taking the exam.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    An <span class="emphasis">&ldquo;On-the-Computer&rdquo;</span> part.
+                    <ul>
+                        <li>
+                            These are questions that are presented as TODOs in PyCharm,
+                            just like the PyCharm exercises that you have been doing.
+                        </li>
+                        <li>
+                            For this part,
+                            you can use anything on your computer,
+                            including the projects that you have done.
+                        </li>
+                        <li>
+                            You are permitted only limited use of the internet.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<p> </p>
+
+<div class="exam-information-page">
+    <div class="parts-for-what-to-expect">
+
+        <!--  PAPER-AND-PENCIL part -->
+        <div class="paper-and-pencil part">
+            <div class="header paper-and-pencil-header"> Paper-and-Pencil part</div>
+            <div class="body">
+                <p>
+                    <span class="emphasis">What sort of questions should I expect?</span>
+                </p>
+                <p>
+                    The <span class="emphasis">Paper-and-Pencil</span>
+                    portion of the exam contains <span class="emphasis">problems in which you:</span>
+                </p>
+                <ol>
+                    <li>
+                        <span class="emphasis">Trace code by hand,</span>
+                        where such code contains
+                        <span class="technical-name">function calls,</span>
+                        <span class="technical-name">function definitions,</span> and
+                        <span class="technical-name">FOR .. RANGE statements.</span>
+                        <ul>
+                            <li> Including functions that call functions that call functions ...</li>
+                            <li> And functions that return values</li>
+                            <li> And functions that are called multiple times in a program.</li>
+                            <li> <span class="emphasis">
+                You are restricted to the SINGLE-parameter form of the RANGE expression
+                throughout both parts of Exam 1.
+              </span>
+                        </ul>
+                    </li>
+                    <li>
+                        Write <span class="emphasis">short snippets of code</span> to do various things,
+                        including:
+                        <ol type="a">
+                            <li>
+                                <span class="technical-name">loop</span> according to a pattern with a
+                                <span class="technical-name">FOR .. RANGE</span> statement
+                                (we may restrict you the the SINGLE-parameter form of RANGE),
+                            </li>
+                            <li>
+                                <span class="technical-name">construct</span>
+                                an object that is an instance of a class new to you,
+                            </li>
+                            <li>
+                                <span class="technical-name">call methods</span> on such an object, and
+                            </li>
+                            <li>
+                                reference <span class="technical-name">instance variables</span> on such an object.
+                            </li>
+                        </ol>
+                    <li>
+                        Indicate <span class="emphasis">what names (variables) are valid at what places,</span>
+                        thereby demonstrating your understanding of <span class="technical-name">scope.</span>
+                    </li>
+                    <li>
+                        Write a <span class="emphasis">short but complete implementation of a function</span>
+                        whose specification you are given.
+                    </li>
+                </ol>
+                <p>
+                    plus possibly other problems similar to the above.
+                </p>
+                <p></p>
+                <p>
+                    <span class="emphasis"> Do you have a SAMPLE EXAM that I might see? </span>
+                </p>
+                <ul>
+                    <li>
+                        Yes, there is a Sample Exam for the Paper-and-Pencil part.
+                        Find links to it and its answers in our Moodle course, Session 6.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--  ON-THE-COMPUTER part -->
+        <div class="on-the-computer part">
+            <div class="header on-the-computer-header"> On-the-Computer part</div>
+            <div class="body">
+                <p>
+                    <span class="emphasis">What sort of questions should I expect?</span>
+                </p>
+
+                <p>
+                    The <span class="emphasis">On-the-Computer</span>
+                    portion of the exam contains
+                    <span class="emphasis">problems just like the ones you have done in your PyCharm exercises.</span>
+                    Concepts that will be assessed include (but are not limited to):
+                </p>
+                <ol>
+                    <li>
+                        <span class="emphasis">Implementing functions that sum (possibly conditionally) or count</span>
+                        the numbers in a range that satisfy some property.
+                        <ul>
+                            <li>
+                    <span class="emphasis">
+                      You are restricted to the SINGLE-parameter form of the RANGE expression.
+                    </span>
+                            </li>
+                            <li>
+                                So come prepared to determine how many times the loop must run, and what expression of
+                                the loop
+                                variable gives the desired sequence of numbers to check.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="emphasis">Implementing functions that call other functions.</span>
+                        The functions to be called might be <em>built-in</em> functions,
+                        or defined in a library like the <em>math</em> library,
+                        or defined in the current module.
+                        <ul>
+                            <li> Wherever practical, you should CALL a function instead of COPY-AND-PASTING its code.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Implementing functions that require
+                        <span class="emphasis">iterating through a RANGE expression,</span>
+                        with the same restriction to SINGLE-parameter RANGE expressions
+                        as in the rest of the exam.
+                    </li>
+                    <li>
+                        <span>Implementing functions</span> with a specification for which:
+                        <ul>
+                            <li>
+                                <span class="emphasis">Its parameters might be numeric</span>
+                                or <span class="technical-name">instances of classes</span>
+                                defined in the <em>rosegraphics</em> library.
+                            </li>
+                            <li>
+                                You <span class="emphasis">construct new instances</span>
+                                of classes defined in the <em>rosegraphics</em> library.
+                            </li>
+                            <li>
+                                The characteristic of those newly-constructed objects
+                                may be independent of the parameters or computed
+                                <span class="emphasis">by using one or more of the parameters'</span>
+                                <span class="technical-name">instance variables.</span>
+                            </li>
+                            <li>
+                                You apply <span class="technical-name">methods</span>
+                                to the given and/or newly-constructed objects,
+                                e.g. to draw the objects and do other things that methods in the <em>rosegraphics</em>
+                                library do for you.
+                                <ul>
+                                    <li>
+                                        Using the <span class="emphasis">DOT trick and pop-up help</span>
+                                        to learn how to construct objects from
+                                        <em>rosegraphics</em>
+                                        that you have not yet seen, and/or apply methods and reference instance
+                                        variables
+                                        from objects of classes familiar to you as well as ones new to you.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Same as the previous item, but where the objects that you construct and draw
+                        <span class="emphasis">form a simple pattern (and are constructed and drawn inside a loop).</span>
+                    </li>
+                    <li>
+                        Given a specification of a function,
+                        <span class="emphasis">write code that would TEST that function.</span>
+                        A <span class="emphasis">test</span> is created by
+                        computing by hand or with a calculator the expected value to be returned
+                        by the function on arguments of your own choosing, and printing both the
+                        expected value and the actual value returned by the function on those arguments.
+                    </li>
+                </ol>
+                <p></p>
+                <p>
+                    <span class="emphasis"> Do you have a SAMPLE EXAM that I might see? </span>
+                </p>
+                <ul>
+                    <li>
+                        Yes, there is one in PyCharm in your <span class="emphasis">06-Sample_Exam1-Optional</span>
+                        project/folder.
+                    </li>
+                    <li>
+                        Sorry, no answer key, but we are happy to check any answer for which you are uncertain,
+                        or to help you get started on a problem,
+                        for the above Sample Exam 1.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!- The following provides space at the bottom to help ensure that students do not miss the last of the above items.
+-->
+<hr class="footer">
+
+</body>
+</html>
+
