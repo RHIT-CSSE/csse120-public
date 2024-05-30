@@ -1,0 +1,54 @@
+READING
+Slides on Implementing Classes
+../../../VideoFiles/10.1-ImplementingClasses-KeyConcepts/ImplementingClasses-KeyConcepts.pdf
+There are TWO Moodle quizzes associated with this item.
+
+Try to make sense of these slides,
+but don't worry if you don't understand all of them
+(they really need a video to accompany them).
+
+Just <span class="emphasis">bring your questions about them to class</span>.
+---
+VIDEO
+What is a CLASS -- the concept
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Concepts/Classes-Concepts.mp4
+7:44
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
+
+This video reviews the <span class="emphasis">concepts</span>
+of a <span class="technical-term">object</span>
+and
+<span class="technical-term">class</span>.
+
+There are no Moodle quizzes associated with this and the remaining items
+in this Videos/Reading section.
+---
+VIDEO
+What is a CLASS -- the notation
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Notation/Classes-Notation.mp4
+6:56
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
+
+This video reviews the <span class="technical-term">notation of a class</span>,
+as well as the concepts.
+It is important preparation for the next video.
+---
+VIDEO
+What is a CLASS -- the implementation
+../../../VideoFiles/17.0-ImplementingClasses/Classes-Implementing/Classes-Implementing.mp4
+11:43
+<span class="emphasis">Optionally,</span>
+review this video from the previous session.
+
+This video shows all the basics of how to implement a class,
+using a Point class as an example.
+---
+READING
+Exercise on Box-and-Pointer Diagrams
+./box_and_pointer_exercise.html
+Work this IMPORTANT exercise carefully.  It will take you about 45 minutes.
+
+If there is anything in the exercise that you do not COMPLETELY understand,
+<span class="emphasis">bring your questions to class.</span>
